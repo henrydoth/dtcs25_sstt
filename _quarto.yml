@@ -1,0 +1,40 @@
+project:
+  type: book
+
+book:
+  title: "dtcs_sstt"
+  author: "BS.CK2 Đỗ Thanh Liêm"
+  chapters:
+    - index.qmd
+    - dat-van-de.qmd
+    - 01-tong-quan-tai-lieu.qmd
+    - 02-doi-tuong-phuong-phap.qmd
+    - 03-ket-qua.qmd
+    - 04-ban-luan.qmd
+    - ket-luan.qmd
+    - kien_nghi.qmd
+    - tai-lieu-tham-khao.qmd
+
+format:
+  docx:
+    toc: true
+    number-sections: false
+    fig-dpi: 300
+    dev: dml
+    reference-doc: "source/sstt_dtcs_quato_words_input.docx"
+    fig-align: center
+    fig-cap-location: bottom
+    df-print: default
+
+bibliography: "source/sstt_reference.bib"
+csl: "source/ama-brackets.csl"
+
+execute:
+  freeze: false
+  echo: false
+  warning: false
+  message: false
+
+quartostartup: |
+  source(here::here("R", "packages.R"))
+  library(magrittr)
