@@ -1,0 +1,712 @@
+---
+title: "ĐỀ TÀI CẤP CƠ SỞ 2025"
+author: "ĐƠN VỊ TRÍ NHỚ VÀ SA SÚT TRÍ TUỆ"
+format:
+    docx:
+      toc: false
+      number-sections: false
+      fig-dpi: 300          # optional for PNG fallback
+      dev: dml              # chèn ggplot dạng vector
+      reference-doc: "source/sstt_dtcs_quato_words_input.docx"
+      fig-align: center
+      
+
+#bibliography: sstt_reference.bib
+bibliography: "source/sstt_reference.bib"
+csl: "source/ama-brackets.csl"
+lang: vi
+language:
+  labels:
+    fig: Hình
+editor: source
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(
+  warning = FALSE,  
+  message = FALSE   
+)
+source(here::here("R", "packages.R"))
+source(here::here("R", "load_data.R"))  #
+```
+::: {custom-style="CAN GIUA DAM 14 ONE"}
+LỜI NÓI ĐẦU
+:::
+`r ft_msg`
+
+`r ft_name`
+
+```{=openxml}
+<w:p><w:r><w:br/></w:r></w:p>
+```
+
+`r quote`
+
+```{=openxml}
+<w:p><w:r><w:br/></w:r></w:p>
+```
+TP Hồ Chí Minh: `r formatted_datetime`
+
+
+
+
+
+
+::: {custom-style="CAN GIUA DAM 14 ONE"}
+ĐẶT VẤN ĐỀ
+:::
+
+Sa sút trí tuệ (SSTT) là một trong những vấn đề y tế – xã hội nghiêm trọng nhất hiện nay, đặc biệt trong bối cảnh dân số toàn cầu đang **già hóa nhanh chóng**. Theo Tổ chức Y tế Thế giới, thế giới hiện có khoảng **55 triệu người đang sống chung với SSTT**, với gần **10 triệu ca mắc mới mỗi năm**. Con số này được dự báo sẽ tăng lên **139 triệu vào năm 2050**, chủ yếu tại các quốc gia có thu nhập trung bình và thấp. SSTT không chỉ ảnh hưởng đến sức khỏe tâm thần và thể chất của người bệnh mà còn tạo ra **gánh nặng lớn đối với gia đình và hệ thống y tế quốc gia**. @{WHO2021Dementia}
+
+Tại Việt Nam, quá trình **già hóa dân số** đang diễn ra nhanh hơn nhiều nước trong khu vực. Tỷ lệ người từ **60 tuổi trở lên** chiếm **12,3% dân số vào năm 2020** và dự báo sẽ vượt **20% vào năm 2036**, đưa Việt Nam chính thức bước vào **giai đoạn dân số già**. @{GSO2021Ageing} Song song đó, số lượng người cao tuổi có nguy cơ hoặc đã mắc các rối loạn nhận thức như **suy giảm nhận thức chủ quan (SCD)**, **suy giảm nhận thức nhẹ (MCI)** và **SSTT** đang tăng lên rõ rệt. Tuy nhiên, trong thực tế, nhiều trường hợp vẫn chưa được phát hiện kịp thời do **biểu hiện mờ nhạt**, **thiếu công cụ đánh giá phù hợp** hoặc chịu ảnh hưởng bởi **yếu tố ngôn ngữ và văn hóa**.
+
+Một giai đoạn đặc biệt quan trọng trong chuỗi tiến triển từ lão hóa bình thường đến sa sút trí tuệ là **suy giảm nhận thức nhẹ (MCI – Mild Cognitive Impairment)**. MCI được đặc trưng bởi **suy giảm một hoặc nhiều chức năng nhận thức**, trong khi **các hoạt động sinh hoạt hằng ngày vẫn được bảo tồn**. Đây là “**giai đoạn cửa sổ**” cho phép **phát hiện sớm** và **can thiệp hiệu quả** nhằm làm chậm hoặc ngăn ngừa tiến triển sang SSTT. **Nghiên cứu của Petersen và cộng sự** cho thấy **tỷ lệ chuyển từ MCI sang SSTT dao động từ 10% đến 15% mỗi năm** nếu không có biện pháp can thiệp sớm. @{Petersen2004MCI}
+
+Các **trắc nghiệm thần kinh nhận thức** là công cụ thiết yếu trong **sàng lọc**, **chẩn đoán** và **theo dõi tiến triển** của các rối loạn nhận thức. Trong đó, **MMSE (Mini-Mental State Examination)** là thang đo tổng quát được sử dụng rộng rãi. Tuy nhiên, để **đánh giá toàn diện** và **phát hiện những thay đổi tinh vi ở giai đoạn sớm**, cần kết hợp thêm các trắc nghiệm chuyên sâu như: **Trail Making Test (TMT A/B)**, **Digit Span xuôi – ngược**, **kiểm tra trí nhớ trì hoãn**, **bài vẽ đồng hồ** và **lưu loát ngôn ngữ**...
+
+Từ năm 2019, Đơn vị Trí nhớ và Sa sút trí tuệ – **Bệnh viện 30-4** đã chính thức triển khai **bộ trắc nghiệm đánh giá chức năng thần kinh nhận thức Việt Nam (VnCA – Vietnamese Cognitive Assessment)**. Bộ công cụ này do **Hội Bệnh Alzheimer và Rối loạn thần kinh nhận thức Việt Nam (VnADA)**, **Trung tâm Bệnh thoái hóa thần kinh Đức (DZNE)** và đội ngũ chuyên gia **Bệnh viện 30-4** phối hợp xây dựng và hiệu chỉnh, đảm bảo **tính phù hợp về ngôn ngữ và văn hóa**. **VnCA** bao gồm nhiều trắc nghiệm tiêu chuẩn, đánh giá các lĩnh vực nhận thức khác nhau và hiện đang được áp dụng thường quy trong chẩn đoán tại cơ sở.
+
+Tuy nhiên, hiện còn thiếu các nghiên cứu đánh giá hệ thống về **mối tương quan giữa MMSE và các trắc nghiệm trong bộ VnCA**, cũng như **khả năng ứng dụng của VnCA trong phân biệt MCI với các giai đoạn SSTT**. Việc làm rõ mối liên hệ này sẽ góp phần **hoàn thiện quy trình đánh giá**, **nâng cao độ chính xác trong chẩn đoán** và **hỗ trợ theo dõi hiệu quả người bệnh** tại Bệnh viện 30-4.
+
+**Mục tiêu nghiên cứu**
+
+- Nghiên cứu **mối tương quan của thang điểm MMSE** với các test thần kinh nhận thức khác trong **bộ Test thần kinh nhận thức tại Bệnh viện 30-4**.
+
+- Đánh giá **hiệu quả ứng dụng của bộ Test thần kinh nhận thức** trong **chẩn đoán và điều trị Sa sút trí tuệ tại Bệnh viện 30-4**.
+
+# TỔNG QUANG TÀI LIỆU
+
+## Tổng quan về suy giảm nhận thức nhẹ và sa sút trí tuệ
+
+Suy giảm nhận thức nhẹ (Mild Cognitive Impairment – MCI) và sa sút trí tuệ (dementia) là hai tình trạng phổ biến ở người cao tuổi, biểu hiện qua sự suy giảm chức năng nhận thức ở các mức độ khác nhau. MCI được xem là giai đoạn chuyển tiếp giữa quá trình lão hóa bình thường và sa sút trí tuệ, đặc trưng bởi sự suy giảm một hoặc nhiều lĩnh vực nhận thức nhưng chưa ảnh hưởng rõ rệt đến hoạt động sống hàng ngày. Ngược lại, sa sút trí tuệ là hội chứng tiến triển mạn tính, trong đó sự suy giảm nhận thức đủ mức độ để ảnh hưởng nghiêm trọng đến khả năng tự chăm sóc, nghề nghiệp và chức năng xã hội của người bệnh @Petersen2014.
+
+### Dịch tễ học
+
+Theo Tổ chức Y tế Thế giới (WHO), tính đến năm 2023, có khoảng 55 triệu người đang sống chung với sa sút trí tuệ trên toàn cầu, với khoảng 10 triệu ca mắc mới mỗi năm. Con số này được dự báo sẽ tăng lên 139 triệu người vào năm 2050 do tốc độ già hóa dân số @WHO2023. Sa sút trí tuệ hiện là nguyên nhân đứng thứ 7 gây tử vong toàn cầu và là nguyên nhân hàng đầu gây phụ thuộc ở người cao tuổi.
+
+Tại Việt Nam, các nghiên cứu cho thấy tỷ lệ sa sút trí tuệ ở người ≥60 tuổi dao động từ 4% đến 8%, trong khi MCI chiếm khoảng 10–20% ở nhóm người cao tuổi @Nguyen2020. Việt Nam hiện có hơn 12 triệu người từ 60 tuổi trở lên, con số này dự kiến sẽ vượt 20 triệu vào năm 2039, làm gia tăng gánh nặng về các bệnh lý nhận thức. Tình trạng này đặc biệt đáng quan ngại ở các vùng nông thôn và miền núi, nơi thiếu hụt nguồn lực y tế và đội ngũ chuyên ngành lão khoa.
+
+### Cơ chế bệnh sinh
+
+Cơ chế bệnh sinh của MCI và sa sút trí tuệ rất phức tạp, liên quan đến nhiều yếu tố thần kinh, mạch máu, chuyển hóa và di truyền. Ở bệnh Alzheimer – nguyên nhân phổ biến nhất – sự tích tụ của mảng β-amyloid và đám rối sợi tau trong não gây tổn thương synap và chết tế bào thần kinh @Selkoe2012. Các thay đổi này bắt đầu âm thầm từ nhiều năm trước khi biểu hiện lâm sàng xuất hiện, thường khởi phát từ vùng hải mã (hippocampus) – trung tâm ghi nhớ của não – và lan dần ra vỏ não.
+
+Ngoài ra, tổn thương vi mạch não và thiếu máu não mạn tính cũng đóng vai trò quan trọng trong bệnh sinh của sa sút trí tuệ mạch máu. Các yếu tố nguy cơ như tăng huyết áp, đái tháo đường, rối loạn lipid máu và hút thuốc lá làm suy giảm tính toàn vẹn của hàng rào máu–não, dẫn đến vi nhồi máu não nhiều ổ nhỏ (lacunar infarcts) và tổn thương chất trắng. Yếu tố viêm thần kinh, stress oxy hóa, rối loạn chuyển hóa glucose ở não, mất cân bằng chất dẫn truyền thần kinh (đặc biệt là acetylcholine và glutamate), cũng góp phần vào tiến trình thoái hóa thần kinh @Cummings2019.
+
+Về mặt di truyền, sự mang gen APOE ε4 là yếu tố nguy cơ cao đối với bệnh Alzheimer khởi phát muộn. Tuy nhiên, không phải tất cả những người mang gen này đều phát triển bệnh, cho thấy vai trò của môi trường sống, lối sống và khả năng dự trữ nhận thức trong việc điều hòa nguy cơ.
+
+### Các thể lâm sàng của sa sút trí tuệ
+
+Sa sút trí tuệ bao gồm nhiều thể bệnh khác nhau, với đặc điểm bệnh sinh và lâm sàng riêng biệt:
+
+-   **Sa sút trí tuệ do Alzheimer (Alzheimer's disease dementia)**: là thể phổ biến nhất, chiếm khoảng 60–70% tổng số ca. Đặc trưng bởi suy giảm trí nhớ gần là triệu chứng khởi phát, sau đó lan sang các chức năng nhận thức khác như ngôn ngữ, điều hành và định hướng. Bệnh tiến triển chậm nhưng liên tục qua các giai đoạn từ nhẹ đến nặng.
+
+-   **Sa sút trí tuệ mạch máu (vascular dementia)**: chiếm khoảng 15–20% và thường gặp ở người có tiền sử đột quỵ hoặc yếu tố nguy cơ tim mạch. Bệnh có thể khởi phát đột ngột sau một biến cố mạch máu não, hoặc tiến triển theo kiểu bậc thang. Triệu chứng điển hình gồm rối loạn chú ý, chậm chạp tâm thần vận động, rối loạn chức năng điều hành và cảm xúc không ổn định.
+
+-   **Sa sút trí tuệ thể Lewy (Dementia with Lewy bodies)**: đặc trưng bởi dao động nhận thức theo ngày, ảo giác thị giác sống động, rối loạn giấc ngủ REM và dấu hiệu ngoại tháp giống Parkinson. Nhạy cảm với thuốc chống loạn thần là dấu hiệu quan trọng giúp gợi ý chẩn đoán.
+
+-   **Sa sút trí tuệ do Parkinson (Parkinson’s disease dementia)**: thường xuất hiện ở giai đoạn muộn của bệnh Parkinson, khi triệu chứng vận động đã tồn tại ít nhất 1 năm. Bệnh nhân thường biểu hiện chậm tư duy, suy giảm chức năng điều hành, khó khăn trong chuyển đổi chú ý và giảm trí nhớ làm việc.
+
+### Triệu chứng lâm sàng
+
+Ở giai đoạn MCI, bệnh nhân có thể biểu hiện suy giảm trí nhớ gần, khó ghi nhớ các cuộc hẹn hoặc thông tin vừa học. Ngoài ra, có thể có biểu hiện giảm khả năng tập trung, giảm hiệu quả trong các hoạt động đòi hỏi xử lý thông tin như quản lý tài chính hoặc lập kế hoạch. Tuy nhiên, khả năng tự chăm sóc vẫn còn nguyên vẹn hoặc chỉ suy giảm rất nhẹ.
+
+Ngược lại, sa sút trí tuệ biểu hiện bằng suy giảm rõ rệt ở nhiều lĩnh vực nhận thức như trí nhớ, chú ý, ngôn ngữ, chức năng điều hành và nhận thức thị giác – không gian. Triệu chứng bao gồm: hay lặp câu, quên tên người quen, mất định hướng thời gian – không gian, khó khăn trong sử dụng từ ngữ hoặc theo dõi câu chuyện, lạc đường ngay cả ở nơi quen thuộc, thay đổi tính cách, và rối loạn hành vi như lo âu, kích động hoặc trầm cảm. Ở giai đoạn nặng, bệnh nhân mất hoàn toàn khả năng tự chăm sóc và phụ thuộc hoàn toàn vào người thân.
+
+### Chẩn đoán phân biệt
+
+Việc chẩn đoán cần phân biệt với các tình trạng như:
+
+-   **Trầm cảm nặng**: có thể gây ra "sa sút trí tuệ giả" với biểu hiện than phiền trí nhớ kém, nhưng thường hồi phục khi điều trị trầm cảm.
+
+-   **Thiếu hụt vitamin B12, suy giáp, rối loạn điện giải**: có thể gây ra triệu chứng tương tự nhưng cải thiện sau khi điều trị nguyên nhân.
+
+-   **Sảng (delirium)**: thường khởi phát cấp tính, dao động về mức độ tỉnh táo, thường có yếu tố khởi phát rõ (nhiễm trùng, thuốc).
+
+-   **Rối loạn tâm thần phân liệt, rối loạn lo âu mạn tính**: có thể ảnh hưởng đến nhận thức nhưng không có tiến triển mạn tính như sa sút trí tuệ.
+
+Chẩn đoán chính xác cần dựa vào khai thác bệnh sử, thăm khám thần kinh, các công cụ sàng lọc như MMSE, cùng với hình ảnh học thần kinh (CT, MRI) và xét nghiệm sinh hóa.
+
+### Diễn tiến lâm sàng
+
+MCI có diễn tiến đa dạng: một số trường hợp có thể ổn định nhiều năm, một số có thể phục hồi nếu nguyên nhân là thứ phát (như stress, thiếu B12), nhưng một tỉ lệ lớn sẽ tiến triển thành sa sút trí tuệ. Các nghiên cứu cho thấy khoảng 10–15% người MCI chuyển sang sa sút trí tuệ mỗi năm @Petersen2014.
+
+Sa sút trí tuệ là tình trạng không hồi phục và tiến triển dần theo thời gian. Bệnh thường trải qua 3 giai đoạn:
+
+-   **Giai đoạn nhẹ**: quên gần, giảm chú ý, rối loạn định hướng nhẹ
+
+-   **Giai đoạn trung bình**: giảm khả năng tự chăm sóc, lặp từ, mất khả năng giải quyết vấn đề, lạc đường
+
+-   **Giai đoạn nặng**: mất khả năng ngôn ngữ, liệt giường, phụ thuộc hoàn toàn, biến chứng nhiễm trùng, suy kiệt
+
+Thời gian sống trung bình từ lúc chẩn đoán đến tử vong dao động 6–10 năm, phụ thuộc thể bệnh, tuổi khởi phát, bệnh kèm và chăm sóc xã hội.
+
+### Điều trị và chăm sóc hỗ trợ
+
+Việc điều trị sa sút trí tuệ hiện nay chủ yếu mang tính chất triệu chứng và hỗ trợ, vì hầu hết các thể bệnh đều không có phương pháp chữa khỏi hoàn toàn. Mục tiêu điều trị bao gồm làm chậm tiến triển bệnh, kiểm soát triệu chứng hành vi, cải thiện chất lượng sống và hỗ trợ người chăm sóc.
+
+#### 1. Điều trị bằng thuốc
+
+-   **Chất ức chế cholinesterase** (donepezil, rivastigmine, galantamine): thường được sử dụng trong sa sút trí tuệ do Alzheimer hoặc thể Lewy. Các thuốc này giúp cải thiện triệu chứng nhận thức và hành vi ở mức độ nhẹ đến trung bình.
+
+-   **Memantine**: chất đối kháng NMDA, có thể dùng đơn độc hoặc phối hợp với thuốc cholinesterase trong giai đoạn trung bình đến nặng.
+
+-   **Thuốc kiểm soát hành vi**: bao gồm thuốc chống loạn thần (risperidone, quetiapine), thuốc chống trầm cảm (SSRIs), thuốc an thần nhẹ, nhưng cần sử dụng thận trọng vì nguy cơ tác dụng phụ ở người cao tuổi.
+
+#### 2. Điều trị không dùng thuốc
+
+-   **Trị liệu nhận thức** (cognitive stimulation therapy): gồm các hoạt động như luyện trí nhớ, trò chuyện nhóm, bài tập tư duy logic.
+
+-   **Can thiệp hoạt động chức năng**: hỗ trợ bệnh nhân giữ được khả năng tự chăm sóc càng lâu càng tốt thông qua phục hồi chức năng, hướng dẫn kỹ năng sinh hoạt.
+
+-   **Giáo dục và hỗ trợ người chăm sóc**: giúp giảm gánh nặng tâm lý và nâng cao hiệu quả chăm sóc dài hạn.
+
+#### 3. Chăm sóc dài hạn
+
+-   **Thiết kế môi trường an toàn**: tránh nguy cơ té ngã, lạc đường; tạo không gian quen thuộc, yên tĩnh, dễ định hướng.
+
+-   **Hỗ trợ dinh dưỡng và vận động**: duy trì thể trạng, tránh suy kiệt và biến chứng do nằm lâu.
+
+-   **Hỗ trợ giai đoạn cuối**: chăm sóc giảm nhẹ, điều trị triệu chứng, chuẩn bị tâm lý cho người thân.
+
+Mỗi thể lâm sàng có thể đáp ứng điều trị khác nhau. Ví dụ, bệnh nhân thể Lewy rất nhạy cảm với thuốc chống loạn thần, cần tránh dùng haloperidol. Trong khi đó, sa sút trí tuệ mạch máu cần kiểm soát chặt các yếu tố nguy cơ tim mạch để làm chậm tiến triển bệnh.
+
+### Tiêu chuẩn chẩn đoán theo DSM-5
+
+Theo DSM-5 @DSM5, rối loạn nhận thức được chia thành:
+
+-   **Rối loạn nhận thức nhẹ (Mild Neurocognitive Disorder)**: có bằng chứng về suy giảm nhẹ một hoặc nhiều lĩnh vực nhận thức (qua người thân hoặc test chuẩn hóa); không ảnh hưởng rõ rệt đến sinh hoạt hàng ngày; người bệnh có thể cần nỗ lực bù trừ.
+
+-   **Rối loạn nhận thức nặng (Major Neurocognitive Disorder)**: suy giảm rõ rệt, ảnh hưởng đến sinh hoạt độc lập, cần hỗ trợ trong hoạt động hàng ngày.
+
+Chẩn đoán cần loại trừ nguyên nhân khác như sảng, trầm cảm nặng, và cần xác định nguyên nhân nền nếu có thể (Alzheimer, mạch máu, thể hỗn hợp...).
+
+## Giới thiệu về bộ trắc nghiệm thần kinh nhận thức
+
+```{r}
+#| label: Bảng các trắc nghiệm
+#| message: false
+#| warning: false
+#| include: false
+#| paged-print: false
+# Dữ liệu bảng trắc nghiệm đã chuẩn hóa
+bo_test_vnca <- tibble::tibble(
+  STT = c(1, 2, 3, 3, 4, 4, 5, 5, 6, 7),
+  Linh_vuc = c(
+    "Sàng lọc chung sa sút trí tuệ (Global Dementia Screening)",
+    "Nhớ từ (Verbal Memory)",
+    rep("Tốc độ vận động thị giác (Visuomotor Speed)", 2),
+    rep("Nhớ từ (Verbal Memory)", 2),
+    rep("Sự chú ý (Attention)", 2),
+    "Ngôn ngữ (Language)",
+    "Xây dựng hình ảnh qua thị giác (Visuoconstruction)"
+  ),
+  Trac_nghiem = c(
+    "MMSE – Đánh giá trạng thái tâm thần tối thiểu",
+    "Nhớ danh sách từ (Word List Recall)",
+    "Trail Making Test A (TMT-A)",
+    "Trail Making Test B (TMT-B)",
+    "Nhớ lại có trì hoãn (Delayed Recall)",
+    "Nhận biết có trì hoãn (Delayed Recognition)",
+    "Đọc xuôi dãy số (Digit Span Forward)",
+    "Đọc ngược dãy số (Digit Span Backward)",
+    "Nói lưu loát từ về các con vật",
+    "Vẽ đồng hồ (Clock Drawing Test)"
+  ),
+  Diem_BT = c(
+    "≥ 26/30", "≥ 12/30",
+    "≤ 180 giây", "≤ 300 giây",
+    "≥ 4/10", "≥ 6/10",
+    "≥ 6/12", "≥ 4/12",
+    "≥ 9", "Từ 1 đến 6"
+  )
+)
+
+```
+
+### Bảng các trắc nghiệm thần kinh nhận thức trong bộ VNCA
+
+```{r}
+#| echo: false
+# Tạo flextable đẹp, có gộp dòng và fit khổ Word
+flextable(bo_test_vnca) %>%
+  set_caption("Bảng trắc nghiệm thần kinh nhận thức trong bộ VNCA") %>%
+  merge_v(j = c("STT", "Linh_vuc")) %>%
+  align(align = "center", part = "all") %>%
+  valign(j = c("STT", "Linh_vuc"), valign = "top") %>%
+  set_header_labels(
+    STT = "STT",
+    Linh_vuc = "Lĩnh vực",
+    Trac_nghiem = "Trắc nghiệm",
+    Diem_BT = "Điểm BT"
+  ) %>%
+  set_table_properties(width = 1, layout = "autofit")
+```
+
+### Mô tả các trắc nghiệm thần kinh nhận thức trong bộ VNCA
+
+-   **Sàng lọc chứng sa sút trí tuệ** sử dụng *Mini-Mental State Examination (MMSE)* là một trong những test được dùng thường xuyên nhất trong tầm soát SSTT. Nó bao gồm các nội dung về định hướng, chú ý, trí nhớ, ngôn ngữ và kĩ năng thị giác không gian. Tổng điểm đạt được từ 0 đến 30, với điểm càng thấp cho thấy càng suy giảm chức năng nhận thức nặng nề.
+
+-   **Nhớ từ** bao gồm danh sách 10 từ sẽ được lặp lại cho đối tượng 3 lần với tổng điểm là 30. Ba lần này nhằm khảo sát lần lượt là nhớ từ lại ngay, nhớ lại có trì hoãn, nhận biết có trì hoãn.
+
+-   **Tập trung chú ý** bao gồm *Digit span* (Nói lập lại dãy số), nói lại xuôi dãy số, nhằm khảo sát sự chú ý và trí nhớ gần (điểm từ 0 đến 14) và nói lại ngược dãy số, nhằm khảo sát sự chú ý và trí nhớ làm việc (điểm từ 0 đến 12). Người khảo sát sẽ đọc dãy số (1 số/giây) và yêu cầu đối tượng tham gia nói lại.
+
+-   **Vận động thị giác**: Bao gồm *Trail Making Tests A & B (TMT-A, TMT-B)* đánh giá sự tìm kiếm thị giác, dò tìm, tốc độ xử lý, sự linh hoạt thần kinh và chức năng điều hành.\
+    **TMT-A** yêu cầu đối tượng vẽ đường thẳng nối 25 con số trong vòng tròn theo thứ tự trên giấy.\
+    **TMT-B** có yêu cầu tương tự nhưng người làm phải thay đổi giữa chữ và số. Điểm được cho theo thời gian hoàn thành test, với giới hạn bình thường dưới 150 giây cho test TMT-A và 300 giây cho test TMT-B.
+
+-   **Ngôn ngữ**: *Nói lưu loát từ về con vật* khảo sát sự lưu loát ngôn ngữ, cụ thể là đưa ra lời nói, trí nhớ ngữ nghĩa và ngôn ngữ. Đối tượng phải nói ra nhiều tên con vật khác nhau nhất có thể trong 60 giây. Điểm được cho theo mỗi con vật nêu ra, điểm càng cao cho thấy chức năng ngôn ngữ càng tốt.
+
+-   **Thị giác không gian**: *Trắc nghiệm vẽ đồng hồ* được dùng để khảo sát khả năng xây dựng hình ảnh qua thị giác. Người làm được cung cấp một tờ giấy trắng và yêu cầu vẽ trên đó một đồng hồ, có đầy đủ các số giờ và vẽ kim đồng hồ chỉ 11 giờ 10 phút. Kết quả được đánh giá từ 1 đến 6 điểm theo thang **Shulman**.\
+    Trắc nghiệm vẽ đồng hồ gián tiếp đánh giá sự chú ý phức tạp, chức năng điều hành, học tập và trí nhớ, chức năng ngôn ngữ, giác quan vận động và nhận thức xã hội — vốn là những lĩnh vực nhận thức giúp đánh giá tổng thể.
+
+### Các nghiên cứu trong và ngoài nước
+
+### Mối tương quan giữa MMSE và bài Nhớ từ (Words List Recall)
+
+Bài **nhớ từ** (gồm nhớ lại ngay, trì hoãn và nhận biết có trì hoãn) phản ánh trí nhớ gần và trí nhớ dài hạn – các lĩnh vực bị ảnh hưởng sớm trong sa sút trí tuệ.
+
+Tại Việt Nam, Nguyễn Thị Hạnh và cộng sự cho thấy MMSE có tương quan trung bình với **nhớ từ trì hoãn** (r = 0,59) và yếu hơn với **nhớ lại ngay** (r = 0,42) @nguyen2020mmse.\
+Trần Hồng Quân và đồng nghiệp cũng ghi nhận rằng người có MMSE thấp thường chỉ nhớ được dưới 5 từ sau 10 phút trì hoãn, phản ánh suy giảm trí nhớ dài hạn rõ rệt @tran2021tri_nho. Nhiều nghiên cứu quốc tế cũng khẳng định mối liên hệ này: - Nghiên cứu của Ivnik và cộng sự (1990) ghi nhận MMSE tương quan cao với **delayed recall** (r ≈ 0,60) trong bộ AVLT @ivnik1990avlt. - Welsh et al. (1994) cho thấy bài **CERAD word list recall** có thể dự đoán tốt mức độ suy giảm MMSE ở bệnh nhân Alzheimer nhẹ (r ≈ 0,68) @welsh1994cerad. - Sarazin và cộng sự (2007) nhận thấy rằng giảm điểm word list recall là chỉ dấu sớm của Alzheimer và có mối tương quan mạnh với MMSE trong suốt quá trình tiến triển bệnh @sarazin2007amnestic.
+
+Những kết quả này củng cố giá trị của bài **nhớ từ trì hoãn** như một chỉ báo nhận thức nhạy trong sàng lọc sa sút trí tuệ và cho thấy sự đồng thuận giữa MMSE với các bài kiểm tra trí nhớ chuyên sâu.
+
+# ĐỐI TƯỢNG VÀ PHƯƠNG PHÁP NGHIÊN CỨU
+
+## Dân số mục tiêu:
+
+Bệnh nhân sa sút trí tuệ trong bối cảnh ngoại trú ở các khoa – phòng khám lâm sàng chuyên về trí nhớ và sa sút trí tuệ.
+
+## Dân số chọn mẫu:
+
+Bệnh nhân đến khám và điều trị tại phòng khám thuộc Đơn vị trí nhớ và sa sút trí tuệ, bệnh viện 30-4.
+
+### Cỡ mẫu:
+
+Cỡ mẫu tối thiểu cho nghiên cứu được xác định theo công thức ước lượng một tỷ lệ:
+
+$$
+  n = \frac{Z_{(1 - \alpha/2)}^2 \cdot p(1 - p)}{\varepsilon^2}
+$$
+
+Trong đó:
+
+-   $n$: cỡ mẫu cần thiết
+-   $\alpha$: mức ý nghĩa thống kê, chọn $\alpha = 0.05$
+-   $Z_{(1 - \alpha/2)} = 1.96$: giá trị Z tương ứng với mức tin cậy 95%
+-   $p$: tỷ lệ điều trị hiệu quả. Theo nghiên cứu của Schroeder RW, tỷ lệ trắc nghiệm thần kinh nhận thức phát hiện bệnh nhân sa sút trí tuệ là **75%**, nên chọn $p = 0.75$
+-   $\varepsilon = 0.05$: sai số chấp nhận trong nghiên cứu
+
+Thay vào công thức:
+
+$$
+  n = \frac{(1.96)^2 \cdot 0.75 \cdot (1 - 0.75)}{(0.05)^2} = \frac{3.8416 \cdot 0.1875}{0.0025} = \frac{0.7203}{0.0025} \approx 288.12
+$$
+
+**→ Cỡ mẫu cần thiết là ít nhất 288 bệnh nhân.**
+
+### Kỹ thuật chọn mẫu:
+
+Đối với hồi cứu: Phương pháp chọn mẫu được sử dụng là phương pháp chọn mẫu dựa vào danh sách bệnh nhân đang điều trị tại khoa, đối chiếu các tiêu chuẩn chọn vào và tiêu chuẩn loại trừ với hồ sơ bệnh án có sẵn. Sau đó, trong số những bệnh nhân hoàn toàn phù hợp với tiêu chuẩn chọn vào và không có bất kỳ tiêu chuẩn loại trừ nào sẽ được chọn.
+
+Đối với tiến cứu, những bệnh nhân được chọn lựa sẽ được tiến hành xin đồng thuận tham gia nghiên cứu và thu thập số liệu vào ngày khám bệnh kế tiếp gần nhất.
+
+## Các biến số nghiên cứu
+
+```{r}
+#| include: false
+data <- data.frame(
+  Ten_bien = c(
+    "Tuổi", "Giới tính", "Tuổi khởi phát", "Thời gian phát hiện bệnh", 
+    "Trình độ học vấn", "Nghề nghiệp trước đây", "Tình trạng hôn nhân", 
+    "Tiền sử gia đình", "Bệnh đi kèm", "Thang MMSE", "Tiểu thang MMSE",
+    "Word List", "Digit span forward", "Digit span backward",
+    "TMT-A", "TMT-B", "Khảo sát sự lưu loát ngôn ngữ.",
+    "Trắc nghiệm vẽ đồng hồ", "Chẩn đoán", "Giai đoạn"
+  ),
+  Loai_bien = c(
+    "Định lượng", "Định tính", "Định tính", "Định lượng", 
+    "Định tính", "Định tính", "Định tính", "Định tính", "Định tính", 
+    "Định lượng", "Định lượng", "Định lượng", "Định lượng", "Định lượng", 
+    "Định tính", "Định tính", "Định lượng", "Định lượng", "Định tính", "Định tính"
+  ),
+  Gia_tri_don_vi = c(
+    "Năm", "Nam/Nữ", "Khởi phát sớm/khởi phát muộn", "Năm",
+    "Cấp 1, cấp 2, cấp 3, cao đẳng/đại học, không xác định", 
+    "Toàn thời gian, bán thời gian, về hưu", 
+    "Có chồng vợ, góa, ly thân/ly hôn", "Có bị SSTT", "Có, không", 
+    "Giá trị từ 0 - 30", "Tùy thuộc chức năng nhận thức", 
+    "Giá trị từ 0 – 30", "Giá trị từ 0 – 14", "Giá trị từ 0 – 12", 
+    "Thời gian đạt khi dưới 150 giây", "Thời gian đạt khi dưới 300 giây", 
+    "Số lượng các con vật người làm trắc nghiệm kể tên", 
+    "1 đến 6 điểm theo thang Shulman", "SCI, MCI và SSTT", 
+    "Giai đoạn nhẹ, trung bình, nặng"
+  )
+)
+
+```
+
+```{r}
+#| echo: false
+
+ft <- data %>%
+  flextable() %>%
+  set_header_labels(
+    Ten_bien = "Tên biến",
+    Loai_bien = "Loại biến",
+    Gia_tri_don_vi = "Giá trị / Đơn vị"
+  ) %>%
+  autofit() %>%
+  set_table_properties(width = 1, layout = "autofit") %>%
+  font(fontname = "Times New Roman", part = "all")  %>%
+  fontsize(size = 13, part = "all")
+
+ft
+
+```
+
+### Phương pháp tiến hành.
+
+Bệnh nhân tới khám tại Đơn vị trí nhớ và sa sút trí tuệ Bệnh viện 30-4 được Bác sĩ thần kinh chỉ định làm trắc nghiệm thần kinh nhận thức bởi các nhân viên Y tế được huấn luyện theo quy trình thực hiện bộ test chuẩn. - Phương pháp hồi cứu. Tra cứu hồ sơ bệnh án tất cả những bệnh nhân được khám tại đơn vị từ 4/2019 tới thời điểm nghiên cứu. Đánh giá lại bộ test nếu bệnh nhân tái khám trong thời gian nghiên cứu. - Phương pháp tiến cứu. Bệnh nhân đến khám trong thời gian nghiên cứu được thăm khám, làm test, chẩn đoán và đánh giá mức độ sa sút trí tuệ tên lâm sàng. Nghiên cứu đánh giá Đánh giá mối tương quan giữa MSSE và các test khác trong bộ Test thần kinh nhận thức khác, tỷ lệ hoàn thành Test thần kinh nhận thức đối với suy giảm nhận thức nhẹ và Sa sút trí tuệ. Đánh giá mối tương quan phân độ sa sút trí tuệ ở thang điểm MMSE và phân độ sa sút trí tuệ trên lâm sàng.
+
+## Phương pháp và công cụ đo lường, thu thập số liệu
+
+-   Nhập liệu và quản lý dữ liệu bằng phần mềm SPSS 20, xử lý số liệu bằng phần mềm R 4.2.3 (Packages sử dụng trong nghiên cứu: table1, dplyr, ggplot2, boot, simpleboot, afex.)
+-   Mô tả các biến định lượng: bằng trung bình, độ lệch chuẩn, giá trị nhỏ nhất, giá trị lớn nhất (phân bố chuẩn), hoặc trung vị và tứ phân vị (không phân phối chuẩn), sử dụng bootstrap 10.000 lượt để tính khoảng tin cậy 95%.
+-   Mô tả các biến định tính: bằng tần số và tỷ lệ phần trăm.
+-   So sánh giá trị trung bình ở các nhóm dùng kiểm định Independent Sample t-test..
+-   So sánh sự khác biệt giữa các tỷ lệ với các biến định tính dùng kiểm định Chi bình phương (χ2), hoặc kiểm định Fisher's Exact.
+-   Đánh giá mối liên quan các giữa biến định lượng: MMSE các trắc nghiệm khác, sử dụng hệ số tương quan Pearson (phân bố chuẩn), hoặc sử dụng hệ số tương quan Spearman (không phân phối chuẩn). Hệ số tương quan (r) được đánh giá như sau: • \|r\| ≥ 0, 7: Tương quan chặt • \|r\| = 0, 5- 0,7: Tương quan khá chặt • \|r\| ≥ 0, 3 – 0,5: Tương quan vừa • \|r\| \< 0,3: Tương quan yếu • \|r\| =0 Không tương quan
+-   Đánh giá mức độ hoàn thành làm Test thần kinh nhận thức bằng tần số và tỷ lệ phần trăm.
+-   Đánh giá mối liên quan các giữa phân loại bệnh theo MMSE và phân loại bệnh trên lâm sàng dùng kiểm định Chi bình phương (χ2), hoặc kiểm định Fisher's Exact. Đạo đức nghiên cứu
+-   Nghiên cứu được thông qua hội đồng Đạo đức đối với nghiên cứu Y sinh.
+-   Đây là nghiên cứu quan sát, không can thiệp vào quá trình điều trị bệnh nhân, các hoạt động chẩn đoán và điều trị hoàn toàn tuân theo phác đồ của Bệnh viện.
+-   Mọi thông tin liên quan đến bệnh nhân sẽ được bảo mật. Tác giả nghiên cứu tuân thủ quy trình nghiên cứu
+
+### Đạo đức trong nghiên cứu
+
+# KẾT QUẢ NGHIÊN CỨU
+
+Có **`r nrow(df)`** người được tuyển chọn vào mẫu nghiên cứu. Toàn bộ người tham gia nghiên cứu thỏa đầy đủ các tiêu chuẩn chọn mẫu và không có bất cứ tiêu chuẩn loại trừ nào. Đối với trường hợp hồi cứu, chúng tôi truy suất hồ sơ bệnh án. Đối với tiến cứu sau khi được cung cấp thông tin về nghiên cứu và có sự đồng thuận tham gia của người có quyền giám hộ bệnh nhân, người tham gia nghiên cứu chúng tôi ghi nhận thông tin trên hồ sơ bệnh án để tiến hành thu thập dữ liệu. Kết quả nghiên cứu trình bày như sau: [Đặc điểm mẫu của nghiên cứu,](#dac-diem-kq) [mối tương quan MMSE với các test thần kinh nhận thức khác,](#tuong-quan-kq) [đánh giá hiệu quả ứng dụng trong chẩn đoán và điều trị bộ test thần kinh nhận thức](#ung-dung-kq)
+
+## Đặc điểm mẫu của nghiên cứu {#dac-diem-kq}
+
+### Đặc điểm theo tuổi nhà nhóm tuôi
+
+#### Đặc điểm theo tuổi
+
+-   Bảng thống kê tuổi bệnh nhân.
+
+```{r}
+#| echo: false
+ft_tuoi
+```
+
+##### `r inline_bang_tuoi_ketqua`
+
+-   Biểu đồ theo tuổi
+
+```{r}
+#| echo: false
+tuoi_gp
+```
+
+##### `r inline_bieudo_tuoi_ketqua`
+
+#### Đặc điểm nhóm tuổi
+
+-   Bảng nhóm tuổi
+
+```{r tbl-nhom_tuoi_ketqua-flextable, echo=FALSE, results='asis'}
+#| message: false
+#| warning: false
+#| paged-print: false
+ft_freq_p
+```
+
+##### `r inline_bang_nhom_tuoi_ketqua`
+
+-   Biểu đồ theo nhóm tuổi
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| paged-print: false
+nhom_tuoi_gp
+```
+
+##### `r inline_bieudo_nhom_tuoi_ketqua`
+
+### Giới tính
+
+-   Bảng theo giới tính
+
+```{r tbl-gioi_tinh_ketqua-flextable, echo=FALSE, results='asis'}
+ft_gender
+```
+
+##### `r inline_bang_gioitinh_ketqua`
+
+-   Biểu đồ theo giới tính
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| paged-print: false
+gioitinh_bar_percent
+```
+
+##### `r inline_bang_gioitinh_ketqua`
+
+### Trình độ học vấn
+
+-   Bảng trình độ học vấn
+
+```{r results='asis'}
+#| echo: false
+ft_edu
+```
+
+##### `r inline_table_hocvan`
+
+-   Biểu đồ trình độ học vấn
+
+```{r}
+hocvan_bar_percent
+```
+
+##### `r inline_plot_hocvan`
+
+### Đặc điểm MMSE
+
+#### Bảng phân loại suy giảm nhận thức và sa sút trí tuệ theo MMSE
+
+```{r}
+#| echo: false
+ft_mmse
+
+```
+
+##### `r inline_bang_mmse`
+
+#### Biểu đồ phân loại mmse
+
+```{r}
+#| echo: false
+ggplot_mmse
+
+```
+
+##### `r inline_bieudo_mmse`
+
+#### Biểu đồ phân loại suy giảm nhận thức và sa sút trí tuệ theo MMSE
+
+```{r}
+#| label: Biểu đồ  phân loại suy giảm nhận thức và sa sút trí tuệ theo MMSE chen kết quả 
+#| echo: false
+ggplot_mmse
+```
+
+### Đặc điểm các test thần kinh nhận thức
+
+#### Bảng đặc điểm các test thần kinh nhận thức
+
+```{r}
+#| echo: false
+ft_nhanthuc_group
+```
+
+##### `r inline_bang_tests_group`
+
+#### Biểu đồ đặc điểm các test thần kinh nhận thức
+
+```{r}
+#| echo: false
+plot_nhanthuc_group
+```
+
+##### `r inline_bieudo_tests_group`
+
+## Mối tương quan MMSE với các test thần kinh nhận thức khác {#tuong-quan-kq}
+
+### Bảng mối tương quan MMSE với các test thần kinh nhận thức khác
+
+```{r}
+#| echo: false
+ft_corr_long
+```
+
+##### **Nhóm MCI**: `r cau_bang_mci` , `r cau_bang_sstt`
+
+### Biểu đồ mối tương quan MMSE với các test thần kinh nhận thức khác
+
+```{r}
+#| echo: false
+plot_corr_grouped
+```
+
+##### `r cau_inline_so_sanh_sstt_mci`
+
+## Đánh giá hiệu quả ứng dụng trong chẩn đoán và điều trị bộ test thần kinh nhận thức {#ung-dung-kq}
+
+### Đánh giá mức độ hoàn thành bộ test thần kinh nhận thức
+
+#### Bảng mức độ hoàn thành bộ test thần kinh nhận thức
+
+```{r}
+#| label: B mức độ hoàn thành bộ test thần kinh nhận thức
+#| echo: false
+ft_hoanthanh
+```
+
+##### `r cau_hoanthanh_bang`
+
+```{r}
+#| label: BD hoàn thành bộ test thần kinh nhận thức
+#| echo: false
+plot_hoanthanh
+```
+
+##### `r cau_hoanthanh_ggplot`
+
+#### Biểu đồ mức độ hoàn thành bộ test thần kinh nhận thức
+
+Đặc điểm hiệu quả ứng dụng
+
+### Đánh giá sự tương đồng giữa phân độ MMSE và phân loại lâm sàng theo tiêu chuẩn lâm sàng
+
+#### Biểu đồ heatmap
+
+```{r}
+#| label: Biểu đồ heatmap
+#| message: false
+#| warning: false
+#| include: false
+plot_heat
+```
+
+##### `r cau_chen_bieu_do_heatmap`
+
+#### Biểu đồ tán xạ đánh giá sự tương đồng giữa phân độ MMSE và phân loại lâm sàng theo tiêu chuẩn lâm sàng
+
+```{r}
+#| label: Sự tương đồng giữa phân độ MMSE và phân loại lâm sàng theo tiêu chuẩn lâm sàng kết quả
+#| echo: false
+plot_scatter
+```
+
+##### `r cau_bieudo_ordinal`
+
+# BÀN LUẬN
+
+## Đặc điểm mẫu của nghiên cứu
+
+### Đặc điểm theo Tuổi
+
+::: {custom-style="chu_xanh"}
+`r inline_tuoi_banluan`
+:::
+
+Kết quả nghiên cứu cho cho thấy tuổi là một yếu tố liên quan rõ rệt đến mức độ suy giảm chức năng nhận thức.
+
+Phát hiện này phù hợp với nhiều nghiên cứu trước đây. Theo dữ liệu từ Tổ chức Y tế Thế giới (WHO), tuổi cao là yếu tố nguy cơ lớn nhất dẫn đến sa sút trí tuệ, với tỷ lệ hiện mắc tăng mạnh ở nhóm người trên 65 tuổi. Cụ thể, tỷ lệ sa sút trí tuệ tăng gấp đôi sau mỗi 5 năm tuổi sau mốc 65 tuổi @who2021dementia.
+
+Tương tự, nghiên cứu của Prince và cộng sự (2015) thuộc báo cáo World Alzheimer Report cũng chỉ ra rằng nguy cơ mắc sa sút trí tuệ gia tăng theo tuổi, đặc biệt rõ ràng từ 60 tuổi trở lên. Điều này khẳng định rằng tuổi đóng vai trò trung tâm trong sinh bệnh học của sa sút trí tuệ @prince2015world.
+
+Việc nhóm sa sút trí tuệ có độ tuổi trung bình cao hơn cũng phản ánh xu hướng bệnh lý tiến triển từ giai đoạn suy giảm nhận thức nhẹ sang giai đoạn nặng hơn. Đây là cơ sở quan trọng cho việc sàng lọc và can thiệp sớm ở người cao tuổi, từ đó có thể làm chậm quá trình tiến triển bệnh và giảm gánh nặng xã hội.
+
+::: {custom-style="chu_xanh"}
+`r inline_nhom_tuoi_banluan`
+:::
+
+Xu hướng này phản ánh mối liên quan chặt chẽ giữa tuổi cao và mức độ tiến triển của suy giảm nhận thức. Khi tuổi tăng, nguy cơ chuyển từ giai đoạn suy giảm nhận thức nhẹ sang sa sút trí tuệ cũng tăng theo. Petersen và cộng sự (2018) đã chỉ ra rằng mỗi năm có khoảng 10–15% bệnh nhân MCI chuyển sang giai đoạn sa sút trí tuệ, và tỷ lệ này gia tăng ở người lớn tuổi @petersen2018mci.
+
+Ngoài ra, Tổ chức Y tế Thế giới (World Health Organization, 2021) nhấn mạnh rằng tỷ lệ sa sút trí tuệ tăng gấp đôi sau mỗi 5 năm tuổi sau mốc 65 tuổi. Điều này hoàn toàn phù hợp với kết quả nghiên cứu này, khi tỷ lệ sa sút trí tuệ tăng từ 67,8% ở nhóm 50–59 tuổi lên đến 100% ở nhóm ≥80 tuổi @who2021dementia.
+
+Phát hiện này cho thấy tầm quan trọng của việc sàng lọc nhận thức ở những nhóm tuổi sớm hơn (từ 50 tuổi trở đi), nhằm phát hiện các biểu hiện ban đầu của rối loạn nhận thức và can thiệp kịp thời để làm chậm quá trình tiến triển. Đồng thời, việc tập trung chăm sóc và quản lý bệnh lý sa sút trí tuệ ở người cao tuổi, đặc biệt từ 70 tuổi trở lên, là vô cùng cấp thiết trong bối cảnh dân số già hóa nhanh chóng.
+
+### Đặc điểm theo giới tính
+
+::: {custom-style="chu_xanh"}
+`r inline_bang_gioitinh_banluan`
+:::
+
+Kết quả nghiên cứu cho thấy tỷ lệ nữ giới chiếm ưu thế ở cả hai nhóm rối loạn nhận thức. Trong nhóm suy giảm nhận thức nhẹ, nữ giới chiếm 69,4%, trong khi nam giới chỉ chiếm 30,6%. Ở nhóm sa sút trí tuệ, nữ giới chiếm 60,1%, nam là 39,9%. \## Bàn luận về tuổi tác
+
+Tuổi tác là một yếu tố nguy cơ không thể thay đổi trong sa sút trí tuệ. Trong nghiên cứu hiện tại, tuổi trung bình của nhóm sa sút trí tuệ cao hơn rõ rệt so với nhóm suy giảm nhận thức nhẹ. Điều này hoàn toàn phù hợp với bằng chứng dịch tễ học trên toàn cầu, khi tỷ lệ sa sút trí tuệ tăng dần theo tuổi, đặc biệt sau 65 tuổi [@livingston2020lancet].
+
+Theo WHO, cứ mỗi 5 năm sau tuổi 65 thì nguy cơ mắc sa sút trí tuệ tăng gần gấp đôi [@who2021dementia]. Một nghiên cứu tại Việt Nam của Lê Văn Tuấn và cộng sự (2019) cũng xác nhận người ≥75 tuổi có nguy cơ cao hơn đáng kể so với nhóm 60–74 tuổi [@le2019travinhsstt].
+
+Những phát hiện này nhấn mạnh vai trò của các chương trình can thiệp sớm, tầm soát định kỳ, và giáo dục cộng đồng tập trung vào lứa tuổi trung niên để giảm thiểu gánh nặng bệnh lý ở giai đoạn cao tuổi.
+
+Xu hướng này phù hợp với nhiều nghiên cứu quốc tế và trong nước, cho thấy nữ giới là nhóm có nguy cơ cao hơn mắc các rối loạn nhận thức. Theo Tổ chức Y tế Thế giới, phụ nữ sống thọ hơn nam giới, dẫn đến tỷ lệ mắc sa sút trí tuệ cao hơn ở nữ [@who2021dementia]. Báo cáo toàn cầu về sa sút trí tuệ năm 2015 cũng nhấn mạnh rằng phụ nữ chiếm phần lớn dân số mắc bệnh, đặc biệt ở nhóm tuổi ≥75 [@prince2015world].
+
+Nghiên cứu của Petersen và cộng sự (2018) tại Hoa Kỳ cũng ghi nhận phụ nữ không chỉ có nguy cơ cao hơn mắc bệnh mà còn có tốc độ tiến triển nhanh hơn ở một số thể bệnh như Alzheimer [@petersen2018mci].
+
+Tại Việt Nam, nhiều khảo sát cộng đồng đã ghi nhận xu hướng tương tự. Ví dụ, nghiên cứu của Nguyễn Thị Nhung và cộng sự (2014) thực hiện tại Hà Nội trên 300 người cao tuổi cho thấy tỷ lệ sa sút trí tuệ ở nữ giới (28,7%) cao hơn đáng kể so với nam giới (17,9%) [@nhung2014]. Một nghiên cứu khác tại TP. Hồ Chí Minh do Trần Văn Hảo và cộng sự (2020) cũng cho thấy tỷ lệ nữ mắc rối loạn nhận thức giai đoạn sớm là 62,3%, cao hơn nam giới (37,7%) [@hao2020].
+
+Những khác biệt này có thể lý giải bởi các yếu tố sinh học (suy giảm estrogen sau mãn kinh), tuổi thọ cao hơn, và đặc biệt là yếu tố xã hội: nữ giới lớn tuổi ở Việt Nam thường có trình độ học vấn thấp hơn, ít tham gia vào các hoạt động trí tuệ và xã hội, đồng thời chịu ảnh hưởng từ vai trò truyền thống trong gia đình. Đây đều là những yếu tố làm tăng nguy cơ suy giảm nhận thức.
+
+Từ đó có thể thấy rằng giới tính là một yếu tố quan trọng trong việc đánh giá nguy cơ sa sút trí tuệ và cần được xem xét khi xây dựng chiến lược phòng ngừa. Các chương trình tầm soát và can thiệp cần thiết kế phù hợp với đặc điểm của nữ giới trung niên và cao tuổi, nhằm nâng cao nhận thức, cải thiện chất lượng sống và giảm gánh nặng bệnh tật cho cộng đồng.
+
+### Đặc điểm trình độ học vấn
+
+::: {custom-style="chu_xanh"}
+`r inline_banluan_hocvan`
+:::
+
+Trình độ học vấn là một trong những yếu tố quan trọng ảnh hưởng đến nguy cơ mắc suy giảm nhận thức và sa sút trí tuệ. Trong nghiên cứu này, nhóm suy giảm nhận thức nhẹ (MCI) có tỷ lệ trình độ đại học cao hơn rõ rệt (38,8%) so với nhóm sa sút trí tuệ (25,1%). Trong khi đó, nhóm sa sút trí tuệ có tỷ lệ người học tiểu học cao hơn đáng kể (15,5% so với 4,7% ở nhóm MCI). Sự khác biệt này có ý nghĩa thống kê (*p* = 0,004), cho thấy học vấn có thể đóng vai trò bảo vệ quan trọng đối với chức năng nhận thức.
+
+Các nghiên cứu quốc tế cũng khẳng định điều này. Báo cáo của Ủy ban Lancet (2020) cho biết việc không học hết trung học là một trong những yếu tố nguy cơ lớn nhất dẫn đến sa sút trí tuệ [@livingston2020lancet]. Tổ chức Y tế Thế giới (WHO) cũng xếp trình độ học vấn thấp vào nhóm các yếu tố nguy cơ có thể phòng ngừa được [@who2021dementia].
+
+Một trong những giả thuyết được chấp nhận rộng rãi là lý thuyết "dự trữ nhận thức" (*cognitive reserve*), cho rằng học vấn cao giúp não bộ tạo ra mạng lưới thần kinh linh hoạt hơn và khả năng bù trừ tốt hơn khi có tổn thương do lão hóa hay bệnh lý [@stern2012cognitive].
+
+Tại Việt Nam, nhiều nghiên cứu cũng cho kết quả tương tự. Lê Văn Tuấn và cộng sự (2019) khảo sát tại Trà Vinh cho thấy người mù chữ có nguy cơ sa sút trí tuệ cao gấp hơn 3 lần so với người biết chữ (OR = 3,3; KTC 95%: 1,4–7,9) [@le2019travinhsstt]. Tương tự, Trần Văn Hào (2020) tại Vĩnh Long ghi nhận tỷ lệ sa sút trí tuệ ở nhóm học vấn thấp cao hơn nhóm học vấn cao có ý nghĩa thống kê [@tran2020vinhlonghocvan].
+
+Những bằng chứng này nhấn mạnh tầm quan trọng của giáo dục trong giai đoạn đầu đời như một biện pháp can thiệp lâu dài nhằm phòng ngừa sa sút trí tuệ ở người cao tuổi.
+
+### Đặc điểm thang điểm MMSE
+
+`r inline_mmse_banluan`. Tỷ lệ cao nhất thuộc về nhóm sa sút trí tuệ trung bình phản ánh tình trạng nhiều bệnh nhân chỉ được phát hiện khi bệnh đã tiến triển ở mức độ đáng kể. Đây là thực trạng phổ biến trong lâm sàng Việt Nam, được đề cập trong nghiên cứu của **TS Trần Công Thắng và cộng sự (2016)** khi khảo sát trên 500 người ≥60 tuổi tại bệnh viện lão khoa trung ương – ghi nhận tỷ lệ sa sút trí tuệ trung bình và nặng chiếm trên 50%, trong khi tỷ lệ phát hiện MCI còn thấp [@tran2016mmse].
+
+Theo hướng dẫn quốc tế, phát hiện sớm ở giai đoạn MCI là mục tiêu quan trọng vì đây là giai đoạn có thể can thiệp hiệu quả nhằm làm chậm tiến triển hoặc thậm chí phục hồi chức năng nhận thức [@petersen2018mci]. Tuy nhiên, trong nghiên cứu này, `r inline_mci_mota_phantram_banluan` Điều này phản ánh một lỗ hổng trong việc tầm soát định kỳ và nâng cao nhận thức cộng đồng.
+
+Báo cáo của **Ủy ban Lancet (2020)** cũng nhấn mạnh rằng việc phát hiện sớm, đặc biệt ở các nước thu nhập trung bình như Việt Nam, là chìa khóa để giảm thiểu gánh nặng kinh tế và xã hội của sa sút trí tuệ [@livingston2020lancet].
+
+Trong nghiên cứu chúng tôi thấy rằng *`r ti_le_sstt_nang_theo_mmse`* điều này cũng đáng chú ý, cho thấy vẫn còn một tỷ lệ không nhỏ người bệnh đến khám khi đã suy giảm chức năng rõ rệt, kèm theo gánh nặng chăm sóc lớn cho gia đình và xã hội.
+
+Tổng thể, phân bố phân độ MMSE trong nghiên cứu phản ánh thực trạng lâm sàng tại Việt Nam: chẩn đoán muộn, phát hiện MCI còn hạn chế. Việc tăng cường truyền thông, đào tạo nhân viên y tế cơ sở và tích hợp tầm soát trí nhớ vào khám sức khỏe định kỳ sẽ là hướng đi cần thiết trong chiến lược quốc gia về sa sút trí tuệ.
+
+### Đặc điểm các test thần kinh nhận thức
+
+::: {custom-style="chu_xanh"}
+inline_banluan_tests
+:::
+
+Bàn luận: Khả năng ghi nhớ và nhận biết trong sa sút trí tuệ Trong nghiên cứu này, chúng tôi quan sát thấy sự suy giảm rõ rệt ở cả ba chức năng ghi nhớ tức thì ("Nhớ lại ngay"), ghi nhớ sau thời gian trì hoãn ("Nhớ lại có trì hoãn") và nhận biết trì hoãn ("Nhận biết có trì hoãn") khi mức độ sa sút trí tuệ tiến triển từ nhẹ đến trung bình và nặng.
+
+Trung bình điểm "Nhớ lại ngay" là `r round(mean(df$nholai_ngay, na.rm=TRUE), 1)`, khi phân tích theo nhóm MMSE, nhóm Suy giảm nhận thức nhẹ đạt trung bình `r round(mean(df$nholai_ngay[df$mmse_group == 'Suy giảm nhận thức nhẹ'], na.rm=TRUE), 1)`, trong khi nhóm Sa sút trí tuệ trung bình chỉ còn `r round(mean(df$nholai_ngay[df$mmse_group == 'Sa sút trí tuệ trung bình'], na.rm=TRUE), 1)` Điều này cho thấy sự tổn thương tiến triển của trí nhớ ngắn hạn – vốn phụ thuộc vào hoạt động của thùy thái dương giữa và hồi hải mã.
+
+Những kết quả này khẳng định tầm quan trọng của việc đánh giá trí nhớ ngắn hạn và trung hạn trong chẩn đoán sớm và phân biệt các mức độ sa sút trí tuệ, từ đó hỗ trợ xây dựng kế hoạch can thiệp phù hợp.
+
+### Điểm hạn chế
+
+### Tính mới
+
+### tính ứng dụng của đề tài
+
+::: {custom-style="CAN GIUA DAM 14 ONE"}
+KẾT LUẬN
+:::
+
+Mục tiêu 1 Mục tiêu 2
+
+## Tạo slide báo cáo
+
+### Tạo slide báo cáo
+
+::: {custom-style="CAN GIUA DAM 14 ONE"}
+TÀI LIỆU THAM KHẢO
+:::

@@ -1,3 +1,99 @@
-# 04 Ban Luan
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+source(here::here("R", "packages.R"))
+source(here::here("R", "load_data.R"))
+```
 
-_Nội dung đang cập nhật..._
+::: {custom-style="Heading 1"}
+BÀN LUẬN
+:::
+
+## Đặc điểm mẫu của nghiên cứu
+
+### Đặc điểm theo Tuổi
+
+::: {custom-style="chu_xanh"}
+`r inline_tuoi_banluan`
+:::
+
+Kết quả nghiên cứu cho cho thấy tuổi là một yếu tố liên quan rõ rệt đến mức độ suy giảm chức năng nhận thức.
+
+Phát hiện này phù hợp với nhiều nghiên cứu trước đây. Theo dữ liệu từ Tổ chức Y tế Thế giới (WHO), tuổi cao là yếu tố nguy cơ lớn nhất dẫn đến sa sút trí tuệ, với tỷ lệ hiện mắc tăng mạnh ở nhóm người trên 65 tuổi. Cụ thể, tỷ lệ sa sút trí tuệ tăng gấp đôi sau mỗi 5 năm tuổi sau mốc 65 tuổi @who2021dementia.
+
+Tương tự, nghiên cứu của Prince và cộng sự (2015) thuộc báo cáo World Alzheimer Report cũng chỉ ra rằng nguy cơ mắc sa sút trí tuệ gia tăng theo tuổi, đặc biệt rõ ràng từ 60 tuổi trở lên. Điều này khẳng định rằng tuổi đóng vai trò trung tâm trong sinh bệnh học của sa sút trí tuệ @prince2015world.
+
+Việc nhóm sa sút trí tuệ có độ tuổi trung bình cao hơn cũng phản ánh xu hướng bệnh lý tiến triển từ giai đoạn suy giảm nhận thức nhẹ sang giai đoạn nặng hơn. Đây là cơ sở quan trọng cho việc sàng lọc và can thiệp sớm ở người cao tuổi, từ đó có thể làm chậm quá trình tiến triển bệnh và giảm gánh nặng xã hội.
+
+::: {custom-style="chu_xanh"}
+`r inline_nhom_tuoi_banluan`
+:::
+
+Xu hướng này phản ánh mối liên quan chặt chẽ giữa tuổi cao và mức độ tiến triển của suy giảm nhận thức. Khi tuổi tăng, nguy cơ chuyển từ giai đoạn suy giảm nhận thức nhẹ sang sa sút trí tuệ cũng tăng theo. Petersen và cộng sự (2018) đã chỉ ra rằng mỗi năm có khoảng 10–15% bệnh nhân MCI chuyển sang giai đoạn sa sút trí tuệ, và tỷ lệ này gia tăng ở người lớn tuổi @petersen2018mci.
+
+Ngoài ra, Tổ chức Y tế Thế giới (World Health Organization, 2021) nhấn mạnh rằng tỷ lệ sa sút trí tuệ tăng gấp đôi sau mỗi 5 năm tuổi sau mốc 65 tuổi. Điều này hoàn toàn phù hợp với kết quả nghiên cứu này, khi tỷ lệ sa sút trí tuệ tăng từ 67,8% ở nhóm 50–59 tuổi lên đến 100% ở nhóm ≥80 tuổi @who2021dementia.
+
+Phát hiện này cho thấy tầm quan trọng của việc sàng lọc nhận thức ở những nhóm tuổi sớm hơn (từ 50 tuổi trở đi), nhằm phát hiện các biểu hiện ban đầu của rối loạn nhận thức và can thiệp kịp thời để làm chậm quá trình tiến triển. Đồng thời, việc tập trung chăm sóc và quản lý bệnh lý sa sút trí tuệ ở người cao tuổi, đặc biệt từ 70 tuổi trở lên, là vô cùng cấp thiết trong bối cảnh dân số già hóa nhanh chóng.
+
+### Đặc điểm theo giới tính
+
+::: {custom-style="chu_xanh"}
+`r inline_bang_gioitinh_banluan`
+:::
+
+Kết quả nghiên cứu cho thấy tỷ lệ nữ giới chiếm ưu thế ở cả hai nhóm rối loạn nhận thức. Trong nhóm suy giảm nhận thức nhẹ, nữ giới chiếm 69,4%, trong khi nam giới chỉ chiếm 30,6%. Ở nhóm sa sút trí tuệ, nữ giới chiếm 60,1%, nam là 39,9%. \## Bàn luận về tuổi tác
+
+Tuổi tác là một yếu tố nguy cơ không thể thay đổi trong sa sút trí tuệ. Trong nghiên cứu hiện tại, tuổi trung bình của nhóm sa sút trí tuệ cao hơn rõ rệt so với nhóm suy giảm nhận thức nhẹ. Điều này hoàn toàn phù hợp với bằng chứng dịch tễ học trên toàn cầu, khi tỷ lệ sa sút trí tuệ tăng dần theo tuổi, đặc biệt sau 65 tuổi [@livingston2020lancet].
+
+Theo WHO, cứ mỗi 5 năm sau tuổi 65 thì nguy cơ mắc sa sút trí tuệ tăng gần gấp đôi [@who2021dementia]. Một nghiên cứu tại Việt Nam của Lê Văn Tuấn và cộng sự (2019) cũng xác nhận người ≥75 tuổi có nguy cơ cao hơn đáng kể so với nhóm 60–74 tuổi [@le2019travinhsstt].
+
+Những phát hiện này nhấn mạnh vai trò của các chương trình can thiệp sớm, tầm soát định kỳ, và giáo dục cộng đồng tập trung vào lứa tuổi trung niên để giảm thiểu gánh nặng bệnh lý ở giai đoạn cao tuổi.
+
+Xu hướng này phù hợp với nhiều nghiên cứu quốc tế và trong nước, cho thấy nữ giới là nhóm có nguy cơ cao hơn mắc các rối loạn nhận thức. Theo Tổ chức Y tế Thế giới, phụ nữ sống thọ hơn nam giới, dẫn đến tỷ lệ mắc sa sút trí tuệ cao hơn ở nữ [@who2021dementia]. Báo cáo toàn cầu về sa sút trí tuệ năm 2015 cũng nhấn mạnh rằng phụ nữ chiếm phần lớn dân số mắc bệnh, đặc biệt ở nhóm tuổi ≥75 [@prince2015world].
+
+Nghiên cứu của Petersen và cộng sự (2018) tại Hoa Kỳ cũng ghi nhận phụ nữ không chỉ có nguy cơ cao hơn mắc bệnh mà còn có tốc độ tiến triển nhanh hơn ở một số thể bệnh như Alzheimer [@petersen2018mci].
+
+Tại Việt Nam, nhiều khảo sát cộng đồng đã ghi nhận xu hướng tương tự. Ví dụ, nghiên cứu của Nguyễn Thị Nhung và cộng sự (2014) thực hiện tại Hà Nội trên 300 người cao tuổi cho thấy tỷ lệ sa sút trí tuệ ở nữ giới (28,7%) cao hơn đáng kể so với nam giới (17,9%) [@nhung2014]. Một nghiên cứu khác tại TP. Hồ Chí Minh do Trần Văn Hảo và cộng sự (2020) cũng cho thấy tỷ lệ nữ mắc rối loạn nhận thức giai đoạn sớm là 62,3%, cao hơn nam giới (37,7%) [@hao2020].
+
+Những khác biệt này có thể lý giải bởi các yếu tố sinh học (suy giảm estrogen sau mãn kinh), tuổi thọ cao hơn, và đặc biệt là yếu tố xã hội: nữ giới lớn tuổi ở Việt Nam thường có trình độ học vấn thấp hơn, ít tham gia vào các hoạt động trí tuệ và xã hội, đồng thời chịu ảnh hưởng từ vai trò truyền thống trong gia đình. Đây đều là những yếu tố làm tăng nguy cơ suy giảm nhận thức.
+
+Từ đó có thể thấy rằng giới tính là một yếu tố quan trọng trong việc đánh giá nguy cơ sa sút trí tuệ và cần được xem xét khi xây dựng chiến lược phòng ngừa. Các chương trình tầm soát và can thiệp cần thiết kế phù hợp với đặc điểm của nữ giới trung niên và cao tuổi, nhằm nâng cao nhận thức, cải thiện chất lượng sống và giảm gánh nặng bệnh tật cho cộng đồng.
+
+### Đặc điểm trình độ học vấn
+
+::: {custom-style="chu_xanh"}
+`r inline_banluan_hocvan`
+:::
+
+Trình độ học vấn là một trong những yếu tố quan trọng ảnh hưởng đến nguy cơ mắc suy giảm nhận thức và sa sút trí tuệ. Trong nghiên cứu này, nhóm suy giảm nhận thức nhẹ (MCI) có tỷ lệ trình độ đại học cao hơn rõ rệt (38,8%) so với nhóm sa sút trí tuệ (25,1%). Trong khi đó, nhóm sa sút trí tuệ có tỷ lệ người học tiểu học cao hơn đáng kể (15,5% so với 4,7% ở nhóm MCI). Sự khác biệt này có ý nghĩa thống kê (*p* = 0,004), cho thấy học vấn có thể đóng vai trò bảo vệ quan trọng đối với chức năng nhận thức.
+
+Các nghiên cứu quốc tế cũng khẳng định điều này. Báo cáo của Ủy ban Lancet (2020) cho biết việc không học hết trung học là một trong những yếu tố nguy cơ lớn nhất dẫn đến sa sút trí tuệ [@livingston2020lancet]. Tổ chức Y tế Thế giới (WHO) cũng xếp trình độ học vấn thấp vào nhóm các yếu tố nguy cơ có thể phòng ngừa được [@who2021dementia].
+
+Một trong những giả thuyết được chấp nhận rộng rãi là lý thuyết "dự trữ nhận thức" (*cognitive reserve*), cho rằng học vấn cao giúp não bộ tạo ra mạng lưới thần kinh linh hoạt hơn và khả năng bù trừ tốt hơn khi có tổn thương do lão hóa hay bệnh lý [@stern2012cognitive].
+
+Tại Việt Nam, nhiều nghiên cứu cũng cho kết quả tương tự. Lê Văn Tuấn và cộng sự (2019) khảo sát tại Trà Vinh cho thấy người mù chữ có nguy cơ sa sút trí tuệ cao gấp hơn 3 lần so với người biết chữ (OR = 3,3; KTC 95%: 1,4–7,9) [@le2019travinhsstt]. Tương tự, Trần Văn Hào (2020) tại Vĩnh Long ghi nhận tỷ lệ sa sút trí tuệ ở nhóm học vấn thấp cao hơn nhóm học vấn cao có ý nghĩa thống kê [@tran2020vinhlonghocvan].
+
+Những bằng chứng này nhấn mạnh tầm quan trọng của giáo dục trong giai đoạn đầu đời như một biện pháp can thiệp lâu dài nhằm phòng ngừa sa sút trí tuệ ở người cao tuổi.
+
+### Đặc điểm thang điểm MMSE
+
+`r inline_mmse_banluan`. Tỷ lệ cao nhất thuộc về nhóm sa sút trí tuệ trung bình phản ánh tình trạng nhiều bệnh nhân chỉ được phát hiện khi bệnh đã tiến triển ở mức độ đáng kể. Đây là thực trạng phổ biến trong lâm sàng Việt Nam, được đề cập trong nghiên cứu của **TS Trần Công Thắng và cộng sự (2016)** khi khảo sát trên 500 người ≥60 tuổi tại bệnh viện lão khoa trung ương – ghi nhận tỷ lệ sa sút trí tuệ trung bình và nặng chiếm trên 50%, trong khi tỷ lệ phát hiện MCI còn thấp [@tran2016mmse].
+
+Theo hướng dẫn quốc tế, phát hiện sớm ở giai đoạn MCI là mục tiêu quan trọng vì đây là giai đoạn có thể can thiệp hiệu quả nhằm làm chậm tiến triển hoặc thậm chí phục hồi chức năng nhận thức [@petersen2018mci]. Tuy nhiên, trong nghiên cứu này, `r inline_mci_mota_phantram_banluan` Điều này phản ánh một lỗ hổng trong việc tầm soát định kỳ và nâng cao nhận thức cộng đồng.
+
+Báo cáo của **Ủy ban Lancet (2020)** cũng nhấn mạnh rằng việc phát hiện sớm, đặc biệt ở các nước thu nhập trung bình như Việt Nam, là chìa khóa để giảm thiểu gánh nặng kinh tế và xã hội của sa sút trí tuệ [@livingston2020lancet].
+
+Trong nghiên cứu chúng tôi thấy rằng *`r ti_le_sstt_nang_theo_mmse`* điều này cũng đáng chú ý, cho thấy vẫn còn một tỷ lệ không nhỏ người bệnh đến khám khi đã suy giảm chức năng rõ rệt, kèm theo gánh nặng chăm sóc lớn cho gia đình và xã hội.
+
+Tổng thể, phân bố phân độ MMSE trong nghiên cứu phản ánh thực trạng lâm sàng tại Việt Nam: chẩn đoán muộn, phát hiện MCI còn hạn chế. Việc tăng cường truyền thông, đào tạo nhân viên y tế cơ sở và tích hợp tầm soát trí nhớ vào khám sức khỏe định kỳ sẽ là hướng đi cần thiết trong chiến lược quốc gia về sa sút trí tuệ.
+
+### Đặc điểm các test thần kinh nhận thức
+
+::: {custom-style="chu_xanh"}
+inline_banluan_tests
+:::
+
+Bàn luận: Khả năng ghi nhớ và nhận biết trong sa sút trí tuệ Trong nghiên cứu này, chúng tôi quan sát thấy sự suy giảm rõ rệt ở cả ba chức năng ghi nhớ tức thì ("Nhớ lại ngay"), ghi nhớ sau thời gian trì hoãn ("Nhớ lại có trì hoãn") và nhận biết trì hoãn ("Nhận biết có trì hoãn") khi mức độ sa sút trí tuệ tiến triển từ nhẹ đến trung bình và nặng.
+
+Trung bình điểm "Nhớ lại ngay" là `r round(mean(df$nholai_ngay, na.rm=TRUE), 1)`, khi phân tích theo nhóm MMSE, nhóm Suy giảm nhận thức nhẹ đạt trung bình `r round(mean(df$nholai_ngay[df$mmse_group == 'Suy giảm nhận thức nhẹ'], na.rm=TRUE), 1)`, trong khi nhóm Sa sút trí tuệ trung bình chỉ còn `r round(mean(df$nholai_ngay[df$mmse_group == 'Sa sút trí tuệ trung bình'], na.rm=TRUE), 1)` Điều này cho thấy sự tổn thương tiến triển của trí nhớ ngắn hạn – vốn phụ thuộc vào hoạt động của thùy thái dương giữa và hồi hải mã.
+
+Những kết quả này khẳng định tầm quan trọng của việc đánh giá trí nhớ ngắn hạn và trung hạn trong chẩn đoán sớm và phân biệt các mức độ sa sút trí tuệ, từ đó hỗ trợ xây dựng kế hoạch can thiệp phù hợp.

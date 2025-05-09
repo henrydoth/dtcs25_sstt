@@ -1,0 +1,29 @@
+```{r setup, include=FALSE}
+# 🚀 Thiết lập chung cho toàn bộ sách + tắt warning/message
+knitr::opts_chunk$set(
+  warning = FALSE,  # 🚫 Tắt warning toàn cục
+  message = FALSE   # 🚫 Tắt message toàn cục
+)
+
+# 📦 Nạp các gói và dữ liệu từ file R
+source(here::here("R", "packages.R"))
+source(here::here("R", "load_data.R"))  #
+```
+```{r setup, include=FALSE}
+cat("
+               / \\  //\\
+      |\\___/|      /   \\//  \\\\
+      /O  O  \\__  /    //  | \\ \\    
+     /     /  \\/_/    //   |  \\  \\    
+     \\_^_\\'/   \\/_   //    |   \\   \\   
+     //_^_/     \\/_ //     |    \\    \\  
+  ( //) |        \\///      |     \\     \\
+( / /) _|_ /   )  //        |      \\     _\\
+( // /) '/,_ _ _/           |       \\  (_  
+  ///                                       
+
+🐉 Chào Liêm, tuổi Rồng của bạn thành công!
+📦 R đã nạp vào Quarto – sẵn sàng bay cao! 🚀
+")
+```
+

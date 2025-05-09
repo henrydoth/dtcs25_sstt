@@ -1,3 +1,19 @@
-# Dat Van De
+## **Đặt vấn đề**
 
-_Nội dung đang cập nhật..._
+Sa sút trí tuệ (SSTT) là một trong những vấn đề y tế – xã hội nghiêm trọng nhất hiện nay, đặc biệt trong bối cảnh dân số toàn cầu đang **già hóa nhanh chóng**. Theo Tổ chức Y tế Thế giới, thế giới hiện có khoảng **55 triệu người đang sống chung với SSTT**, với gần **10 triệu ca mắc mới mỗi năm**. Con số này được dự báo sẽ tăng lên **139 triệu vào năm 2050**, chủ yếu tại các quốc gia có thu nhập trung bình và thấp. SSTT không chỉ ảnh hưởng đến sức khỏe tâm thần và thể chất của người bệnh mà còn tạo ra **gánh nặng lớn đối với gia đình và hệ thống y tế quốc gia**. @{WHO2021Dementia}
+
+Tại Việt Nam, quá trình **già hóa dân số** đang diễn ra nhanh hơn nhiều nước trong khu vực. Tỷ lệ người từ **60 tuổi trở lên** chiếm **12,3% dân số vào năm 2020** và dự báo sẽ vượt **20% vào năm 2036**, đưa Việt Nam chính thức bước vào **giai đoạn dân số già**. @{GSO2021Ageing} Song song đó, số lượng người cao tuổi có nguy cơ hoặc đã mắc các rối loạn nhận thức như **suy giảm nhận thức chủ quan (SCD)**, **suy giảm nhận thức nhẹ (MCI)** và **SSTT** đang tăng lên rõ rệt. Tuy nhiên, trong thực tế, nhiều trường hợp vẫn chưa được phát hiện kịp thời do **biểu hiện mờ nhạt**, **thiếu công cụ đánh giá phù hợp** hoặc chịu ảnh hưởng bởi **yếu tố ngôn ngữ và văn hóa**.
+
+Một giai đoạn đặc biệt quan trọng trong chuỗi tiến triển từ lão hóa bình thường đến sa sút trí tuệ là **suy giảm nhận thức nhẹ (MCI – Mild Cognitive Impairment)**. MCI được đặc trưng bởi **suy giảm một hoặc nhiều chức năng nhận thức**, trong khi **các hoạt động sinh hoạt hằng ngày vẫn được bảo tồn**. Đây là “**giai đoạn cửa sổ**” cho phép **phát hiện sớm** và **can thiệp hiệu quả** nhằm làm chậm hoặc ngăn ngừa tiến triển sang SSTT. **Nghiên cứu của Petersen và cộng sự** cho thấy **tỷ lệ chuyển từ MCI sang SSTT dao động từ 10% đến 15% mỗi năm** nếu không có biện pháp can thiệp sớm. @{Petersen2004MCI}
+
+Các **trắc nghiệm thần kinh nhận thức** là công cụ thiết yếu trong **sàng lọc**, **chẩn đoán** và **theo dõi tiến triển** của các rối loạn nhận thức. Trong đó, **MMSE (Mini-Mental State Examination)** là thang đo tổng quát được sử dụng rộng rãi. Tuy nhiên, để **đánh giá toàn diện** và **phát hiện những thay đổi tinh vi ở giai đoạn sớm**, cần kết hợp thêm các trắc nghiệm chuyên sâu như: **Trail Making Test (TMT A/B)**, **Digit Span xuôi – ngược**, **kiểm tra trí nhớ trì hoãn**, **bài vẽ đồng hồ** và **lưu loát ngôn ngữ**...
+
+Từ năm 2019, Đơn vị Trí nhớ và Sa sút trí tuệ – **Bệnh viện 30-4** đã chính thức triển khai **bộ trắc nghiệm đánh giá chức năng thần kinh nhận thức Việt Nam (VnCA – Vietnamese Cognitive Assessment)**. Bộ công cụ này do **Hội Bệnh Alzheimer và Rối loạn thần kinh nhận thức Việt Nam (VnADA)**, **Trung tâm Bệnh thoái hóa thần kinh Đức (DZNE)** và đội ngũ chuyên gia **Bệnh viện 30-4** phối hợp xây dựng và hiệu chỉnh, đảm bảo **tính phù hợp về ngôn ngữ và văn hóa**. **VnCA** bao gồm nhiều trắc nghiệm tiêu chuẩn, đánh giá các lĩnh vực nhận thức khác nhau và hiện đang được áp dụng thường quy trong chẩn đoán tại cơ sở.
+
+Tuy nhiên, hiện còn thiếu các nghiên cứu đánh giá hệ thống về **mối tương quan giữa MMSE và các trắc nghiệm trong bộ VnCA**, cũng như **khả năng ứng dụng của VnCA trong phân biệt MCI với các giai đoạn SSTT**. Việc làm rõ mối liên hệ này sẽ góp phần **hoàn thiện quy trình đánh giá**, **nâng cao độ chính xác trong chẩn đoán** và **hỗ trợ theo dõi hiệu quả người bệnh** tại Bệnh viện 30-4.
+
+**Mục tiêu nghiên cứu**
+
+- Nghiên cứu **mối tương quan của thang điểm MMSE** với các test thần kinh nhận thức khác trong **bộ Test thần kinh nhận thức tại Bệnh viện 30-4**.
+
+- Đánh giá **hiệu quả ứng dụng của bộ Test thần kinh nhận thức** trong **chẩn đoán và điều trị Sa sút trí tuệ tại Bệnh viện 30-4**.

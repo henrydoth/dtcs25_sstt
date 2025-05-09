@@ -1,3 +1,221 @@
-# 03 Ket Qua
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+source(here::here("R", "packages.R"))
+source(here::here("R", "load_data.R"))
+```
 
-_Nội dung đang cập nhật..._
+::: {custom-style="Heading 1"}
+KẾT QUẢ
+:::
+
+Có **`r nrow(df)`** người được tuyển chọn vào mẫu nghiên cứu. Toàn bộ người tham gia nghiên cứu thỏa đầy đủ các tiêu chuẩn chọn mẫu và không có bất cứ tiêu chuẩn loại trừ nào. Đối với trường hợp hồi cứu, chúng tôi truy suất hồ sơ bệnh án. Đối với tiến cứu sau khi được cung cấp thông tin về nghiên cứu và có sự đồng thuận tham gia của người có quyền giám hộ bệnh nhân, người tham gia nghiên cứu chúng tôi ghi nhận thông tin trên hồ sơ bệnh án để tiến hành thu thập dữ liệu. Kết quả nghiên cứu trình bày như sau: Đặc điểm mẫu của nghiên cứu,mối tương quan MMSE với các test thần kinh nhận thức khác,đánh giá hiệu quả ứng dụng trong chẩn đoán và điều trị bộ test thần kinh nhận thức.
+
+## Đặc điểm mẫu của nghiên cứu {#dac-diem-kq}
+
+### Đặc điểm theo tuổi nhà nhóm tuôi
+
+#### Đặc điểm theo tuổi
+
+-   Bảng thống kê tuổi bệnh nhân.
+
+```{r}
+#| echo: false
+ft_tuoi
+```
+
+##### `r inline_bang_tuoi_ketqua`
+
+-   Biểu đồ theo tuổi
+
+```{r}
+#| echo: false
+tuoi_gp
+```
+
+##### `r inline_bieudo_tuoi_ketqua`
+
+#### Đặc điểm nhóm tuổi
+
+-   Bảng nhóm tuổi
+
+```{r tbl-nhom_tuoi_ketqua-flextable, echo=FALSE, results='asis'}
+#| message: false
+#| warning: false
+#| paged-print: false
+ft_freq_p
+```
+
+##### `r inline_bang_nhom_tuoi_ketqua`
+
+-   Biểu đồ theo nhóm tuổi
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| paged-print: false
+nhom_tuoi_gp
+```
+
+##### `r inline_bieudo_nhom_tuoi_ketqua`
+
+### Giới tính
+
+-   Bảng theo giới tính
+
+```{r tbl-gioi_tinh_ketqua-flextable, echo=FALSE, results='asis'}
+ft_gender
+```
+
+##### `r inline_bang_gioitinh_ketqua`
+
+-   Biểu đồ theo giới tính
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| paged-print: false
+gioitinh_bar_percent
+```
+
+##### `r inline_bang_gioitinh_ketqua`
+
+### Trình độ học vấn
+
+-   Bảng trình độ học vấn
+
+```{r results='asis'}
+#| echo: false
+ft_edu
+```
+
+##### `r inline_table_hocvan`
+
+-   Biểu đồ trình độ học vấn
+
+```{r}
+hocvan_bar_percent
+```
+
+##### `r inline_plot_hocvan`
+
+### Đặc điểm MMSE
+
+#### Bảng phân loại suy giảm nhận thức và sa sút trí tuệ theo MMSE
+
+```{r}
+#| echo: false
+ft_mmse
+
+```
+
+##### `r inline_bang_mmse`
+
+#### Biểu đồ phân loại mmse
+
+```{r}
+#| echo: false
+ggplot_mmse
+
+```
+
+##### `r inline_bieudo_mmse`
+
+#### Biểu đồ phân loại suy giảm nhận thức và sa sút trí tuệ theo MMSE
+
+```{r}
+#| label: Biểu đồ  phân loại suy giảm nhận thức và sa sút trí tuệ theo MMSE chen kết quả 
+#| echo: false
+ggplot_mmse
+```
+
+### Đặc điểm các test thần kinh nhận thức
+
+#### Bảng đặc điểm các test thần kinh nhận thức
+
+```{r}
+#| echo: false
+ft_nhanthuc_group
+```
+
+##### `r inline_bang_tests_group`
+
+#### Biểu đồ đặc điểm các test thần kinh nhận thức
+
+```{r}
+#| echo: false
+plot_nhanthuc_group
+```
+
+##### `r inline_bieudo_tests_group`
+
+## Mối tương quan MMSE với các test thần kinh nhận thức khác {#tuong-quan-kq}
+
+### Bảng mối tương quan MMSE với các test thần kinh nhận thức khác
+
+```{r}
+#| echo: false
+ft_corr_long
+```
+
+##### **Nhóm MCI**: `r cau_bang_mci` , `r cau_bang_sstt`
+
+### Biểu đồ mối tương quan MMSE với các test thần kinh nhận thức khác
+
+```{r}
+#| echo: false
+plot_corr_grouped
+```
+
+##### `r cau_inline_so_sanh_sstt_mci`
+
+## Đánh giá hiệu quả ứng dụng trong chẩn đoán và điều trị bộ test thần kinh nhận thức {#ung-dung-kq}
+
+### Đánh giá mức độ hoàn thành bộ test thần kinh nhận thức
+
+#### Bảng mức độ hoàn thành bộ test thần kinh nhận thức
+
+```{r}
+#| label: B mức độ hoàn thành bộ test thần kinh nhận thức
+#| echo: false
+ft_hoanthanh
+```
+
+##### `r cau_hoanthanh_bang`
+
+```{r}
+#| label: BD hoàn thành bộ test thần kinh nhận thức
+#| echo: false
+plot_hoanthanh
+```
+
+##### `r cau_hoanthanh_ggplot`
+
+#### Biểu đồ mức độ hoàn thành bộ test thần kinh nhận thức
+
+Đặc điểm hiệu quả ứng dụng
+
+### Đánh giá sự tương đồng giữa phân độ MMSE và phân loại lâm sàng theo tiêu chuẩn lâm sàng
+
+#### Biểu đồ heatmap
+
+```{r}
+#| label: Biểu đồ heatmap
+#| echo: false
+#| message: false
+#| warning: false
+plot_heat
+```
+
+##### `r cau_chen_bieu_do_heatmap`
+
+#### Biểu đồ tán xạ đánh giá sự tương đồng giữa phân độ MMSE và phân loại lâm sàng theo tiêu chuẩn lâm sàng
+
+```{r}
+#| label: Sự tương đồng giữa phân độ MMSE và phân loại lâm sàng theo tiêu chuẩn lâm sàng kết quả
+#| echo: false
+plot_scatter
+```
+
+##### `r cau_bieudo_ordinal`

@@ -34,7 +34,3 @@ execute:
   echo: false
   warning: false
   message: false
-
-quartostartup: |
-  source(here::here("R", "packages.R"))
-  library(magrittr)

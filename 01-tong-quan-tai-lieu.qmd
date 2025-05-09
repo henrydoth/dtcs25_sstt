@@ -1,3 +1,200 @@
-# 01 Tong Quan Tai Lieu
+```{r}
+library(magrittr)   # ⬅️ Bắt buộc để dùng %>%
+library(flextable)  # Nếu dùng flextable()
+```
 
-_Nội dung đang cập nhật..._
+# TỔNG QUANG TÀI LIỆU
+
+## Tổng quan về suy giảm nhận thức nhẹ và sa sút trí tuệ
+
+Suy giảm nhận thức nhẹ (Mild Cognitive Impairment – MCI) và sa sút trí tuệ (dementia) là hai tình trạng phổ biến ở người cao tuổi, biểu hiện qua sự suy giảm chức năng nhận thức ở các mức độ khác nhau. MCI được xem là giai đoạn chuyển tiếp giữa quá trình lão hóa bình thường và sa sút trí tuệ, đặc trưng bởi sự suy giảm một hoặc nhiều lĩnh vực nhận thức nhưng chưa ảnh hưởng rõ rệt đến hoạt động sống hàng ngày. Ngược lại, sa sút trí tuệ là hội chứng tiến triển mạn tính, trong đó sự suy giảm nhận thức đủ mức độ để ảnh hưởng nghiêm trọng đến khả năng tự chăm sóc, nghề nghiệp và chức năng xã hội của người bệnh @Petersen2014.
+
+### Dịch tễ học
+
+Theo Tổ chức Y tế Thế giới (WHO), tính đến năm 2023, có khoảng 55 triệu người đang sống chung với sa sút trí tuệ trên toàn cầu, với khoảng 10 triệu ca mắc mới mỗi năm. Con số này được dự báo sẽ tăng lên 139 triệu người vào năm 2050 do tốc độ già hóa dân số @WHO2023. Sa sút trí tuệ hiện là nguyên nhân đứng thứ 7 gây tử vong toàn cầu và là nguyên nhân hàng đầu gây phụ thuộc ở người cao tuổi.
+
+Tại Việt Nam, các nghiên cứu cho thấy tỷ lệ sa sút trí tuệ ở người ≥60 tuổi dao động từ 4% đến 8%, trong khi MCI chiếm khoảng 10–20% ở nhóm người cao tuổi @Nguyen2020. Việt Nam hiện có hơn 12 triệu người từ 60 tuổi trở lên, con số này dự kiến sẽ vượt 20 triệu vào năm 2039, làm gia tăng gánh nặng về các bệnh lý nhận thức. Tình trạng này đặc biệt đáng quan ngại ở các vùng nông thôn và miền núi, nơi thiếu hụt nguồn lực y tế và đội ngũ chuyên ngành lão khoa.
+
+### Cơ chế bệnh sinh
+
+Cơ chế bệnh sinh của MCI và sa sút trí tuệ rất phức tạp, liên quan đến nhiều yếu tố thần kinh, mạch máu, chuyển hóa và di truyền. Ở bệnh Alzheimer – nguyên nhân phổ biến nhất – sự tích tụ của mảng β-amyloid và đám rối sợi tau trong não gây tổn thương synap và chết tế bào thần kinh @Selkoe2012. Các thay đổi này bắt đầu âm thầm từ nhiều năm trước khi biểu hiện lâm sàng xuất hiện, thường khởi phát từ vùng hải mã (hippocampus) – trung tâm ghi nhớ của não – và lan dần ra vỏ não.
+
+Ngoài ra, tổn thương vi mạch não và thiếu máu não mạn tính cũng đóng vai trò quan trọng trong bệnh sinh của sa sút trí tuệ mạch máu. Các yếu tố nguy cơ như tăng huyết áp, đái tháo đường, rối loạn lipid máu và hút thuốc lá làm suy giảm tính toàn vẹn của hàng rào máu–não, dẫn đến vi nhồi máu não nhiều ổ nhỏ (lacunar infarcts) và tổn thương chất trắng. Yếu tố viêm thần kinh, stress oxy hóa, rối loạn chuyển hóa glucose ở não, mất cân bằng chất dẫn truyền thần kinh (đặc biệt là acetylcholine và glutamate), cũng góp phần vào tiến trình thoái hóa thần kinh @Cummings2019.
+
+Về mặt di truyền, sự mang gen APOE ε4 là yếu tố nguy cơ cao đối với bệnh Alzheimer khởi phát muộn. Tuy nhiên, không phải tất cả những người mang gen này đều phát triển bệnh, cho thấy vai trò của môi trường sống, lối sống và khả năng dự trữ nhận thức trong việc điều hòa nguy cơ.
+
+### Các thể lâm sàng của sa sút trí tuệ
+
+Sa sút trí tuệ bao gồm nhiều thể bệnh khác nhau, với đặc điểm bệnh sinh và lâm sàng riêng biệt:
+
+-   **Sa sút trí tuệ do Alzheimer (Alzheimer's disease dementia)**: là thể phổ biến nhất, chiếm khoảng 60–70% tổng số ca. Đặc trưng bởi suy giảm trí nhớ gần là triệu chứng khởi phát, sau đó lan sang các chức năng nhận thức khác như ngôn ngữ, điều hành và định hướng. Bệnh tiến triển chậm nhưng liên tục qua các giai đoạn từ nhẹ đến nặng.
+
+-   **Sa sút trí tuệ mạch máu (vascular dementia)**: chiếm khoảng 15–20% và thường gặp ở người có tiền sử đột quỵ hoặc yếu tố nguy cơ tim mạch. Bệnh có thể khởi phát đột ngột sau một biến cố mạch máu não, hoặc tiến triển theo kiểu bậc thang. Triệu chứng điển hình gồm rối loạn chú ý, chậm chạp tâm thần vận động, rối loạn chức năng điều hành và cảm xúc không ổn định.
+
+-   **Sa sút trí tuệ thể Lewy (Dementia with Lewy bodies)**: đặc trưng bởi dao động nhận thức theo ngày, ảo giác thị giác sống động, rối loạn giấc ngủ REM và dấu hiệu ngoại tháp giống Parkinson. Nhạy cảm với thuốc chống loạn thần là dấu hiệu quan trọng giúp gợi ý chẩn đoán.
+
+-   **Sa sút trí tuệ do Parkinson (Parkinson’s disease dementia)**: thường xuất hiện ở giai đoạn muộn của bệnh Parkinson, khi triệu chứng vận động đã tồn tại ít nhất 1 năm. Bệnh nhân thường biểu hiện chậm tư duy, suy giảm chức năng điều hành, khó khăn trong chuyển đổi chú ý và giảm trí nhớ làm việc.
+
+### Triệu chứng lâm sàng
+
+Ở giai đoạn MCI, bệnh nhân có thể biểu hiện suy giảm trí nhớ gần, khó ghi nhớ các cuộc hẹn hoặc thông tin vừa học. Ngoài ra, có thể có biểu hiện giảm khả năng tập trung, giảm hiệu quả trong các hoạt động đòi hỏi xử lý thông tin như quản lý tài chính hoặc lập kế hoạch. Tuy nhiên, khả năng tự chăm sóc vẫn còn nguyên vẹn hoặc chỉ suy giảm rất nhẹ.
+
+Ngược lại, sa sút trí tuệ biểu hiện bằng suy giảm rõ rệt ở nhiều lĩnh vực nhận thức như trí nhớ, chú ý, ngôn ngữ, chức năng điều hành và nhận thức thị giác – không gian. Triệu chứng bao gồm: hay lặp câu, quên tên người quen, mất định hướng thời gian – không gian, khó khăn trong sử dụng từ ngữ hoặc theo dõi câu chuyện, lạc đường ngay cả ở nơi quen thuộc, thay đổi tính cách, và rối loạn hành vi như lo âu, kích động hoặc trầm cảm. Ở giai đoạn nặng, bệnh nhân mất hoàn toàn khả năng tự chăm sóc và phụ thuộc hoàn toàn vào người thân.
+
+### Chẩn đoán phân biệt
+
+Việc chẩn đoán cần phân biệt với các tình trạng như:
+
+-   **Trầm cảm nặng**: có thể gây ra "sa sút trí tuệ giả" với biểu hiện than phiền trí nhớ kém, nhưng thường hồi phục khi điều trị trầm cảm.
+
+-   **Thiếu hụt vitamin B12, suy giáp, rối loạn điện giải**: có thể gây ra triệu chứng tương tự nhưng cải thiện sau khi điều trị nguyên nhân.
+
+-   **Sảng (delirium)**: thường khởi phát cấp tính, dao động về mức độ tỉnh táo, thường có yếu tố khởi phát rõ (nhiễm trùng, thuốc).
+
+-   **Rối loạn tâm thần phân liệt, rối loạn lo âu mạn tính**: có thể ảnh hưởng đến nhận thức nhưng không có tiến triển mạn tính như sa sút trí tuệ.
+
+Chẩn đoán chính xác cần dựa vào khai thác bệnh sử, thăm khám thần kinh, các công cụ sàng lọc như MMSE, cùng với hình ảnh học thần kinh (CT, MRI) và xét nghiệm sinh hóa.
+
+### Diễn tiến lâm sàng
+
+MCI có diễn tiến đa dạng: một số trường hợp có thể ổn định nhiều năm, một số có thể phục hồi nếu nguyên nhân là thứ phát (như stress, thiếu B12), nhưng một tỉ lệ lớn sẽ tiến triển thành sa sút trí tuệ. Các nghiên cứu cho thấy khoảng 10–15% người MCI chuyển sang sa sút trí tuệ mỗi năm @Petersen2014.
+
+Sa sút trí tuệ là tình trạng không hồi phục và tiến triển dần theo thời gian. Bệnh thường trải qua 3 giai đoạn:
+
+-   **Giai đoạn nhẹ**: quên gần, giảm chú ý, rối loạn định hướng nhẹ
+
+-   **Giai đoạn trung bình**: giảm khả năng tự chăm sóc, lặp từ, mất khả năng giải quyết vấn đề, lạc đường
+
+-   **Giai đoạn nặng**: mất khả năng ngôn ngữ, liệt giường, phụ thuộc hoàn toàn, biến chứng nhiễm trùng, suy kiệt
+
+Thời gian sống trung bình từ lúc chẩn đoán đến tử vong dao động 6–10 năm, phụ thuộc thể bệnh, tuổi khởi phát, bệnh kèm và chăm sóc xã hội.
+
+### Điều trị và chăm sóc hỗ trợ
+
+Việc điều trị sa sút trí tuệ hiện nay chủ yếu mang tính chất triệu chứng và hỗ trợ, vì hầu hết các thể bệnh đều không có phương pháp chữa khỏi hoàn toàn. Mục tiêu điều trị bao gồm làm chậm tiến triển bệnh, kiểm soát triệu chứng hành vi, cải thiện chất lượng sống và hỗ trợ người chăm sóc.
+
+#### 1. Điều trị bằng thuốc
+
+-   **Chất ức chế cholinesterase** (donepezil, rivastigmine, galantamine): thường được sử dụng trong sa sút trí tuệ do Alzheimer hoặc thể Lewy. Các thuốc này giúp cải thiện triệu chứng nhận thức và hành vi ở mức độ nhẹ đến trung bình.
+
+-   **Memantine**: chất đối kháng NMDA, có thể dùng đơn độc hoặc phối hợp với thuốc cholinesterase trong giai đoạn trung bình đến nặng.
+
+-   **Thuốc kiểm soát hành vi**: bao gồm thuốc chống loạn thần (risperidone, quetiapine), thuốc chống trầm cảm (SSRIs), thuốc an thần nhẹ, nhưng cần sử dụng thận trọng vì nguy cơ tác dụng phụ ở người cao tuổi.
+
+#### 2. Điều trị không dùng thuốc
+
+-   **Trị liệu nhận thức** (cognitive stimulation therapy): gồm các hoạt động như luyện trí nhớ, trò chuyện nhóm, bài tập tư duy logic.
+
+-   **Can thiệp hoạt động chức năng**: hỗ trợ bệnh nhân giữ được khả năng tự chăm sóc càng lâu càng tốt thông qua phục hồi chức năng, hướng dẫn kỹ năng sinh hoạt.
+
+-   **Giáo dục và hỗ trợ người chăm sóc**: giúp giảm gánh nặng tâm lý và nâng cao hiệu quả chăm sóc dài hạn.
+
+#### 3. Chăm sóc dài hạn
+
+-   **Thiết kế môi trường an toàn**: tránh nguy cơ té ngã, lạc đường; tạo không gian quen thuộc, yên tĩnh, dễ định hướng.
+
+-   **Hỗ trợ dinh dưỡng và vận động**: duy trì thể trạng, tránh suy kiệt và biến chứng do nằm lâu.
+
+-   **Hỗ trợ giai đoạn cuối**: chăm sóc giảm nhẹ, điều trị triệu chứng, chuẩn bị tâm lý cho người thân.
+
+Mỗi thể lâm sàng có thể đáp ứng điều trị khác nhau. Ví dụ, bệnh nhân thể Lewy rất nhạy cảm với thuốc chống loạn thần, cần tránh dùng haloperidol. Trong khi đó, sa sút trí tuệ mạch máu cần kiểm soát chặt các yếu tố nguy cơ tim mạch để làm chậm tiến triển bệnh.
+
+### Tiêu chuẩn chẩn đoán theo DSM-5
+
+Theo DSM-5 @DSM5, rối loạn nhận thức được chia thành:
+
+-   **Rối loạn nhận thức nhẹ (Mild Neurocognitive Disorder)**: có bằng chứng về suy giảm nhẹ một hoặc nhiều lĩnh vực nhận thức (qua người thân hoặc test chuẩn hóa); không ảnh hưởng rõ rệt đến sinh hoạt hàng ngày; người bệnh có thể cần nỗ lực bù trừ.
+
+-   **Rối loạn nhận thức nặng (Major Neurocognitive Disorder)**: suy giảm rõ rệt, ảnh hưởng đến sinh hoạt độc lập, cần hỗ trợ trong hoạt động hàng ngày.
+
+Chẩn đoán cần loại trừ nguyên nhân khác như sảng, trầm cảm nặng, và cần xác định nguyên nhân nền nếu có thể (Alzheimer, mạch máu, thể hỗn hợp...).
+
+## Giới thiệu về bộ trắc nghiệm thần kinh nhận thức
+
+```{r}
+#| label: Bảng các trắc nghiệm
+#| message: false
+#| warning: false
+#| include: false
+#| paged-print: false
+# Dữ liệu bảng trắc nghiệm đã chuẩn hóa
+bo_test_vnca <- tibble::tibble(
+  STT = c(1, 2, 3, 3, 4, 4, 5, 5, 6, 7),
+  Linh_vuc = c(
+    "Sàng lọc chung sa sút trí tuệ (Global Dementia Screening)",
+    "Nhớ từ (Verbal Memory)",
+    rep("Tốc độ vận động thị giác (Visuomotor Speed)", 2),
+    rep("Nhớ từ (Verbal Memory)", 2),
+    rep("Sự chú ý (Attention)", 2),
+    "Ngôn ngữ (Language)",
+    "Xây dựng hình ảnh qua thị giác (Visuoconstruction)"
+  ),
+  Trac_nghiem = c(
+    "MMSE – Đánh giá trạng thái tâm thần tối thiểu",
+    "Nhớ danh sách từ (Word List Recall)",
+    "Trail Making Test A (TMT-A)",
+    "Trail Making Test B (TMT-B)",
+    "Nhớ lại có trì hoãn (Delayed Recall)",
+    "Nhận biết có trì hoãn (Delayed Recognition)",
+    "Đọc xuôi dãy số (Digit Span Forward)",
+    "Đọc ngược dãy số (Digit Span Backward)",
+    "Nói lưu loát từ về các con vật",
+    "Vẽ đồng hồ (Clock Drawing Test)"
+  ),
+  Diem_BT = c(
+    "≥ 26/30", "≥ 12/30",
+    "≤ 180 giây", "≤ 300 giây",
+    "≥ 4/10", "≥ 6/10",
+    "≥ 6/12", "≥ 4/12",
+    "≥ 9", "Từ 1 đến 6"
+  )
+)
+
+```
+
+### Bảng các trắc nghiệm thần kinh nhận thức trong bộ VNCA
+
+```{r}
+#| echo: false
+# Tạo flextable đẹp, có gộp dòng và fit khổ Word
+flextable(bo_test_vnca) %>%
+  set_caption("Bảng trắc nghiệm thần kinh nhận thức trong bộ VNCA") %>%
+  merge_v(j = c("STT", "Linh_vuc")) %>%
+  align(align = "center", part = "all") %>%
+  valign(j = c("STT", "Linh_vuc"), valign = "top") %>%
+  set_header_labels(
+    STT = "STT",
+    Linh_vuc = "Lĩnh vực",
+    Trac_nghiem = "Trắc nghiệm",
+    Diem_BT = "Điểm BT"
+  ) %>%
+  set_table_properties(width = 1, layout = "autofit")
+```
+
+### Mô tả các trắc nghiệm thần kinh nhận thức trong bộ VNCA
+
+-   **Sàng lọc chứng sa sút trí tuệ** sử dụng *Mini-Mental State Examination (MMSE)* là một trong những test được dùng thường xuyên nhất trong tầm soát SSTT. Nó bao gồm các nội dung về định hướng, chú ý, trí nhớ, ngôn ngữ và kĩ năng thị giác không gian. Tổng điểm đạt được từ 0 đến 30, với điểm càng thấp cho thấy càng suy giảm chức năng nhận thức nặng nề.
+
+-   **Nhớ từ** bao gồm danh sách 10 từ sẽ được lặp lại cho đối tượng 3 lần với tổng điểm là 30. Ba lần này nhằm khảo sát lần lượt là nhớ từ lại ngay, nhớ lại có trì hoãn, nhận biết có trì hoãn.
+
+-   **Tập trung chú ý** bao gồm *Digit span* (Nói lập lại dãy số), nói lại xuôi dãy số, nhằm khảo sát sự chú ý và trí nhớ gần (điểm từ 0 đến 14) và nói lại ngược dãy số, nhằm khảo sát sự chú ý và trí nhớ làm việc (điểm từ 0 đến 12). Người khảo sát sẽ đọc dãy số (1 số/giây) và yêu cầu đối tượng tham gia nói lại.
+
+-   **Vận động thị giác**: Bao gồm *Trail Making Tests A & B (TMT-A, TMT-B)* đánh giá sự tìm kiếm thị giác, dò tìm, tốc độ xử lý, sự linh hoạt thần kinh và chức năng điều hành.\
+    **TMT-A** yêu cầu đối tượng vẽ đường thẳng nối 25 con số trong vòng tròn theo thứ tự trên giấy.\
+    **TMT-B** có yêu cầu tương tự nhưng người làm phải thay đổi giữa chữ và số. Điểm được cho theo thời gian hoàn thành test, với giới hạn bình thường dưới 150 giây cho test TMT-A và 300 giây cho test TMT-B.
+
+-   **Ngôn ngữ**: *Nói lưu loát từ về con vật* khảo sát sự lưu loát ngôn ngữ, cụ thể là đưa ra lời nói, trí nhớ ngữ nghĩa và ngôn ngữ. Đối tượng phải nói ra nhiều tên con vật khác nhau nhất có thể trong 60 giây. Điểm được cho theo mỗi con vật nêu ra, điểm càng cao cho thấy chức năng ngôn ngữ càng tốt.
+
+-   **Thị giác không gian**: *Trắc nghiệm vẽ đồng hồ* được dùng để khảo sát khả năng xây dựng hình ảnh qua thị giác. Người làm được cung cấp một tờ giấy trắng và yêu cầu vẽ trên đó một đồng hồ, có đầy đủ các số giờ và vẽ kim đồng hồ chỉ 11 giờ 10 phút. Kết quả được đánh giá từ 1 đến 6 điểm theo thang **Shulman**.\
+    Trắc nghiệm vẽ đồng hồ gián tiếp đánh giá sự chú ý phức tạp, chức năng điều hành, học tập và trí nhớ, chức năng ngôn ngữ, giác quan vận động và nhận thức xã hội — vốn là những lĩnh vực nhận thức giúp đánh giá tổng thể.
+
+### Các nghiên cứu trong và ngoài nước
+
+### Mối tương quan giữa MMSE và bài Nhớ từ (Words List Recall)
+
+Bài **nhớ từ** (gồm nhớ lại ngay, trì hoãn và nhận biết có trì hoãn) phản ánh trí nhớ gần và trí nhớ dài hạn – các lĩnh vực bị ảnh hưởng sớm trong sa sút trí tuệ.
+
+Tại Việt Nam, Nguyễn Thị Hạnh và cộng sự cho thấy MMSE có tương quan trung bình với **nhớ từ trì hoãn** (r = 0,59) và yếu hơn với **nhớ lại ngay** (r = 0,42) @nguyen2020mmse.\
+Trần Hồng Quân và đồng nghiệp cũng ghi nhận rằng người có MMSE thấp thường chỉ nhớ được dưới 5 từ sau 10 phút trì hoãn, phản ánh suy giảm trí nhớ dài hạn rõ rệt @tran2021tri_nho. Nhiều nghiên cứu quốc tế cũng khẳng định mối liên hệ này: - Nghiên cứu của Ivnik và cộng sự (1990) ghi nhận MMSE tương quan cao với **delayed recall** (r ≈ 0,60) trong bộ AVLT @ivnik1990avlt. - Welsh et al. (1994) cho thấy bài **CERAD word list recall** có thể dự đoán tốt mức độ suy giảm MMSE ở bệnh nhân Alzheimer nhẹ (r ≈ 0,68) @welsh1994cerad. - Sarazin và cộng sự (2007) nhận thấy rằng giảm điểm word list recall là chỉ dấu sớm của Alzheimer và có mối tương quan mạnh với MMSE trong suốt quá trình tiến triển bệnh @sarazin2007amnestic.
+
+Những kết quả này củng cố giá trị của bài **nhớ từ trì hoãn** như một chỉ báo nhận thức nhạy trong sàng lọc sa sút trí tuệ và cho thấy sự đồng thuận giữa MMSE với các bài kiểm tra trí nhớ chuyên sâu.

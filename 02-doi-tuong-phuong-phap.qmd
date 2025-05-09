@@ -1,3 +1,117 @@
-# 02 Doi Tuong Phuong Phap
+```{r}
+source(here::here("R", "packages.R"))
+```
 
-_Nội dung đang cập nhật..._
+# ĐỐI TƯỢNG VÀ PHƯƠNG PHÁP NGHIÊN CỨU
+
+## Dân số mục tiêu:
+
+Bệnh nhân sa sút trí tuệ trong bối cảnh ngoại trú ở các khoa – phòng khám lâm sàng chuyên về trí nhớ và sa sút trí tuệ.
+
+## Dân số chọn mẫu:
+
+Bệnh nhân đến khám và điều trị tại phòng khám thuộc Đơn vị trí nhớ và sa sút trí tuệ, bệnh viện 30-4.
+
+### Cỡ mẫu:
+
+Cỡ mẫu tối thiểu cho nghiên cứu được xác định theo công thức ước lượng một tỷ lệ:
+
+$$
+  n = \frac{Z_{(1 - \alpha/2)}^2 \cdot p(1 - p)}{\varepsilon^2}
+$$
+
+Trong đó:
+
+-   $n$: cỡ mẫu cần thiết
+-   $\alpha$: mức ý nghĩa thống kê, chọn $\alpha = 0.05$
+-   $Z_{(1 - \alpha/2)} = 1.96$: giá trị Z tương ứng với mức tin cậy 95%
+-   $p$: tỷ lệ điều trị hiệu quả. Theo nghiên cứu của Schroeder RW, tỷ lệ trắc nghiệm thần kinh nhận thức phát hiện bệnh nhân sa sút trí tuệ là **75%**, nên chọn $p = 0.75$
+-   $\varepsilon = 0.05$: sai số chấp nhận trong nghiên cứu
+
+Thay vào công thức:
+
+$$
+  n = \frac{(1.96)^2 \cdot 0.75 \cdot (1 - 0.75)}{(0.05)^2} = \frac{3.8416 \cdot 0.1875}{0.0025} = \frac{0.7203}{0.0025} \approx 288.12
+$$
+
+**→ Cỡ mẫu cần thiết là ít nhất 288 bệnh nhân.**
+
+### Kỹ thuật chọn mẫu:
+
+Đối với hồi cứu: Phương pháp chọn mẫu được sử dụng là phương pháp chọn mẫu dựa vào danh sách bệnh nhân đang điều trị tại khoa, đối chiếu các tiêu chuẩn chọn vào và tiêu chuẩn loại trừ với hồ sơ bệnh án có sẵn. Sau đó, trong số những bệnh nhân hoàn toàn phù hợp với tiêu chuẩn chọn vào và không có bất kỳ tiêu chuẩn loại trừ nào sẽ được chọn.
+
+Đối với tiến cứu, những bệnh nhân được chọn lựa sẽ được tiến hành xin đồng thuận tham gia nghiên cứu và thu thập số liệu vào ngày khám bệnh kế tiếp gần nhất.
+
+## Các biến số nghiên cứu
+
+```{r}
+#| include: false
+data <- data.frame(
+  Ten_bien = c(
+    "Tuổi", "Giới tính", "Tuổi khởi phát", "Thời gian phát hiện bệnh", 
+    "Trình độ học vấn", "Nghề nghiệp trước đây", "Tình trạng hôn nhân", 
+    "Tiền sử gia đình", "Bệnh đi kèm", "Thang MMSE", "Tiểu thang MMSE",
+    "Word List", "Digit span forward", "Digit span backward",
+    "TMT-A", "TMT-B", "Khảo sát sự lưu loát ngôn ngữ.",
+    "Trắc nghiệm vẽ đồng hồ", "Chẩn đoán", "Giai đoạn"
+  ),
+  Loai_bien = c(
+    "Định lượng", "Định tính", "Định tính", "Định lượng", 
+    "Định tính", "Định tính", "Định tính", "Định tính", "Định tính", 
+    "Định lượng", "Định lượng", "Định lượng", "Định lượng", "Định lượng", 
+    "Định tính", "Định tính", "Định lượng", "Định lượng", "Định tính", "Định tính"
+  ),
+  Gia_tri_don_vi = c(
+    "Năm", "Nam/Nữ", "Khởi phát sớm/khởi phát muộn", "Năm",
+    "Cấp 1, cấp 2, cấp 3, cao đẳng/đại học, không xác định", 
+    "Toàn thời gian, bán thời gian, về hưu", 
+    "Có chồng vợ, góa, ly thân/ly hôn", "Có bị SSTT", "Có, không", 
+    "Giá trị từ 0 - 30", "Tùy thuộc chức năng nhận thức", 
+    "Giá trị từ 0 – 30", "Giá trị từ 0 – 14", "Giá trị từ 0 – 12", 
+    "Thời gian đạt khi dưới 150 giây", "Thời gian đạt khi dưới 300 giây", 
+    "Số lượng các con vật người làm trắc nghiệm kể tên", 
+    "1 đến 6 điểm theo thang Shulman", "SCI, MCI và SSTT", 
+    "Giai đoạn nhẹ, trung bình, nặng"
+  )
+)
+
+```
+
+```{r}
+#| echo: false
+
+ft <- data %>%
+  flextable() %>%
+  set_header_labels(
+    Ten_bien = "Tên biến",
+    Loai_bien = "Loại biến",
+    Gia_tri_don_vi = "Giá trị / Đơn vị"
+  ) %>%
+  autofit() %>%
+  set_table_properties(width = 1, layout = "autofit") %>%
+  font(fontname = "Times New Roman", part = "all")  %>%
+  fontsize(size = 13, part = "all")
+
+ft
+
+```
+
+### Phương pháp tiến hành.
+
+Bệnh nhân tới khám tại Đơn vị trí nhớ và sa sút trí tuệ Bệnh viện 30-4 được Bác sĩ thần kinh chỉ định làm trắc nghiệm thần kinh nhận thức bởi các nhân viên Y tế được huấn luyện theo quy trình thực hiện bộ test chuẩn. - Phương pháp hồi cứu. Tra cứu hồ sơ bệnh án tất cả những bệnh nhân được khám tại đơn vị từ 4/2019 tới thời điểm nghiên cứu. Đánh giá lại bộ test nếu bệnh nhân tái khám trong thời gian nghiên cứu. - Phương pháp tiến cứu. Bệnh nhân đến khám trong thời gian nghiên cứu được thăm khám, làm test, chẩn đoán và đánh giá mức độ sa sút trí tuệ tên lâm sàng. Nghiên cứu đánh giá Đánh giá mối tương quan giữa MSSE và các test khác trong bộ Test thần kinh nhận thức khác, tỷ lệ hoàn thành Test thần kinh nhận thức đối với suy giảm nhận thức nhẹ và Sa sút trí tuệ. Đánh giá mối tương quan phân độ sa sút trí tuệ ở thang điểm MMSE và phân độ sa sút trí tuệ trên lâm sàng.
+
+## Phương pháp và công cụ đo lường, thu thập số liệu
+
+-   Nhập liệu và quản lý dữ liệu bằng phần mềm SPSS 20, xử lý số liệu bằng phần mềm R 4.2.3 (Packages sử dụng trong nghiên cứu: table1, dplyr, ggplot2, boot, simpleboot, afex.)
+-   Mô tả các biến định lượng: bằng trung bình, độ lệch chuẩn, giá trị nhỏ nhất, giá trị lớn nhất (phân bố chuẩn), hoặc trung vị và tứ phân vị (không phân phối chuẩn), sử dụng bootstrap 10.000 lượt để tính khoảng tin cậy 95%.
+-   Mô tả các biến định tính: bằng tần số và tỷ lệ phần trăm.
+-   So sánh giá trị trung bình ở các nhóm dùng kiểm định Independent Sample t-test..
+-   So sánh sự khác biệt giữa các tỷ lệ với các biến định tính dùng kiểm định Chi bình phương (χ2), hoặc kiểm định Fisher's Exact.
+-   Đánh giá mối liên quan các giữa biến định lượng: MMSE các trắc nghiệm khác, sử dụng hệ số tương quan Pearson (phân bố chuẩn), hoặc sử dụng hệ số tương quan Spearman (không phân phối chuẩn). Hệ số tương quan (r) được đánh giá như sau: • \|r\| ≥ 0, 7: Tương quan chặt • \|r\| = 0, 5- 0,7: Tương quan khá chặt • \|r\| ≥ 0, 3 – 0,5: Tương quan vừa • \|r\| \< 0,3: Tương quan yếu • \|r\| =0 Không tương quan
+-   Đánh giá mức độ hoàn thành làm Test thần kinh nhận thức bằng tần số và tỷ lệ phần trăm.
+-   Đánh giá mối liên quan các giữa phân loại bệnh theo MMSE và phân loại bệnh trên lâm sàng dùng kiểm định Chi bình phương (χ2), hoặc kiểm định Fisher's Exact. Đạo đức nghiên cứu
+-   Nghiên cứu được thông qua hội đồng Đạo đức đối với nghiên cứu Y sinh.
+-   Đây là nghiên cứu quan sát, không can thiệp vào quá trình điều trị bệnh nhân, các hoạt động chẩn đoán và điều trị hoàn toàn tuân theo phác đồ của Bệnh viện.
+-   Mọi thông tin liên quan đến bệnh nhân sẽ được bảo mật. Tác giả nghiên cứu tuân thủ quy trình nghiên cứu
+
+### Đạo đức trong nghiên cứu
