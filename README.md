@@ -43,3 +43,7 @@ Luận văn phân tích dữ liệu về **suy giảm nhận thức và sa sút 
 
 # 10/5/2025
 - Thậy tuyệt có thể sử dụng cùng dự án trên mac và windows mà không cần dùng google drvie sync.
+
+Sau khi cấu hình git git config --global --list
+
+Git giờ đã biết tôi là henrydo, và GitHub sẽ tự động gắn commit của tôi vào tài khoản đúng, hiển thị ảnh đại diện, tên đầy đủ như trên GitHub Web. (Hy vọng push thử)
