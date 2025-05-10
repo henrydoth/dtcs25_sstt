@@ -97,3 +97,50 @@ Bàn luận: Khả năng ghi nhớ và nhận biết trong sa sút trí tuệ Tr
 Trung bình điểm "Nhớ lại ngay" là `r round(mean(df$nholai_ngay, na.rm=TRUE), 1)`, khi phân tích theo nhóm MMSE, nhóm Suy giảm nhận thức nhẹ đạt trung bình `r round(mean(df$nholai_ngay[df$mmse_group == 'Suy giảm nhận thức nhẹ'], na.rm=TRUE), 1)`, trong khi nhóm Sa sút trí tuệ trung bình chỉ còn `r round(mean(df$nholai_ngay[df$mmse_group == 'Sa sút trí tuệ trung bình'], na.rm=TRUE), 1)` Điều này cho thấy sự tổn thương tiến triển của trí nhớ ngắn hạn – vốn phụ thuộc vào hoạt động của thùy thái dương giữa và hồi hải mã.
 
 Những kết quả này khẳng định tầm quan trọng của việc đánh giá trí nhớ ngắn hạn và trung hạn trong chẩn đoán sớm và phân biệt các mức độ sa sút trí tuệ, từ đó hỗ trợ xây dựng kế hoạch can thiệp phù hợp.
+
+### Các test thần kinh nhận thức khác.
+**Tổng quan về vai trò của MMSE và các trắc nghiệm thần kinh nhận thức**
+
+Thang điểm MMSE (Mini-Mental State Examination) là một trong những công cụ phổ biến và lâu đời nhất trong đánh giá rối loạn nhận thức. Với cấu trúc ngắn gọn, dễ thực hiện, MMSE giúp sàng lọc và theo dõi tiến triển sa sút trí tuệ (SSTT) trong nhiều bối cảnh lâm sàng. Tuy nhiên, MMSE không phải là công cụ toàn diện. Đặc biệt trong giai đoạn sớm như suy giảm nhận thức nhẹ (MCI), MMSE có thể bỏ sót các biểu hiện suy giảm ở các vùng chức năng đặc hiệu như trí nhớ trì hoãn, điều hành hay ngôn ngữ.
+
+Trong khi đó, các trắc nghiệm thần kinh nhận thức chuyên biệt như TMT-A, TMT-B, Word List Recall, Digit Span, bài Vẽ đồng hồ hay Lưu loát ngôn ngữ đóng vai trò bổ sung quan trọng. Những công cụ này không chỉ tăng cường độ nhạy trong chẩn đoán mà còn cho phép phân tích chi tiết các khía cạnh của chức năng nhận thức, từ đó định hướng phân loại lâm sàng và can thiệp phù hợp.
+
+Tại Việt Nam, bộ trắc nghiệm VnCA (Vietnamese Cognitive Assessment) do Hội VnADA và Bệnh viện 30-4 phát triển, đã hiệu chỉnh các test quốc tế để phù hợp ngôn ngữ – văn hóa. Điều này giúp đánh giá chính xác hơn trong bối cảnh người Việt, tránh sai số do rào cản ngôn ngữ và trình độ học vấn – yếu tố từng được ghi nhận làm sai lệch MMSE ở người học vấn thấp @mccauley2023developing.
+
+**So sánh và diễn giải kết quả nghiên cứu hiện tại**
+
+Kết quả nghiên cứu tại Đơn vị Trí nhớ – Bệnh viện 30-4 cho thấy ở nhóm SSTT, MMSE phản ánh khá tốt mức độ tổn thương nhận thức toàn thể, có liên hệ chặt chẽ với nhiều trắc nghiệm chuyên biệt trong bộ VnCA. Đây là một phát hiện đáng chú ý, củng cố giá trị thực tiễn của MMSE khi được sử dụng song song với các công cụ chuyên sâu. Trong các trắc nghiệm, mối tương quan nổi bật nhất là giữa MMSE với các test đo trí nhớ, ngôn ngữ và chức năng điều hành – những lĩnh vực bị ảnh hưởng sớm trong nhiều thể sa sút trí tuệ. Các nghiên cứu quốc tế như của Sarazin và Ivnik đều cho thấy MMSE có tương quan cao với các thước đo trí nhớ, ngôn ngữ và chức năng điều hành ở bệnh nhân SSTT @sarazin2007amnestic; @ivnik1990avlt.
+
+Tuy nhiên, ở nhóm MCI, MMSE thể hiện rất kém trong việc phát hiện các rối loạn tinh vi ở giai đoạn sớm. Những suy giảm nhận thức nhẹ thường xảy ra chọn lọc ở một vài lĩnh vực như trí nhớ gần, chú ý hoặc điều hành, trong khi MMSE lại đánh giá tương đối khái quát. Các nghiên cứu của McCauley và Nguyễn Thị Hạnh cũng cho thấy MMSE thiếu độ nhạy khi áp dụng ở giai đoạn MCI, đặc biệt ở người có trình độ học vấn cao hoặc khả năng bù trừ tốt @mccauley2023developing; @nguyen2020mmse.
+
+Điều quan trọng là bộ trắc nghiệm VnCA đã chứng minh được khả năng phát hiện những thay đổi nhận thức tinh vi thông qua việc kết hợp nhiều bài test khác nhau và đánh giá đa chiều. Trong nhóm SSTT, mối tương quan rõ rệt giữa MMSE và các trắc nghiệm như lưu loát ngôn ngữ, trí nhớ trì hoãn, bài vẽ đồng hồ cho thấy các test này không chỉ hỗ trợ MMSE mà còn có giá trị bổ sung quan trọng trong lượng giá toàn diện. Ngược lại, ở nhóm MCI, sự vắng mặt của mối liên hệ chặt chẽ giữa MMSE và các test này càng cho thấy vai trò thiết yếu của việc triển khai song song các test chuyên biệt để không bỏ sót những biểu hiện sớm của thoái hóa nhận thức.
+
+**So sánh với các nghiên cứu trong và ngoài nước**
+
+Trong nghiên cứu hiện tại tại Bệnh viện 30-4, các trắc nghiệm như nhớ lại trì hoãn, nhận biết trì hoãn, lưu loát ngôn ngữ và vẽ đồng hồ cho thấy mối tương quan mạnh với MMSE ở nhóm bệnh nhân sa sút trí tuệ (SSTT), trong khi ở nhóm MCI thì tương quan rất yếu hoặc không có. Kết quả này tương đồng với nhiều nghiên cứu quốc tế trước đó.
+
+Cụ thể, nghiên cứu của Sarazin và cộng sự (2007) ghi nhận rằng các bài kiểm tra trí nhớ trì hoãn (delayed recall) có thể phát hiện sớm các biểu hiện của bệnh Alzheimer, đồng thời có tương quan cao với MMSE ở các giai đoạn sau của bệnh. Tương tự, Ivnik et al. (1990) chứng minh rằng bài kiểm tra trí nhớ AVLT có liên hệ đáng kể với MMSE ở bệnh nhân SSTT, nhưng không có ý nghĩa ở nhóm MCI. Welsh và cộng sự (1994) cũng cho thấy rằng MMSE phản ánh tương đối chính xác mức độ suy giảm nhận thức ở giai đoạn Alzheimer nhẹ, đặc biệt khi đi kèm với bài kiểm tra nhớ từ CERAD.
+
+Tại Việt Nam, nghiên cứu của Nguyễn Thị Hạnh (2020) đã cho thấy MMSE có tương quan trung bình với nhớ từ trì hoãn (r = 0,59) và yếu hơn với nhớ lại ngay (r = 0,42), phù hợp với nhận định rằng MMSE không đủ độ nhạy để thay thế hoàn toàn các test chuyên biệt. Trần Hồng Quân và cộng sự cũng nhấn mạnh vai trò của bài Vẽ đồng hồ trong đánh giá SSTT, đặc biệt là ở giai đoạn trung bình – nặng, khi khả năng phối hợp thị giác – không gian và điều hành bị suy giảm.
+
+Như vậy, so với các nghiên cứu quốc tế, kết quả nghiên cứu tại Việt Nam phù hợp về mặt xu hướng, củng cố thêm giá trị của các trắc nghiệm chuyên biệt khi dùng song song với MMSE. Tuy nhiên, điểm nổi bật của nghiên cứu hiện tại là việc sử dụng bộ trắc nghiệm VnCA – một bộ công cụ đã được Việt hóa và điều chỉnh theo ngữ cảnh văn hóa – ngôn ngữ, giúp đánh giá chính xác hơn trong dân số người cao tuổi Việt Nam. Đây là một bước tiến quan trọng vì hầu hết các nghiên cứu quốc tế vẫn sử dụng các công cụ gốc tiếng Anh, đôi khi gây ra sai số khi áp dụng cho người bản địa không thông thạo ngôn ngữ.
+
+Sự tương đồng về mặt kết quả, nhưng đồng thời có sự điều chỉnh phù hợp với điều kiện trong nước (như mức học vấn thấp, khác biệt văn hóa), cho thấy rằng việc phát triển và sử dụng bộ test VnCA là hướng đi phù hợp, góp phần chuẩn hóa quy trình đánh giá nhận thức tại Việt Nam. Đồng thời, điều này cũng tạo điều kiện thuận lợi để hội nhập nghiên cứu quốc tế khi các công cụ được xây dựng dựa trên nền tảng tương đương về nội dung đánh giá.
+
+4. Diễn giải theo từng lĩnh vực nhận thức
+
+Về trí nhớ, các trắc nghiệm nhớ từ và nhớ lại trì hoãn đóng vai trò trung tâm trong phát hiện Alzheimer giai đoạn sớm. Trong SSTT, trí nhớ gần bị suy giảm rõ nên có sự tương quan với MMSE. Nhưng ở MCI, trí nhớ có thể mới suy giảm nhẹ nên MMSE không phát hiện được. Điều này phù hợp với báo cáo của Sarazin (2007) khi cho rằng MMSE không đủ nhạy để thay thế cho các test như AVLT hay Word List trong MCI @sarazin2007amnestic.
+
+Về chú ý và điều hành, trắc nghiệm Digit Span (xuôi – ngược), TMT-A và TMT-B cho thấy mức độ tổn thương chức năng kiểm soát và tốc độ xử lý thông tin. Chúng thường bị ảnh hưởng ở giai đoạn SSTT trung bình trở đi. Vì vậy, chỉ ở nhóm SSTT thì MMSE mới thể hiện mối liên hệ rõ ràng, còn ở MCI thì tương quan không rõ. Kết quả này tương đồng với quan sát lâm sàng và các dữ liệu trước đây về tiến trình tổn thương não vùng trán.
+
+Về chức năng ngôn ngữ và thị giác – không gian, bài lưu loát từ và vẽ đồng hồ đều cho thấy vai trò quan trọng trong phân biệt các giai đoạn suy giảm. Ở SSTT, sự phối hợp giữa ngôn ngữ, điều hành và thị giác – không gian bị tổn thương rõ, do đó có mối liên quan mạnh với MMSE. Điều này cũng được ghi nhận trong nghiên cứu của Trần Hồng Quân với bài vẽ đồng hồ và rối loạn ngôn ngữ trong SSTT nặng @tran2021tri_nho.
+
+**Ứng dụng thực hành lâm sàng và đề xuất triển khai**
+
+Từ các phân tích trên, có thể thấy rõ vai trò thiết yếu của các trắc nghiệm thần kinh nhận thức chuyên biệt trong hỗ trợ MMSE. Việc phát hiện rằng MMSE có tương quan chặt với nhiều trắc nghiệm trong SSTT nhưng yếu trong MCI mang nhiều hàm ý thực hành. Trước hết, MMSE vẫn là công cụ hữu ích trong đánh giá bệnh nhân SSTT giai đoạn trung bình và nặng. Tuy nhiên, với MCI, cần kết hợp MMSE với các trắc nghiệm chuyên biệt – như Word List Recall, TMT, Digit Span và bài Vẽ đồng hồ – để tăng độ nhạy và tránh bỏ sót chẩn đoán.
+
+Bộ công cụ VnCA hiện đang được triển khai tại Bệnh viện 30-4 đã phần nào đáp ứng được yêu cầu này khi tích hợp đầy đủ các trắc nghiệm đa lĩnh vực, có điều chỉnh văn hóa – ngôn ngữ. Đây là hướng đi phù hợp trong bối cảnh Việt Nam chưa có bộ test tiêu chuẩn hóa quốc gia. Việc xác định được những test có tương quan tốt với MMSE như lưu loát ngôn ngữ, nhớ từ, vẽ đồng hồ... giúp đơn vị lâm sàng có thể tinh gọn quy trình sàng lọc, tối ưu hóa thời gian và nguồn lực mà vẫn đảm bảo độ chính xác.
+
+Chúng tôi đề xuất sử dụng bộ test VnCA như một quy trình chuẩn hóa tại các đơn vị khám chuyên khoa lão khoa, thần kinh, phòng khám đa khoa, phòng khám trí nhớ, cũng như tại các phòng khám Y học cổ truyền (YHCT) nơi có tỷ lệ cao bệnh nhân lớn tuổi. Việc áp dụng quy trình sàng lọc định kỳ bằng bộ test VnCA có thể giúp phát hiện sớm những trường hợp suy giảm nhận thức chưa biểu hiện rõ trên lâm sàng, đồng thời hỗ trợ theo dõi tiến triển và đáp ứng điều trị một cách hệ thống. Đây là hướng tiếp cận khả thi và có tính ứng dụng cao trong điều kiện thực tế tại Việt Nam, đặc biệt khi kết hợp với mô hình chăm sóc người già dựa vào cộng đồng.
+
+Tóm lại, nghiên cứu củng cố vai trò của MMSE trong chẩn đoán SSTT và nêu bật giới hạn của nó trong phát hiện MCI. Việc sử dụng bộ trắc nghiệm chuyên biệt VnCA là cần thiết để đánh giá chính xác hơn tình trạng nhận thức ở bệnh nhân người Việt. Bộ công cụ này không chỉ giúp tăng độ nhạy sàng lọc mà còn có giá trị trong việc phân tầng bệnh và theo dõi tiến triển. Đây là cơ sở vững chắc để đề xuất đưa VnCA vào áp dụng rộng rãi trong lâm sàng thần kinh và lão khoa tại Việt Nam.
