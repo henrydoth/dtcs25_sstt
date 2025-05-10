@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ép dùng LF cho các file văn bản và mã nguồn
+*.md   text eol=lf
+*.qmd  text eol=lf
+*.yml  text eol=lf
+*.R    text eol=lf
+*.bib  text eol=lf
+*.cff  text eol=lf
+
+# Không xử lý các file nhị phân
+*.png  binary
+*.pdf  binary
+*.docx binary

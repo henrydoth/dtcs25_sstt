@@ -1,0 +1,21 @@
+
+cff-version: 1.2.0
+message: "Nếu bạn sử dụng dự án này, vui lòng trích dẫn như sau:"
+title: "Cơ sở sa sút trí tuệ (dtcs25_sstt)"
+authors:
+  - family-names: Do
+    given-names: Thanh Liem
+    orcid: https://orcid.org/0000-0002-1234-5678
+    affiliation: "Bệnh viện 30-4, Bộ Công an"
+date-released: 2025-05-10
+version: 0.1.0
+repository-code: https://github.com/henrydoth/dtcs25_sstt
+license: "CC-BY-4.0"
+keywords:
+  - dementia
+  - MMSE
+  - Quarto
+  - R
+  - traditional medicine
+  - sa sút trí tuệ
+type: project

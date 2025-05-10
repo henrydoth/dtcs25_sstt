@@ -1,0 +1,40 @@
+
+# GỢI Ý CÂU LỆNH COMMIT CHUẨN CHO DỰ ÁN NGHIÊN CỨU
+
+## 🧱 PHẦN MỞ ĐẦU / ĐẶT VẤN ĐỀ
+docs: viết xong phần đặt vấn đề
+docs: cập nhật dẫn nhập và lý do chọn đề tài
+docs: bổ sung mục tiêu nghiên cứu
+
+## 📚 TỔNG QUAN TÀI LIỆU
+docs: thêm nội dung về sa sút trí tuệ nhẹ và MMSE
+ref: bổ sung trích dẫn WHO và nghiên cứu trong nước
+docs: hoàn thiện tổng quan về các test nhận thức
+
+## 🧪 PHƯƠNG PHÁP NGHIÊN CỨU
+docs: cập nhật thiết kế nghiên cứu và đối tượng
+docs: mô tả biến số và công cụ thu thập
+docs: hoàn chỉnh phần xử lý và phân tích số liệu
+code: thêm khối xử lý dữ liệu bằng dplyr
+
+## 📊 KẾT QUẢ
+results: thêm bảng mô tả nhân khẩu học
+results: phân tích MMSE theo nhóm tuổi
+viz: tạo biểu đồ hộp cho điểm MMSE
+viz: vẽ biểu đồ phân loại lâm sàng vs MMSE
+
+## 💬 BÀN LUẬN
+docs: hoàn thiện phân tích kết quả theo nhóm giới tính
+docs: bổ sung so sánh kết quả với nghiên cứu trước đây
+
+## ✅ KẾT LUẬN – KIẾN NGHỊ
+docs: viết kết luận và ý nghĩa ứng dụng
+docs: thêm phần hạn chế và hướng nghiên cứu tiếp theo
+
+## ⚙️ KỸ THUẬT – SETUP
+setup: cập nhật .gitignore bỏ file tạm
+setup: cấu hình Quarto render Word theo chuẩn Times New Roman
+ref: thêm tài liệu vào BibTeX và kiểm tra trùng lặp
+
+## 🎁 KẾT HỢP
+docs, results: viết bàn luận và cập nhật bảng mô tả học vấn
