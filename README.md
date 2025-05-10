@@ -39,3 +39,7 @@ Luận văn phân tích dữ liệu về **suy giảm nhận thức và sa sút 
 │   └── ama-brackets.csl                # Chuẩn AMA11
 ├── image/                              # Hình minh hoạ, biểu đồ
 ├── output/                             # File Word xuất bản
+
+
+# 10/5/2025
+- Thậy tuyệt có thể sử dụng cùng dự án trên mac và windows mà không cần dùng google drvie sync.
