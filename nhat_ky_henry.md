@@ -16,4 +16,5 @@ project dementia, creat thesis book with two versions
 - Kiểm tra nước, điện.
 - Viết được bàn luận về mối liên quan mmse và các test thần kinh nhận thức khác
 - Tâm trạng vui 
+- Tối tự nhiên lo vụ lý lịch
 
