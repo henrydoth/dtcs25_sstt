@@ -47,3 +47,4 @@ Luận văn phân tích dữ liệu về **suy giảm nhận thức và sa sút 
 Sau khi cấu hình git git config --global --list
 
 Git giờ đã biết tôi là henrydo, và GitHub sẽ tự động gắn commit của tôi vào tài khoản đúng, hiển thị ảnh đại diện, tên đầy đủ như trên GitHub Web. (Hy vọng push thử)
+henrydoth chứ không phải henrydo
