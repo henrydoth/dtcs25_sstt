@@ -3,7 +3,10 @@ title: "Kiến nghị"
 unnumbered: true
 ---
 
+Dựa trên các kết quả nghiên cứu và phân tích bàn luận, chúng tôi đề xuất một số kiến nghị quan trọng nhằm nâng cao hiệu quả sàng lọc, chẩn đoán và theo dõi suy giảm nhận thức tại Việt Nam. Trước hết, cần khẳng định rằng bộ trắc nghiệm thần kinh nhận thức VnCA là công cụ có giá trị thực tiễn cao, đã được nội địa hóa phù hợp với ngôn ngữ và văn hóa người Việt, có khả năng phát hiện các rối loạn nhận thức từ giai đoạn sớm như MCI cho đến sa sút trí tuệ rõ ràng. Do đó, **chúng tôi kiến nghị nên chuẩn hóa và áp dụng rộng rãi bộ VnCA như một quy trình đánh giá nhận thức tiêu chuẩn trong thực hành lâm sàng**.
 
-Kien_Nghi
+Bộ test VnCA cần được triển khai thường quy tại các **đơn vị chuyên khoa lão khoa, khoa thần kinh, phòng khám trí nhớ, phòng khám đa khoa và các cơ sở y học cổ truyền** – nơi có đông đảo bệnh nhân cao tuổi. Ngoài ra, cần tăng cường công tác **đào tạo, tập huấn cho nhân viên y tế** tại các tuyến y tế cơ sở về kỹ năng thực hiện và diễn giải kết quả trắc nghiệm, nhằm đảm bảo tính thống nhất và độ tin cậy giữa các điểm khảo sát.
 
-_Nội dung đang cập nhật..._
+Bên cạnh việc ứng dụng lâm sàng, bộ VnCA cũng cần được **đánh giá và hiệu chỉnh liên tục thông qua các nghiên cứu đa trung tâm**, nhằm cập nhật dữ liệu chuẩn hóa theo độ tuổi, trình độ học vấn và vùng miền. Từ đó tiến đến việc xây dựng **bộ tiêu chuẩn quốc gia** về đánh giá chức năng nhận thức cho người Việt Nam – một điều hiện nay vẫn còn thiếu.
+
+Cuối cùng, việc lồng ghép VnCA vào **mô hình quản lý bệnh mạn tính và chăm sóc sức khỏe người cao tuổi tại cộng đồng** cũng là một hướng đi cần thiết. Việc sàng lọc sớm các rối loạn nhận thức tại **trạm y tế, cơ sở điều dưỡng, trung tâm chăm sóc người già** sẽ góp phần giảm gánh nặng bệnh tật, nâng cao chất lượng sống và tạo tiền đề cho can thiệp sớm, đúng lúc.
