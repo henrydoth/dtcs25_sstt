@@ -1,6 +1,42 @@
-.Rproj.user
+# ==== HỆ ĐIỀU HÀNH ====
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==== R & RStudio ====
+
 .Rhistory
 .RData
 .Ruserdata
+.Rapp.history
+.Rproj.user/
+*.Rproj
 
-/.quarto/
+# ==== QUARTO ====
+
+*.html
+*.pdf
+*.docx
+*.utf8.md
+*.knit.md
+*_files/
+*_cache/
+
+# Bookdown / Quarto artifacts
+_bookdown_files/
+_book/
+_site/
+docs/
+
+# ==== JUPYTER (nếu có) ====
+
+.ipynb_checkpoints/
+
+# ==== THƯ MỤC OUTPUT (nếu có) ====
+
+output/
