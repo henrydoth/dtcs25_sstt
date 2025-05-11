@@ -17,10 +17,16 @@ MỤC LỤC
     - [Chú đại bi](#chú-đại-bi)
 - [English songs](#english-songs)
   - [Heaven](#heaven)
+- [Thử thêm heading 1](#thử-thêm-heading-1)
+  - [Thử thêm heading 2](#thử-thêm-heading-2)
+    - [Thử thêm heading 3](#thử-thêm-heading-3)
 <!-- TOC end -->
 
 
+
+
 # Ghi chú sript quan trọng
+
 - Rscript R/toc.R
 
 # Hebrew songs
@@ -28,6 +34,7 @@ MỤC LỤC
 ## Meditative songs
 
 ### Ana kiboach
+
 אָנָּא, אָנָּא בְּכֹחַ
 Ana bekoach,
 We beg thee, with the strength
@@ -97,6 +104,7 @@ Oh knower of mysteries
 
 
 ### Nafshi
+
 נַפְשִׁי, נַפְשִׁי, חָמְדָה
 ,חָמְדָה בְּצֵל יָדֶךָ
 אוֹי לָדַעַת, אוֹי לָדַעַת
@@ -198,9 +206,11 @@ is not to be afraid at all.
 [Tới danh mục](# Danh mục) 
 
 #	Chinese language
+
 ##	Chinese songs
 
 ### 大悲咒- 全文
+
 南無·喝囉怛那·哆囉夜耶。 (1)
 ná mó ·hé là dá nā ·duō là yà yē。
 南無·阿唎耶。 (2)
@@ -373,6 +383,7 @@ sā pó hē。
 [Tới danh mục](# Danh mục) 
 
 ### Da bei zhou pin yin
+
 (1)南无-喝啰怛那-哆啰夜耶。
 ná mó -hé là dá nā -duō là yà yē。
 1. Nam Mô Hắc Ra Đát Na Đa Ra Dạ Da
@@ -629,7 +640,9 @@ suō pó hē。
 ##	Chinese poems.
 
 ###  賊退示官吏  
+
 ####  Han yu
+
 昔歲逢太平，
 山林二十年。
 泉源在庭戶，
@@ -684,6 +697,7 @@ suō pó hē。
 
 
 ####  Yue yu
+
 Tặc thoái thị quan lại
 Tích tuế phùng thái bình,
 Sơn lâm nhị thập niên.
@@ -711,6 +725,7 @@ Tương gia tựu ngư mạch,
 Quy lão giang hồ biên.
 
 ####   Yue yu yi
+
 Năm xưa gặp thời thái bình,
 Ta ở chốn rừng núi hai mươi năm
 Nguồn suối ở ngay sân nhà,
@@ -738,6 +753,7 @@ Về dưỡng già ở ven sông.
 
 [Tới danh mục](# Danh mục) 
 ###  同從弟南齋玩月憶山陰崔少府 
+
 ####  Hanyu
 
 高臥南齋時，
@@ -752,6 +768,7 @@ Về dưỡng già ở ven sông.
 微風吹蘭杜。
 
 ####  Pin yin
+
 Gāo wò nán zhāi shí,
  kāi wéi yuèchū tǔ.
  Qīnghuī dànshuǐ mù,
@@ -764,6 +781,7 @@ Gāo wò nán zhāi shí,
  wéi fēngchuī lán dù.
 
 ####  yue yu
+
 Đồng tòng đệ Nam Trai ngoạn nguyệt ức Sơn Âm Thôi thiếu phủ
 Cao ngoạ Nam Trai thì,
 Khai duy nguyệt sơ thổ.
@@ -777,6 +795,7 @@ Thiên lý kỳ như hà,
 Vi phong xuy lan đỗ.
 
 ####  Yue yu  yi
+
 Này lúc nằm khểnh ở Nam Trai,
 Vén màn thấy trăng vừa mới nhô lên.
 Ánh sáng trong trẻo chan hoà cây cối và mặt nước,
@@ -984,7 +1003,9 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 [Tới danh mục](# Danh mục) 
 
 # English songs
+
 ## Heaven
+
 Oh thinkin' about all our younger years
 There was only you and me
 We were young and wild and free
@@ -1032,4 +1053,14 @@ We're in heaven, heaven
 Whoa, oh, oh!
 You're all that I want
 You're all that I need
+
+# Thử thêm heading 1
+
+bla
+## Thử thêm heading 2
+
+bla bla
+### Thử thêm heading 3
+
+bla bla bla
 
