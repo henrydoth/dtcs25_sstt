@@ -1,4 +1,4 @@
-MỤC LỤC
+## MỤC LỤC
 [TOC]
 <!-- TOC start -->
 - [Ghi chú sript quan trọng](#ghi-chu-sript-quan-trong)
@@ -22,6 +22,11 @@ MỤC LỤC
     - [Thử thêm heading 3](#thu-them-heading-3)
 <!-- TOC end -->
 *go to [MỤC LỤC](#muc-luc)*
+
+
+*go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 
@@ -105,6 +110,8 @@ And hear our shouts
 yode’a ta’alumot  
 Oh knower of mysteries  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 
@@ -119,6 +126,8 @@ Oh knower of mysteries
 כִּי נַפְשִׁי תַעֲרֹג  
 כִּי נַפְשִׁי תַעֲרֹג אֵלֶיךָ  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 Nafshi chamda betsel yadecha,  
@@ -126,12 +135,16 @@ Lada'at kol raz sodecha.
  Ye'erav na sichi alecha,  
 Ki nafshi ta'arog elecha.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 In the shadow of Thy hands my soul desired,  
 To know all Thy mysteries and secrets.  
 [Tới danh mục](# Danh mục)   
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 
@@ -170,6 +183,8 @@ I will ask for the best to you
 למען אחי ורעי אדברה נא שלום בך  
 למען בית ה' אלוקינו אבקשה טוב לך  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ### Kol Ha'olam kuloKo
@@ -179,6 +194,8 @@ I will ask for the best to you
 גשר צר מאוד  
 גשר צר מאוד  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 כל העולם כלו  
@@ -186,16 +203,22 @@ I will ask for the best to you
 גשר צר מאוד  
 גשר צר מאוד  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 והעיקר והעיקר  
 לא לפחד כלל  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 
 Kol Ha'olam kulo  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 Kol Ha'olam kulo  
@@ -206,17 +229,23 @@ Kol Ha'olam kulo
 Gesher Tzar me'od  
 Gesher Tzar me'od  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 Veha'ikar veha'ikar  
 Lo lefajed lo lefajed klal  
 Veha'ikar veha'ikar lo lefajed klal  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 
 The whole world  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 The whole world  
@@ -224,18 +253,24 @@ is a very narrow bridge
 a very narrow bridge  
 a very narrow bridge  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 And the main thing to recall -  
 is not to be afraid -  
 not to be afraid at all.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 And the main thing to recall -  
 is not to be afraid at all.  
 [Tới danh mục](# Danh mục)   
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 #	Chinese language
@@ -413,10 +448,14 @@ bá tuó yě。
 娑婆訶。 (84)  
 sā pó hē。  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 [Tới danh mục](# Danh mục)   
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ### Da bei zhou pin yin
@@ -705,6 +744,8 @@ suō pó hē。
 將家就魚麥，  
 歸老江湖邊。  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ####  Pin yin
@@ -734,6 +775,8 @@ suō pó hē。
  jiāng jiā jiù yú mài,  
  guī lǎo jiānghú biān.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 
@@ -765,6 +808,8 @@ Dẫn can tự thích thuyền.
 Tương gia tựu ngư mạch,  
 Quy lão giang hồ biên.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ####   Yue yu yi
@@ -794,6 +839,8 @@ Ta nay muốn giao lại ấn tín,
 Dời nhà đến chốn có cá có thóc,  
 Về dưỡng già ở ven sông.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 [Tới danh mục](# Danh mục)   
@@ -812,6 +859,8 @@ Về dưỡng già ở ven sông.
 千里其如何，  
 微風吹蘭杜。  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ####  Pin yin
@@ -827,6 +876,8 @@ Gāo wò nán zhāi shí,
  Qiānlǐ qí rúhé,  
  wéi fēngchuī lán dù.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ####  yue yu
@@ -843,6 +894,8 @@ Thị dạ việt ngâm khổ.
 Thiên lý kỳ như hà,  
 Vi phong xuy lan đỗ.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ####  Yue yu  yi
@@ -859,6 +912,8 @@ Ngàn dặm xa xôi biết làm sao?
 Chỉ có cơn gió nhẹ thoảng mùi lan đỗ.  
 [Tới danh mục](# Danh mục)   
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ###  賊退示官吏  
@@ -888,6 +943,8 @@ Chỉ có cơn gió nhẹ thoảng mùi lan đỗ.
 將家就魚麥，  
 歸老江湖邊。  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 #### Yue yu
@@ -918,6 +975,8 @@ Dẫn can tự thích thuyền.
 Tương gia tựu ngư mạch,  
 Quy lão giang hồ biên.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 
@@ -948,6 +1007,8 @@ Ta nay muốn giao lại ấn tín,
 Dời nhà đến chốn có cá có thóc,  
 Về dưỡng già ở ven sông.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 ## Tiếng Việt
@@ -956,6 +1017,8 @@ Về dưỡng già ở ven sông.
 
 Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 1. Nam Mô Hắc Ra Đát Na Đa Ra Dạ Da  
@@ -963,6 +1026,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 3. Bà Lô Yết Đế Thước Bát Ra Da  
 4. Bồ Đề Tát Đỏa Bà Da  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 5. Ma Ha Tát Đỏa Bà Da  
@@ -971,11 +1036,15 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 8. Tát Bàn Ra Phạt Duệ  
 9. Số Đát Na Đát Tỏa  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 10. Nam Mô Tất Kiết Lật Đỏa Y Mông A Rị Da  
 11. Bà Lô Yết Đế Thất Phật Ra Lăng Đà Bà  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 12. Nam Mô Na Ra Cẩn Trì  
@@ -983,12 +1052,16 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 14. Tát Bà A Tha Đậu Du Bằng  
 15. A Thệ Dựng  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 16. Tát Bà Tát Đa (Na Ma Bà Tát Đa) Na Ma Bà Già  
 17. Ma Phạt Đạt Đậu  
 18. Đát Điệt Tha  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 19. Án A Bà Lô Hê  
@@ -996,6 +1069,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 21. Ca Ra Đế  
 22. Di Hê Rị  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 23. Ma Ha Bồ Đề Tát Đỏa  
@@ -1003,12 +1078,16 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 25. Ma Ra Ma Ra  
 26. Ma Hê Ma Hê Rị Đà Dựng  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 27. Cu Lô Cu Lô Yết Mông  
 28. Độ Lô Độ Lô Phạt Xà Da Đế  
 29. Ma Ha Phạt Xà Da Đế  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 30. Đà Ra Đà Ra  
@@ -1018,17 +1097,23 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 34. Mạ Mạ Phạt Ma Ra  
 35. Mục Đế Lệ  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 36. Y Hê Y Hê  
 37. Thất Na Thất Na  
 38. A Ra Sâm Phật Ra Xá Lợi  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 39. Phạt Sa Phạt Sâm  
 40. Phật Ra Xá Da  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 41. Hô Lô Hô Lô Ma Ra  
@@ -1037,6 +1122,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 44. Tất Rị Tất Rị  
 45. Tô Rô Tô Rô  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 46. Bồ Đề Dạ Bồ Đề Dạ  
@@ -1046,6 +1133,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 50. Địa Rị Sắc Ni Na  
 51. Ba Dạ Ma Na  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 52. Ta Bà Ha  
@@ -1053,6 +1142,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 54. Ta Bà Ha  
 55. Ma Ha Tất Đà Dạ  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 56. Ta Bà Ha  
@@ -1061,6 +1152,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 59. Ta Bà Ha  
 60. Na Ra Cẩn Trì  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 61. Ta Bà Ha  
@@ -1069,6 +1162,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 64. Tất Ra Tăng A - Mục Khê Da  
 65. Ta Bà Ha  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 66. Ta Bà Ma Ha A Tất Đà Dạ  
@@ -1077,6 +1172,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 69. Ta Bà Ha  
 70. Ba Đà Ma Yết Tất Đà Dạ  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 71. Ta Bà Ha  
@@ -1085,6 +1182,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 74. Ma Bà Lợi Thắng Yết Ra Dạ  
 75. Ta Bà Ha  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 76. Nam Mô Hắc Ra Đát na Đa Ra Dạ Da  
@@ -1093,6 +1192,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 79. Thước Bàn Ra Dạ  
 80. Ta Bà Ha  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 81. Án Tất Điện Đô  
@@ -1101,6 +1202,8 @@ Thiên thủ thiên nhãn, vô ngại Đại-bi tâm đà-la-ni.
 84. Ta Bà Ha  
 [Tới danh mục](# Danh mục)   
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 # English songs
@@ -1155,6 +1258,8 @@ Whoa, oh, oh!
 You're all that I want  
 You're all that I need  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 
 # Thử thêm heading 1
@@ -1164,5 +1269,7 @@ bla bla
 ### Thử thêm heading 3
 bla bla bla  
 *go to [MỤC LỤC](#muc-luc)*
+*go to [MỤC LỤC](#muc-luc)*
+
 
 

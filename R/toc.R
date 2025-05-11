@@ -44,7 +44,7 @@ update_typora_and_github_toc <- function(file = "README.md") {
   
   # 4. Tạo khối TOC mới
   toc_full <- c(
-    "MỤC LỤC",
+    "## MỤC LỤC",  # dùng heading để GitHub tạo anchor
     "[TOC]",
     "<!-- TOC start -->",
     headings$toc_line,
@@ -74,7 +74,7 @@ update_typora_and_github_toc <- function(file = "README.md") {
   
   # 7. Ghi đè vào file
   write_lines(lines_augmented, file)
-  cat("✅ Đã cập nhật TOC và thêm liên kết 'go to TOC' vào:", file, "\n")
+  cat("✅ Đã cập nhật TOC và liên kết 'go to TOC' trong:", file, "\n")
 }
 
 # 👉 Thực thi
