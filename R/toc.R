@@ -1,17 +1,16 @@
-# 🎯 Tạo TOC và chèn vào README.md, chuẩn link GitHub
+strip_accents <- function(text) {
+  iconv(text, from = "UTF-8", to = "ASCII//TRANSLIT")
+}
 
-# Hàm chuyển tiêu đề sang anchor kiểu GitHub
-make_github_anchor <- function(text) {
-  text <- gsub(":[^:]*:", "", text) # loại bỏ emoji nếu dùng dạng :emoji:
-  text <- iconv(text, from = "UTF-8", to = "ASCII//TRANSLIT") # bỏ dấu tiếng Việt
-  text <- gsub("[^A-Za-z0-9 -]", "", text) # bỏ ký tự đặc biệt
+slugify <- function(text) {
+  text <- strip_accents(text)
   text <- tolower(text)
-  text <- gsub("[[:space:]]+", "-", text) # khoảng trắng -> -
-  text <- gsub("^-|-$", "", text) # xóa dấu - đầu/cuối
+  text <- gsub(":[^:]*:", "", text)
+  text <- gsub("[^a-z0-9\\s-]", "", text)
+  text <- gsub("\\s+", "-", text)
   return(text)
 }
 
-# Hàm tạo TOC từ heading cấp 1–3
 create_toc_from_readme <- function(file) {
   lines <- readLines(file, warn = FALSE)
   toc_lines <- c("<!-- TOC start -->")
@@ -20,7 +19,7 @@ create_toc_from_readme <- function(file) {
     if (grepl("^#{1,3} ", line)) {
       level <- attr(regexpr("^#+", line), "match.length")
       heading_text <- gsub("^#+\\s+", "", line)
-      anchor <- make_github_anchor(heading_text)
+      anchor <- slugify(heading_text)
       indent <- switch(
         as.character(level),
         "1" = "- ",
@@ -37,16 +36,16 @@ create_toc_from_readme <- function(file) {
   return(toc_lines)
 }
 
-# Đường dẫn
+# Đường dẫn file README
 readme_file <- "README.md"
+
+# Đọc và cập nhật TOC
 toc_lines <- create_toc_from_readme(readme_file)
 readme_lines <- readLines(readme_file, warn = FALSE)
 
-# Tìm vị trí TOC cũ
 toc_start <- grep("<!-- TOC start -->", readme_lines)
 toc_end <- grep("<!-- TOC end -->", readme_lines)
 
-# Thay hoặc chèn TOC
 if (length(toc_start) == 1 && length(toc_end) == 1 && toc_start < toc_end) {
   new_readme <- c(
     readme_lines[1:(toc_start - 1)],
@@ -63,6 +62,5 @@ if (length(toc_start) == 1 && length(toc_end) == 1 && toc_start < toc_end) {
   )
 }
 
-# Ghi lại file
 writeLines(new_readme, readme_file)
 cat("✅ TOC đã được cập nhật trong README.md, chuẩn GitHub ✅\n")
