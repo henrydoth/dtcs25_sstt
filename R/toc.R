@@ -6,18 +6,18 @@ suppressPackageStartupMessages({
 })
 
 update_typora_and_github_toc <- function(file = "README.md") {
-  # 1. Đọc toàn bộ nội dung
+  # Đọc file gốc
   lines <- read_lines(file)
   
-  # 2. Xoá các dòng TOC cũ (cả tiêu đề MỤC LỤC, [TOC], và <!-- TOC ... -->)
+  # Xoá các dòng tiêu đề MỤC LỤC, [TOC], và khối TOC cũ
   lines <- lines[!str_detect(lines, "^#{0,6}\\s*MỤC LỤC\\s*$") & trimws(lines) != "[TOC]"]
   toc_start <- which(str_detect(lines, "<!-- TOC start -->"))
   toc_end   <- which(str_detect(lines, "<!-- TOC end -->"))
-  if (length(toc_start) > 0 && length(toc_end) > 0) {
+  if (length(toc_start) > 0 && length(toc_end) > 0 && toc_end >= toc_start) {
     lines <- lines[-c(toc_start:toc_end)]
   }
   
-  # 3. Tìm các heading cấp 1-3
+  # Tìm các heading cấp 1–3 để làm TOC
   headings <- tibble(
     line = lines,
     linenum = seq_along(lines)
@@ -28,8 +28,7 @@ update_typora_and_github_toc <- function(file = "README.md") {
       title = str_trim(str_remove(line, "^#{1,3}\\s+")),
       anchor = title %>%
         str_to_lower() %>%
-        stringi::stri_trans_general("Latin-ASCII") %>%
-        str_replace_all("[^a-z0-9\\s-]", "") %>%
+        str_replace_all("[^[:alnum:]\\s]", "") %>%
         str_replace_all("\\s+", "-")
     ) %>%
     mutate(
@@ -42,40 +41,31 @@ update_typora_and_github_toc <- function(file = "README.md") {
       toc_line = glue("{indent}- [{title}](#{anchor})")
     )
   
-  # 4. Tạo khối TOC mới
+  # Khối TOC gồm cả cho Typora ([TOC]) và GitHub (HTML comment)
   toc_full <- c(
-    "## MỤC LỤC",  # dùng heading để GitHub tạo anchor
+    "MỤC LỤC",
     "[TOC]",
     "<!-- TOC start -->",
     headings$toc_line,
     "<!-- TOC end -->"
   )
   
-  # 5. Chèn lại TOC vào đầu
-  lines <- c(toc_full, "", lines)
+  # Chèn TOC + dòng trắng
+  full_lines <- c(toc_full, "", lines)
   
-  # 6. Thêm dòng "go to TOC" sau mỗi đoạn văn
-  is_paragraph_line <- function(line) {
-    str_detect(line, "[[:alpha:]]") && !str_starts(line, "#") && !str_starts(line, "- ")
-  }
-  
-  lines_augmented <- c()
-  for (i in seq_along(lines)) {
-    line <- lines[i]
-    lines_augmented <- c(lines_augmented, line)
-    
-    is_para <- is_paragraph_line(line)
-    is_next_blank_or_end <- i == length(lines) || str_trim(lines[i + 1]) == ""
-    
-    if (is_para && is_next_blank_or_end) {
-      lines_augmented <- c(lines_augmented, "*go to [MỤC LỤC](#muc-luc)*", "")
+  # ✅ Thêm 2 dấu cách cuối mỗi dòng không trống và không phải tiêu đề markdown
+  full_lines <- sapply(full_lines, function(line) {
+    if (grepl("^\\s*$", line) || grepl("^#{1,6}\\s", line)) {
+      line
+    } else {
+      paste0(line, "  ")  # Thêm hai dấu cách để xuống dòng mềm trong GitHub
     }
-  }
+  })
   
-  # 7. Ghi đè vào file
-  write_lines(lines_augmented, file)
-  cat("✅ Đã cập nhật TOC và liên kết 'go to TOC' trong:", file, "\n")
+  # Ghi lại vào file
+  write_lines(full_lines, file)
+  cat("✅ Đã chèn TOC và xử lý xuống dòng cho GitHub vào", file, "\n")
 }
 
-# 👉 Thực thi
+# 👉 Chạy hàm
 update_typora_and_github_toc()
