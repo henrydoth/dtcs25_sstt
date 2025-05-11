@@ -48,3 +48,47 @@ Sau khi cấu hình git git config --global --list
 
 Git giờ đã biết tôi là henrydo, và GitHub sẽ tự động gắn commit của tôi vào tài khoản đúng, hiển thị ảnh đại diện, tên đầy đủ như trên GitHub Web. (Hy vọng push thử)
 henrydoth chứ không phải henrydo
+
+```
+
+# Một số lệnh git
+
+
+
+| Mục đích         | Lệnh terminal                        |
+| ---------------- | ------------------------------------ |
+| Tạo file md mới. | touch docs_git/huong_dan_terminal.md |
+|                  | nano docs_git/huong_dan_terminal.md  |
+|                  |                                      |
+
+📦 Phím tắt điều hướng trong nano
+
+| Mục tiêu di chuyển                | Phím tắt               |
+| --------------------------------- | ---------------------- |
+| 👉 Di chuyển **1 ký tự sang phải** | → (phím mũi tên phải)  |
+| 👈 Di chuyển **1 ký tự sang trái** | ← (phím mũi tên trái)  |
+| ⬇️ Xuống **dòng kế tiếp**          | ↓ (phím mũi tên xuống) |
+| ⬆️ Lên **dòng phía trên**          | ↑ (phím mũi tên lên)   |
+| 🔚 Tới **cuối dòng**               | `Ctrl + E`             |
+| 🔙 Về **đầu dòng**                 | `Ctrl + A`             |
+| ⬇️ Tới **dòng cuối cùng**          | `Ctrl + V` (page down) |
+| ⬆️ Tới **dòng đầu tiên**           | `Ctrl + Y` (page up)   |
+| 🔍 **Tìm kiếm** từ/ký tự           | `Ctrl + W`             |
+
+​	
+
+### 📘 **Các phím tắt cơ bản trong `nano` (hoặc `pico`)**
+
+| Chức năng                     | Phím tắt                   | Ghi chú nhanh                             |
+| ----------------------------- | -------------------------- | ----------------------------------------- |
+| 📥 **Lưu file**                | `Ctrl + O`                 | (O = Output) → Nhấn Enter để xác nhận tên |
+| 🚪 **Thoát nano/pico**         | `Ctrl + X`                 | Thoát, sẽ hỏi lưu nếu có thay đổi         |
+| 🔍 **Tìm kiếm**                | `Ctrl + W`                 | (Where is...)                             |
+| 🔁 **Tìm tiếp (Repeat)**       | `Ctrl + W`, rồi `Ctrl + W` | Tìm lặp tiếp cùng từ                      |
+| ↩️ **Bắt đầu dòng**            | `Ctrl + A`                 | (A = Beginning of line)                   |
+| ↘️ **Kết thúc dòng**           | `Ctrl + E`                 | (E = End of line)                         |
+| ⬇️ **Xuống trang (Page Down)** | `Ctrl + V`                 | (V = View next page)                      |
+| ⬆️ **Lên trang (Page Up)**     | `Ctrl + Y`                 | (Y = Previous page)                       |
+| 🔡 **Xóa ký tự bên phải**      | `Ctrl + D`                 | Delete ký tự sau con trỏ                  |
+| ⬅️ **Xóa dòng (Cut)**          | `Ctrl + K`                 | Cut (xóa và copy dòng)                    |
+| 🧷 **Dán dòng đã cut**         | `Ctrl + U`                 | (U = Uncut)                               |
