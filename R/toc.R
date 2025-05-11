@@ -1,16 +1,16 @@
-strip_accents <- function(text) {
-  iconv(text, from = "UTF-8", to = "ASCII//TRANSLIT")
-}
+# 🎯 Script tạo TOC chuẩn GitHub từ README.md và chèn lại
 
+# Hàm slugify: chuyển tiêu đề thành anchor dạng GitHub
 slugify <- function(text) {
-  text <- strip_accents(text)
-  text <- tolower(text)
-  text <- gsub(":[^:]*:", "", text)
-  text <- gsub("[^a-z0-9\\s-]", "", text)
-  text <- gsub("\\s+", "-", text)
+  text <- iconv(text, from = "UTF-8", to = "ASCII//TRANSLIT")  # bỏ dấu tiếng Việt
+  text <- tolower(text)                                        # chuyển về chữ thường
+  text <- gsub("[^a-z0-9\\s-]", "", text)                       # bỏ ký tự đặc biệt
+  text <- gsub("\\s+", "-", text)                              # thay khoảng trắng = "-"
+  text <- gsub("^-+|-+$", "", text)                            # bỏ dấu "-" đầu/cuối
   return(text)
 }
 
+# Hàm tạo TOC từ README.md
 create_toc_from_readme <- function(file) {
   lines <- readLines(file, warn = FALSE)
   toc_lines <- c("<!-- TOC start -->")
@@ -36,16 +36,18 @@ create_toc_from_readme <- function(file) {
   return(toc_lines)
 }
 
-# Đường dẫn file README
+# Đường dẫn tới README.md
 readme_file <- "README.md"
 
-# Đọc và cập nhật TOC
+# Tạo TOC
 toc_lines <- create_toc_from_readme(readme_file)
 readme_lines <- readLines(readme_file, warn = FALSE)
 
+# Vị trí TOC cũ
 toc_start <- grep("<!-- TOC start -->", readme_lines)
 toc_end <- grep("<!-- TOC end -->", readme_lines)
 
+# Gộp nội dung mới
 if (length(toc_start) == 1 && length(toc_end) == 1 && toc_start < toc_end) {
   new_readme <- c(
     readme_lines[1:(toc_start - 1)],
@@ -62,5 +64,6 @@ if (length(toc_start) == 1 && length(toc_end) == 1 && toc_start < toc_end) {
   )
 }
 
+# Ghi lại
 writeLines(new_readme, readme_file)
 cat("✅ TOC đã được cập nhật trong README.md, chuẩn GitHub ✅\n")
