@@ -1,5 +1,24 @@
 # 🧠 Luận văn Y khoa – ĐÁNH GIÁ NHẬN THỨC VÀ SA SÚT TRÍ TUỆ (DTCS25_SSTT)
 
+<!-- TOC start -->
+- [🧠 Luận văn Y khoa – ĐÁNH GIÁ NHẬN THỨC VÀ SA SÚT TRÍ TUỆ (DTCS25_SSTT)](#lunvnykhoanhginhnthcvsasttrtudtcs25sstt)
+  - [📘 Giới thiệu](#giithiu)
+  - [📁 Cấu trúc thư mục](#cutrcthmc)
+- [10/5/2025](#1052025)
+  - [📤 Kết quả đầu ra](#ktquura)
+  - [📚 License](#license)
+- [Một số lệnh git](#mtslnhgit)
+    - [📘 **Các phím tắt cơ bản trong `nano` (hoặc `pico`)**](#ccphmttcbntrongnanohocpico)
+    - [✅ Hành động cần làm tiếp:](#hnhngcnlmtip)
+  - [🚀 **Cheat Sheet Git + Terminal trên macOS**](#cheatsheetgitterminaltrnmacos)
+    - [📂 Di chuyển & quản lý thư mục](#dichuynqunlthmc)
+    - [🛠️ **Git cơ bản**](#gitcbn)
+    - [🔁 **Lịch sử và chỉnh sửa dòng lệnh**](#lchsvchnhsadnglnh)
+    - [📌 Mẹo thường dùng](#mothngdng)
+    - [quan trong để ADD TOC vô file này](#quantrongaddtocvfileny)
+<!-- TOC end -->
+
+
 **Tác giả:** BS.CK2 Đỗ Thanh Liêm  
 **Cơ sở:** Khoa Y học cổ truyền – Bệnh viện 30-4  
 **Phần mềm:** Quản lý bằng [Quarto](https://quarto.org), [R](https://www.r-project.org), và [officedown](https://davidgohel.github.io/officedown/)
@@ -50,6 +69,16 @@ Git giờ đã biết tôi là henrydo, và GitHub sẽ tự động gắn commi
 henrydoth chứ không phải henrydo
 
 ```
+
+## 📤 Kết quả đầu ra
+
+> 📄 File Word được xuất bằng `officedown`, hỗ trợ `ggplot2`, `flextable`, `glue`, caption, TOC, và định dạng đúng chuẩn tiếng Việt.
+
+---
+
+## 📚 License
+
+MIT © 2025 [BS.CK2 Đỗ Thanh Liêm](https://github.com/henrydoth)	
 
 # Một số lệnh git
 
@@ -194,3 +223,6 @@ Dưới đây là **Tổng hợp Cheat Sheet Git + Terminal cơ bản trên Mac*
 - Lỡ sai tên lệnh? Gõ `↑` để sửa lệnh cũ.
 - Lỡ commit sai nội dung? Dùng `git commit --amend` (cẩn thận).
 - Lỡ commit rồi quên `add` file? Dùng `git add . && git commit --amend --no-edit`.
+
+### quan trong để ADD TOC vô file này
+- Rscript R/toc.R

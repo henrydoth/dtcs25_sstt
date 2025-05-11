@@ -1,0 +1,4 @@
+Name: Cập nhật TOC cho README
+Description: Tự động sinh Table of Contents từ README.md
+Binding: update_readme_toc
+Interactive: false
