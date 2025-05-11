@@ -92,3 +92,105 @@ henrydoth chứ không phải henrydo
 | 🔡 **Xóa ký tự bên phải**      | `Ctrl + D`                 | Delete ký tự sau con trỏ                  |
 | ⬅️ **Xóa dòng (Cut)**          | `Ctrl + K`                 | Cut (xóa và copy dòng)                    |
 | 🧷 **Dán dòng đã cut**         | `Ctrl + U`                 | (U = Uncut)                               |
+
+### ✅ Hành động cần làm tiếp:
+
+Chạy dòng lệnh sau để **thêm tất cả các thay đổi (bao gồm file mới và file đã sửa):**
+
+```
+bash
+
+
+CopyEdit
+git add .
+```
+
+Rồi tiếp tục commit lại:
+
+```
+bash
+
+
+CopyEdit
+git commit -m "📝 Cập nhật toàn bộ thay đổi: README, hướng dẫn terminal, cấu trúc"
+```
+
+Cuối cùng, đẩy lên GitHub:
+
+```
+bash
+
+
+CopyEdit
+git push origin main
+```
+
+Bạn muốn mình viết file `docs_git/huong_dan_terminal.md` đầy đủ hướng dẫn Git bằng terminal không?
+
+
+
+##### You said:
+
+tổng hợp lại cheetsheet
+
+
+
+###### ChatGPT said:
+
+Dưới đây là **Tổng hợp Cheat Sheet Git + Terminal cơ bản trên Mac** – cực kỳ hữu ích cho bạn khi dùng Terminal để quản lý dự án Quarto trên GitHub:
+
+------
+
+## 🚀 **Cheat Sheet Git + Terminal trên macOS**
+
+### 📂 Di chuyển & quản lý thư mục
+
+| Hành động                | Lệnh                                           |
+| ------------------------ | ---------------------------------------------- |
+| Xem danh sách file       | `ls`                                           |
+| Vào thư mục              | `cd ten_thu_muc`                               |
+| Quay lại thư mục trước   | `cd ..`                                        |
+| Tạo file mới             | `touch ten_file.md`                            |
+| Mở file để chỉnh         | `nano ten_file.md`                             |
+| Lưu & thoát trong `nano` | `Ctrl + O` (save), `Enter`, `Ctrl + X` (thoát) |
+
+
+
+------
+
+### 🛠️ **Git cơ bản**
+
+| Hành động            | Lệnh                              |
+| -------------------- | --------------------------------- |
+| Kiểm tra trạng thái  | `git status`                      |
+| Thêm tất cả thay đổi | `git add .`                       |
+| Thêm file cụ thể     | `git add ten_file.md`             |
+| Commit với mô tả     | `git commit -m "Tin nhắn commit"` |
+| Đẩy lên GitHub       | `git push origin main`            |
+| Lấy thay đổi mới     | `git pull`                        |
+
+
+
+------
+
+### 🔁 **Lịch sử và chỉnh sửa dòng lệnh**
+
+| Hành động                   | Phím        |
+| --------------------------- | ----------- |
+| Lệnh trước đó               | `↑`         |
+| Lệnh kế tiếp                | `↓`         |
+| Di chuyển con trỏ trái/phải | `←` / `→`   |
+| Về đầu dòng                 | `Ctrl + A`  |
+| Về cuối dòng                | `Ctrl + E`  |
+| Xoá một ký tự trái          | `Backspace` |
+| Xoá từ con trỏ đến hết dòng | `Ctrl + K`  |
+
+
+
+------
+
+### 📌 Mẹo thường dùng
+
+- Lỡ sai tên lệnh? Gõ `↑` để sửa lệnh cũ.
+- Lỡ commit sai nội dung? Dùng `git commit --amend` (cẩn thận).
+- Lỡ commit rồi quên `add` file? Dùng `git add . && git commit --amend --no-edit`.
