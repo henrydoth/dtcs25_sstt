@@ -1,46 +1,36 @@
-# Lorem ipsum dolor
+# Đặt vấn đề
 
 <!-- TOC start -->
-- [Lorem ipsum dolor](#loremipsumdolor)
-  - [sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.](#sitametconsectetueradipiscingelitmaecenasporttitorconguemassafusceposueremagnasedpulvinarultriciespuruslectusmalesuadaliberositametcommodomagnaerosquisurnanuncviverraimperdietenimfusceest)
-- [ipsum dolor sit amet, co](#ipsumdolorsitametco)
-  - [r adipiscing elit. ](#radipiscingelit)
-    - [m pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.](#mpellentesquemagnaintegernulladonecblanditfeugiatliguladonechendreritfelisetimperdieteuismodpurusipsumpretiummetusinlacinianullanislegetsapien)
-- [uat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue.](#uatetiamegetduialiquameratvolutpatsedatloreminnuncportatristiqueproinnecaugue)
+- [Đặt vấn đề](#dat-van-de)
+  - [Đặc điểm dịch tễ học](#dac-diem-dich-te-hoc)
+    - [Tình hình tại Việt Nam](#tinh-hinh-tai-viet-nam)
+    - [So sánh với quốc tế](#so-sanh-voi-quoc-te)
+  - [Gánh nặng bệnh tật](#ganh-nang-benh-tat)
+  - [Vai trò của công cụ MMSE](#vai-tro-cua-cong-cu-mmse)
+  - [Mục tiêu nghiên cứu](#muc-tieu-nghien-cuu)
 <!-- TOC end -->
 
+## Đặc điểm dịch tễ học
 
-## sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
-Vivamus a tellus.
+Tỷ lệ sa sút trí tuệ ngày càng tăng trên toàn cầu, đặc biệt ở các nước đang phát triển như Việt Nam.
 
-# ipsum dolor sit amet, co
- 
-nsectetue
+### Tình hình tại Việt Nam
 
+Theo thống kê gần đây, tỷ lệ người cao tuổi bị suy giảm nhận thức ở Việt Nam lên đến 17,5%.
 
-## r adipiscing elit. 
+### So sánh với quốc tế
 
-Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
-Vivamus a tellus. Pellentes
-que habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoree
+Tỷ lệ này tương đương hoặc cao hơn so với một số nước Đông Nam Á khác.
 
-nonummy augue. Suspendisse dui p
-Pellentesque habi
-tant morbi tris
-onec laoreet 
-nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-FusLorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
-Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet 
+## Gánh nặng bệnh tật
 
-nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-Fusce aliquet pede non pede.
+Sa sút trí tuệ ảnh hưởng nghiêm trọng đến người bệnh, gia đình và hệ thống y tế.
 
-Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
-Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue.
-ibus lore
-### m pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
-Donec ut est in l
-ectus consequat conseq
-# uat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue.
+## Vai trò của công cụ MMSE
+
+MMSE là thang điểm đánh giá nhận thức đơn giản, phổ biến trong lâm sàng.
+
+## Mục tiêu nghiên cứu
+
+- Mô tả đặc điểm nhận thức của người bệnh nghi ngờ sa sút trí tuệ.
+- Đánh giá mối liên quan giữa MMSE và các test thần kinh khác.
