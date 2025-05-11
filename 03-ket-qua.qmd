@@ -1,3 +1,15 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source(here::here("R", "packages.R"))
+source(here::here("R", "00_setup.R"))
+source(here::here("R", "01_load_clean_data.R"))
+source(here::here("R", "02_mo_ta_mau.R"))
+source(here::here("R", "03_mmse.R"))
+source(here::here("R", "04_tests.R"))
+source(here::here("R", "05_tuong_quan.R"))
+source(here::here("R", "06_hoan_thanh_test.R"))
+source(here::here("R", "07_mmse_vs_lamsang.R"))
+```
 
 ::: {custom-style="Heading 1"}
 KẾT QUẢ

@@ -34,3 +34,6 @@ execute:
   echo: false
   warning: false
   message: false
+
+metadata-files:
+  - _setup.qmd
