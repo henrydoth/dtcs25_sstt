@@ -70,7 +70,6 @@ MMSE là thang điểm đánh giá nhận thức đơn giản, phổ biến tron
 
 ## Mục tiêu nghiên cứu
 
-<<<<<<< HEAD
 - Mô tả đặc điểm nhận thức của người bệnh nghi ngờ sa sút trí tuệ.
 - Đánh giá mối liên quan giữa MMSE và các test thần kinh khác.
 
@@ -1269,21 +1268,3 @@ Whoa, oh, oh!
 You're all that I want
 You're all that I need
 [Tới danh mục](# Danh mục) 
-=======
-oseh salom
-
-‎עוֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו
-
-‎הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ
-
-‎וְעַל כָּל יִשְׂרָאֵל
-‎
-וְאִמְרוּ: אָמֵן.
-
-Oseh shalom bimromav
-Hu ya'aseh shalom aleinu
-V'al kol Yisrael
-V'imru: amen.
-
-May the one who creates peace on high bring peace to us and to all Israel. And we say: Amen.
->>>>>>> f4beed035ccbfd50c3d59319573fa3433b12fc60
