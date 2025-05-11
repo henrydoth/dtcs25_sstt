@@ -1,13 +1,17 @@
-# 🎯 Tạo TOC (mục lục) tự động từ README.md, hỗ trợ tiếng Việt
+# 🎯 Tạo TOC và chèn vào README.md, chuẩn link GitHub
 
-# Hàm bỏ dấu tiếng Việt
-strip_accents <- function(text) {
-  text <- iconv(text, from = "UTF-8", to = "ASCII//TRANSLIT")
-  text <- gsub("[^A-Za-z0-9 -]", "", text)  # giữ lại chữ, số, khoảng trắng, dấu -
+# Hàm chuyển tiêu đề sang anchor kiểu GitHub
+make_github_anchor <- function(text) {
+  text <- gsub(":[^:]*:", "", text) # loại bỏ emoji nếu dùng dạng :emoji:
+  text <- iconv(text, from = "UTF-8", to = "ASCII//TRANSLIT") # bỏ dấu tiếng Việt
+  text <- gsub("[^A-Za-z0-9 -]", "", text) # bỏ ký tự đặc biệt
+  text <- tolower(text)
+  text <- gsub("[[:space:]]+", "-", text) # khoảng trắng -> -
+  text <- gsub("^-|-$", "", text) # xóa dấu - đầu/cuối
   return(text)
 }
 
-# Hàm tạo TOC từ các heading cấp 1–3
+# Hàm tạo TOC từ heading cấp 1–3
 create_toc_from_readme <- function(file) {
   lines <- readLines(file, warn = FALSE)
   toc_lines <- c("<!-- TOC start -->")
@@ -16,12 +20,7 @@ create_toc_from_readme <- function(file) {
     if (grepl("^#{1,3} ", line)) {
       level <- attr(regexpr("^#+", line), "match.length")
       heading_text <- gsub("^#+\\s+", "", line)
-      anchor <- heading_text
-      anchor <- strip_accents(anchor)
-      anchor <- tolower(anchor)
-      anchor <- gsub("[^a-z0-9 -]", "", anchor)
-      anchor <- gsub("[[:space:]]+", "-", anchor)
-      
+      anchor <- make_github_anchor(heading_text)
       indent <- switch(
         as.character(level),
         "1" = "- ",
@@ -38,10 +37,8 @@ create_toc_from_readme <- function(file) {
   return(toc_lines)
 }
 
-# Đường dẫn đến README.md
+# Đường dẫn
 readme_file <- "README.md"
-
-# Tạo TOC
 toc_lines <- create_toc_from_readme(readme_file)
 readme_lines <- readLines(readme_file, warn = FALSE)
 
@@ -49,7 +46,7 @@ readme_lines <- readLines(readme_file, warn = FALSE)
 toc_start <- grep("<!-- TOC start -->", readme_lines)
 toc_end <- grep("<!-- TOC end -->", readme_lines)
 
-# Chèn hoặc thay TOC
+# Thay hoặc chèn TOC
 if (length(toc_start) == 1 && length(toc_end) == 1 && toc_start < toc_end) {
   new_readme <- c(
     readme_lines[1:(toc_start - 1)],
@@ -66,6 +63,6 @@ if (length(toc_start) == 1 && length(toc_end) == 1 && toc_start < toc_end) {
   )
 }
 
-# Ghi lại
+# Ghi lại file
 writeLines(new_readme, readme_file)
-cat("✅ Đã cập nhật TOC vào README.md\n")
+cat("✅ TOC đã được cập nhật trong README.md, chuẩn GitHub ✅\n")
