@@ -1,80 +1,27 @@
 MỤC LỤC
 [TOC]
-
 <!-- TOC start -->
-- [Danh mục](#danh-mục)
-- [Đặt vấn đề](#đặt-vấn-đề)
-  - [Đặt vấn đề 1](#đặt-vấn-đề-1)
-- [Đặt vấn đề 2](#đặt-vấn-đề-2)
-- [Đặt vấn đề 3](#đặt-vấn-đề-3)
-  - [Đặt vấn đề 3.1](#đặt-vấn-đề-31)
-- [Đặc điểm dịch tễ học](#đặc-điểm-dịch-tễ-học)
-  - [Tình hình tại Việt Nam](#tình-hình-tại-việt-nam)
-  - [So sánh với quốc tế](#so-sánh-với-quốc-tế)
-- [Gánh nặng bệnh tật](#gánh-nặng-bệnh-tật)
-- [Vai trò của công cụ MMSE](#vai-trò-của-công-cụ-mmse)
-- [Mục tiêu nghiên cứu](#mục-tiêu-nghiên-cứu)
+- [Ghi chú sript quan trọng](#ghi-chú-sript-quan-trọng)
 - [Hebrew songs](#hebrew-songs)
   - [Meditative songs](#meditative-songs)
     - [Ana kiboach](#ana-kiboach)
     - [Nafshi](#nafshi)
-    - [Jerusalem of gold](#jerusalem-of-gold)
     - [Lemaan Ahai](#lemaan-ahai)
     - [Kol Ha'olam kuloKo](#kol-haolam-kuloko)
-- [Chinese language](#chinese-language)
-  - [Chinese songs](#chinese-songs)
-    - [大悲咒- 全文](#大悲咒--全文)
+    - [大悲咒- 全文](#大悲咒-全文)
     - [Da bei zhou pin yin](#da-bei-zhou-pin-yin)
-  - [Chinese poems](#chinese-poems)
     - [賊退示官吏](#賊退示官吏)
     - [同從弟南齋玩月憶山陰崔少府](#同從弟南齋玩月憶山陰崔少府)
-- [Tiếng Việt](#tiếng-việt)
-  - [Chú đại bi](#chú-đại-bi)
+    - [賊退示官吏](#賊退示官吏)
+  - [Tiếng Việt](#tiếng-việt)
+    - [Chú đại bi](#chú-đại-bi)
 - [English songs](#english-songs)
   - [Heaven](#heaven)
 <!-- TOC end -->
 
 
-# Danh mục
-
-
-# Đặt vấn đề
-ddd
-
-# Đặt vấn đề 2
-ddddd
-
-# Đặt vấn đề 3
-
-## Đặt vấn đề 3.1
-
-## Đặc điểm dịch tễ học
-
-Tỷ lệ sa sút trí tuệ ngày càng tăng trên toàn cầu, đặc biệt ở các nước đang phát triển như Việt Nam.
-
-### Tình hình tại Việt Nam
-
-Theo thống kê gần đây, tỷ lệ người cao tuổi bị suy giảm nhận thức ở Việt Nam lên đến 17,5%.
-
-### So sánh với quốc tế
-
-Tỷ lệ này tương đương hoặc cao hơn so với một số nước Đông Nam Á khác.
-
-## Gánh nặng bệnh tật
-
-Sa sút trí tuệ ảnh hưởng nghiêm trọng đến người bệnh, gia đình và hệ thống y tế.
-
-## Vai trò của công cụ MMSE
-
-MMSE là thang điểm đánh giá nhận thức đơn giản, phổ biến trong lâm sàng.
-
-## Mục tiêu nghiên cứu
-
-- Mô tả đặc điểm nhận thức của người bệnh nghi ngờ sa sút trí tuệ.
-- Đánh giá mối liên quan giữa MMSE và các test thần kinh khác.
-
-# Danh mục
-[toc]
+# Ghi chú sript quan trọng
+- Rscript R/toc.R
 
 # Hebrew songs
 
@@ -148,23 +95,6 @@ And hear our shouts
 yode’a ta’alumot
 Oh knower of mysteries
 
-_______
-אָנָּא, בְּכֹחַ גְדֻּלַּת יְמִינְךָ תַּתִּיר צְרוּרָה: 
-(אב"ג ית"ץ)
-קַבֵּל רִנַּת עַמְּךָ, שַׂגְּבֵנוּ, טַהֲרֵנוּ, נוֹרָא:
-(קר"ע שט"ן)
-נָא גִבּוֹר, דוֹרְשֵׁי יִחוּדְךָ כְּבָבַת שָׁמְרֵם:
-(נג"ד יכ"ש)
-בָּרְכֵם, טַהֲרֵם, רַחֲמֵי צִדְקָתְךָ תָּמִיד גָמְלֵם:
-(בט"ר צת"ג)
-
-חֲסִין קָדוֹשׁ, בְּרוֹב טוּבְךָ נַהֵל עֲדָתְךָ:
-(חק"ב טנ"ע)
-יָחִיד גֵּאֶה, לְעַמְּךְ פְּנֵה, זוֹכְרֵי קְדֻשָּׁתְךָ:
-(יג"ל פז"ק)
-שַׁוְעָתֵנוּ קַבֵּל וּשְׁמַע צַעֲקָתֵנוּ, יוֹדֵעַ תַעֲלֻמוֹת:
-(שק"ו צי"ת)
-[Tới danh mục](# Danh mục) 
 
 ### Nafshi
 נַפְשִׁי, נַפְשִׁי, חָמְדָה
@@ -185,172 +115,7 @@ In the shadow of Thy hands my soul desired,
 To know all Thy mysteries and secrets.
 [Tới danh mục](# Danh mục) 
 
-### Jerusalem of gold.
-אֲוִיר-הָרִים צָלוּל כַּיַּיִן
-וְרֵיחַ אֳרָנִים
-נִשָּׂא בְּרוּחַ הָעַרְבַּיִם
-עִם קוֹל פַּעֲמוֹנִים.
 
-
-וּבְתַרְדֵּמַת אִילָן וָאֶבֶן
-שְׁבוּיָה בַּחֲלוֹמָהּ
-הָעִיר אֲשֶׁר בָּדָד יוֹשֶׁבֶת
-וּבְלִבָּה חוֹמָה.
-
-יְרוּשָׁלַיִם שֶׁל זָהָב וְשֶׁל נְחֹשֶׁת וְשֶׁל אוֹר
-הַלֹּא לְכָל שִׁירַיִךְ אֲנִי כִּנּוֹר.
-
-אֵיכָה יָבְשׁוּ בּוֹרוֹת הַמַּיִם
-כִּכַּר-הַשּׁוּק רֵיקָה
-וְאֵין פּוֹקֵד אֶת הַר-הַבַּיִת
-בָּעִיר הָעַתִּיקָה.
-
-וּבַמְּעָרוֹת אֲשֶׁר בַּסֶּלַע
-מְיַלְּלוֹת רוּחוֹת
-וְאֵין יוֹרֵד אֶל יַם-הַמֶּלַח
-בְּדֶרֶךְ יְרִיחו.
-
-יְרוּשָׁלַיִם שֶׁל זָהָב וְשֶׁל נְחֹשֶׁת וְשֶׁל אוֹר
-הַלֹּא לְכָל שִׁירַיִךְ אֲנִי כִּנּוֹר.
-
-אַךְ בְּבוֹאִי הַיּוֹם לָשִׁיר לָךְ
-וְלָךְ לִקְשֹׁר כְּתָרִים
-קָטֹנְתִּי מִצְּעִיר בָּנַיִךְ
-וּמֵאַחֲרוֹן הַמְּשׁוֹרְרִים.
-
-כִּי שְׁמֵךְ צוֹרֵב אֶת הַשְּׂפָתַיִם
-כִּנְשִׁיקַת-שָׂרַף
-אִם אֶשְׁכָּחֵךְ יְרוּשָׁלַיִם
-אֲשֶׁר כֻּלָּהּ זָהָב...
-
-יְרוּשָׁלַיִם שֶׁל זָהָב וְשֶׁל נְחֹשֶׁת וְשֶׁל אוֹר
-הַלֹּא לְכָל שִׁירַיִךְ אֲנִי כִּנּוֹר.
-
-חָזַרְנוּ אֶל בּוֹרוֹת-הַמַּיִם
-לַשּׁוּק וְלַכִּכָּר
-שׁוֹפָר קוֹרֵא בְּהַר-הַבַּיִת
-בָּעִיר הָעַתִּיקָה.
-
-וּבַמְּעָרוֹת אֲשֶׁר בַּסֶּלַע
-אַלְפֵי שְׁמָשׁוֹת זוֹרְחוֹת -
-נָשׁוּב נֵרֵד אֶל יַם-הַמֶּלַח
-בְּדֶרֶךְ יְרִיחו!
-
-יְרוּשָׁלַיִם שֶׁל זָהָב וְשֶׁל נְחֹשֶׁת וְשֶׁל אוֹר
-הַלֹּא לְכָל שִׁירַיִךְ אֲנִי כִּנּוֹר.
-
-Avir harim zalul kayayin
-Ve-rei'ah oranim
-Nissa be-ru'ah ha'arbayim
-Im kol pa'amonim
-
-U-ve-tardemat ilan va-even
-Shvuyah ba-halomah
-Ha-ir asher badad yoshevet
-U-ve-libbah homah
-
-Yerushalayim shel zahav
-Ve-shel nehoshet ve-shel or
-Ha-lo le-khol shirayikh
-Ani kinnor.
-
-Eikhah yavshu borot ha-mayim
-Kikkar ha-shuk reikah
-Ve-ein poked et Har ha-Bayit
-Ba-ir ha-attikah
-
-U-va-me'arot asher ba-selah
-Meyallelot ruhot
-Ve-ein yored el Yam ha-Melah
-Be-derekh Yeriho
-
-Yerushalayim shel zahav
-Ve-shel nehoshet ve-shel or
-Ha-lo le-khol shirayikh
-Ani kinnor.
-
-Akh be-vo'i ha-yom la-shir lakh
-Ve-lakh likshor ketarim
-Katonti mi-ze'ir bana'ikh
-U-me-aharon ha-meshorerim
-
-Ki shemekh zorev et ha-sefatayim
-Ke-neshikat saraf
-Im eshkakhekh Yerushalayim
-Asher kullah zahav
-
-Yerushalayim shel zahav
-Ve-shel nehoshet ve-shel or
-Ha-lo le-khol shirayikh
-Ani kinnor.
-
-Hazarnu el borot ha-mayim
-La-shuk ve-la-kikkar
-Shofar kore be-Har ha-Bayit
-Ba-ir ha-attikah
-
-U-va-me'arot asher ba-selah
-Alfey shemashot zorhot
-Nashuv nered el Yam ha-Melah
-Be-derekh Yeriho
-
-Yerushalayim shel zahav
-Ve-shel nehoshet ve-shel or
-Ha-lo le-khol shirayikh
-Ani kinnor.
-
-The mountain air is clear as wine
-And the scent of pines
-Is carried on the breeze of twilight
-With the sound of bells.
-
-And in the slumber of tree and stone
-Captured in her dream
-The city that sits solitary
-And in its midst is a wall.
-
-Jerusalem of gold, and of bronze, and of light
-Behold I am a violin for all your songs.
-
-How the cisterns have dried
-The market-place is empty
-And no one frequents the Temple Mount
-In the Old City.
-
-And in the caves in the mountain
-Winds are howling
-And no one descends to the Dead Sea
-By way of Jericho.
-
-Jerusalem of gold, and of bronze, and of light
-Behold I am a violin for all your songs.
-
-But as I come to sing to you today,
-And to adorn crowns to you (i.e. to tell your praise)
-I am the smallest of the youngest of your children (i.e. the least worthy of doing so)
-And of the last poet (i.e. of all the poets born).
-
-For your name scorches the lips
-Like the kiss of a seraph
-If I forget thee, Jerusalem,
-Which is all gold...
-
-Jerusalem of gold, and of bronze, and of light
-Behold I am a violin for all your songs.
-
-We have returned to the cisterns
-To the market and to the market-place
-A ram's horn (shofar) calls out (i.e. is being heard) on the Temple Mount
-In the Old City.
-
-And in the caves in the mountain
-Thousands of suns shine -
-We will once again descend to the Dead Sea
-By way of Jericho!
-
-Jerusalem of gold, and of bronze and of light
-Behold I am a violin for all your songs.
-[Tới danh mục](# Danh mục) 
 
 ### Lemaan Ahai
 
@@ -1267,4 +1032,4 @@ We're in heaven, heaven
 Whoa, oh, oh!
 You're all that I want
 You're all that I need
-[Tới danh mục](# Danh mục) 
+
