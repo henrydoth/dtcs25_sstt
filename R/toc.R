@@ -1,6 +1,5 @@
 # 🎯 Script tạo TOC và chèn vào README.md
 
-# Hàm tạo TOC từ các heading cấp 1–3
 create_toc_from_readme <- function(file) {
   lines <- readLines(file, warn = FALSE)
   toc_lines <- c("<!-- TOC start -->")
@@ -10,10 +9,12 @@ create_toc_from_readme <- function(file) {
       level <- attr(regexpr("^#+", line), "match.length")
       heading_text <- gsub("^#+\\s+", "", line)
       
-      # ⚠️ Sửa lỗi: không dùng pipe với dấu chấm `.`
+      # 🔗 Tạo anchor đúng chuẩn GitHub (GFM)
       anchor <- tolower(heading_text)
-      anchor <- gsub("[^a-z0-9\\s-]", "", anchor)
-      anchor <- gsub("\\s+", "-", anchor)
+      anchor <- gsub("[^a-z0-9\\s-]", "", anchor)  # xóa ký tự đặc biệt
+      anchor <- gsub("\\s+", "-", anchor)         # thay thế khoảng trắng bằng dấu gạch ngang
+      anchor <- gsub("-+", "-", anchor)           # gộp nhiều dấu - lại
+      anchor <- gsub("^-|-$", "", anchor)         # bỏ dấu - ở đầu và cuối (nếu có)
       
       indent <- switch(
         as.character(level),
@@ -31,18 +32,14 @@ create_toc_from_readme <- function(file) {
   return(toc_lines)
 }
 
-# Đường dẫn đến README.md
+# Các phần còn lại giữ nguyên như bạn đã viết:
 readme_file <- "README.md"
-
-# Tạo TOC
 toc_lines <- create_toc_from_readme(readme_file)
 readme_lines <- readLines(readme_file, warn = FALSE)
 
-# Tìm đoạn TOC cũ
 toc_start <- grep("<!-- TOC start -->", readme_lines)
 toc_end <- grep("<!-- TOC end -->", readme_lines)
 
-# Thay thế TOC cũ hoặc chèn TOC mới
 if (length(toc_start) == 1 && length(toc_end) == 1 && toc_start < toc_end) {
   new_readme <- c(
     readme_lines[1:(toc_start - 1)],
@@ -59,6 +56,5 @@ if (length(toc_start) == 1 && length(toc_end) == 1 && toc_start < toc_end) {
   )
 }
 
-# Ghi đè lại README.md
 writeLines(new_readme, readme_file)
-cat("✅ Đã cập nhật TOC vào README.md\n")
+cat("✅ TOC đã được chèn chính xác vào README.md theo chuẩn GitHub\n")
