@@ -1,14 +1,32 @@
 MỤC LỤC
 [TOC]
 
+<!-- TOC start -->
+- [Đặt vấn đề](#đặt-vấn-đề)
+  - [Đặt vấn đề 1](#đặt-vấn-đề-1)
+- [Đặt vấn đề 2](#đặt-vấn-đề-2)
+- [Đặt vấn đề 3](#đặt-vấn-đề-3)
+  - [Đặt vấn đề 3.1](#đặt-vấn-đề-31)
+- [Đặc điểm dịch tễ học](#đặc-điểm-dịch-tễ-học)
+  - [Tình hình tại Việt Nam](#tình-hình-tại-việt-nam)
+  - [So sánh với quốc tế](#so-sánh-với-quốc-tế)
+- [Gánh nặng bệnh tật](#gánh-nặng-bệnh-tật)
+- [Vai trò của công cụ MMSE](#vai-trò-của-công-cụ-mmse)
+- [Mục tiêu nghiên cứu](#mục-tiêu-nghiên-cứu)
+<!-- TOC end -->
+
+---
 
 PHẦN QUAN TRỌNG
 
 # Đặt vấn đề
 ddd
+
 # Đặt vấn đề 2
 ddddd
+
 # Đặt vấn đề 3
+
 ## Đặt vấn đề 3.1
 
 ## Đặc điểm dịch tễ học
