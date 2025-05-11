@@ -6,18 +6,18 @@ suppressPackageStartupMessages({
 })
 
 update_typora_and_github_toc <- function(file = "README.md") {
-  # Đọc file gốc
+  # Đọc file
   lines <- read_lines(file)
   
-  # Xoá các dòng tiêu đề MỤC LỤC, [TOC], và khối TOC cũ
+  # Xoá TOC cũ: tiêu đề MỤC LỤC, [TOC], khối <!-- TOC start --> ... <!-- TOC end -->
   lines <- lines[!str_detect(lines, "^#{0,6}\\s*MỤC LỤC\\s*$") & trimws(lines) != "[TOC]"]
   toc_start <- which(str_detect(lines, "<!-- TOC start -->"))
   toc_end   <- which(str_detect(lines, "<!-- TOC end -->"))
-  if (length(toc_start) > 0 && length(toc_end) > 0 && toc_end >= toc_start) {
+  if (length(toc_start) > 0 && length(toc_end) > 0) {
     lines <- lines[-c(toc_start:toc_end)]
   }
   
-  # Tìm các heading cấp 1–3 để làm TOC
+  # Tìm các heading cấp 1–3
   headings <- tibble(
     line = lines,
     linenum = seq_along(lines)
@@ -41,7 +41,7 @@ update_typora_and_github_toc <- function(file = "README.md") {
       toc_line = glue("{indent}- [{title}](#{anchor})")
     )
   
-  # Khối TOC gồm cả cho Typora ([TOC]) và GitHub (HTML comment)
+  # Tạo khối TOC: "MỤC LỤC", "[TOC]", <!-- TOC -->
   toc_full <- c(
     "MỤC LỤC",
     "[TOC]",
@@ -50,21 +50,29 @@ update_typora_and_github_toc <- function(file = "README.md") {
     "<!-- TOC end -->"
   )
   
-  # Chèn TOC + dòng trắng
-  full_lines <- c(toc_full, "", lines)
-  
-  # ✅ Thêm 2 dấu cách cuối mỗi dòng không trống và không phải tiêu đề markdown
-  full_lines <- sapply(full_lines, function(line) {
-    if (grepl("^\\s*$", line) || grepl("^#{1,6}\\s", line)) {
-      line
-    } else {
-      paste0(line, "  ")  # Thêm hai dấu cách để xuống dòng mềm trong GitHub
+  # Thêm "go to MỤC LỤC" sau mỗi đoạn văn không phải heading, không phải danh sách
+  lines_augmented <- c()
+  for (i in seq_along(lines)) {
+    lines_augmented <- c(lines_augmented, lines[i])
+    
+    # Điều kiện để là đoạn văn cần thêm dòng liên kết
+    is_para <- nzchar(lines[i]) &&           # dòng không rỗng
+      !str_detect(lines[i], "^\\s*[-*] ") && # không phải danh sách
+      !str_detect(lines[i], "^#{1,6}\\s")    # không phải heading
+    
+    is_next_blank_or_end <- (i == length(lines)) || str_trim(lines[i + 1]) == ""
+    
+    if (is_para && is_next_blank_or_end) {
+      lines_augmented <- c(lines_augmented, "*go to [MỤC LỤC](#mục-lục)*", "")
     }
-  })
+  }
   
-  # Ghi lại vào file
-  write_lines(full_lines, file)
-  cat("✅ Đã chèn TOC và xử lý xuống dòng cho GitHub vào", file, "\n")
+  # Gộp toàn bộ lại: TOC mới + nội dung đã thêm link
+  new_lines <- c(toc_full, "", lines_augmented)
+  
+  # Ghi ra file
+  write_lines(new_lines, file)
+  cat("✅ Đã chèn TOC và link 'go to MỤC LỤC' sau mỗi đoạn văn.\n")
 }
 
 # 👉 Chạy hàm
