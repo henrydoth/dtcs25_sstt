@@ -1,8 +1,3 @@
-```{r setup, include=FALSE}
-# 🚀 Thiết lập chung cho toàn bộ sách
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-
-# 📦 Nạp packages và chia nhỏ script
 source(here::here("R", "packages.R"))
 source(here::here("R", "00_setup.R"))
 source(here::here("R", "01_load_clean_data.R"))

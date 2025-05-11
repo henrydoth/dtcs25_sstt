@@ -1,14 +1,14 @@
+if (!require("pacman")) install.packages("pacman")
 
 pacman::p_load(
   dplyr, tidyr, forcats, haven,
   ggplot2, lubridate, glue, flextable,
   officer, officedown, jpeg, png, grid,
-  tidyverse, magrittr,  
-  purrr, RColorBrewer, emo, janitor,
+  tidyverse, purrr, RColorBrewer, emo, janitor,
   effectsize, patchwork, scales, stringr
 )
 
-
+# 📦 Thiết lập mặc định cho flextable
 set_flextable_defaults(
   font.family = "Times New Roman",
   font.size = 11,
@@ -17,11 +17,12 @@ set_flextable_defaults(
   theme_fun = theme_booktabs,
   layout = "autofit",
   width = 1,
-  decimal.mark = ",",
-  big.mark = ".",
-  na_str = "-"
+  decimal.mark = ",",     # ✅ Dấu phẩy kiểu Việt
+  big.mark = ".",         # ✅ Ngăn cách hàng nghìn
+  na_str = "-"            # ✅ Hiển thị NA là "-"
 )
 
+# 🎨 Thiết lập theme ggplot2 toàn cục
 theme_set(
   theme_minimal(base_family = "Times New Roman") +
     theme(
@@ -35,16 +36,20 @@ theme_set(
     )
 )
 
+# 📊 Thiết lập chunk mặc định cho biểu đồ
 knitr::opts_chunk$set(
-  fig.align = "center",
-  out.width = "100%",
+  fig.align = "center",   # ✅ Căn giữa
+  out.width = "100%",     # ✅ Fit chiều ngang Word
   fig.asp = 0.618
 )
 
-options(OutDec = ",")
+# 🔧 Các tùy chọn R chung
+options(OutDec = ",")     # ✅ Dấu phẩy cho số thập phân
 
+# 🎨 Ghi đè palette mặc định
 scale_color_discrete <- function(...) scale_color_brewer(palette = "Set1", ...)
 scale_fill_discrete  <- function(...) scale_fill_brewer(palette = "Pastel2", ...)
+
 
 ft_vn <- function(df) {
   flextable(df) %>%
@@ -52,6 +57,8 @@ ft_vn <- function(df) {
     autofit()
 }
 
+
+# Hàm tô màu xanh cho văn bản inline Word
 text_blue <- function(text) {
   ftext(
     text,
@@ -61,3 +68,4 @@ text_blue <- function(text) {
     )
   )
 }
+

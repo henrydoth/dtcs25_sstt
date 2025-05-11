@@ -1,6 +1,3 @@
-```{r}
-source(here::here("R", "packages.R"))
-```
 
 # ĐỐI TƯỢNG VÀ PHƯƠNG PHÁP NGHIÊN CỨU
 
@@ -46,6 +43,11 @@ $$
 
 ```{r}
 #| include: false
+#| echo: false
+
+library(dplyr)     
+library(flextable)   
+
 data <- data.frame(
   Ten_bien = c(
     "Tuổi", "Giới tính", "Tuổi khởi phát", "Thời gian phát hiện bệnh", 
