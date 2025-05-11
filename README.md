@@ -54,9 +54,12 @@ MMSE là thang điểm đánh giá nhận thức đơn giản, phổ biến tron
 oseh salom
 
 ‎עוֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו
+
 ‎הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ
+
 ‎וְעַל כָּל יִשְׂרָאֵל
-‎וְאִמְרוּ: אָמֵן.
+‎
+וְאִמְרוּ: אָמֵן.
 
 Oseh shalom bimromav
 Hu ya'aseh shalom aleinu
