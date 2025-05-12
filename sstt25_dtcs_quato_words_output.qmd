@@ -21,15 +21,15 @@ language:
 editor: source
 ---
 
-```{r setup, include=FALSE}
 
-knitr::opts_chunk$set(
-  warning = FALSE,  
-  message = FALSE   
-)
-source(here::here("R", "packages.R"))
-source(here::here("R", "load_data.R"))  #
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source(here::here("R", "run_all.R"))
+
 ```
+
+
 ::: {custom-style="CAN GIUA DAM 14 ONE"}
 LỜI NÓI ĐẦU
 :::

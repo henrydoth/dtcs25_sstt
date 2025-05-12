@@ -1,3 +1,10 @@
+#❤️❤️## KIỂM TRA ️❤️❤️##
+check_and_load_all <- function() {
+  if (!exists("%>%") || !exists("theme_set", mode = "function"))
+    source(here::here("R", "packages.R"), encoding = "UTF-8")
+  if (!exists("df") || !inherits(df, "data.frame"))
+    source(here::here("R", "01_load_clean_data.R"), encoding = "UTF-8")
+}
 
 #❤️❤️❤️Đánh giá sự tương đồng giữa phân độ MMSE và phân loại lâm sàng theo tiêu chuẩn lâm sàngn❤️❤️❤️##
 #######################################

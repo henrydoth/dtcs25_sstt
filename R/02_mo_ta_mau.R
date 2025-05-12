@@ -1,9 +1,13 @@
+
 #❤️❤️ Nạp các file R trước ️❤️❤️#
-if (!exists("df")) {
-  source(here::here("R", "packages.R"))
-  source(here::here("R", "00_setup.R"))
-  source(here::here("R", "01_load_clean_data.R"))
+check_and_load_all <- function() {
+  if (!exists("%>%") || !exists("theme_set", mode = "function")) {
+    cat("📦 Nạp packages.R...\n")
+    source(here::here("R", "packages.R"))
+    cat("✅ packages.R đã được nạp thành công.\n")
+  }
 }
+
 
 #❤️❤️  Đặc điểm mẫu nghiên cứu ️❤️❤️##
 #######################################

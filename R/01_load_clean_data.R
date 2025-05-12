@@ -1,6 +1,12 @@
-# ❤️ Nếu chưa có các hàm cần thiết, tự động nạp packages.R
-if (!all(c("%>%", "year", "read_sav") %in% lsf.str())) {
-  source(here::here("R", "packages.R"))
+#❤️❤️ Nạp packages.R nếu cần ️❤️❤️#
+#❤️❤️ Hàm kiểm tra và nạp packages nếu cần ❤️❤️#
+check_and_load <- function() {
+  if (!exists("%>%") || !exists("theme_set", mode = "function")) {
+    message("📦 Nạp lại thư viện từ packages.R...")
+    source(here::here("R", "packages.R"), encoding = "UTF-8")
+  } else {
+    message("✅ Thư viện đã sẵn sàng.")
+  }
 }
 
 #❤️❤️Đọc dữ liệu ️❤️❤️##
