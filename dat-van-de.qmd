@@ -10,7 +10,7 @@ Các **trắc nghiệm thần kinh nhận thức** là công cụ thiết yếu 
 
 Từ năm 2019, Đơn vị Trí nhớ và Sa sút trí tuệ – **Bệnh viện 30-4** đã chính thức triển khai **bộ trắc nghiệm đánh giá chức năng thần kinh nhận thức Việt Nam (VnCA – Vietnamese Cognitive Assessment)**. Bộ công cụ này do **Hội Bệnh Alzheimer và Rối loạn thần kinh nhận thức Việt Nam (VnADA)**, **Trung tâm Bệnh thoái hóa thần kinh Đức (DZNE)** và đội ngũ chuyên gia **Bệnh viện 30-4** phối hợp xây dựng và hiệu chỉnh, đảm bảo **tính phù hợp về ngôn ngữ và văn hóa**. **VnCA** bao gồm nhiều trắc nghiệm tiêu chuẩn, đánh giá các lĩnh vực nhận thức khác nhau và hiện đang được áp dụng thường quy trong chẩn đoán tại cơ sở.
 
-Tuy nhiên, hiện còn thiếu các nghiên cứu đánh giá hệ thống về **mối tương quan giữa MMSE và các trắc nghiệm trong bộ VnCA**, cũng như **khả năng ứng dụng của VnCA trong phân biệt MCI với các giai đoạn SSTT**. Việc làm rõ mối liên hệ này sẽ góp phần **hoàn thiện quy trình đánh giá**, **nâng cao độ chính xác trong chẩn đoán** và **hỗ trợ theo dõi hiệu quả người bệnh** tại Bệnh viện 30-4.
+Tuy nhiên, hiện còn thiếu các nghiên cứu đánh giá hệ thống về **mối tương quan giữa MMSE và các trắc nghiệm trong bộ VnCA**, cũng như **khả năng ứng dụng của VnCA trong phân biệt MCI với các giai đoạn SSTT**. Việc làm rõ mối liên hệ này sẽ góp phần **hoàn thiện quy trình đánh giá**, **nâng cao độ chính xác trong chẩn đoán** và **hỗ trợ theo dõi hiệu quả người bệnh** tại Bệnh viện 30-4. Hiện tại cũng còn thiếu đánh giá vai trò các test chuyên biệt trong ứng dụng chẩn đoán và điều trị đó là lý do chúng tôi chọn đề tài "Đánh giá hiệu quả ứng dụng của bộ Test thần kinh nhận thức trong chẩn đoán và điều trị Sa sút trí tuệ tại Bệnh viện 30-4". 
 
 **Mục tiêu nghiên cứu**
 
