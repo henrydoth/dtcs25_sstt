@@ -1,3 +1,7 @@
+# ❤️ Nếu chưa có các hàm cần thiết, tự động nạp packages.R
+if (!all(c("%>%", "year", "read_sav") %in% lsf.str())) {
+  source(here::here("R", "packages.R"))
+}
 
 #❤️❤️Đọc dữ liệu ️❤️❤️##
 #######################################

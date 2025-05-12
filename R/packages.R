@@ -1,4 +1,3 @@
-
 pacman::p_load(
   dplyr, tidyr, forcats, haven,
   ggplot2, lubridate, glue, flextable,
@@ -7,7 +6,6 @@ pacman::p_load(
   purrr, RColorBrewer, emo, janitor,
   effectsize, patchwork, scales, stringr
 )
-
 
 set_flextable_defaults(
   font.family = "Times New Roman",
@@ -60,4 +58,12 @@ text_blue <- function(text) {
       font.family = "Times New Roman"
     )
   )
+}
+
+# 👉 Hàm kiểm tra và nạp packages.R nếu cần
+check_and_load <- function() {
+  if (!exists("%>%") || !exists("theme_set", mode = "function")) {
+    message("📦 Nạp lại thư viện từ packages.R...")
+    source(here::here("R", "packages.R"))
+  }
 }

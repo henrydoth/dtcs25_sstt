@@ -1147,7 +1147,7 @@ Khái niệm	Giải thích ngắn
 性 (tính)	Sự sống ban đầu do trời đất sinh ra.          
 感 (cảm)	Cảm nhận từ bên ngoài nhờ có thần vận hành.          
 心 (tâm)	Khả năng cảm nhận yêu – ghét, vui – buồn.          
-意 (ý)	Tâm ghi nhớ sự việc.          
+意 (ý)	Suy nghĩ.          
 志 (chí)	Ý giữ lại trong lòng, trở thành ước muốn.          
 思 (tư)	Suy nghĩ về điều muốn làm.          
 慮 (lự)	Cân nhắc, suy luận để tìm cách thực hiện.          

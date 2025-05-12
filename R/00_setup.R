@@ -1,5 +1,9 @@
+# ❤️ Nếu chưa có hàm now() thì nạp packages.R
+if (!exists("now", mode = "function")) {
+  source(here::here("R", "packages.R"))
+}
 
-####SETUP THOI GIAN########
+##❤️❤️❤️##SETUP THOI GIAN#❤️❤️❤️#######
 ###########################
 current_datetime <- now()
 

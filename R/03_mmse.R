@@ -1,7 +1,13 @@
+# ❤️ Nếu chưa có %>% hoặc df → nạp packages và dữ liệu
+if (!exists("%>%") || !exists("df")) {
+  source(here::here("R", "packages.R"))
+  source(here::here("R", "01_load_clean_data.R"))
+}
+
 #❤️❤️### MMSE ️❤️❤️##
 ####################
 
-# 🧠 Tổng hợp bảng MMSE
+# 🧠 ßTổng hợp bảng MMSE
 tab_mmse <- df %>%
   count(mmse_group, name = "n") %>%
   mutate(
