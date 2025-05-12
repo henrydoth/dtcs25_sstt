@@ -3,11 +3,20 @@
 
 ## Dân số mục tiêu:
 
-Bệnh nhân sa sút trí tuệ trong bối cảnh ngoại trú ở các khoa – phòng khám lâm sàng chuyên về trí nhớ và sa sút trí tuệ.
+Người suy giảm nhận thức nhẹ và  sa sút trí tuệ trong bối cảnh ngoại trú ở các khoa – phòng khám lâm sàng chuyên về trí nhớ và sa sút trí tuệ.
+## Tiêu chuẩn chọn.
+-	Tất cả những bệnh nhân đến khám tại Đơn vị trí nhớ và sa sút trí tuệ 
+-	Từ 40 tuổi trở lên
+-	Có than phiền về trí nhớ hoặc nhận thức.
+## Tiêu chuẩn loại trừ.
+- Không hợp tác.
+- Bệnh nhân đang bị mê sảng, lú lẫn cấp
+- Suy giảm nhận thức không phải do nguyên nhân tâm thần kinh khác (ví dụ trầm cảm hay tâm thần phân liệt).
 
 ## Dân số chọn mẫu:
 
-Bệnh nhân đến khám và điều trị tại phòng khám thuộc Đơn vị trí nhớ và sa sút trí tuệ, bệnh viện 30-4.
+Bệnh nhân than phiền về trí nhớ đến khám và điều trị tại phòng khám thuộc Đơn vị trí nhớ và sa sút trí tuệ, bệnh viện 30-4.
+
 
 ### Cỡ mẫu:
 
