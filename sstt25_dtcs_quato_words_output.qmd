@@ -1,6 +1,6 @@
 ---
 title: "ĐỀ TÀI CẤP CƠ SỞ 2025"
-author: "ĐƠN VỊ TRÍ NHỚ VÀ SA SÚT TRÍ TUỆ"
+author: "DƯỠNG TÂM THANG "
 format:
     docx:
       toc: false

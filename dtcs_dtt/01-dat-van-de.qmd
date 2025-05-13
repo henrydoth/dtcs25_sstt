@@ -1,0 +1,26 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(include = FALSE)
+source(here::here("R", "packages.R"))
+```
+
+::: {custom-style="CAN GIUA DAM 14 ONE"}
+ĐẶT VẤN ĐỀ
+:::
+## Đặt vấn đề
+
+Giấc ngủ không chỉ là khoảng thời gian nghỉ ngơi mà còn là quá trình quan trọng trong việc phục hồi và tái tạo sức khoẻ, cân bằng nội tiết, tăng cường hệ miễn dịch, cải thiện tinh thần. Ngày nay, do sự thay đổi trong lối sống và môi trường hiện đại, áp lực công việc, học tập và những căng thẳng tinh thần kéo dài đã làm cho tỉ lệ mất ngủ trên toàn cầu, đặc biệt là các đô thị lớn, ngày càng gia tăng.
+
+Năm 2023, theo Tổ chức Y tế Thế giới (World Health Organization), có hơn 30% dân số gặp phải các triệu chứng mất ngủ và khoảng 10–15% mắc chứng mất ngủ mãn tính. Tại Việt Nam, theo thống kê, tỷ lệ người dân đến khám vì mất ngủ chiếm 10–20% tại các chuyên khoa thần kinh @tran2006. Tại Bệnh viện Tâm thần Thành phố Hồ Chí Minh, mỗi ngày có hàng trăm người đến khám, thì trên 90% bệnh nhân than phiền về mất ngủ; tỷ lệ rối loạn giấc ngủ chiếm trên 41% ở các bệnh nhân điều trị nội trú @le2023.
+
+Trong khi y học hiện đại cung cấp nhiều phương pháp điều trị mất ngủ như thuốc an thần, thuốc giảm lo âu, liệu pháp nhận thức hành vi… với tác dụng gây buồn ngủ nhanh, giúp bệnh nhân dễ vào giấc ngủ, thì điều trị đa phần nhằm khắc phục triệu chứng. Tuy nhiên, việc sử dụng lâu dài dễ dẫn đến tình trạng lệ thuộc vào thuốc, mệt mỏi, suy giảm trí nhớ, ảnh hưởng chức năng gan, thận… và không phải lúc nào cũng hiệu quả với mọi bệnh nhân.
+
+Điều này đã dẫn đến sự quan tâm ngày càng lớn đối với các phương pháp điều trị thay thế, trong đó có Y học cổ truyền (YHCT), với những phương pháp điều trị khác nhau như: thuốc thang, thuốc hoàn, tễ, châm cứu, xoa bóp bấm huyệt, cấy chỉ, thuỷ châm, ngâm thuốc… đã tồn tại và được ứng dụng trong hàng ngàn năm qua. Các phương pháp này thông qua biện chứng luận trị, tiến hành cá thể hoá điều trị, không chỉ tập trung vào việc điều trị triệu chứng mà còn chú trọng đến việc điều hòa cơ thể, khôi phục cân bằng âm dương, khí huyết, từ đó giúp cải thiện giấc ngủ một cách bền vững và an toàn @hoang1992 @pham2009.
+
+Bài thuốc “Dưỡng tâm thang” là bài cổ phương có nguồn gốc từ sách “Cổ kim y thống” của Từ Xuân Phủ, có tác dụng dưỡng huyết tư âm, dưỡng tâm an thần. Trong Y học cổ truyền, phương pháp điều trị sử dụng Dưỡng tâm thang là một trong những phương pháp đã được chứng minh hiệu quả điều trị mất ngủ, tuy có nhiều nghiên cứu ở nước ngoài nhưng chưa được thực hiện tại Việt Nam. Phương pháp châm cứu là phương pháp điều trị dễ thực hiện, tính an toàn cao và đã được chứng minh hiệu quả lâm sàng qua nhiều nghiên cứu trong và ngoài nước.
+
+Tại khoa Y học cổ truyền Bệnh viện 30-4, điều trị mất ngủ bằng châm cứu và bài thuốc Dưỡng tâm thang hiện tại đang được sử dụng rộng rãi cho người bệnh, thân nhân và cán bộ chiến sĩ. Việc kết hợp cả hai phương pháp châm cứu và dùng bài thuốc Dưỡng tâm thang nhằm kế thừa, phát huy vốn quý của YHCT. Với mong muốn đưa những phương pháp an toàn, hiệu quả, cũng như đem đến cho các bác sĩ lâm sàng có thêm sự lựa chọn trong việc điều trị, đồng thời bám sát y học thực chứng, chúng tôi thực hiện nghiên cứu “Đánh giá hiệu quả điều trị mất ngủ bằng phương pháp sử dụng châm cứu kết hợp với bài thuốc Dưỡng tâm thang trên bệnh nhân mất ngủ thể Tâm âm hư tại Bệnh viện 30-4”, với mục tiêu:
+
+1. Đánh giá hiệu quả điều trị mất ngủ bằng phương pháp sử dụng châm cứu kết hợp với bài thuốc Dưỡng tâm thang trên bệnh nhân mất ngủ thể Tâm âm hư tại Bệnh viện 30-4.
+2. So sánh hiệu quả điều trị mất ngủ thể Tâm âm hư bằng phương pháp sử dụng châm cứu kết hợp với bài thuốc Dưỡng tâm thang với phương pháp chỉ sử dụng châm cứu.
+3. Nghiên cứu tác dụng không mong muốn của phương pháp điều trị.
+

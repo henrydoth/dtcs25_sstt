@@ -1,0 +1,31 @@
+project:
+  type: book
+
+book:
+  title: "dtcs_duong_tamthang"
+  author: "Ths.bs Trương Thuý Hoàn"
+  chapters:
+    - index.qmd
+    - 01-dat-van-de.qmd
+    - 02-tong-quan-tai-lieu.qmd
+    - doi_tuong-phuong-phap.qmd
+    - 04-ket-qua.qmd
+    - 05-ban-luan.qmd
+    - 06-ket-luan-kien-nghi.qmd
+    - 07-tai-lieu-tham-khao.qmd
+    - 08-phu-luc.qmd
+
+format:
+  docx:
+    toc: true
+    number-sections: false  
+    fig-dpi: 300
+    dev: dml
+    reference-doc: source/sstt_dtcs_quato_words_input.docx
+    fig-align: center
+    fig-cap-location: bottom
+    df-print: default
+
+bibliography: source/de tai co so chuan 2025_13_05.bib
+csl: source/ama-brackets.csl
+

@@ -1,0 +1,19 @@
+{
+  "hash": "4c02c799b88a82b6202968e7f3fdcf6b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n\n\n\n\n# KẾT QUẢ NGHIÊN CỨU\nddddddd\n\n## Đặc điểm đối tượng nghiên cứu\ngg\n\n### Đặc điểm theo tuổi và giới tính\n\n### Đặc điểm theo hoàn cảnh gia đình, nghề nghiệp, hôn nhân\n\n###1.3 Đặc điểm thời gian mắc bệnh\n\n###1.4 Đặc điểm yếu tố thúc đẩy bệnh\n\n###1.5 Đặc điểm tính chất xuất hiện bệnh 3.1.6 Điểm PSQI lúc khởi trị\n\n##2 Đánh giá hiệu quả điều trị\n\n###2.1 Hiệu quả cải thiện thời lượng giấc ngủ\n\n###2.2 Hiệu quả cải thiện thời gian vào giấc ngủ\n\n###2.3 Tác dụng cải thiện hiệu quả giấc ngủ\n\n###2.4 Hiệu quả cải thiện chất lượng giấc ngủ\n\n###2.5 Hiệu quả cải thiện thang điểm PSQI\n\n###2.6 Hiệu quả cải thiện một số triệu chứng thứ phát sau mất ngủ\n\n###2.7 Hiệu quả cải thiện một số triệu chứng YHCT\n\n##3. Một số yếu tố liên quan đến kết quả điều trị\n\n#Chương IV: BÀN LUẬN\n\n##1 Đặc điểm chung của đối tượng nghiên cứu\n\n###1.1 Phân bố bệnh nhân theo tuổi\n\n###1.2 Phân bố bệnh nhân theo giới tính\n\n###1.3 Phân bố bệnh nhân theo nghề nghiệp\n\n###1.4 Phân bố bệnh nhân theo tình trạng hôn nhân\n\n###1.5 Phân bố bệnh nhân theo hoàn cảnh gia đình\n\n###1.5 Phân bố thời gian mắc bệnh của bệnh nhân\n\n###1.6 Phân bố theo yếu tố thúc đẩy\n\n###1.7 Phân bố theo tính chất xuất hiện bệnh\n\n###1.8 Điểm PSQI trước khi điều trị\n\n##2. Hiệu quả của phương pháp điều trị\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
