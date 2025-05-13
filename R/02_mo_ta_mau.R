@@ -102,8 +102,7 @@ inline_tuoi_banluan <- case_when(
     "Trong nghiên cứu này, tuổi trung bình toàn mẫu nghiên cứu là {scales::number(mean_age_all, accuracy = 0.1, decimal.mark = ',')} tuổi; ",
     "tuổi trung bình nhóm Suy giảm nhận thức nhẹ là {scales::number(sgnt$mean_age, accuracy = 0.1, decimal.mark = ',')} tuổi, ",
     "nhóm Sa sút trí tuệ là {scales::number(sstt$mean_age, accuracy = 0.1, decimal.mark = ',')} tuổi. ",
-    "Nhóm Sa sút trí tuệ có xu hướng lớn tuổi hơn, cho thấy tuổi có thể liên quan đến mức độ suy giảm nhận thức."
-  ),
+    ),
   sgnt$mean_age > sstt$mean_age ~ "Trong nghiên cứu này, nhóm Suy giảm nhận thức nhẹ có xu hướng lớn tuổi hơn, cho thấy có thể tồn tại các yếu tố ngoài tuổi ảnh hưởng đến mức độ nhận thức.",
   TRUE ~ "Trong nghiên cứu này, hai nhóm có độ tuổi tương đương, gợi ý rằng tuổi không phải là yếu tố phân biệt rõ giữa các mức độ nhận thức."
 )
