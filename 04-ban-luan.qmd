@@ -16,6 +16,8 @@ BÀN LUẬN
 :::
 
 ## Đặc điểm mẫu của nghiên cứu
+### Đặc điểm chung nhân khẩu học
+
 
 ### Đặc điểm theo Tuổi
 
@@ -23,23 +25,33 @@ BÀN LUẬN
 `r inline_tuoi_banluan`
 :::
 
-Kết quả nghiên cứu cho cho thấy tuổi là một yếu tố liên quan rõ rệt đến mức độ suy giảm chức năng nhận thức.
+Kết quả nghiên cứu cho thấy tuổi là một yếu tố liên quan rõ rệt đến mức độ suy giảm chức năng nhận thức. Nhóm sa sút trí tuệ có độ tuổi trung bình cao hơn rõ rệt so với nhóm suy giảm nhận thức nhẹ, phản ánh xu hướng bệnh lý tiến triển theo thời gian.
 
-Phát hiện này phù hợp với nhiều nghiên cứu trước đây. Theo dữ liệu từ Tổ chức Y tế Thế giới (WHO), tuổi cao là yếu tố nguy cơ lớn nhất dẫn đến sa sút trí tuệ, với tỷ lệ hiện mắc tăng mạnh ở nhóm người trên 65 tuổi. Cụ thể, tỷ lệ sa sút trí tuệ tăng gấp đôi sau mỗi 5 năm tuổi sau mốc 65 tuổi @who2021dementia.
+Phát hiện này phù hợp với nhiều nghiên cứu trước đây. Theo dữ liệu từ Tổ chức Y tế Thế giới (WHO), tuổi cao là yếu tố nguy cơ lớn nhất dẫn đến sa sút trí tuệ, với tỷ lệ hiện mắc tăng mạnh ở nhóm người trên 65 tuổi. Cụ thể, tỷ lệ sa sút trí tuệ tăng gấp đôi sau mỗi 5 năm tuổi sau mốc 65 tuổi @who2021dementia. Báo cáo *World Alzheimer Report* của Prince và cộng sự (2015) cũng khẳng định rằng nguy cơ mắc sa sút trí tuệ gia tăng rõ rệt từ tuổi 60 trở đi @prince2015world.
 
-Tương tự, nghiên cứu của Prince và cộng sự (2015) thuộc báo cáo World Alzheimer Report cũng chỉ ra rằng nguy cơ mắc sa sút trí tuệ gia tăng theo tuổi, đặc biệt rõ ràng từ 60 tuổi trở lên. Điều này khẳng định rằng tuổi đóng vai trò trung tâm trong sinh bệnh học của sa sút trí tuệ @prince2015world.
-
-Việc nhóm sa sút trí tuệ có độ tuổi trung bình cao hơn cũng phản ánh xu hướng bệnh lý tiến triển từ giai đoạn suy giảm nhận thức nhẹ sang giai đoạn nặng hơn. Đây là cơ sở quan trọng cho việc sàng lọc và can thiệp sớm ở người cao tuổi, từ đó có thể làm chậm quá trình tiến triển bệnh và giảm gánh nặng xã hội.
+Việc nhóm sa sút trí tuệ có độ tuổi trung bình cao hơn cũng phản ánh tiến trình tự nhiên từ MCI sang SSTT. Đây là cơ sở quan trọng cho việc sàng lọc và can thiệp sớm ở người cao tuổi, từ đó làm chậm tiến triển và giảm gánh nặng bệnh lý.
 
 ::: {custom-style="chu_xanh"}
 `r inline_nhom_tuoi_banluan`
 :::
 
-Xu hướng này phản ánh mối liên quan chặt chẽ giữa tuổi cao và mức độ tiến triển của suy giảm nhận thức. Khi tuổi tăng, nguy cơ chuyển từ giai đoạn suy giảm nhận thức nhẹ sang sa sút trí tuệ cũng tăng theo. Petersen và cộng sự (2018) đã chỉ ra rằng mỗi năm có khoảng 10–15% bệnh nhân MCI chuyển sang giai đoạn sa sút trí tuệ, và tỷ lệ này gia tăng ở người lớn tuổi @petersen2018mci.
+Biểu đồ hộp (boxplot) minh họa rõ sự khác biệt phân bố tuổi giữa hai nhóm. Nhóm SSTT không chỉ có độ tuổi trung bình cao hơn mà còn biến thiên thấp hơn, phản ánh tích lũy yếu tố nguy cơ và biến đổi thần kinh theo thời gian.
 
-Ngoài ra, Tổ chức Y tế Thế giới (World Health Organization, 2021) nhấn mạnh rằng tỷ lệ sa sút trí tuệ tăng gấp đôi sau mỗi 5 năm tuổi sau mốc 65 tuổi. Điều này hoàn toàn phù hợp với kết quả nghiên cứu này, khi tỷ lệ sa sút trí tuệ tăng từ 67,8% ở nhóm 50–59 tuổi lên đến 100% ở nhóm ≥80 tuổi @who2021dementia.
+Khi phân tích theo nhóm tuổi rời rạc, xu hướng rõ rệt hơn: nhóm ≥80 tuổi có tỷ lệ SSTT cao nhất, trong khi nhóm 60–69 tuổi chiếm tỷ lệ MCI cao hơn. Điều này cho thấy tuổi không chỉ là yếu tố nguy cơ mà còn thúc đẩy sự chuyển tiếp từ giai đoạn nhẹ sang nặng của rối loạn nhận thức.
 
-Phát hiện này cho thấy tầm quan trọng của việc sàng lọc nhận thức ở những nhóm tuổi sớm hơn (từ 50 tuổi trở đi), nhằm phát hiện các biểu hiện ban đầu của rối loạn nhận thức và can thiệp kịp thời để làm chậm quá trình tiến triển. Đồng thời, việc tập trung chăm sóc và quản lý bệnh lý sa sút trí tuệ ở người cao tuổi, đặc biệt từ 70 tuổi trở lên, là vô cùng cấp thiết trong bối cảnh dân số già hóa nhanh chóng.
+Petersen và cộng sự (2018) cho biết mỗi năm có khoảng 10–15% bệnh nhân MCI tiến triển sang sa sút trí tuệ, và tỷ lệ này tăng cao ở người lớn tuổi @petersen2018mci. WHO cũng xác nhận tỷ lệ mắc SSTT tăng gấp đôi mỗi 5 năm sau 65 tuổi – hoàn toàn phù hợp với kết quả nghiên cứu này @who2021dementia.
+
+Điều này cho thấy tầm quan trọng của việc sàng lọc nhận thức từ sớm (từ 50 tuổi trở đi), giúp phát hiện các biểu hiện ban đầu và can thiệp kịp thời. Đồng thời, việc quản lý SSTT ở người ≥70 tuổi là ưu tiên trong bối cảnh dân số già hóa nhanh.
+
+Kết quả này phù hợp với nhiều nghiên cứu. Petersen và cộng sự khẳng định tuổi là yếu tố nguy cơ hàng đầu, đặc biệt sau 75 tuổi @Petersen2014. Phân tích của Arevalo-Rodriguez và cộng sự cho thấy MMSE có hiệu quả cao hơn ở nhóm lớn tuổi, với độ nhạy 81% và đặc hiệu 89% @arevalo2015.
+
+Tại Việt Nam, Trần Văn Nam và cộng sự ghi nhận nhóm SSTT cao hơn khoảng 4 tuổi so với nhóm MCI @tran2020. Nguyễn Thị Thu Thủy cũng cho thấy SSTT tăng mạnh ở nhóm trên 75 tuổi, trong khi MCI phổ biến hơn ở nhóm trung niên @thuthuy2021.
+
+Từ góc nhìn thần kinh học, tuổi cao đi kèm các thay đổi như teo vỏ não, mất kết nối synapse, giảm chất trắng, tích lũy amyloid-beta. Các bệnh lý nền như tăng huyết áp, đái tháo đường, rối loạn mỡ máu – phổ biến ở người cao tuổi – cũng góp phần vào thoái hóa nhận thức.
+
+Tuy nhiên, cần lưu ý rằng một số bệnh nhân SSTT có thể ở độ tuổi còn trẻ, như các thể bệnh Alzheimer khởi phát sớm hoặc sa sút trán-thái dương. Vì vậy, tuổi tuy là yếu tố nguy cơ quan trọng nhưng không nên là tiêu chí duy nhất trong đánh giá rối loạn nhận thức.
+
+Tóm lại, kết quả nghiên cứu hiện tại khẳng định **tuổi có mối liên hệ chặt chẽ với mức độ sa sút trí tuệ**, thể hiện qua giá trị trung bình và phân bố nhóm tuổi. Các chiến lược sàng lọc, dự phòng và can thiệp cần tập trung vào nhóm người cao tuổi, nhưng cũng không bỏ sót người trẻ có nguy cơ suy giảm nhận thức sớm.
 
 ### Đặc điểm theo giới tính
 
@@ -47,23 +59,17 @@ Phát hiện này cho thấy tầm quan trọng của việc sàng lọc nhận 
 `r inline_bang_gioitinh_banluan`
 :::
 
-Kết quả nghiên cứu cho thấy tỷ lệ nữ giới chiếm ưu thế ở cả hai nhóm rối loạn nhận thức. Trong nhóm suy giảm nhận thức nhẹ, nữ giới chiếm 69,4%, trong khi nam giới chỉ chiếm 30,6%. Ở nhóm sa sút trí tuệ, nữ giới chiếm 60,1%, nam là 39,9%. \## Bàn luận về tuổi tác
+Kết quả nghiên cứu cho thấy tỷ lệ nữ giới chiếm ưu thế ở cả hai nhóm rối loạn nhận thức. Trong nhóm suy giảm nhận thức nhẹ, nữ giới chiếm 69,4%, trong khi nam giới chỉ chiếm 30,6%. Ở nhóm sa sút trí tuệ, nữ giới chiếm 60,1%, nam là 39,9%.
 
-Tuổi tác là một yếu tố nguy cơ không thể thay đổi trong sa sút trí tuệ. Trong nghiên cứu hiện tại, tuổi trung bình của nhóm sa sút trí tuệ cao hơn rõ rệt so với nhóm suy giảm nhận thức nhẹ. Điều này hoàn toàn phù hợp với bằng chứng dịch tễ học trên toàn cầu, khi tỷ lệ sa sút trí tuệ tăng dần theo tuổi, đặc biệt sau 65 tuổi [@livingston2020lancet].
+Xu hướng này phù hợp với nhiều nghiên cứu trong và ngoài nước, cho thấy nữ giới là nhóm có nguy cơ cao hơn mắc các rối loạn nhận thức. Theo Tổ chức Y tế Thế giới, phụ nữ có tuổi thọ cao hơn, dẫn đến tỷ lệ mắc sa sút trí tuệ cao hơn ở nữ giới @who2021dementia. Báo cáo toàn cầu về sa sút trí tuệ năm 2015 cũng nhấn mạnh rằng phụ nữ chiếm phần lớn dân số mắc bệnh, đặc biệt ở nhóm ≥75 tuổi @prince2015world.
 
-Theo WHO, cứ mỗi 5 năm sau tuổi 65 thì nguy cơ mắc sa sút trí tuệ tăng gần gấp đôi [@who2021dementia]. Một nghiên cứu tại Việt Nam của Lê Văn Tuấn và cộng sự (2019) cũng xác nhận người ≥75 tuổi có nguy cơ cao hơn đáng kể so với nhóm 60–74 tuổi [@le2019travinhsstt].
+Tại Hoa Kỳ, nghiên cứu của @petersen2014 và tổng quan hệ thống của @beam2018 cho thấy phụ nữ không chỉ có tỷ lệ mắc bệnh cao hơn mà còn có tốc độ tiến triển nhanh hơn ở một số thể bệnh như Alzheimer. Đặc biệt, các yếu tố như học vấn thấp, vai trò xã hội truyền thống, và sự tiếp xúc với stress kéo dài cũng là những yếu tố làm gia tăng nguy cơ.
 
-Những phát hiện này nhấn mạnh vai trò của các chương trình can thiệp sớm, tầm soát định kỳ, và giáo dục cộng đồng tập trung vào lứa tuổi trung niên để giảm thiểu gánh nặng bệnh lý ở giai đoạn cao tuổi.
+Tại Việt Nam, các khảo sát cộng đồng đã ghi nhận xu hướng tương tự. Nghiên cứu của @nguyen2020 tại Bệnh viện Lão khoa Trung ương ghi nhận nữ giới chiếm tỷ lệ cao hơn trong nhóm Sa sút trí tuệ. Trong khi đó, @lehuutuan2021 nhận thấy nữ giới có xu hướng đi khám sớm hơn và đạt điểm MMSE cao hơn, cho thấy nhận thức tốt hơn và khả năng chủ động hơn trong chăm sóc sức khỏe.
 
-Xu hướng này phù hợp với nhiều nghiên cứu quốc tế và trong nước, cho thấy nữ giới là nhóm có nguy cơ cao hơn mắc các rối loạn nhận thức. Theo Tổ chức Y tế Thế giới, phụ nữ sống thọ hơn nam giới, dẫn đến tỷ lệ mắc sa sút trí tuệ cao hơn ở nữ [@who2021dementia]. Báo cáo toàn cầu về sa sút trí tuệ năm 2015 cũng nhấn mạnh rằng phụ nữ chiếm phần lớn dân số mắc bệnh, đặc biệt ở nhóm tuổi ≥75 [@prince2015world].
+Sự khác biệt này có thể lý giải bởi các yếu tố sinh học (như suy giảm estrogen sau mãn kinh), tuổi thọ cao hơn, cùng với bối cảnh văn hóa xã hội – nơi nữ giới lớn tuổi thường có trình độ học vấn thấp hơn và ít tham gia các hoạt động trí tuệ, xã hội.
 
-Nghiên cứu của Petersen và cộng sự (2018) tại Hoa Kỳ cũng ghi nhận phụ nữ không chỉ có nguy cơ cao hơn mắc bệnh mà còn có tốc độ tiến triển nhanh hơn ở một số thể bệnh như Alzheimer [@petersen2018mci].
-
-Tại Việt Nam, nhiều khảo sát cộng đồng đã ghi nhận xu hướng tương tự. Ví dụ, nghiên cứu của Nguyễn Thị Nhung và cộng sự (2014) thực hiện tại Hà Nội trên 300 người cao tuổi cho thấy tỷ lệ sa sút trí tuệ ở nữ giới (28,7%) cao hơn đáng kể so với nam giới (17,9%) [@nhung2014]. Một nghiên cứu khác tại TP. Hồ Chí Minh do Trần Văn Hảo và cộng sự (2020) cũng cho thấy tỷ lệ nữ mắc rối loạn nhận thức giai đoạn sớm là 62,3%, cao hơn nam giới (37,7%) [@hao2020].
-
-Những khác biệt này có thể lý giải bởi các yếu tố sinh học (suy giảm estrogen sau mãn kinh), tuổi thọ cao hơn, và đặc biệt là yếu tố xã hội: nữ giới lớn tuổi ở Việt Nam thường có trình độ học vấn thấp hơn, ít tham gia vào các hoạt động trí tuệ và xã hội, đồng thời chịu ảnh hưởng từ vai trò truyền thống trong gia đình. Đây đều là những yếu tố làm tăng nguy cơ suy giảm nhận thức.
-
-Từ đó có thể thấy rằng giới tính là một yếu tố quan trọng trong việc đánh giá nguy cơ sa sút trí tuệ và cần được xem xét khi xây dựng chiến lược phòng ngừa. Các chương trình tầm soát và can thiệp cần thiết kế phù hợp với đặc điểm của nữ giới trung niên và cao tuổi, nhằm nâng cao nhận thức, cải thiện chất lượng sống và giảm gánh nặng bệnh tật cho cộng đồng.
+Do đó, giới tính cần được xem là yếu tố quan trọng khi đánh giá nguy cơ sa sút trí tuệ. Các chương trình sàng lọc và can thiệp cần thiết kế phù hợp với đặc điểm giới tính, đặc biệt chú trọng đến nhóm nữ trung niên và cao tuổi – những đối tượng dễ bị bỏ sót trong giai đoạn suy giảm nhận thức nhẹ.
 
 ### Đặc điểm trình độ học vấn
 
@@ -71,15 +77,36 @@ Từ đó có thể thấy rằng giới tính là một yếu tố quan trọng
 `r inline_banluan_hocvan`
 :::
 
-Trình độ học vấn là một trong những yếu tố quan trọng ảnh hưởng đến nguy cơ mắc suy giảm nhận thức và sa sút trí tuệ. Trong nghiên cứu này, nhóm suy giảm nhận thức nhẹ (MCI) có tỷ lệ trình độ đại học cao hơn rõ rệt (38,8%) so với nhóm sa sút trí tuệ (25,1%). Trong khi đó, nhóm sa sút trí tuệ có tỷ lệ người học tiểu học cao hơn đáng kể (15,5% so với 4,7% ở nhóm MCI). Sự khác biệt này có ý nghĩa thống kê (*p* = 0,004), cho thấy học vấn có thể đóng vai trò bảo vệ quan trọng đối với chức năng nhận thức.
+Trình độ học vấn là một trong những yếu tố nền tảng ảnh hưởng đến nguy cơ mắc suy giảm nhận thức và sa sút trí tuệ. Trong nghiên cứu này, nhóm **Suy giảm nhận thức nhẹ (MCI)** có tỷ lệ học vấn **Đại học** cao hơn đáng kể (38,8%) so với nhóm **Sa sút trí tuệ (SSTT)** (25,1%). Ngược lại, nhóm SSTT có tỷ lệ học vấn **Tiểu học** cao hơn rõ rệt (15,5% so với 4,7% ở nhóm MCI). Sự khác biệt này có ý nghĩa thống kê (*p* = 0,004), củng cố giả thuyết rằng học vấn cao có vai trò bảo vệ nhận thức.
 
-Các nghiên cứu quốc tế cũng khẳng định điều này. Báo cáo của Ủy ban Lancet (2020) cho biết việc không học hết trung học là một trong những yếu tố nguy cơ lớn nhất dẫn đến sa sút trí tuệ [@livingston2020lancet]. Tổ chức Y tế Thế giới (WHO) cũng xếp trình độ học vấn thấp vào nhóm các yếu tố nguy cơ có thể phòng ngừa được [@who2021dementia].
+Cơ chế phổ biến nhất được sử dụng để giải thích mối liên quan giữa học vấn và chức năng nhận thức là lý thuyết “dự trữ nhận thức” (*cognitive reserve*). Theo đó, người có học vấn cao sẽ phát triển được các mạng lưới thần kinh linh hoạt hơn, tăng khả năng thích nghi và bù trừ chức năng khi não bộ bị tổn thương. Nhờ đó, triệu chứng lâm sàng của sa sút trí tuệ có thể được trì hoãn hoặc biểu hiện ở mức độ nhẹ hơn, ngay cả khi tồn tại các biến đổi bệnh lý nền. Các nghiên cứu của **Stern** đã cung cấp bằng chứng sinh học và lâm sàng cho giả thuyết này [@stern2012cognitive; @stern2012cognitivereserve].
 
-Một trong những giả thuyết được chấp nhận rộng rãi là lý thuyết "dự trữ nhận thức" (*cognitive reserve*), cho rằng học vấn cao giúp não bộ tạo ra mạng lưới thần kinh linh hoạt hơn và khả năng bù trừ tốt hơn khi có tổn thương do lão hóa hay bệnh lý [@stern2012cognitive].
+Phát hiện này hoàn toàn phù hợp với các nghiên cứu quốc tế. Báo cáo của **Livingston và cộng sự** (2020) khẳng định trình độ học vấn thấp là một trong 12 yếu tố nguy cơ có thể can thiệp để làm giảm nguy cơ mắc sa sút trí tuệ, với ước tính có thể giảm tới 7% gánh nặng bệnh lý nếu cải thiện trình độ học vấn dân số [@livingston2020lancet]. **Gao và cộng sự** (1998) cũng ghi nhận tỷ lệ mắc sa sút trí tuệ cao hơn ở nhóm không học hết tiểu học [@gao1998]. Một nghiên cứu tại Hàn Quốc cho thấy người chỉ học đến tiểu học có nguy cơ mắc bệnh cao gấp 2,5 lần so với người học sau trung học [@lee2010education].
 
-Tại Việt Nam, nhiều nghiên cứu cũng cho kết quả tương tự. Lê Văn Tuấn và cộng sự (2019) khảo sát tại Trà Vinh cho thấy người mù chữ có nguy cơ sa sút trí tuệ cao gấp hơn 3 lần so với người biết chữ (OR = 3,3; KTC 95%: 1,4–7,9) [@le2019travinhsstt]. Tương tự, Trần Văn Hào (2020) tại Vĩnh Long ghi nhận tỷ lệ sa sút trí tuệ ở nhóm học vấn thấp cao hơn nhóm học vấn cao có ý nghĩa thống kê [@tran2020vinhlonghocvan].
+Tại Việt Nam, nhiều bằng chứng dịch tễ cũng cho thấy vai trò bảo vệ của học vấn. **Lê Văn Tuấn và cộng sự** khảo sát tại Trà Vinh phát hiện người mù chữ có nguy cơ SSTT cao gấp 3,3 lần so với người biết chữ (OR = 3,3; KTC 95%: 1,4–7,9) [@le2019travinhsstt]. **Trần Văn Hào** (2020) và **Trần Văn Nam** (2020) đều cho thấy nhóm SSTT có tỷ lệ học dưới trung học cơ sở cao hơn có ý nghĩa [@tran2020vinhlonghocvan; @tran2020]. **Nguyễn Thị Thu Thủy** còn nhận thấy điểm MMSE thấp hơn và tốc độ tiến triển nhanh hơn ở người học vấn thấp [@thuthuy2021].
 
-Những bằng chứng này nhấn mạnh tầm quan trọng của giáo dục trong giai đoạn đầu đời như một biện pháp can thiệp lâu dài nhằm phòng ngừa sa sút trí tuệ ở người cao tuổi.
+Kết quả bảng và biểu đồ trong nghiên cứu hiện tại một lần nữa làm rõ mối liên quan trên: `r inline_table_hocvan`. Trong biểu đồ, nhóm MCI chiếm ưu thế ở các mức học vấn cao hơn, phản ánh trực quan mối liên hệ giữa trình độ học vấn và mức độ suy giảm nhận thức (`r inline_plot_hocvan`).
+
+Về mặt sinh học thần kinh, học vấn cao có thể liên quan đến mật độ synapse cao hơn, vỏ não dày hơn và mạng lưới liên kết thần kinh hiệu quả hơn, góp phần duy trì chức năng nhận thức ổn định. Từ góc độ xã hội và hành vi, người học vấn cao thường có lối sống lành mạnh hơn, dễ tiếp cận dịch vụ y tế, ít chịu tác động tiêu cực từ stress mãn tính, đồng thời thường xuyên tham gia vào các hoạt động trí tuệ – xã hội, từ đó góp phần làm chậm quá trình suy giảm nhận thức.
+
+Với những bằng chứng trong và ngoài nước, có thể khẳng định rằng trình độ học vấn không chỉ là một đặc điểm nền mà là một yếu tố nguy cơ độc lập quan trọng ảnh hưởng đến khả năng khởi phát và tiến triển của các rối loạn nhận thức. Các chiến lược sàng lọc, can thiệp và giáo dục sức khỏe cộng đồng cần đặc biệt chú ý đến nhóm người cao tuổi có học vấn thấp, nhằm tăng cường khả năng dự phòng và làm chậm tiến triển bệnh lý nhận thức trong bối cảnh già hóa dân số hiện nay.
+
+**Bàn luận chung về đặc điểm nhân khẩu học**
+
+Kết quả nghiên cứu cho thấy *sự phân bố không đồng đều về đặc điểm nhân khẩu học* giữa các nhóm chẩn đoán suy giảm nhận thức. Tuổi trung bình ở nhóm sa sút trí tuệ cao hơn rõ rệt so với nhóm suy giảm nhận thức nhẹ, phù hợp với kết quả từ nghiên cứu của Brookmeyer và cộng sự tại Hoa Kỳ, trong đó *tuổi được xác định là yếu tố nguy cơ mạnh nhất* đối với sa sút trí tuệ. @brookmeyer2018forecasting  
+Tại Việt Nam, nghiên cứu của Nguyễn Văn Tuấn và cộng sự cũng ghi nhận xu hướng tương tự, khi *tỷ lệ sa sút trí tuệ tăng dần theo nhóm tuổi từ 60 trở lên*. @nguyen2020tuoi
+
+Ngoài ra, tỷ lệ nữ giới cao hơn ở nhóm sa sút trí tuệ là một đặc điểm nổi bật, có thể phản ánh *sự chênh lệch về tuổi thọ* giữa hai giới, cũng như những khác biệt về *yếu tố nội tiết và tiếp xúc xã hội*. @vi2019genderalz  
+
+Nghiên cứu tại Nhật Bản bởi Meguro và cộng sự cũng ghi nhận *tỷ lệ nữ mắc bệnh cao hơn đáng kể trong nhóm bệnh Alzheimer*. @meguro2007epidemiology  
+Tại Việt Nam, nghiên cứu của Trần Thị Hạnh ghi nhận *tỷ lệ nữ giới chiếm trên 60%* trong nhóm bệnh nhân sa sút trí tuệ điều trị nội trú. @tran2021satuttritue
+
+Một kết quả đáng lưu ý là sự khác biệt về trình độ học vấn giữa các nhóm. *Tỷ lệ người học hết trung học phổ thông trở lên* cao hơn rõ rệt ở nhóm suy giảm nhận thức nhẹ so với nhóm sa sút trí tuệ. Phát hiện này phù hợp với *giả thuyết “dự trữ nhận thức” (cognitive reserve)*, vốn được chứng minh qua nhiều nghiên cứu quốc tế như nghiên cứu của Stern. @stern2009cognitivereserve  
+
+Ở Việt Nam, nghiên cứu cộng đồng của Lê Minh Tâm và cộng sự cũng cho thấy *học vấn thấp là yếu tố nguy cơ độc lập làm tăng khả năng mắc sa sút trí tuệ* ở người cao tuổi. @le2020hocvan
+
+Như vậy, các yếu tố tuổi, giới và học vấn không chỉ có giá trị mô tả mà còn mang ý nghĩa dự báo và định hướng dự phòng. Việc nhận diện sớm các nhóm có nguy cơ cao – đặc biệt là *người cao tuổi, nữ giới và có học vấn thấp* – sẽ góp phần thiết kế các chương trình *sàng lọc, giáo dục và can thiệp phù hợp* nhằm làm chậm tiến triển của sa sút trí tuệ trong cộng đồng.
+
 
 ### Đặc điểm thang điểm MMSE
 

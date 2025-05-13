@@ -34,7 +34,13 @@
 # Ghi chú ssript quan trọng              
   
   - Rscript R/toc.R              
-  - quarto render            
+  - quarto render        
+  - open _book/dtcs_sstt.docx
+  - quarto render && open _book/dtcs_sstt.docx
+
+  
+
+
   
 # Hebrew songs              
   
