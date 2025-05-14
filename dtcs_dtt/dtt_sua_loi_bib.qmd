@@ -1,0 +1,55 @@
+---
+title: "Kiểm tra và sửa lỗi file BibTeX"
+format: html
+execute:
+  echo: true
+  warning: true
+  message: true
+---
+
+# lệnh bash
+source/dtcs_dtt_clean.bib
+
+
+
+```{r}
+# 📦 Cài đặt và nạp các gói cần thiết
+if (!require("bib2df")) install.packages("bib2df")
+if (!require("dplyr")) install.packages("dplyr")
+library(bib2df)
+library(dplyr)
+
+# 📂 Đường dẫn đến file BibTeX cần kiểm tra
+bib_path <- "source/dtcs_dtt_.bib"
+
+# 🛠️ Thử đọc file .bib và bắt lỗi nếu có
+bib_df <- tryCatch(
+  {
+    bib2df(bib_path)
+  },
+  error = function(e) {
+    message("❌ Lỗi khi đọc file BibTeX: ", e$message)
+    return(NULL)
+  }
+)
+
+# 📋 Nếu thành công, hiển thị cấu trúc và các entry mẫu
+if (!is.null(bib_df)) {
+  # 👀 Hiển thị tên các cột hiện có
+  cat("✅ File BibTeX đọc thành công. Các trường hiện có là:\n")
+  print(names(bib_df))
+
+  # 📋 Hiển thị 10 dòng đầu với các cột phổ biến (nếu có)
+  bib_df %>%
+    select(any_of(c("BIBTEXKEY", "AUTHOR", "TITLE", "YEAR", "ENTRYTYPE"))) %>%
+    head(10) %>%
+    print()
+
+  # 💾 Ghi lại file BibTeX sạch lỗi
+  out_path <- "source/dtcs_dtt_clean.bib"
+  df2bib(bib_df, file = out_path)
+  cat("✅ Đã ghi lại file sạch lỗi tại:", out_path, "\n")
+}
+
+```
+
