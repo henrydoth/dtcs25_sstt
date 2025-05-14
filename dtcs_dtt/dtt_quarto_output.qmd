@@ -550,11 +550,11 @@ Một số chức năng của giấc ngủ được đề ra qua nhiều giả t
 - Phục hồi các chức năng sinh học: hệ miễn dịch, chữa lành vết thương.@opp2009sleeping
 
 - Giấc ngủ ảnh hưởng và đôi khi quyết định đến cả thời gian và biên độ giải phóng của nhiều nội tiết tố, cân bằng hệ nội tiết @knutson2007metabolic . 
-- Hồi phục các chức năng tâm lý , hành vi(Neil R. Carlson và c.s., 2010). Thiếu ngủ dễ gây mất chú ý, rối loạn kiểm soát hành vi(Lim & Dinges, 2008), kích đồng các trạng thái tâm thần như cơn cuồng nộ, sợ hãi và trầm cảm(Van der Helm và c.s., 2010) 
+- Hồi phục các chức năng tâm lý, hành vi@carlson2010psychology. Thiếu ngủ dễ gây mất chú ý, rối loạn kiểm soát hành vi@lim2008sleep, kích đồng các trạng thái tâm thần như cơn cuồng nộ, sợ hãi và trầm cảm @vanderhelm2010sleep 
 ## 2. Tổng quan về mất ngủ theo YHHĐ
 Khái niệm mất ngủ và phân loại
 Mất ngủ là một rối loạn giấc ngủ thường gặp, trong đó người bệnh gặp khó khăn trong việc bắt đầu giấc ngủ, duy trì giấc ngủ hoặc thức dậy quá sớm và không thể ngủ lại. Hậu quả là giấc ngủ không đủ chất lượng hoặc số lượng, khiến người bệnh cảm thấy mệt mỏi, uể oải, thiếu tập trung vào ban ngày. @le2023
-Tỉ lệ mất ngủ có thể từ 4% cho tới 48%. Khoảng 33% dân số bị một trong nhiều triệu chứng của mất ngủ, 15% bị ngầy ngật trong ban ngày, 18% không thoả mãn với giấc ngủ. 30% bệnh mất ngủ có liên hệ bệnh tâm thần (Paisley và c.s., 2005)  
+Tỉ lệ mất ngủ có thể từ 4% cho tới 48%. Khoảng 33% dân số bị một trong nhiều triệu chứng của mất ngủ, 15% bị ngầy ngật trong ban ngày, 18% không thoả mãn với giấc ngủ. 30% bệnh mất ngủ có liên hệ bệnh tâm thần @paisley2005insomnia  
 2.2 Phân loại mất ngủ:
 ### . Theo thời gian diễn ra
 Mất ngủ cấp tính (ngắn hạn):
@@ -568,7 +568,7 @@ Mất ngủ nguyên phát:
 Đặc điểm:
 Không liên quan trực tiếp đến bất kỳ bệnh lý thể chất hoặc tâm thần cụ thể nào.
 Thường phát sinh do các yếu tố liên quan đến thói quen sinh hoạt, căng thẳng hàng ngày, rối loạn nhịp sinh học hoặc môi trường ngủ không thích hợp.
-### Các dạng mất ngủ nguyên phát: (AASM, 2014)
+### Các dạng mất ngủ nguyên phát: @aasm2014icsd3
 Không rõ nguyên nhân
 Đặc điểm: khởi phát từ thời thơ ấu, không xác định được nguyên nhân rõ ràng**.**
 Cơ chế có thể liên quan đến sự rối loạn bẩm sinh trong hệ thống điều hòa giấc ngủ.
@@ -589,7 +589,7 @@ Giấc ngủ bị gián đoạn, người bệnh thường xuyên thức giấc 
 Thức dậy sớm (terminal insomnia):
 Người bệnh thức dậy quá sớm và không thể ngủ thêm, mặc dù có thể còn nhu cầu ngủ thêm để bù đắp giấc ngủ đã mất.
 ### Mất ngủ không thực tổn theo ICD-10
-Theo phân loại quốc tế ICD-10, mất ngủ không thực tổn thuộc nhóm rối loạn giấc ngủ không thực tổn được biệt định F51, bao gồm 8 mã bệnh. Trong đó Mất ngủ không thực tổn có mã là F51.0 (Seow và c.s., không ngày) (Bộ y tế, không ngày)  @le2023
+Theo phân loại quốc tế ICD-10, mất ngủ không thực tổn thuộc nhóm rối loạn giấc ngủ không thực tổn được biệt định F51, bao gồm 8 mã bệnh. Trong đó Mất ngủ không thực tổn có mã là F51.0 @seow2018evaluating @moh_icd10 
 
 Theo ICD-10 định nghĩa: Mất ngủ không thực tổn hay còn gọi là trạng thái mất ngủ mạn tính, nguyên phát là trạng thái không thoả mãn về số lượng và chất lượng giấc ngủ, tồn tại trong một thời gian dài, được đặc trưng bằng các điểm sau:
 Khó đi vào giấc ngủ: là than phiền thường gặp nhất, có hầu hết các bệnh nhân.
@@ -598,7 +598,7 @@ Chất lượng giấc ngủ kém
 Triệu chứng ban ngày: mệt mỏi, khó chịu và suy giảm nhận thức
 Xảy ra ít nhất vài lần/ tuần kéo dài liên tục ít nhất vài tháng
 Mất ngủ thường gặp trong các rối loạn cảm xúc (trầm cảm, hưng cảm), rối loạn lo âu, phân liệt cảm xúc (ức chế cảm xúc, cáu gắt, bực tức), các liên quan đến các stress đời sống (công việc, gia đình), gặp nhiều hơn ở phụ nữ, ở người lớn tuổi, những người bất lợi kinh tế, ảnh hưởng bởi yếu tố môi trường bên ngoài (ánh sáng, tiếng ồn, nhiệt độ...) gặp trong các bệnh lý mãn tĩnh (suy thận mạn tính, tăng huyết áp, di chứng sau xuất huyết não, đau nhức, sa sút trí tuệ…).
-### Tiêu chuẩn chẩn đoán theo ICD-10(T. S. Nguyễn và c.s., 2020):
+### Tiêu chuẩn chẩn đoán theo ICD-10 @{nguyen2020huongdan:
 - Bệnh nhân phàn nàn về việc khó đi vào giấc ngủ, khó duy trì giấc ngủ hoặc ngủ không ngon giấc.
 - Rối loạn giấc ngủ xảy ra ít nhất ba lần một tuần trong vòng ít nhất một tháng.
 - Rối loạn giấc ngủ gây ra sự suy sụp rõ nét hoặc làm rối loạn hoạt động chức năng cá nhân trong cuộc sống hàng ngày.
@@ -652,7 +652,7 @@ Việc khai thác bệnh sử và triệu chứng lâm sàng là bước đầu 
 Bệnh nhân mất ngủ thường có tổng thời gian ngủ giảm rõ rệt, dao động từ 3 đến 4 giờ mỗi đêm. Một số trường hợp có thể hoàn toàn không ngủ trong suốt đêm. 
 Hiệu suất giấc ngủ (sleep efficiency) được tính bằng tổng số giờ ngủ chia cho tổng thời gian nằm trên giường, nhân với 100%, đây cũng là chỉ số đánh giá chất lượng giấc ngủ. Ở người bình thường, chỉ số này đạt ≥85%, trong khi ở người mất ngủ, có thể giảm xuống dưới 65% nếu tình trạng nghiêm trọng.(Buysse và c.s., 1989) (Buysse et al., 1989).
 **Triệu chứng về rối loạn khởi phát và duy trì giấc ngủ**
-Khó vào giấc là than phiền phổ biến nhất, bệnh nhân thường không có cảm giác buồn ngủ, nằm trằn trọc lâu (30–90 phút) mới có thể ngủ. Ngoài ra, tình trạng thức giấc giữa đêm xảy ra thường xuyên, giấc ngủ bị chia nhỏ, chập chờn và không liền mạch. Sau khi tỉnh giấc giữa đêm, người bệnh rất khó ngủ lại(AASM, 2014) 
+Khó vào giấc là than phiền phổ biến nhất, bệnh nhân thường không có cảm giác buồn ngủ, nằm trằn trọc lâu (30–90 phút) mới có thể ngủ. Ngoài ra, tình trạng thức giấc giữa đêm xảy ra thường xuyên, giấc ngủ bị chia nhỏ, chập chờn và không liền mạch. Sau khi tỉnh giấc giữa đêm, người bệnh rất khó ngủ lại@aasm2014icsd3 
 Thức dậy sớm hơn mong muốn cũng là một biểu hiện thường gặp. Bệnh nhân cảm thấy giấc ngủ không đủ dài, dẫn đến thiếu nghỉ ngơi về cả thể chất lẫn tinh thần.
 **Đánh giá chất lượng giấc ngủ**
 Chất lượng giấc ngủ là yếu tố then chốt để phân biệt giữa người ngủ bình thường và người bị mất ngủ. Người ngủ khỏe mạnh thường cảm thấy sảng khoái, tinh thần minh mẫn sau khi ngủ dậy. Ngược lại, bệnh nhân mất ngủ thường mô tả một giấc ngủ không phục hồi – mơ hồ giữa ngủ và thức, sau khi thức dậy vẫn cảm thấy mệt mỏi, sắc mặt nhợt , có thể xuất hiện quầng thâm mắt và hành vi chậm chạp(Morin & Benca, 2012) 
@@ -728,7 +728,7 @@ Các xét nghiệm hỗ trợ giúp loại trừ hoặc phát hiện nguyên nh�
 Cách tiếp cận toàn diện, kết hợp giữa đánh giá tâm lý, thần kinh và xét nghiệm hỗ trợ, là nền tảng để xác định đúng nguyên nhân và hướng điều trị mất ngủ phù hợp. Điều này đặc biệt cần thiết trong bối cảnh mất ngủ mạn tính thường là biểu hiện của các rối loạn phức tạp, không thể đánh giá chỉ bằng triệu chứng chủ quan.
 
 ### Phương pháp điều trị
-Mất ngủ không thực tổn liên quan chủ yếu đến các nhân tố tâm sinh lý, đặc biệt rối loạn cảm xúc là nhân tố được coi là nguyên phát. Do vậy, trong điều trị có hai nhóm lớn: tâm lý (nhận thức - hành vi) và dược lý, hai nhóm này có thể kết hợp với nhau (T. S. Nguyễn và c.s., 2020) 
+Mất ngủ không thực tổn liên quan chủ yếu đến các nhân tố tâm sinh lý, đặc biệt rối loạn cảm xúc là nhân tố được coi là nguyên phát. Do vậy, trong điều trị có hai nhóm lớn: tâm lý (nhận thức - hành vi) và dược lý, hai nhóm này có thể kết hợp với nhau @{nguyen2020huongdan 
 ### 2.1. Liệu pháp hành vi – nhận thức (Cognitive Behavioral Therapy for Insomnia - CBT-I)
 CBT-I là phương pháp điều trị không dùng thuốc được khuyến nghị hàng đầu trong điều trị mất ngủ mạn tính. Phương pháp này tập trung vào việc điều chỉnh các yếu tố nhận thức sai lệch và hành vi không phù hợp liên quan đến giấc ngủ. Các kỹ thuật chủ yếu bao gồm: kiểm soát kích thích, hạn chế thời gian nằm trên giường, liệu pháp nhận thức và huấn luyện thư giãn.
 Một phân tích tổng hợp của Trauer và cộng sự (2015) (Trauer và c.s., 2015)cho thấy CBT-I cải thiện rõ rệt thời gian vào giấc, tổng thời gian ngủ và hiệu suất ngủ, với hiệu quả duy trì tốt hơn so với điều trị bằng thuốc. Do đó, CBT-I hiện được xem là lựa chọn điều trị tiêu chuẩn cho mất ngủ mạn tính, kể cả khi bệnh nhân có kèm rối loạn tâm thần hoặc bệnh lý nội khoa.
