@@ -478,6 +478,7 @@ inline_delta_ban_luan <- glue::glue(
 
 Giấc ngủ không chỉ là khoảng thời gian nghỉ ngơi mà còn là quá trình quan trọng trong việc phục hồi và tái tạo sức khoẻ, cân bằng nội tiết, tăng cường hệ miễn dịch, cải thiện tinh thần. Ngày nay, do sự thay đổi trong lối sống và môi trường hiện đại, áp lực công việc, học tập và những căng thẳng tinh thần kéo dài đã làm cho tỉ lệ mất ngủ trên toàn cầu, đặc biệt là các đô thị lớn, ngày càng gia tăng.
 
+
 Năm 2023, theo Tổ chức Y tế Thế giới (World Health Organization), có hơn 30% dân số gặp phải các triệu chứng mất ngủ và khoảng 10–15% mắc chứng mất ngủ mãn tính. Tại Việt Nam, theo thống kê, tỷ lệ người dân đến khám vì mất ngủ chiếm 10–20% tại các chuyên khoa thần kinh @tran2006. Tại Bệnh viện Tâm thần Thành phố Hồ Chí Minh, mỗi ngày có hàng trăm người đến khám, thì trên 90% bệnh nhân than phiền về mất ngủ; tỷ lệ rối loạn giấc ngủ chiếm trên 41% ở các bệnh nhân điều trị nội trú @le2023.
 
 Trong khi y học hiện đại cung cấp nhiều phương pháp điều trị mất ngủ như thuốc an thần, thuốc giảm lo âu, liệu pháp nhận thức hành vi… với tác dụng gây buồn ngủ nhanh, giúp bệnh nhân dễ vào giấc ngủ, thì điều trị đa phần nhằm khắc phục triệu chứng. Tuy nhiên, việc sử dụng lâu dài dễ dẫn đến tình trạng lệ thuộc vào thuốc, mệt mỏi, suy giảm trí nhớ, ảnh hưởng chức năng gan, thận… và không phải lúc nào cũng hiệu quả với mọi bệnh nhân.
@@ -495,8 +496,8 @@ Tại khoa Y học cổ truyền Bệnh viện 30-4, điều trị mất ngủ b
 
 # TỔNG QUANG TÀI LIỆU
 
-## I. Đại cương  giấc ngủ
-### 1.1 Định nghĩa về giấc ngủ
+## Đại cương  giấc ngủ
+### Định nghĩa về giấc ngủ
 Ngủ là một trạng thái sinh lý của cơ thể có tính chất chu kỳ ngày đêm. Khi đó toàn bộ cơ thể được nghỉ ngơi, tạm ngừng các hoạt động tri giác và ý thức, các cơ bắp giãn mềm, các hoạt động hô hấp tuần hoàn giảm chậm lại. Trong trạng thái ngủ, ý thức bị thay đổi, hoạt động của các giác quan bị ức chế ở một mức độ nhất định, đồng thời, hoạt động của cơ bắp và các tương tác với môi trường xung quanh giảm đi đáng kể. Mặc dù ngủ khác với tình trạng thức về khả năng đáo ứng với các kích thích, nhưng trong giấc ngủ, não bộ vẫn có hoạt động, vẫ đáp ứng mạnh hơn so với não trong tình trạng rối loạn ý thức hoặc hôn mê @ninds2025sleep.
 
 Giấc ngủ là nhu cầu sinh lý tự nhiên của con người, và là hành vi được bảo tồn cao trong suốt quá trình tiến hoá (Joiner, 2016) @joiner2016sleep, trong giấc ngủ, cơ thể trải qua các giai đoạn khác nhau, hoạt động não bộ trong giấc ngủ là một hoạt động hiệu quả, nhằm duy trì và cải thiện chức năng của cơ thể .
@@ -807,9 +808,20 @@ Bài thuốc này chuyên trị các chứng:
 Tâm hư do suy nghĩ quá độ, lao lực
 Mất ngủ kèm hồi hộp, tim đập nhanh
 Cơ thể suy nhược, thiếu máu, khí huyết kém lưu thông
-Phân tích từng vị thuốc chủ đạo:
 
-**Bs Liêm đặt anchor trích dẫn tài liệu tham khảo- bs Hoàn bổ sung bảng** "Cây thuốc và vị thuốc Việt Nam"  @nguyentaitthu2006caythuoc Vị thuốc	Tác dụng y học cổ truyền 	Tác dụng hiện đại  Anxiolytic effects of Suan Zao Ren  @Mu2015SuanZaoRen
+::: {custom-style="chu_xanh"}
+Phân tích từng vị thuốc chủ đạo:83-84-85: 
+
+**Bs Liêm đặt anchor trích dẫn tài liệu tham khảo- bs Hoàn bổ sung bảng** 
+Vị thuốc	Tác dụng y học cổ truyền 	Tác dụng hiện đại      @nguyentaitthu2006caythuoc,  @Mu2015SuanZaoRen 
+Sinh địa	Thanh nhiệt, lương huyết	Có tác dụng chống viêm, bảo vệ tế bào thần kinh @vienduoclieu2020 
+
+Đương quy	Bổ huyết, hoạt huyết, điều kinh	Có tác dụng chống oxy hóa, chống trầm cảm  @tiprpress2011
+
+:::
+
+
+
 
 
 
@@ -855,19 +867,19 @@ Bài Dưỡng tâm thang là một phương thuốc cổ điển, hàm chứa đ
 ### Tổng quan nghiên cứu hiện đại về tác dụng của bài Dưỡng tâm thang trong điều trị mất ngủ
 
 Trong những năm gần đây, nhiều công trình nghiên cứu hiện đại đã quan tâm đến việc đánh giá hiệu quả điều trị mất ngủ của các bài thuốc y học cổ truyền, trong đó bài Dưỡng tâm thang là một trong những phương được sử dụng phổ biến tại Trung Quốc, Hàn Quốc và Việt Nam cho thể tâm âm hư**.**
-Một nghiên cứu thực nghiệm của Wang và cộng sự (2016) trên mô hình chuột mất ngủ do stress đã chứng minh rằng Dưỡng tâm thang có tác dụng cải thiện thời gian ngủ và giảm biểu hiện lo âu, trầm cảm thông qua điều hòa trục HPA (hypothalamus-pituitary-adrenal) và tăng hoạt tính của chất dẫn truyền thần kinh GABA, đồng thời làm giảm nồng độ cortisol trong máu (R. Wang, 2016).
-Ngoài ra, một phân tích mạng lưới dược lý học (network pharmacology) của Zhao và cộng sự (2022) chỉ ra rằng các vị thuốc trong Dưỡng tâm thang như Bá tử nhân, Mạch môn, Ngũ vị tử… có ảnh hưởng đến nhiều con đường tín hiệu thần kinh quan trọng như serotonin, dopamine, GABA, BDNF, và thể hiện tiềm năng điều hòa giấc ngủ và bảo vệ tế bào thần kinh(Zhao & et al, 2022).
+Một nghiên cứu thực nghiệm của Wang và cộng sự (2016) trên mô hình chuột mất ngủ do stress đã chứng minh rằng Dưỡng tâm thang có tác dụng cải thiện thời gian ngủ và giảm biểu hiện lo âu, trầm cảm thông qua điều hòa trục HPA (hypothalamus-pituitary-adrenal) và tăng hoạt tính của chất dẫn truyền thần kinh GABA, đồng thời làm giảm nồng độ cortisol trong máu @wang2016duyangxin.
+Ngoài ra, một phân tích mạng lưới dược lý học (network pharmacology) của Zhao và cộng sự (2022) chỉ ra rằng các vị thuốc trong Dưỡng tâm thang như Bá tử nhân, Mạch môn, Ngũ vị tử… có ảnh hưởng đến nhiều con đường tín hiệu thần kinh quan trọng như serotonin, dopamine, GABA, BDNF, và thể hiện tiềm năng điều hòa giấc ngủ và bảo vệ tế bào thần kinh@zhao2022network.
 Tại Việt Nam, một số nghiên cứu nhỏ lẻ tại bệnh viện y học cổ truyền và các khoa y học cổ truyền cho thấy bài thuốc này thường được sử dụng cho bệnh nhân mất ngủ mạn tính do suy nhược cơ thể hoặc sau stress kéo dài, nhưng hiện chưa có nghiên cứu chuẩn hóa, đánh giá hiệu quả lâm sàng bài bản về hiệu quả trên đối tượng tâm âm hư.
 Như vậy, các kết quả nghiên cứu hiện có đã gợi mở tiềm năng ứng dụng bài Dưỡng tâm thang như một phương pháp điều trị hỗ trợ an toàn và hiệu quả cho mất ngủ thể tâm âm hư, tuy nhiên vẫn cần có thêm các nghiên cứu can thiệp có đối chứng tại Việt Nam** **nhằm đánh giá rõ ràng hiệu quả, tính an toàn và khả năng ứng dụng lâm sàng.
 ### 1.2. Tổng quan về châm cứu trong điều trị mất ngủ @pham2009
-Châm cứu là một phương pháp điều trị y học cổ truyền được thực hiện bằng cách đưa kim vào các huyệt vị để điều chỉnh dòng khí trong hệ kinh lạc. Theo y học cổ truyền, mất ngủ thuộc phạm vi chứng “thất miên”, nguyên nhân chủ yếu do tâm, can, tỳ, thận bị mất điều hòa âm dương, khí huyết không điều hòa(Trịnh & Ngô, 2022).
-Hiện nay, châm cứu được Tổ chức Y tế Thế giới (WHO) công nhận là một phương pháp điều trị hỗ trợ mất ngủ dựa trên bằng chứng [7]. Một phân tích tổng hợp năm 2022 từ 33 nghiên cứu ngẫu nhiên có đối chứng (RCT) cho thấy châm cứu giúp cải thiện đáng kể chất lượng giấc ngủ so với giả châm hoặc điều trị thường quy, với ít tác dụng phụ (Liu, 2022; WHO, 2003). @who2023
+Châm cứu là một phương pháp điều trị y học cổ truyền được thực hiện bằng cách đưa kim vào các huyệt vị để điều chỉnh dòng khí trong hệ kinh lạc. Theo y học cổ truyền, mất ngủ thuộc phạm vi chứng “thất miên”, nguyên nhân chủ yếu do tâm, can, tỳ, thận bị mất điều hòa âm dương, khí huyết không điều hòa @trinh2022chamcuu.
+Hiện nay, châm cứu được Tổ chức Y tế Thế giới (WHO) công nhận là một phương pháp điều trị hỗ trợ mất ngủ dựa trên bằng chứng [7]. Một phân tích tổng hợp năm 2022 từ 33 nghiên cứu ngẫu nhiên có đối chứng (RCT) cho thấy châm cứu giúp cải thiện đáng kể chất lượng giấc ngủ so với giả châm hoặc điều trị thường quy, với ít tác dụng phụ @who2003acupuncture. @who2023
 ### 1.3. Cơ chế tác dụng của châm cứu trong điều trị mất ngủ @pham2009
 Các nghiên cứu hiện đại cho thấy châm cứu cải thiện mất ngủ qua các cơ chế sau: @pham2009
-Điều hòa chất dẫn truyền thần kinh: Châm cứu làm tăng tiết serotonin, GABA – hai chất liên quan đến giấc ngủ, đồng thời làm giảm noradrenalin và cortisol – những chất gây tỉnh táo và lo âu (Han, 2004) [9],(Zeng, 2020).
-Tác động lên vùng não liên quan đến giấc ngủ: Chụp cộng hưởng từ chức năng (fMRI) cho thấy châm cứu tại huyệt Thần môn (HT7) và Nội quan (PC6) làm tăng hoạt tính vùng vỏ não trán – nơi kiểm soát hành vi và cảm xúc, đồng thời làm giảm hoạt tính hạch hạnh nhân và vùng dưới đồi (Zang và c.s., 2023)[11]. @pham2009
-Tăng tiết melatonin: Một số nghiên cứu ghi nhận mức melatonin tăng lên đáng kể sau 2–4 tuần điều trị bằng châm cứu, góp phần cải thiện giấc ngủ sinh lý (Cao & et al, 2021) [12]. @pham2009
-Ổn định trục HPA (Hypothalamus-Pituitary-Adrenal): Ở bệnh nhân mất ngủ có tăng hoạt hóa trục HPA, châm cứu giúp giảm nồng độ ACTH và cortisol, đưa cơ thể trở về trạng thái nghỉ ngơi (Xu, 2020)[13]. @pham2009
+Điều hòa chất dẫn truyền thần kinh: Châm cứu làm tăng tiết serotonin, GABA – hai chất liên quan đến giấc ngủ, đồng thời làm giảm noradrenalin và cortisol – những chất gây tỉnh táo và lo âu @han2004endorphins ,@zeng2020neurochemical.
+Tác động lên vùng não liên quan đến giấc ngủ: Chụp cộng hưởng từ chức năng (fMRI) cho thấy châm cứu tại huyệt Thần môn (HT7) và Nội quan (PC6) làm tăng hoạt tính vùng vỏ não trán – nơi kiểm soát hành vi và cảm xúc, đồng thời làm giảm hoạt tính hạch hạnh nhân và vùng dưới đồi @zang2023acupuncture, @pham2009
+Tăng tiết melatonin: Một số nghiên cứu ghi nhận mức melatonin tăng lên đáng kể sau 2–4 tuần điều trị bằng châm cứu, góp phần cải thiện giấc ngủ sinh lý @cao2021melatonin, @pham2009
+Ổn định trục HPA (Hypothalamus-Pituitary-Adrenal): Ở bệnh nhân mất ngủ có tăng hoạt hóa trục HPA, châm cứu giúp giảm nồng độ ACTH và cortisol, đưa cơ thể trở về trạng thái nghỉ ngơi @xu2020hpa. @pham2009
 ### 1.4. Chỉ định và chống chỉ định của châm cứu điều trị mất ngủ @pham2009
 Chỉ định:
 Mất ngủ nguyên phát.
@@ -883,28 +895,28 @@ Tâm thần cấp tính (cần phối hợp chuyên khoa tâm thần).
 1.5.1. **Thần môn (HT7 – Shenmen)**
 Vị trí: Nếp gấp cổ tay phía trụ, ngoài gân cơ gấp trụ cổ tay.
 Tác dụng: Dưỡng tâm, an thần, chống lo âu.
-Nghiên cứu: Một RCT tại Trung Quốc năm 2021 cho thấy điện châm tại HT7 cải thiện điểm PSQI (Pittsburgh Sleep Quality Index) tốt hơn giả châm sau 4 tuần điều trị(L. Wang & et al, 2021) [14].
+Nghiên cứu: Một RCT tại Trung Quốc năm 2021 cho thấy điện châm tại HT7 cải thiện điểm PSQI (Pittsburgh Sleep Quality Index) tốt hơn giả châm sau 4 tuần điều trị @wang2021ht7 .
 1.5.2. **Tam âm giao (SP6 – Sanyinjiao)**
 Vị trí: Cách mắt cá trong 3 thốn, sát bờ sau xương chày.
 Tác dụng: Điều hòa khí huyết, bổ âm, an thần.
-Nghiên cứu: Một nghiên cứu của Kim et al. (2018) cho thấy SP6 làm tăng mật độ sóng delta trong EEG – dấu hiệu của giấc ngủ sâu(Kim và c.s., không ngày) [15].
+Nghiên cứu: Một nghiên cứu của Kim et al. (2018) cho thấy SP6 làm tăng mật độ sóng delta trong EEG – dấu hiệu của giấc ngủ sâu@kim2018sp6.
 1.5.3. **Nội quan (PC6 – Neiguan)**
 Vị trí: Cách nếp gấp cổ tay 2 thốn, giữa 2 gân gan tay.
 Tác dụng: Hành khí, chỉ thống, ổn định nhịp tim, trấn tĩnh.
-Nghiên cứu: Một nghiên cứu trên bệnh nhân mất ngủ kèm hồi hộp tim nhanh cho thấy châm PC6 cải thiện cả giấc ngủ và tần số tim(J. Li, 2020) [16].
+Nghiên cứu: Một nghiên cứu trên bệnh nhân mất ngủ kèm hồi hộp tim nhanh cho thấy châm PC6 cải thiện cả giấc ngủ và tần số tim @li2020pc6.
 1.5.4. **An miên**
 Vị trí: Ngoài Ế phong, đường nối Ế phong – Phong trì.
 Tác dụng: Huyệt đặc hiệu điều trị mất ngủ.
-Nghiên cứu: Một tổng quan hệ thống năm 2020 kết luận An miên khi phối hợp với HT7 và SP6 cho hiệu quả rõ rệt hơn so với HT7 đơn độc (Zhang, 2020)[17].
+Nghiên cứu: Một tổng quan hệ thống năm 2020 kết luận An miên khi phối hợp với HT7 và SP6 cho hiệu quả rõ rệt hơn so với HT7 đơn độc @zhang2020anmian .
 1.5.5. **Dũng tuyền (KI1 – Yongquan)**
 Vị trí: Gan bàn chân, 1/3 trước đường nối gót – ngón thứ hai.
 Tác dụng: Hạ hỏa, dẫn khí đi xuống, an thần.
-Nghiên cứu: Châm cứu KI1 cải thiện giấc ngủ ở người cao tuổi thông qua điều hòa nhịp tim và tăng tần suất sóng alpha trong EEG (Lee, 2019)[18].
+Nghiên cứu: Châm cứu KI1 cải thiện giấc ngủ ở người cao tuổi thông qua điều hòa nhịp tim và tăng tần suất sóng alpha trong EEG @lee2019ki1.
 
 ## 1.7 Các nghiên cứu về điều trị mất ngủ có liên quan với các phương pháp được sử dụng trong nghiên
 Y học cổ truyền điều trị mất ngủ được nghiên cứu ở nhiều nước trên thế giới đặc biệt là ở Trung Quốc, những công trình điều trị mất ngủ gồm có một số đề tài sau: @hoang1992
 **Các nghiên cứu trong nước **
-Nghiên cứu của Lê Thị Tường Vân (2015) về đánh giá tác dụng điện châm huyệt Nội Quan, Thần Môn, An Miên 1, An Miên 2 trong điều trị mất ngủ không thực tổn cho thấy thời lượng giấc ngủ và hiệu quả tăng lên so với trước điều trị (p < 0,01). Chất lượng giấc ngủ được cải thiện khá rõ so với trước điều trị. Theo nghiên cứu của Lê Thị Tường Vân so sánh giữa 2 nhóm, nhóm 1 là nhóm chứng điện châm các huyệt Thần môn, Tam âm giao, Nội quan so với nhóm 2 là nhóm can thiệp điện châm các huyệt Thần môn, Tam âm giao, Nội quan và thêm hai huyệt là An miên 1, An miên 2, cả hai nhóm đều sử dụng tần số bổ từ 3-6Hz, cường độ kích thích tăng từ 0-100µA (tùy vào ngưỡng bệnh nhân chịu được), thời gian kích thích là 20 phút. Sau khi 15 ngày can thiệp thì không có sự khác biệt có ý nghĩa giữa hai nhóm, tuy nhiên giữa mỗi nhóm có ý nghĩa thống kê trước và sau khi can thiệp (T. T. V. Lê, 2015)[2]. Vì vậy nghiên cứu chúng tôi sử dụng nhóm huyệt Thần môn, Tam âm giao, Nội quan, An miên làm nhóm chứng. @tran2006
+Nghiên cứu của Lê Thị Tường Vân (2015) về đánh giá tác dụng điện châm huyệt Nội Quan, Thần Môn, An Miên 1, An Miên 2 trong điều trị mất ngủ không thực tổn cho thấy thời lượng giấc ngủ và hiệu quả tăng lên so với trước điều trị (p < 0,01). Chất lượng giấc ngủ được cải thiện khá rõ so với trước điều trị. Theo nghiên cứu của Lê Thị Tường Vân so sánh giữa 2 nhóm, nhóm 1 là nhóm chứng điện châm các huyệt Thần môn, Tam âm giao, Nội quan so với nhóm 2 là nhóm can thiệp điện châm các huyệt Thần môn, Tam âm giao, Nội quan và thêm hai huyệt là An miên 1, An miên 2, cả hai nhóm đều sử dụng tần số bổ từ 3-6Hz, cường độ kích thích tăng từ 0-100µA (tùy vào ngưỡng bệnh nhân chịu được), thời gian kích thích là 20 phút. Sau khi 15 ngày can thiệp thì không có sự khác biệt có ý nghĩa giữa hai nhóm, tuy nhiên giữa mỗi nhóm có ý nghĩa thống kê trước và sau khi can thiệp @le2015matngu. Vì vậy nghiên cứu chúng tôi sử dụng nhóm huyệt Thần môn, Tam âm giao, Nội quan, An miên làm nhóm chứng. @tran2006
 Nghiên cứu của Nguyễn Đức Minh, Nguyễn Vinh Quốc (2021) về hiệu quả điều trị mất ngủ không thực tổn thể Tâm Tỳ hư bằng phương pháp cấy chỉ kết hợp tập dưỡng sinh. Sau 30 ngày điều trị điểm PSQI trung bình giảm từ 13,97±3,01 còn 4,52±1,14 (p < 0,05) (Đ. M. Nguyễn & Nguyễn, 2021)[3].
 Nghiên cứu của Nguyễn Văn Toại (2022) về tác dụng của phương pháp cấy chỉ trong điều trị mất ngủ không thực tổn, nghiên cứu được tiến hành để đánh giá tác dụng điều trị rối loạn giấc ngủ trên 2 thể Tâm tỳ hư và Tâm Thận bất giao của liệu pháp cấy chỉ các huyệt Nội quan, Thần môn, Tam âm giao, Thái khê. Phương pháp nghiên cứu là thử nghiệm lâm sàng mở, so sánh trước - sau điều trị. Sau 30 ngày, thời lượng giấc ngủ tăng từ 2,68 ± 0,66 lên 6,10 ± 0,99 (giờ), thời gian đi vào giấc ngủ giảm từ 70,17 ± 23,38 xuống 29,25 ± 9,20 (phút) và tổng điểm PSQI giảm từ 16,17 ± 1,77 xuống 5,02 ± 2,98 (điểm) (p < 0,01). Tỷ lệ bệnh nhân không rối loạn giấc ngủ là 66,7%. Sự cải thiện giấc ngủ ở 2 thể tương đương nhau (p > 0,05). Phương pháp cấy chỉ nhóm huyệt trong nghiên cứu có tác dụng cải thiện thời lượng giấc ngủ, thời gian đi vào giấc ngủ và tổng điểm PSQI, các kết quả này tương đương nhau giữa 2 thể lâm sàng Y học cổ truyền (V. T. Nguyễn, 2022)[4]. @le2023
 Nghiên cứu của Lê Thị Hường, Nguyễn Thị Thu Hà (2023) về hiệu quả điều trị mất ngủ không thực tổn thể Tâm Tỳ hư bằng phương pháp phúc châm kết hợp bài “Quy tỳ thang”. Kết quả: Sau 30 ngày điều trị, thời lượng giấc ngủ tăng từ 3,25 ± 0,79 lên 6,63 ± 0,52 (giờ), thời gian đi vào giấc ngủ giảm từ 74,00 ± 14,28 xuống 26,51 ± 9,01 (phút), tổng điểm PSQI giảm từ 15,77 ± 1,69 xuống 3,77 ± 1,19 (điểm) (p < 0,01). Hiệu  quả  điều  trị  ở  nhóm  nghiên  cứu  tốt  hơn  nhóm chứng (p < 0,05). Kết luận: Phúc châm kết hợp bài “Quy tỳ thang” có tác dụng cải thiện thời lượng giấc ngủ, thời gian đi vào giấc ngủ và tổng điểm PSQI trong điều trị mất ngủ không thực tổn thể Tâm Tỳ hư (T. H. Lê & Nguyễn, 2023)[5].
@@ -1086,8 +1098,7 @@ Có  98 người được tuyển chọn vào mẫu nghiên cứu. chia ngẫu n
 ### 3.2.6 Hiệu quả cải thiện một số triệu chứng thứ phát sau mất ngủ
 **3.2.7 Hiệu quả cải thiện một số triệu chứng YHCT**
 ## 3.3 Một số yếu tố liên quan đến kết quả điều trị
-# Chương 4
-# BÀN LUẬN
+
 **4.1 Đặc điểm chung của đối tượng nghiên cứu**
 **4.1.1 Phân bố bệnh nhân theo tuổi**
 **4.1.****2**** Phân bố bệnh nhân theo giới tính**
@@ -1108,6 +1119,7 @@ Có  98 người được tuyển chọn vào mẫu nghiên cứu. chia ngẫu n
 #### Đặc điểm theo tuổi
 Bảng
 ```{r}
+#| echo: false
 bang_tuoi
 ```
 
@@ -1115,6 +1127,7 @@ bang_tuoi
 Biểu đồ tuổi
 
 ```{r}
+#| echo: false
 bieu_do_tuoi
 ```
 ##### `r inline_tuoi_bieu_do`
@@ -1122,7 +1135,7 @@ bieu_do_tuoi
 ### Đặc điểm giới tính
 Bảng
 ```{r}
-#| echo: true
+#| echo: false
 bang_gioi
 ```
 
