@@ -510,13 +510,13 @@ Tại khoa Y học cổ truyền Bệnh viện 30-4, điều trị mất ngủ b
 
 ## Đại cương  giấc ngủ
 ### Định nghĩa về giấc ngủ
-Ngủ là một trạng thái sinh lý của cơ thể có tính chất chu kỳ ngày đêm. Khi đó toàn bộ cơ thể được nghỉ ngơi, tạm ngừng các hoạt động tri giác và ý thức, các cơ bắp giãn mềm, các hoạt động hô hấp tuần hoàn giảm chậm lại. Trong trạng thái ngủ, ý thức bị thay đổi, hoạt động của các giác quan bị ức chế ở một mức độ nhất định, đồng thời, hoạt động của cơ bắp và các tương tác với môi trường xung quanh giảm đi đáng kể. Mặc dù ngủ khác với tình trạng thức về khả năng đáo ứng với các kích thích, nhưng trong giấc ngủ, não bộ vẫn có hoạt động, vẫ đáp ứng mạnh hơn so với não trong tình trạng rối loạn ý thức hoặc hôn mê @ninds2025sleep.
+Ngủ là một trạng thái sinh lý của cơ thể có tính chất chu kỳ ngày đêm. Khi đó toàn bộ cơ thể được nghỉ ngơi, tạm ngừng các hoạt động tri giác và ý thức, các cơ bắp giãn mềm, các hoạt động hô hấp tuần hoàn giảm chậm lại. Trong trạng thái ngủ, ý thức bị thay đổi, hoạt động của các giác quan bị ức chế ở một mức độ nhất định, đồng thời, hoạt động của cơ bắp và các tương tác với môi trường xung quanh giảm đi đáng kể. Mặc dù ngủ khác với tình trạng thức về khả năng đáo ứng với các kích thích, nhưng trong giấc ngủ, não bộ vẫn có hoạt động, vẫ đáp ứng mạnh hơn so với não trong tình trạng rối loạn ý thức hoặc hôn mê [ @ninds2025sleep].
 
 Giấc ngủ là nhu cầu sinh lý tự nhiên của con người, và là hành vi được bảo tồn cao trong suốt quá trình tiến hoá @joiner2016sleep, trong giấc ngủ, cơ thể trải qua các giai đoạn khác nhau, hoạt động não bộ trong giấc ngủ là một hoạt động hiệu quả, nhằm duy trì và cải thiện chức năng của cơ thể.
 
 ### Các giai đoạn bình thường của giấc ngủ
 
-Có hai loại giấc ngủ cơ bản: giấc ngủ chuyển động mắt nhanh (REM) và giấc ngủ không REM (NREM). Chu kỳ giấc ngủ của giấc ngủ non-REM và REM xen kẽ trung bình mất 90 phút, xảy ra 4–6 chu kỳ trong một đêm ngủ ngon giấc @peraitaadrados2005.
+Có hai loại giấc ngủ cơ bản: giấc ngủ chuyển động mắt nhanh (REM) và giấc ngủ không REM (NREM). Chu kỳ giấc ngủ của giấc ngủ non-REM và REM xen kẽ trung bình mất 90 phút, xảy ra 4–6 chu kỳ trong một đêm ngủ ngon giấc @peraitaadrados2005. 
 
 Trong giấc ngủ NREM, các nhà khoa học đã xác định được ba giai đoạn khác nhau, mỗi giai đoạn liên quan đến các dạng sóng não và hoạt động thần kinh đặc trưng. Cơ thể sẽ trải qua các chu kỳ giấc ngủ NREM và REM nhiều lần trong một đêm, với các giai đoạn REM kéo dài và sâu hơn vào cuối giấc ngủ. Giấc ngủ NREM xảy ra trước và sau một giai đoạn chuyển tiếp được gọi là giấc ngủ sóng chậm (slow-wave slee) hay còn gọi là giấc ngủ sâu. Trong giai đoạn này, nhiệt độ cơ thể và nhịp tim giảm, não sử dụng ít năng lượng hơn @maquet2005sleep. 
 
@@ -568,6 +568,7 @@ Một số chức năng của giấc ngủ được đề ra qua nhiều giả t
 
 - Giấc ngủ ảnh hưởng và đôi khi quyết định đến cả thời gian và biên độ giải phóng của nhiều nội tiết tố, cân bằng hệ nội tiết @knutson2007metabolic . 
 - Hồi phục các chức năng tâm lý, hành vi@carlson2010psychology. Thiếu ngủ dễ gây mất chú ý, rối loạn kiểm soát hành vi@lim2008sleep, kích đồng các trạng thái tâm thần như cơn cuồng nộ, sợ hãi và trầm cảm @vanderhelm2010sleep 
+
 ## 2. Tổng quan về mất ngủ theo YHHĐ
 Khái niệm mất ngủ và phân loại
 Mất ngủ là một rối loạn giấc ngủ thường gặp, trong đó người bệnh gặp khó khăn trong việc bắt đầu giấc ngủ, duy trì giấc ngủ hoặc thức dậy quá sớm và không thể ngủ lại. Hậu quả là giấc ngủ không đủ chất lượng hoặc số lượng, khiến người bệnh cảm thấy mệt mỏi, uể oải, thiếu tập trung vào ban ngày. @le2023
@@ -645,7 +646,7 @@ Tổng hợp các bằng chứng từ nhiều nguồn cho thấy rằng rối lo
 
 ### Nguyên nhân và cơ chế bệnh sinh
 
-# Nguyên nhân và cơ chế bệnh sinh của bệnh mất ngủ
+Nguyên nhân và cơ chế bệnh sinh của bệnh mất ngủ
 Mất ngủ là một vấn đề sức khỏe phổ biến, ảnh hưởng đến khả năng đi vào giấc ngủ, duy trì giấc ngủ hoặc ngủ sâu. Tình trạng này kéo dài có thể làm suy giảm đáng kể chất lượng cuộc sống. Việc hiểu rõ các nguyên nhân và cơ chế bệnh sinh sẽ giúp nâng cao hiệu quả trong phòng ngừa và điều trị @apa2013dsm5.
 1. Nguyên nhân gây mất ngủ
 a. Yếu tố tâm lý và cảm xúc: Những người trải qua căng thẳng kéo dài, rối loạn lo âu hay trầm cảm thường gặp khó khăn trong việc thư giãn thần kinh, dẫn đến mất ngủ. Người bị lo âu thường khó bắt đầu giấc ngủ, trong khi người trầm cảm dễ thức dậy sớm và cảm thấy năng lượng không được phục hồi mặc dù ngủ đủ thời gian cần thiết (Baglioni et al., 2011).
@@ -884,7 +885,7 @@ Bài Dưỡng tâm thang là một phương thuốc cổ điển, hàm chứa đ
 
 Trong những năm gần đây, nhiều công trình nghiên cứu hiện đại đã quan tâm đến việc đánh giá hiệu quả điều trị mất ngủ của các bài thuốc y học cổ truyền, trong đó bài Dưỡng tâm thang là một trong những phương được sử dụng phổ biến tại Trung Quốc, Hàn Quốc và Việt Nam cho thể tâm âm hư**.**
 Một nghiên cứu thực nghiệm của Wang và cộng sự (2016) trên mô hình chuột mất ngủ do stress đã chứng minh rằng Dưỡng tâm thang có tác dụng cải thiện thời gian ngủ và giảm biểu hiện lo âu, trầm cảm thông qua điều hòa trục HPA (hypothalamus-pituitary-adrenal) và tăng hoạt tính của chất dẫn truyền thần kinh GABA, đồng thời làm giảm nồng độ cortisol trong máu @wang2016duyangxin.
-Ngoài ra, một phân tích mạng lưới dược lý học (network pharmacology) của Zhao và cộng sự (2022) chỉ ra rằng các vị thuốc trong Dưỡng tâm thang như Bá tử nhân, Mạch môn, Ngũ vị tử… có ảnh hưởng đến nhiều con đường tín hiệu thần kinh quan trọng như serotonin, dopamine, GABA, BDNF, và thể hiện tiềm năng điều hòa giấc ngủ và bảo vệ tế bào thần kinh@zhao2022network.
+Ngoài ra, một phân tích mạng lưới dược lý học (network pharmacology) của Zhao và cộng sự (2022) chỉ ra rằng các vị thuốc trong Dưỡng tâm thang như Bá tử nhân, Mạch môn, Ngũ vị tử… có ảnh hưởng đến nhiều con đường tín hiệu thần kinh quan trọng như serotonin, dopamine, GABA, BDNF, và thể hiện tiềm năng điều hòa giấc ngủ và bảo vệ tế bào thần kinh [@zhao2022network].
 Tại Việt Nam, một số nghiên cứu nhỏ lẻ tại bệnh viện y học cổ truyền và các khoa y học cổ truyền cho thấy bài thuốc này thường được sử dụng cho bệnh nhân mất ngủ mạn tính do suy nhược cơ thể hoặc sau stress kéo dài, nhưng hiện chưa có nghiên cứu chuẩn hóa, đánh giá hiệu quả lâm sàng bài bản về hiệu quả trên đối tượng tâm âm hư.
 Như vậy, các kết quả nghiên cứu hiện có đã gợi mở tiềm năng ứng dụng bài Dưỡng tâm thang như một phương pháp điều trị hỗ trợ an toàn và hiệu quả cho mất ngủ thể tâm âm hư, tuy nhiên vẫn cần có thêm các nghiên cứu can thiệp có đối chứng tại Việt Nam** **nhằm đánh giá rõ ràng hiệu quả, tính an toàn và khả năng ứng dụng lâm sàng.
 ### 1.2. Tổng quan về châm cứu trong điều trị mất ngủ @pham2009
@@ -950,135 +951,269 @@ Nghiên cứu của Li YS (2017) về hiệu quả điều trị của bài thu�
 Nghiên cứu của Li CJ, Yan HB (2019) về hiệu quả điều trị của Thiên vương bổ tâm đan gia giảm trên 50 bệnh nhân thất miên thể tâm âm hư. Nghiên cứu được thực hiện thên 100 bệnh nhân, ngẫu nhiên phân thành 2 nhóm, nhóm chứng: sử dụng trị liệu thường quy; nhóm nghiên cứu: điều trị thường quy kết hợp bài thuốc Thiên vương bổ tâm đan gia giảm. So sánh kết quả điều trị giữa hai nhóm, sau 6 tuần điều trị, nhóm nghiên cứu đạt kết quả tốt hơn Nhóm nghiên cứu (p < 0,05) @li2019tianwang.
 Nghiên cứu của Jin YM, Li YP (2024) về hiệu quả lâm sàng của Điều thần dưỡng tâm thang trong điều trị bệnh nhân mất ngủ tiền mãn kinh. Nghiên cứu trên 60 bệnh nhân tiền mãn kinh mất ngủ thể tâm thận bất gia. Ngẫu nhiên phần nhóm,  mỗi nhóm 30 bệnh nhân, Nhóm đối chứng sử dụng viên nang Ô linh, nhóm điều trị sự dụng Điều thần dưỡng tâm thang. Đánh giá trước sau điều trị, sau 8 tuần điều trị, đánh giá các thang điểm PSQI, KMI (chỉ số tiền mãn kinh), thang điểm HAMA, đánh giá các triệu chứng đông y. Kết quả sau 8 tuần điều trị, tổng hiệu quả của nhóm nghiên cứu đạt 96,7%, cao hơn nhóm đối chứng 86,7% (p < 0,05). Các triệu chứng đông y như triều nhiệt, đổ mồ hôi, mất ngủ, hồi hộp trống ngực…. đều giảm so với nhóm đối chứng (p < 0,05); nhóm nghiên cứu sau điều trị tổng điểm HAMA và điểm triệu chứng đông y đều giảm sao với nhóm đối chứng (p<0,05) @jin2024tiaoshen. **
 **
+
 # ĐỐI TƯỢNG VÀ PHƯƠNG PHÁP NGHIÊN CỨU
 
+## Thiết kế nghiên cứu
 
-## 2.1 Đối tượng nghiên cứu
+Nghiên cứu lâm sàng ngẫu nhiên có nhóm đối chứng (Randomized controlled trials- RCT)
+
+## Thời gian và địa điểm và thời gian
+-   Thời gian nghiên cứu: từ tháng 3/2025 đến 3/2026
+-   Địa điểm nghiên cứu: Khoa YHCT, Bệnh viện 30-4
+
+
+## Đối tượng nghiên cứu
+
+### Dân số mục tiêu
+Bệnh nhân sa sút trí tuệ trong bối cảnh  khoa YHCT Bệnh viện đa khoa
+
+### Dân số chọn mẫu
 Tất cả BN được chẩn đoán mất ngủ không thực tổn, từ 18 tuổi trở lên đến khám và điều trị ngoại trú và nội trú tại khoa YHCT Bệnh viện 30-4 thỏa mãn tiêu chuẩn lựa chọn và tiêu chuẩn loại trừ được trình bày dưới đây.
-### 2.1.1 Tiêu chuẩn chọn bệnh nhân
-Bệnh nhân thoả mãn theo tiêu chuẩn chẩn đoán mất ngủ không thực tổn của ICD-10
-+ Phàn nàn về khó đi vào giấc ngủ và khó duy trì giấc ngủ hoặc chất lượng giấc ngủ kém.
-+ Rối loạn giấc ngủ xảy ra ít nhất ba lần trong một tuần trong ít nhất một tháng.
-+ Rối loạn giấc ngủ gây nên sự mệt mỏi cho cơ thể hoặc gây khó khăn trong hoạt động chức năng ban ngày.
-+ Không có nguyên nhân tổn thương thực thể: tổn thương hệ thần kinh, do các bệnh lý nội khoa khác, rối loạn hành vi hay do sử dụng thuốc gây ra.
+
+
+### Cỡ mẫu:
+Cỡ mẫu tối thiểu cho mỗi nhóm trong nghiên cứu can thiệp được xác định theo công thức so sánh hai trung bình độc lập @tuan2020cosmau:
+
+$$
+n = \frac{2s^2(Z_{\alpha/2} + Z_\beta)^2}{(m_1 - m_2)^2}
+$$
+
+*Trong đó:*
+
+$s$: Độ lệch chuẩn chung của hai nhóm. Trong nghiên cứu này, giả định $s = 10{,}11$
+
+$\alpha$: Xác suất sai lầm loại I (mức ý nghĩa thống kê). Chọn $\alpha = 0{,}05$
+
+$\beta$: Xác suất sai lầm loại II. Chọn $\beta = 0{,}2$ (tương ứng với **power** = 80%)
+
+$Z_{\alpha/2}$: Giá trị tới hạn phân phối chuẩn ứng với $\alpha/2$ (~1,96)
+$Z_\beta$: Giá trị tới hạn ứng với $\beta$ (~0,84)
+
+$m_1$: Hiệu suất cải thiện giấc ngủ ở nhóm đối chứng (châm cứu đơn thuần), theo nghiên cứu của Ngô Quang Vinh [17], là $20{,}87 \pm 10{,}11$ [@pham2009]
+
+$m_2$: Hiệu suất kỳ vọng ở nhóm can thiệp (châm cứu + Dưỡng tâm thang) là $27{,}00 \pm 10{,}11$ [@pham2009]
+
+$n_1, n_2$: Cỡ mẫu tối thiểu cần thiết cho mỗi nhóm nghiên cứu và đối chứng
+
+Từ các giả định trên, tính được cỡ mẫu tối thiểu cho mỗi nhóm là **44 bệnh nhân**, tổng cộng **88 bệnh nhân**. Dự phòng tỷ lệ mất mẫu 10%, nghiên cứu quyết định tuyển chọn tối thiểu **98 bệnh nhân** cho hai nhóm.
+
+### Kỹ thuật chọn mẫu:
+Các đối tượng nghiên cứu sau khi được tuyển chọn theo tiêu chí đã xác định được phân ngẫu nhiên vào hai nhóm can thiệp theo tỷ lệ 1:1. Quá trình phân nhóm được thực hiện bằng ngôn ngữ R sử dụng hàm sample(), nhằm đảm bảo tính ngẫu nhiên và tái lập trong phân bố bệnh nhân [@tuan2020cosmau]. Kỹ thuật này giúp giảm thiểu sai lệch chọn mẫu và tăng độ tin cậy cho so sánh kết quả giữa hai nhóm.
+
+### Tiêu chuẩn chọn bệnh nhân
+**Bệnh nhân thoả mãn theo tiêu chuẩn chẩn đoán mất ngủ không thực tổn của ICD-10**
+
+Phàn nàn về khó đi vào giấc ngủ và khó duy trì giấc ngủ hoặc chất lượng giấc ngủ kém.
+Rối loạn giấc ngủ xảy ra ít nhất ba lần trong một tuần trong ít nhất một tháng.
+Rối loạn giấc ngủ gây nên sự mệt mỏi cho cơ thể hoặc gây khó khăn trong hoạt động chức năng ban ngày.
+Không có nguyên nhân tổn thương thực thể: tổn thương hệ thần kinh, do các bệnh lý nội khoa khác, rối loạn hành vi hay do sử dụng thuốc gây ra.
 Đánh giá chất lượng giấc ngủ theo thang điểm Pittsburgh (PSQI) tổng điểm >5 điểm.
 Bệnh nhân đồng ý và tự nguyện tham gia nghiên cứu sử dụng phác đồ nghiên cứu.
-Bệnh nhân thất miên thể tâm âm hư với triệu chứng và quy nạp theo tứ chẩn thoả mãn tiêu chuẩn sau:
+
+**Bệnh nhân thất miên thể tâm âm hư với triệu chứng và quy nạp theo tứ chẩn thoả mãn tiêu chuẩn sau:**
+
 Bảng 1. Tiêu chuẩn chẩn đoán Thất miên thể Tâm tâm hư
-### 2.1.3 Tiêu chuẩn loại trừ
-### BN có kèm theo rối loạn trầm cảm nặng hoặc bệnh nhân có bệnh lý nặng khác đi kèm cần phải xử lý bằng YHHĐ như nhồi máu cơ tim, tai biến mạch máu não v.v …
+
+```{r}
+#| echo: false
+
+tuchan_tbl <- tribble(
+  ~`Tứ chẩn`, ~`Triệu chứng`,
+  "Vọng", paste(
+    "- Chất lưỡi đỏ",
+    "- Rêu lưỡi ít hoặc không có rêu",
+    "- Lòng bàn tay đỏ",
+    "- Thể trạng gầy gò", sep = "\n"
+  ),
+  "Văn", paste(
+    "- Tiếng nói nhỏ rõ",
+    "- Hơi thở không hôi", sep = "\n"
+  ),
+  "Vấn", paste(
+    "- Mất ngủ, khó vào giấc",
+    "- Hay tỉnh, hay mơ",
+    "- Hồi hộp, đánh trống ngực",
+    "- Bứt rứt khó chịu",
+    "- Đổ mồ hôi trộm",
+    "- Lòng bàn tay chân nóng",
+    "- Môi khô miệng khát",
+    "- Đại tiện táo",
+    "- Nước tiểu vàng", sep = "\n"
+  ),
+  "Thiết", "- Mạch tế sác"
+)
+
+tuchan_tbl %>%
+  flextable() %>%
+  set_table_properties(layout = "autofit", width = 1) %>%
+  align(align = "left", part = "all") %>%
+  fontsize(size = 13, part = "all") %>%
+  font(fontname = "Times New Roman", part = "all") %>%
+  line_spacing(space = 1.2) %>%
+  padding(padding = 4, part = "all") %>%
+  set_caption("Bảng 1. Tiêu chuẩn chẩn đoán Thất miên thể Tâm tâm hư") %>%
+  fix_border_issues() %>%
+  keep_with_next(part = "body")
+
+
+```
+
+### Tiêu chuẩn loại trừ
+BN có kèm theo rối loạn trầm cảm nặng hoặc bệnh nhân có bệnh lý nặng khác đi kèm cần phải xử lý bằng YHHĐ như nhồi máu cơ tim, tai biến mạch máu não v.v …
 BN không hợp tác điều trị, không tuân thủ theo phác đồ nghiên cứu.
 BN không tái khám, không được đánh giá kết quả sau điều trị.
-Các thể bệnh khác của chứng Thất miên.
-**Ghi chú**
-* Trường hợp bệnh nhân trước 28 ngày điều trị mà không muốn tiếp tục điều trị do đã ngủ được thì thu thập phiếu dữ liệu của bệnh nhân tại thời điểm đó làm kết quả cuối cùng (T1) để đánh giá phân tích số liệu.
-## 2.2 Địa điểm và thời gian
-- Địa điểm nghiên cứu: Khoa YHCT, Bệnh viện 30-4
-- Thời gian nghiên cứu: từ tháng 3/2025 đến 3/2026
-## 2.4 Phương pháp nghiên cứu
-**a. Thiết kế nghiên cứu**
-Nghiên cứu can thiệp lâm sàng, tiến cứu, so sánh trước sau điều trị và so sánh với nhóm đối chứng.
-**b. Cỡ mẫu nghiên cứu**
-Công thức tính cỡ mẫu
-Áp dụng công thức so sánh 2 trung bình về hiệu suất cải thiện giấc ngủ [16]:
+*Trường hợp bệnh nhân trước 28 ngày điều trị mà không muốn tiếp tục điều trị do đã ngủ được thì thu thập phiếu dữ liệu của bệnh nhân tại thời điểm đó làm kết quả cuối cùng (T1) để đánh giá phân tích số liệu*
+### Kiểm soát sai lệch chọn lựa: 
+Sai số khi chọn mẫu trong nghiên cứu này được kiểm soát bằng các biện pháp: 
+Danh sách bệnh nhân đang điều trị tại khoa YHCT, Bệnh viện 30–4 được đơn vị cung cấp dựa trên thông tin lưu trữ trên hệ thống máy tính nội bộ, hồ sơ bệnh án giấy được lưu trữ và bệnh nhân hiện đang được theo dõi và điều trị định kỳ.
+Bảng số liệu thu thập được của từng bệnh nhân được mã hóa theo quy chuẩn ngày thăm khám của bệnh nhân (Ví dụ: Bệnh nhân đến khám ngày 06/01/2020 và tham gia vào nghiên cứu sẽ được mã hóa thành 20200106). Bên cạnh đó, mã số bệnh án lưu trữ cũng được ghi nhận ngay bên cạnh mã số được mã hóa như trên và được đối chiếu bởi các nghiên cứu viên.
 
-Trong đó:
-α: Sai lầm loại I. Chọn α = 0,05 
-β: Sai lầm loại II. Chọn β = 0,8 
-s: độ lệch chuẩn 2 nhóm
-m1: Hiệu suất cải thiện giấc ngủ người bệnh ở nhóm châm cứu (nhóm đối chứng) từ kết quả NC của tác giả Ngô Quang Vinh [17], hiệu suất sau điều trị nhóm châm cứu là 20,87 ± 10,11 @pham2009
-m2: Hiệu suất cải thiện giấc ngủ ngủ người bệnh kỳ vọng ở nhóm châm cứu + Dưỡng tâm thang (nhóm nghiên cứu) 27,0 ± 10,11. @pham2009
-n1: Cỡ mẫu tối thiểu dành cho nhóm nghiên cứu. 
-n2: Cỡ mẫu tối thiểu dành cho nhóm đối chứng
-Từ đó tính được cỡ mẫu tối thiểu cho mỗi nhóm là 44 BN, tổng là 88 BN. Tỷ lệ mất mẫu dự kiến là 10%. Vì vậy, chúng tôi quyết định tuyển chọn tối thiểu 98 BN cho hai nhóm.
-**Tính cỡ mẫu bằng phầm mềm R**
+## Các biến số nghiên cứu
+```{r}
+#| label: bang-bien-so-nghien-cuu
+#| echo: false
 
-Hình1: Tính cỡ mẫu bằng phần mềm R
+# 📋 Tạo bảng biến số nghiên cứu
+data_bien <- data.frame(
+  Ten_bien = c(
+    "Tuổi", "Giới tính", "Thời gian phát hiện bệnh", "Hoàn cảnh gia đình",
+    "Nghề nghiệp trước đây", "Tình trạng hôn nhân", "Thời gian bị mất ngủ",
+    "Bệnh đi kèm", "Tính chất xuất hiện mất ngủ", "Thời gian đi vào giấc ngủ",
+    "Tác dụng không mong muốn châm cứu", "Tác dụng không mong muốn của bài thuốc",
+    "Các triệu chứng YHCT sau giấc ngủ", "Điểm PSQI"
+  ),
+  Loai_bien = c(
+    "Định lượng", "Định tính", "Định lượng", "Định tính",
+    "Định tính", "Định tính", "Định tính",
+    "Định tính", "Định tính", "Định lượng",
+    "Định tính", "Định tính",
+    "Định tính", "Định lượng"
+  ),
+  Gia_tri_don_vi = c(
+    "Năm", "Nam/Nữ", "Tháng",
+    "Sống cùng gia đình, sống cùng con cháu, sống một mình",
+    "Toàn thời gian, bán thời gian, về hưu",
+    "Có chồng vợ, góa, ly thân/ly hôn",
+    "Tính theo năm", "Có, không", "Từ từ, đột ngột",
+    "Được tính từ khi bắt đầu đi ngủ đến khi ngủ được (phút)",
+    "Vựng châm, chảy máu, bầm tím, bỏng, sưng đau",
+    "Dị ứng thuốc, tiêu chảy, buồn nôn, nôn, sốc phản vệ các mức độ",
+    "Tiểu đêm, mồ hôi trộm, hay quên, hồi hộp trống ngực, đau đầu, lòng bàn tay chân nóng, môi khô miệng khát, đại tiện táo",
+    "Từ 0 đến 21"
+  )
+)
 
+# 🎨 Hiển thị bảng với cột được điều chỉnh độ rộng hợp lý
+ft_bien <- data_bien %>%
+  flextable() %>%
+  set_header_labels(
+    Ten_bien = "Tên biến",
+    Loai_bien = "Loại biến",
+    Gia_tri_don_vi = "Giá trị, đơn vị"
+  ) %>%
+  autofit() %>%
+  set_table_properties(width = 1, layout = "autofit") %>%
+  font(fontname = "Times New Roman", part = "all")  %>%
+  fontsize(size = 13, part = "all")
+
+
+ft_bien
+
+```
+
+
+
+## Phương pháp tiến hành
 Thu thập dữ liệu tối thiểu 98 bệnh nhân được chẩn đoán mất ngủ.
 Các bệnh nhân được chẩn đoán Mất ngủ không thực tổn đáp ứng tiêu chuẩn lựa chọn và không vi phạm tiêu chuẩn loại trừ được tham gia vào quá trình nghiên cứu.
 Bệnh nhân đều được thăm khám đánh giá cả YHHĐ và YHCT phân nhóm ngẫu nhiên vào Nhóm nghiên cứu và nhóm đối chứng, đánh giá các chỉ số giấc ngủ: tổng thời gian ngủ, thời gian từ khi lên giường đến khi ngủ được, số lần thức giấc trong đêm, hiệu quả giấc ngủ và thang điểm PSQI, đánh giá các triệu chứng đông y. 
-
-**c. Các biến số nghiên cứu**
-Bảng 2. Các biến số nghiên cứu
-
-**d. Đánh giá tác dụng của phương pháp điều trị**
-Kết quả của phương pháp điều trị được đánh giá vào các thời điểm sau 28 ngày điều trị (T1) so sánh hiệu quả với thời điểm trước khi điều trị (T0), các yếu tố đánh giá bao gồm:
+**Đánh giá tác dụng của phương pháp điều trị**
+Kết quả của phương pháp điều trị được đánh giá vào các thời điểm sau 28 ngày điều trị (T1) so sánh hiệu quả với thời điểm trước khi điều trị (T0).
+*Các yếu tố đánh giá bao gồm:*
 - Thời gian đi vào giấc ngủ
 - Thời lượng giấc ngủ
 - Hiệu quả giấc ngủ (hiệu suất) = Số giờ ngủ/Số giờ nằm trên giường x 100%.
 - Rối loạn trong giấc ngủ
-- Chất lượng giấc ngủ theo đánh giá chủ quan của bệnh nhân: gồm 4 mức độ: Tốt (Dễ vào giấc, ngủ sâu, sảng khoái sau khi thức dậy), Khá (Dễ vào giấc, cảm thấy ngủ đủ giấc), Trung bình (Khó vào giấc, ngủ không sâu giấc, dễ tỉnh), Kém (Khó vào giấc, ngủ hay mê, hay tỉnh giấc, khó ngủ lại hoặc thức trắng đêm).
+- Chất lượng giấc ngủ theo đánh giá chủ quan của bệnh nhân: 
+gồm 4 mức độ: Tốt (Dễ vào giấc, ngủ sâu, sảng khoái sau khi thức dậy), Khá (Dễ vào giấc, cảm thấy ngủ đủ giấc), Trung bình (Khó vào giấc, ngủ không sâu giấc, dễ tỉnh), Kém (Khó vào giấc, ngủ hay mê, hay tỉnh giấc, khó ngủ lại hoặc thức trắng đêm).
 - Các triệu chứng thứ phát sau mất ngủ.
 - Tổng điểm PITTSBURGH(PSQI)
 - Triệu chứng y học cổ truyền.
 
-**e. Các bước tiến hành nghiên cứu**
-Bước 1: Lựa chọn bệnh nhân
+**Các bước tiến hành nghiên cứu**
+- Bước 1: Lựa chọn bệnh nhân
 Khám phân loại lựa chọn bệnh nhân, bệnh nhân được chẩn đoán mất ngủ thể tâm âm hư đáp ứng các tiêu chuẩn chọn bệnh nhân để đưa vào đối tượng nghiên cứu.
 Đánh giá triệu chứng lâm sàng trước khi điều trị (thời điểm T0).
 Ngẫu nhiên chia nhóm:
-Chúng tôi phân nhóm sử dụng phương pháp ngẫu nhiên bằng phần mềm R (bệnh nhân được phân vào 1 trong 2 nhóm theo số thứ tự) với hàm sau
-**Phân nhóm ngẫu nhiêu bằng phần mềm R**
-
-Hình2: Danh sách 10 bệnh nhân đầu tiên dược phân nhóm bằng phần mềm R
+Chúng tôi phân nhóm sử dụng phương pháp ngẫu nhiên vào 2 nhóm
 Nhóm nghiên cứu: Sử dụng phương pháp châm cứu kết hợp với bài thuốc “Dưỡng tâm thang” @pham2009
 Nhóm đối chứng: Sử dụng phương pháp châm cứu đơn thuần. @pham2009
-Bước 2: Tiến hành điều trị
+- Bước 2: Tiến hành điều trị
 Bệnh nhân được bác sĩ là thành viên của nhóm nghiên cứu cấp đơn thuốc bài Dưỡng tâm thang. 
 Sau đó bệnh nhân được các thành viên, nhân viên hỗ trợ (là các bác sĩ, y sĩ YHCT) của nhóm tiếp nhận tiến hành làm thủ thuật châm cứu.  @pham2009
 Mỗi ngày từ thứ 2 đến thứ 6 (nghỉ thứ bảy, chủ nhật hàng tuần) bệnh nhân sẽ đến để điều trị bằng châm cứu. Mỗi 7 ngày bệnh nhân sẽ được gặp bác sĩ để khám lại kê bài thuốc và tư vấn, tại thời điểm trước điều trị (T0) và ngày 28 (T1) bệnh nhân sẽ được ghi nhận lại kết quả điều trị trong phiếu thu thập dữ liệu. @pham2009
-Quy trình thực hiện châm cứu @pham2009
+**Quy trình thực hiện châm cứu** @pham2009
 Chuẩn bị bệnh nhân: 
 Bệnh nhân nằm tư thế thoải mái
 Chọn huyệt: Chúng tôi chọn huyệt theo lý luận của Y học cổ truyền @hoang1992
 Công thức huyệt chung: Nội quan, Thần môn, Tam âm giao, An miên 2 bên, Dũng tuyền (Cứu ngải)
-Kỹ thuật châm cứu: @pham2009
-+ Sát trùng tại vị trí các huyệt cần châm
-+ Châm bổ: châm kim nhanh qua da thuận chiều đường kinh vào đúng giữa huyệt, từ từ đẩy kim tới huyệt, vê kim nhẹ nhàng cho đến khi đạt được cảm giác “đắc khí” (bệnh nhân có cảm giác tê, tức. Thầy thuốc dùng ngón tay lay nhẹ vào đốc kim cảm thấy kim bị mút chặt).
-+ Lưu kim 30 phút
-+ Cứu ngải tại huyệt Dũng tuyền: Đốt điếu ngải, hơ sát da vùng huyệt (giữ điếu ngải cách da khoảng 2-3cm), khi bệnh nhân nóng thì nhấc ra xa khoảng 5 giây, rồi đưa lại gần, tiếp tục như trên, duy trì trong thời gian 20 phút.
-Liệu trình điều trị: 28 ngày (1 tuần 5 ngày châm cứu, ngày 1 lần; nghỉ thứ 7, chủ nhật) @pham2009
-Phương tiện nghiên cứu
+
+**Kỹ thuật châm cứu: @pham2009**
+- Sát trùng tại vị trí các huyệt cần châm
+- Châm bổ: châm kim nhanh qua da thuận chiều đường kinh vào đúng giữa huyệt, từ từ đẩy kim tới huyệt, vê kim nhẹ nhàng cho đến khi đạt được cảm giác “đắc khí” (bệnh nhân có cảm giác tê, tức. Thầy thuốc dùng ngón tay lay nhẹ vào đốc kim cảm thấy kim bị mút chặt).
+- Lưu kim 30 phút
+- Cứu ngải tại huyệt Dũng tuyền: Đốt điếu ngải, hơ sát da vùng huyệt (giữ điếu ngải cách da khoảng 2-3cm), khi bệnh nhân nóng thì nhấc ra xa khoảng 5 giây, rồi đưa lại gần, tiếp tục như trên, duy trì trong thời gian 20 phút.
+
+**Liệu trình điều trị:** 28 ngày (1 tuần 5 ngày châm cứu, ngày 1 lần; nghỉ thứ 7, chủ nhật) @pham2009
+
+**Phương tiện nghiên cứu**
 - Bài thuốc Dưỡng tâm thang gồm các vị thuốc: Bá tử nhân 9g, Toan táo nhân 12g, Phục thần 12g, Sinh địa 12g, Thục địa 12g, Đương quy 12 g, Mạch môn 12g, Ngũ vị tử 6g, Đảng sâm 9g, Cam thảo 6g; thuốc được kê theo đơn bảo hiểm hoặc bệnh nhân tự mua tại nhà thuốc; thuốc được sắc và đóng gói tại khoa Y học cổ truyền Bệnh viện 30-4 theo quy trình sắc thuốc của Bệnh viện, bệnh nhân được hưỡng dẫn cách bảo quản và uống thuốc. @hoang1992
 - Kim châm cứu: Bệnh nhân tự mua kim châm cứu size 0,30*25 mm tại nhà thuốc bệnh viện.  @pham2009
 - Ngải cứu: Bệnh nhân tự mua nhang ngải cứu Tuệ hải đường tại nhà thuốc bệnh viện.
-Dụng cụ do nhóm nghiên cứu tự chuẩn bị:
-- Máy đo huyết áp cánh tay, Ống nghe: hiệu OMRON HEM – 8712. 
-- 01 gối kê đầu chiều cao 5-8 cm.
-- Các dụng cụ khác: Cồn 70%, bông gòn, kẹp phẫu tích, hộp đựng bông gòn.
-- Bệnh án nghiên cứu, bảng trắc nghiệm tâm lý PSQI. 
-Bước 3: Đánh giá sau điều trị
+- Dụng cụ do nhóm nghiên cứu tự chuẩn bị:
+  - Máy đo huyết áp cánh tay, Ống nghe: hiệu OMRON HEM – 8712. 
+  - 01 gối kê đầu chiều cao 5-8 cm.
+  - Các dụng cụ khác: Cồn 70%, bông gòn, kẹp phẫu tích, hộp đựng bông gòn.
+  - Bệnh án nghiên cứu, bảng trắc nghiệm tâm lý PSQI. 
+- Bước 3: Đánh giá sau điều trị
 Sau điều trị bệnh nhân được đánh giá sự thay đổi tại các thời điểm sau 28 ngày. Các triệu chứng được đánh giá bao gồm:
-- Các chỉ số đánh giá tình trạng mất ngủ: T0- T1
-- Thang điểm PSQI: T0- T1
-- Hiệu quả điều trị chung theo thang điểm PSQI sau điều trị
-- Triệu chứng YHCT: T0- T1
-- Đánh giá một số yếu tố liên quan đến kết quả điều trị: tuổi, giới, thời gian bị bệnh, hoàn cảnh gia đình, tình trạng hôn nhân.
+  - Các chỉ số đánh giá tình trạng mất ngủ: T0- T1
+  - Thang điểm PSQI: T0- T1
+  - Hiệu quả điều trị chung theo thang điểm PSQI sau điều trị
+  - Triệu chứng YHCT: T0- T1
+  - Đánh giá một số yếu tố liên quan đến kết quả điều trị: tuổi, giới, thời gian bị bệnh, hoàn cảnh gia đình, tình trạng hôn nhân.
 Khảo sát tác dụng không mong muốn của phác đồ
-Tác dụng không mong muốn trên lâm sàng:
+  - Tác dụng không mong muốn trên lâm sàng:
 Bệnh nhân có phản ứng phụ với bài thuốc: dị ứng thuốc, tiêu chảy, buồn nôn, phản ứng phản vệ các mức độ, và các phản ứng phụ khác
 Bệnh nhân chảy máu, bầm tím, đau nhiều, bỏng, vựng châm.
-**Cách xử lí khi xảy ra rủi ro**
--Xử lý vựng châm: Người bệnh hoa mắt chóng mặt, vã mồ hội, mạch nhanh, sắc mặt nhợt nhạt. Xử lý: rút kim ngay, lau mồ hôi, ủ ấm, uống nước trà đường nóng, cho người bệnh nằm nghỉ tại chỗ, day bấm các huyệt: thái dương, nội quan. Theo dõi sát mạch, huyết áp. (Theo phác đồ của Bộ y tế
--Xử lý chảy máu: Dùng bông khô vô khuẩn ấn tại chỗ, không day
--Xử lý sưng đau tại vùng châm: Bệnh nhân chườm lạnh, nghỉ ngơi 
--Xử lý bỏng: dùng thuốc mỡ vaseline bôi và băng lại, tránh nhiễm trùng
--Xử lý các tác dụng không mong muốn khi dùng thuốc: các nghiên cứu viên là các bác sĩ trực tiếp thăm khám và điều trị cho bệnh nhân, căn cứ vào tình trạng xuất hiện các phản ứng tác dụng phụ để đưa ra phương án điều trị, xử lý an toàn cho bệnh nhân như: ngưng thuốc, theo dõi thêm hoặc xử trí dị ứng thuốc, tiêu chảy, nôn ói,… theo phác đồ của Bộ y tế.
 
+**Cách xử lí khi xảy ra rủi ro**
+
+  - Xử lý vựng châm: Người bệnh hoa mắt chóng mặt, vã mồ hội, mạch nhanh, sắc mặt nhợt nhạt. Xử lý: rút kim ngay, lau mồ hôi, ủ ấm, uống nước trà đường nóng, cho người bệnh nằm nghỉ tại chỗ, day bấm các huyệt: thái dương, nội quan. Theo dõi sát mạch, huyết áp. (Theo phác đồ của Bộ y tế
+  - Xử lý chảy máu: Dùng bông khô vô khuẩn ấn tại chỗ, không day
+  - Xử lý sưng đau tại vùng châm: Bệnh nhân chườm lạnh, nghỉ ngơi 
+  - Xử lý bỏng: dùng thuốc mỡ vaseline bôi và băng lại, tránh nhiễm trùng
+  - Xử lý các tác dụng không mong muốn khi dùng thuốc: các nghiên cứu viên là các bác sĩ trực tiếp thăm khám và điều trị cho bệnh nhân, căn cứ vào tình trạng xuất hiện các phản ứng tác dụng phụ để đưa ra phương án điều trị, xử lý an toàn cho bệnh nhân như: ngưng thuốc, theo dõi thêm hoặc xử trí dị ứng thuốc, tiêu chảy, nôn ói,… theo phác đồ của Bộ y tế.
+
+### Sơ đồ nghiên cứu
+
+![Sơ đồ nghiên cứu](hinh/so_do_nghien-cuu.png){width=80%}
 
 Sơ đồ 1: Sơ đồ nghiên cứu
 
-**14.3. Kỹ thuật sử dụng   **
-Thu thập thông tin và sử lý số liệu:
+### Thống kê phân tích
+- Thu thập thông tin và sử lý số liệu:
 - Các số liệu thu thập bằng phiếu đánh giá theo dõi của từng bệnh nhân.
 Xử lý dữ liệu
-Nhập liệu và quản lý dữ liệu bằng phần mềm SPSS 20, xử lí bằng phần Phần mềm R  
-So sánh giá trị trung bình ở 2 nhóm dùng kiểm định Independent Sample t-test (phân phối chuẩn) hoặc kiểm định Wilcoxon Rank-Sum Test (không phân phối chuẩn). 
-So sánh sự khác biệt giữa các tỷ lệ với các biến định tính dùng kiểm định Chi bình phương (χ2), hoặc kiểm định Fisher's Exact.
+- Nhập liệu và quản lý dữ liệu bằng phần mềm SPSS 20, xử lí bằng phần Phần mềm R  
+  - So sánh giá trị trung bình ở 2 nhóm dùng kiểm định Independent Sample t-test (phân phối chuẩn) hoặc kiểm định Wilcoxon Rank-Sum Test (không phân phối chuẩn). 
+  - So sánh sự khác biệt giữa các tỷ lệ với các biến định tính dùng kiểm định Chi bình phương (χ2), hoặc kiểm định Fisher's Exact.
 Sử dụng Sample t-test (phân phối chuẩn) hoặc kiểm định Wilcoxon Rank-Sum Test (không phân phối chuẩn).
-Kết quả nghiên cứu được coi là có ý nghĩa thống kê khi p < 0,05 . @tran2006
-**14.4 Vấn đề y đức**
+  - Kết quả nghiên cứu được coi là có ý nghĩa thống kê khi p < 0,05 . @tran2006
+
+
+### Đạo đức trong nghiên cứu:
 - Nghiên cứu được thông qua hội đồng đạo đức trong nghiên cứu y sinh học.
 - Kỹ thuật châm cứu là kỹ thuật an toàn đã được Bộ y tế cho phép sử dụng, Bài thuốc Dưỡng tâm thang là bài thuốc cổ phương đã được sử dụng từ lâu và an toàn. @pham2009
 - Bệnh nhân được thông tin đầy đủ về các nội dung can thiệp trong nghiên cứu. 
@@ -1089,10 +1224,8 @@ Kết quả nghiên cứu được coi là có ý nghĩa thống kê khi p < 0,0
 
 
 
-## Dân số mục tiêu:
 
 
-### Đạo đức trong nghiên cứu: Đã thôn qua
 
 # KẾT QUẢ NGHIÊN CỨU
 
