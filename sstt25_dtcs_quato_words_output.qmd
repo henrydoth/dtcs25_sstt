@@ -74,7 +74,7 @@ Tuy nhiên, hiện còn thiếu các nghiên cứu đánh giá hệ thống về
 - Nghiên cứu **mối tương quan của thang điểm MMSE** với các test thần kinh nhận thức khác trong **bộ Test thần kinh nhận thức tại Bệnh viện 30-4**.
 
 - Đánh giá **hiệu quả ứng dụng của bộ Test thần kinh nhận thức** trong **chẩn đoán và điều trị Sa sút trí tuệ tại Bệnh viện 30-4**.
-
+# TỔNG QUANG TÀI LIỆU
 # TỔNG QUANG TÀI LIỆU
 
 ## Tổng quan về suy giảm nhận thức nhẹ và sa sút trí tuệ
@@ -368,7 +368,7 @@ ft <- data %>%
   font(fontname = "Times New Roman", part = "all")  %>%
   fontsize(size = 13, part = "all")
 
-fto
+ft
 
 ```
 
