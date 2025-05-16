@@ -1,3 +1,4 @@
+#Thêm toc vào file README.md
 # run_all.R — Chạy từng bước trong pipeline phân tích 📊
 
 source(here::here("R", "packages.R"))
