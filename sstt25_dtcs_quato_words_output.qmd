@@ -364,7 +364,7 @@ ft <- data %>%
     Gia_tri_don_vi = "Giá trị / Đơn vị"
   ) %>%
   autofit() %>%
-  set_table_properties(width = 1, layout = "autofit") %>%
+  set _table_properties(width = 1, layout = "autofit") %>%
   font(fontname = "Times New Roman", part = "all")  %>%
   fontsize(size = 13, part = "all")
 
