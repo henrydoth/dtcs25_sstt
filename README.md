@@ -48,6 +48,27 @@
 - git log --oneline  
 - Nếu muốn quay lại 1 history trước đó vd b1d2e3f: : git reset --hard b1d2e3f 
 - Terminal hiện dấu hai chấm : như thế này: xử lý q = quit = thoát khỏi chế độ xem
+Tóm tắt vưa vừa làm:
+
+git add – chọn file để commit
+git commit -m "..." – lưu thay đổi với mô tả
+git push origin main – đẩy lên GitHub
+
+
+- Tóm lại làm sau 
+git add R/run_all.R README.md
+git commit -m "Cập nhật run_all.R và README.md sử dụng terminal"
+hoặc git commit -m "Update README.md" -m "Phần mô tả thêm ở Description"
+
+git push origin main
+
+nếu nhiều file
+git add .
+git commit -m "Cập nhật file dữ liệu" -m "Thêm nội dung phân tích và sửa lỗi chính tả."
+sau cùng đẩy lên git push origin main
+
+
+
 
 
 
