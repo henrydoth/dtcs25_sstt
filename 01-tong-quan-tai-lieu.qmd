@@ -35,7 +35,7 @@ Về mặt di truyền, sự mang gen APOE ε4 là yếu tố nguy cơ cao đố
 
 Sa sút trí tuệ bao gồm nhiều thể bệnh khác nhau, với đặc điểm bệnh sinh và lâm sàng riêng biệt:
 
--   **Sa sút trí tuệ do Alzheimer (Alzheimer's disease dementia)**: là thể phổ biến nhất, chiếm khoảng 60–70% tổng số ca. Đặc trưng bởi suy giảm trí nhớ gần là triệu chứng khởi phát, sau đó lan sang các chức năng nhận thức khác như ngôn ngữ, điều hành và định hướng. Bệnh tiến triển chậm nhưng liên tục qua các giai đoạn từ nhẹ đến nặng.
+-   **Sa sút trí tuệ do Alzheimer (Alzheimer's disease dementia)**: là thể phổ biến nhất, chiếm khoảng 60–70% tổng số ca. Đặc trưng bởi suy giảm trí nhớ gần là triệu chứng khởi phát, sau đó lan sang các chức năng nhận thức khác như ngôn ngữ, điều hành và định hướng. Bệnh tiến triển chậm nhưng liên tục qua các giai đoạn từ nhẹ đến nặng [@mckhann2011diagnosis].
 
 -   **Sa sút trí tuệ mạch máu (vascular dementia)**: chiếm khoảng 15–20% và thường gặp ở người có tiền sử đột quỵ hoặc yếu tố nguy cơ tim mạch. Bệnh có thể khởi phát đột ngột sau một biến cố mạch máu não, hoặc tiến triển theo kiểu bậc thang. Triệu chứng điển hình gồm rối loạn chú ý, chậm chạp tâm thần vận động, rối loạn chức năng điều hành và cảm xúc không ổn định.
 
