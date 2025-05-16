@@ -364,7 +364,7 @@ ft <- data %>%
     Gia_tri_don_vi = "Giá trị / Đơn vị"
   ) %>%
   autofit() %>%
-  set _table_properties(width = 1, layout = "autofit") %>%
+  set_table_properties(width = 1, layout = "autofit") %>%
   font(fontname = "Times New Roman", part = "all")  %>%
   fontsize(size = 13, part = "all")
 
@@ -372,7 +372,7 @@ ft
 
 ```
 
-### Phương pháp tiến hành.
+### Phương pháp tiến hành
 
 Bệnh nhân tới khám tại Đơn vị trí nhớ và sa sút trí tuệ Bệnh viện 30-4 được Bác sĩ thần kinh chỉ định làm trắc nghiệm thần kinh nhận thức bởi các nhân viên Y tế được huấn luyện theo quy trình thực hiện bộ test chuẩn. - Phương pháp hồi cứu. Tra cứu hồ sơ bệnh án tất cả những bệnh nhân được khám tại đơn vị từ 4/2019 tới thời điểm nghiên cứu. Đánh giá lại bộ test nếu bệnh nhân tái khám trong thời gian nghiên cứu. - Phương pháp tiến cứu. Bệnh nhân đến khám trong thời gian nghiên cứu được thăm khám, làm test, chẩn đoán và đánh giá mức độ sa sút trí tuệ tên lâm sàng. Nghiên cứu đánh giá Đánh giá mối tương quan giữa MSSE và các test khác trong bộ Test thần kinh nhận thức khác, tỷ lệ hoàn thành Test thần kinh nhận thức đối với suy giảm nhận thức nhẹ và Sa sút trí tuệ. Đánh giá mối tương quan phân độ sa sút trí tuệ ở thang điểm MMSE và phân độ sa sút trí tuệ trên lâm sàng.
 
