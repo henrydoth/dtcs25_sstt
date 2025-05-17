@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cd ~/dtcs25_sstt || exit
+
+FILE="diary/$(date +%Y-%m-%d).md"
+
+# Tạo nhật ký nếu chưa có
+if [ ! -f "$FILE" ]; then
+  echo "# Nhật ký ngày $(date +%Y-%m-%d)" > "$FILE"
+fi
+
+# Mở nhật ký
+nano "$FILE"
+
+# Commit & push
+git pull
+git add diary/
+git commit -m "📝 Nhật ký ngày $(date +%Y-%m-%d)"
+git push
