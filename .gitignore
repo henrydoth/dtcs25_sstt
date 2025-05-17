@@ -16,14 +16,18 @@ Desktop.ini
 .Rapp.history
 .Rproj.user/
 *.Rproj
+.Renviron
 
-# ==== QUARTO ====
+# ==== QUARTO / R MARKDOWN ====
 
 *.html
 *.pdf
 *.docx
+*.xlsx
 *.utf8.md
 *.knit.md
+*.log
+*.tmp
 *_files/
 *_cache/
 
@@ -34,11 +38,12 @@ _site/
 docs/
 
 # ==== JUPYTER (nếu có) ====
-
 .ipynb_checkpoints/
 
-# ==== THƯ MỤC OUTPUT (nếu có) ====
-
+# ==== OUTPUT / DATA / FIGURES ====
 output/
+*.sav
+*.bak
 
+# ==== QUARTO CONFIG ====
 /.quarto/
