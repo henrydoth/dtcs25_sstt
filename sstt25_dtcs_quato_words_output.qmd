@@ -56,7 +56,7 @@ TP Hồ Chí Minh: `r formatted_datetime`
 ::: {custom-style="CAN GIUA DAM 14 ONE"}
 ĐẶT VẤN ĐỀ
 :::
-
+Test git windows thuy duong
 Sa sút trí tuệ (SSTT) là một trong những vấn đề y tế được xã hội quan tâm, đặc biệt trong bối cảnh dân số toàn cầu đang **già hóa nhanh chóng**. Theo Tổ chức Y tế Thế giới, thế giới hiện có khoảng **55 triệu người đang sống chung với SSTT**, với gần **10 triệu ca mắc mới mỗi năm**. Con số này được dự báo sẽ tăng lên **139 triệu vào năm 2050**, chủ yếu tại các quốc gia có thu nhập trung bình và thấp. SSTT không chỉ ảnh hưởng đến sức khỏe tâm thần và thể chất của người bệnh mà còn tạo ra **gánh nặng lớn đối với gia đình và hệ thống y tế quốc gia**. @{WHO2021Dementia}
 
 Tại Việt Nam, quá trình **già hóa dân số** đang diễn ra nhanh hơn nhiều nước trong khu vực. Tỷ lệ người từ **60 tuổi trở lên** chiếm **12,3% dân số vào năm 2020** và dự báo sẽ vượt **20% vào năm 2036**, đưa Việt Nam chính thức bước vào **giai đoạn dân số già**. @{GSO2021Ageing} Song song đó, số lượng người cao tuổi có nguy cơ hoặc đã mắc các rối loạn nhận thức như **suy giảm nhận thức chủ quan (SCD)**, **suy giảm nhận thức nhẹ (MCI)** và **SSTT** đang tăng lên rõ rệt. Tuy nhiên, trong thực tế, nhiều trường hợp vẫn chưa được phát hiện kịp thời do **biểu hiện mờ nhạt**, **thiếu công cụ đánh giá phù hợp** hoặc chịu ảnh hưởng bởi **yếu tố ngôn ngữ và văn hóa**.
