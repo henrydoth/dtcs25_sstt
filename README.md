@@ -35,6 +35,93 @@
 
 ## TopPage  
 
+# 🧠 Git Cheat Sheet – Cơ bản & Thực tế (phiên sử dụng)
+
+## 📝 1. Kiểm tra trạng thái repository
+**Lệnh:**  
+git status  
+→ Kiểm tra nhánh hiện tại, file đã thay đổi, file cần commit.
+
+---
+
+## 🔄 2. Lấy thông tin mới từ GitHub (fetch)
+**Lệnh:**  
+git fetch  
+→ Tải commit mới từ GitHub mà **chưa gộp vào** local repo.
+
+---
+
+## 📣 3. Kiểm tra lại sau khi fetch
+**Lệnh:**  
+git status  
+→ Nếu thấy dòng:  
+Your branch is behind 'origin/main' by N commits  
+→ Có commit mới trên GitHub.
+
+---
+
+## ⬇️ 4. Kéo thay đổi từ GitHub (pull)
+**Lệnh:**  
+git pull  
+→ Gộp commit mới từ GitHub vào local.
+
+**Ví dụ bạn đã thấy:**  
+Updating 90cef40..7f02d7d  
+Fast-forward
+
+---
+
+## 🔍 5. Xem danh sách commit tóm tắt
+**Lệnh:**  
+git log --oneline  
+→ Ví dụ:  
+7f02d7d Dùng terminal đẩy README.txt  
+1656809 Thêm file test.txt thực hành nano  
+...
+
+---
+
+## 🔎 6. Xem chi tiết nội dung commit
+**Lệnh:**  
+git show <mã_commit>  
+→ Ví dụ:  
+git show 1656809
+
+---
+
+## 🌿 7. Tạo nhánh mới để làm việc
+**Lệnh:**  
+git checkout -b ten_nhanh_moi  
+→ Làm việc độc lập mà không ảnh hưởng nhánh `main`.
+
+---
+
+## 💾 8. Thêm thay đổi vào staging
+**Lệnh:**  
+git add <ten_file>  
+→ Hoặc tất cả file:  
+git add .
+
+---
+
+## 📦 9. Commit thay đổi
+**Lệnh:**  
+git commit -m "Ghi chú ngắn gọn mô tả commit"
+
+---
+
+## 🚀 10. Đẩy commit lên GitHub
+**Lệnh:**  
+git push
+
+---
+
+## 🧹 Phụ – Khôi phục file chưa commit
+**Lệnh:**  
+git restore <ten_file>  
+→ Quay lại phiên bản trước khi chỉnh sửa (chưa commit).
+
+
 # summary github pracctice 170525
 ✏️ Dùng nano để tạo và chỉnh sửa file test.txt  
 💾 Lưu file bằng Ctrl + O, rồi thoát bằng Ctrl + X  
@@ -42,7 +129,7 @@
 📝 Commit: git commit -m "Thêm file test.txt thực hành nano"  
 ☁️ Push lên GitHub: git push origin main  
 
-
+  🔝 [Top Page](#TopPage)      
 # Ghi chú ssript quan trọng       
 # Learning github
   
@@ -76,7 +163,7 @@ git add .
 git commit -m "Cập nhật file dữ liệu" -m "Thêm nội dung phân tích và sửa lỗi chính tả."  
 sau cùng đẩy lên git push origin main  
 
-
+  🔝 [Top Page](#TopPage)      
 
 
 
