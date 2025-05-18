@@ -2,7 +2,7 @@
 
 - [Git batch command](#git-batch-command)
   - [Nap thu mục mặc đinh cho gitbatch](#nap-thu-mục-mặc-đinh-cho-gitbatch)
-  - [✅ Các bước đẩy thay đổi lên GitHub từ Git Bash](#-các-bước-đẩy-thay-đổi-lên-github-từ-git-bash)
+  - [✅ Các bước đẩy thay đổi lên GitHub từ Git Bash.](#-các-bước-đẩy-thay-đổi-lên-github-từ-git-bash)
 - [🧠 Git Cheat Sheet](#-git-cheat-sheet)
 - [Lệnh Git cơ bản](#lệnh-git-cơ-bản)
   - [terminal windows](#terminal-windows)
@@ -33,7 +33,7 @@ cd /d/GitHub/dtcs25_sstt
 source ~/.bashrc
 
 
-## ✅ Các bước đẩy thay đổi lên GitHub từ Git Bash
+## ✅ Các bước đẩy thay đổi lên GitHub từ Git Bash.
 🔹 1. Di chuyển vào thư mục dự án:
 cd /d/GitHub/dtcs25_sstt
 🔹 2. Kiểm tra trạng thái thay đổi:
