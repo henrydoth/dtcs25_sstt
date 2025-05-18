@@ -24,6 +24,10 @@ git status
 git commit -m "Thêm file test.txt thực hành nano"      
 git push origin main     
 
+## terminal windows
+D:\GitHub\dtcs25_sstt\dtcs_dtt\dtcs_dtt.Rproj
+D:\GitHub\dtcs25_sstt\dtcs_dtt\dtcs_dtt.Rproj
+
 # Diary
 250517 sat
 My friend from Hanoi visited us , we had dinner and cafe. It is great.
