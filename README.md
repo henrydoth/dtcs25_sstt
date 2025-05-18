@@ -1,6 +1,15 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
-- [🚀 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash (Windows)](#-cheat-sheet-tạo-alias-vĩnh-viễn-trong-git-bash-windows)
+- [� Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash để mở file Word](#-cheat-sheet-tạo-alias-vĩnh-viễn-trong-git-bash-để-mở-file-word)
+- [1️⃣ Mở file cấu hình bashrc](#1️⃣-mở-file-cấu-hình-bashrc)
+- [2️⃣ Thêm dòng alias vào cuối file (điều chỉnh đường dẫn Word nếu cần)](#2️⃣-thêm-dòng-alias-vào-cuối-file-điều-chỉnh-đường-dẫn-word-nếu-cần)
+- [💡 Gợi ý: kiểm tra đúng đường dẫn WINWORD.EXE bằng cách thử lệnh sau:](#-gợi-ý-kiểm-tra-đúng-đường-dẫn-winwordexe-bằng-cách-thử-lệnh-sau)
+- ["/c/Program Files/Microsoft Office/root/Office16/WINWORD.EXE"](#cprogram-filesmicrosoft-officerootoffice16winwordexe)
+- [3️⃣ Lưu và đóng nano: Ctrl + O → Enter → Ctrl + X](#3️⃣-lưu-và-đóng-nano-ctrl--o--enter--ctrl--x)
+- [4️⃣ Áp dụng alias mới](#4️⃣-áp-dụng-alias-mới)
+- [✅ Giờ bạn có thể chạy:](#-giờ-bạn-có-thể-chạy)
+- [→ Mở ngay file Word đã chỉ định 🚀](#-mở-ngay-file-word-đã-chỉ-định-)
+- [🚀 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash (Windows) w1 mơ file words dtcs](#-cheat-sheet-tạo-alias-vĩnh-viễn-trong-git-bash-windows-w1-mơ-file-words-dtcs)
   - [✅ Toàn bộ khối lệnh](#-toàn-bộ-khối-lệnh)
   - [🚀 Cách sử dụng alias](#-cách-sử-dụng-alias)
   - [📌 Lưu ý](#-lưu-ý)
@@ -51,8 +60,29 @@
   - [Sinh lý](#sinh-lý)
 
 
+# 📁 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash để mở file Word
 
-# 🚀 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash (Windows)
+# 1️⃣ Mở file cấu hình bashrc
+nano ~/.bashrc
+
+# 2️⃣ Thêm dòng alias vào cuối file (điều chỉnh đường dẫn Word nếu cần)
+alias w1='"/c/Program Files/Microsoft Office/root/Office16/WINWORD.EXE" "/d/GitHub/dtcs25_sstt/sstt25_dtcs_quato_words_output.docx"'
+
+# 💡 Gợi ý: kiểm tra đúng đường dẫn WINWORD.EXE bằng cách thử lệnh sau:
+# "/c/Program Files/Microsoft Office/root/Office16/WINWORD.EXE"
+
+# 3️⃣ Lưu và đóng nano: Ctrl + O → Enter → Ctrl + X
+
+# 4️⃣ Áp dụng alias mới
+source ~/.bashrc
+
+# ✅ Giờ bạn có thể chạy:
+w1
+# → Mở ngay file Word đã chỉ định 🚀
+
+[⬆️ Quay lại Mục lục](#TopPage)
+
+# 🚀 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash (Windows) w1 mơ file words dtcs
 
 Chạy **một khối lệnh duy nhất bên dưới** trong Git Bash để:
 
