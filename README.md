@@ -1,6 +1,20 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
-- [� Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash để mở file Word](#-cheat-sheet-tạo-alias-vĩnh-viễn-trong-git-bash-để-mở-file-word)
+- [📄 CHEAT SHEET: Thiết lập Git Bash + Alias tiện dụng cho RStudio](#-cheat-sheet-thiết-lập-git-bash--alias-tiện-dụng-cho-rstudio)
+- [1️⃣ Đặt Git Bash làm terminal mặc định:](#1️⃣-đặt-git-bash-làm-terminal-mặc-định)
+- [Mở RStudio → Tools → Global Options → Terminal](#mở-rstudio--tools--global-options--terminal)
+- [Chọn: Custom → Dán đường dẫn:](#chọn-custom--dán-đường-dẫn)
+- ["C:\\Program Files\\Git\\bin\\bash.exe"](#cprogram-filesgitbinbashexe)
+- [2️⃣ Mở (hoặc tạo) file cấu hình alias:](#2️⃣-mở-hoặc-tạo-file-cấu-hình-alias)
+- [3️⃣ Thêm các alias sau vào cuối ~/.bashrc:](#3️⃣-thêm-các-alias-sau-vào-cuối-bashrc)
+- [4️⃣ Lưu \& áp dụng alias mới:](#4️⃣-lưu--áp-dụng-alias-mới)
+- [5️⃣ Dùng trong Terminal RStudio:](#5️⃣-dùng-trong-terminal-rstudio)
+- [w1     → Mở Word](#w1------mở-word)
+- [gpush  → Push Git nhanh](#gpush---push-git-nhanh)
+- [qbuild → Render Word](#qbuild--render-word)
+- [qview  → Preview HTML](#qview---preview-html)
+- [proj   → Mở thư mục dự án](#proj----mở-thư-mục-dự-án)
+- [📁 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash để mở file Word](#-cheat-sheet-tạo-alias-vĩnh-viễn-trong-git-bash-để-mở-file-word)
 - [1️⃣ Mở file cấu hình bashrc](#1️⃣-mở-file-cấu-hình-bashrc)
 - [2️⃣ Thêm dòng alias vào cuối file (điều chỉnh đường dẫn Word nếu cần)](#2️⃣-thêm-dòng-alias-vào-cuối-file-điều-chỉnh-đường-dẫn-word-nếu-cần)
 - [💡 Gợi ý: kiểm tra đúng đường dẫn WINWORD.EXE bằng cách thử lệnh sau:](#-gợi-ý-kiểm-tra-đúng-đường-dẫn-winwordexe-bằng-cách-thử-lệnh-sau)
@@ -59,6 +73,36 @@
   - [Giải phẫu](#giải-phẫu)
   - [Sinh lý](#sinh-lý)
 
+# 📄 CHEAT SHEET: Thiết lập Git Bash + Alias tiện dụng cho RStudio
+
+# 1️⃣ Đặt Git Bash làm terminal mặc định:
+# Mở RStudio → Tools → Global Options → Terminal
+# Chọn: Custom → Dán đường dẫn:
+# "C:\Program Files\Git\bin\bash.exe"
+
+# 2️⃣ Mở (hoặc tạo) file cấu hình alias:
+nano ~/.bashrc
+
+# 3️⃣ Thêm các alias sau vào cuối ~/.bashrc:
+alias w1='"/c/Program Files/Microsoft Office/root/Office16/WINWORD.EXE" "/d/GitHub/dtcs25_sstt/sstt25_dtcs_quato_words_output.docx"'   # 📄 Mở file Word
+alias gpush='git add . && git commit -m "update" && git push'                                       # 🔁 Git add + commit + push
+alias qbuild='quarto render doc.qmd --to docx'                                                       # 📤 Render Quarto .qmd thành Word
+alias qview='quarto preview'                                                                         # 👀 Xem trước Quarto HTML
+alias proj='explorer.exe /d/GitHub/dtcs25_sstt'                                                      # 🗂 Mở thư mục dự án
+
+# 4️⃣ Lưu & áp dụng alias mới:
+source ~/.bashrc
+
+# 5️⃣ Dùng trong Terminal RStudio:
+# w1     → Mở Word
+# gpush  → Push Git nhanh
+# qbuild → Render Word
+# qview  → Preview HTML
+# proj   → Mở thư mục dự án
+
+
+
+[⬆️ Quay lại Mục lục](#TopPage)
 
 # 📁 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash để mở file Word
 
