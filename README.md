@@ -1,7 +1,7 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
 - [Git batch command](#git-batch-command)
-  - [Nap thu mục mặc đinh cho gitbatch](#nap-thu-mục-mặc-đinh-cho-gitbatch)
+  - [Nap thư mục mặc định cho gitbatch](#nap-thư-mục-mặc-định-cho-gitbatch)
   - [✅ Các bước đẩy thay đổi lên GitHub từ Git Bash.](#-các-bước-đẩy-thay-đổi-lên-github-từ-git-bash)
 - [🧠 Git Cheat Sheet](#-git-cheat-sheet)
 - [Lệnh Git cơ bản](#lệnh-git-cơ-bản)
@@ -23,11 +23,11 @@
     - [🈶 Phồn thể](#-phồn-thể-2)
     - [🇻🇳 Dịch thơ tiếng Việt (Bản dịch của Tản Đà)](#-dịch-thơ-tiếng-việt-bản-dịch-của-tản-đà)
 - [Sửa đề tài DTT](#sửa-đề-tài-dtt)
-  - [250518 sun](#250518-sun)
+  - [250518 sung](#250518-sung)
 - [Sửa đề tài SSTT.](#sửa-đề-tài-sstt)
 
 # Git batch command
-## Nap thu mục mặc đinh cho gitbatch 
+## Nap thư mục mặc định cho gitbatch 
 nano ~/.bashrc
 cd /d/GitHub/dtcs25_sstt
 source ~/.bashrc
@@ -49,6 +49,8 @@ git push origin main
 ✅ Xong! 🎉 Có thể kiểm tra trên GitHub để thấy thay đổi đã được cập nhật.
 git status
 
+
+[⬆️ Quay lại Mục lục](#TopPage)
 # 🧠 Git Cheat Sheet
 
 
@@ -227,8 +229,12 @@ Sông khói mong manh luống ngậm ngùi.
 
 
 # Sửa đề tài DTT
-## 250518 sun
-- viết codes bảng tên vị thuốc
+## 250518 sung
+- Chuyển mấy hình thành png nền trong để chèn powerpoint, words.
+- viết codes bảng tên vị thuốc (chưa)
+
+
+[⬆️ Quay lại Mục lục](#TopPage)
 
 # Sửa đề tài SSTT.
 250518
