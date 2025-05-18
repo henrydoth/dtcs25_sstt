@@ -1,6 +1,8 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [🧠 Git Cheat Sheet](#-git-cheat-sheet)
 - [Lệnh Git cơ bản](#lệnh-git-cơ-bản)
+  - [terminal windows](#terminal-windows)
 - [Diary](#diary)
 - [Nhật ký khám bệnh](#nhật-ký-khám-bệnh)
   - [250517 sat](#250517-sat)
@@ -14,7 +16,50 @@
 
 
 
+# 🧠 Git Cheat Sheet
 
+
+##📌 1. Kiểm tra trạng thái repo
+git status
+
+##📌 2. Thêm file vào vùng staging
+git add <file>     # Thêm 1 file cụ thể
+git add .          # Thêm toàn bộ thay đổi
+
+##📌 3. Commit thay đổi với tin nhắn
+git commit -m "Mô tả ngắn gọn"
+
+##📌 4. Push lên GitHub (nhánh main)
+git push origin main
+
+##📌 5. Kéo thay đổi mới nhất từ GitHub
+git pull origin main
+
+##📌 6. Xem lịch sử commit
+git log              # Dạng đầy đủ
+git log --oneline    # Dạng ngắn gọn
+
+##📌 7. Khôi phục file chưa commit
+git restore <file>   # Khôi phục 1 file
+git restore .        # Khôi phục toàn bộ
+
+##📌 8. Xóa file khỏi Git (và staging)
+git rm <file>
+
+##📌 9. Đổi tên file
+git mv ten_cu ten_moi
+
+##📌 10. Kiểm tra địa chỉ remote
+git remote -v
+
+##📌 11. Quy trình Git cơ bản thường dùng
+git status
+git add .
+git commit -m "Tóm tắt thay đổi"
+git push origin main
+
+
+[⬆️ Quay lại Mục lục](#TopPage)
 
 # Lệnh Git cơ bản
 git pull      
