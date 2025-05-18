@@ -25,6 +25,11 @@
 - [Sửa đề tài DTT](#sửa-đề-tài-dtt)
   - [250518 sung](#250518-sung)
 - [Sửa đề tài SSTT.](#sửa-đề-tài-sstt)
+- [Bát cương trong YHCT](#bát-cương-trong-yhct)
+  - [Tứ chẩn](#tứ-chẩn)
+- [Bệnh đau lưng](#bệnh-đau-lưng)
+  - [Giải phẫu](#giải-phẫu)
+  - [Sinh lý](#sinh-lý)
 
 # Git batch command
 ## Nap thư mục mặc định cho gitbatch 
@@ -242,5 +247,20 @@ Sông khói mong manh luống ngậm ngùi.
 
  [⬆️ Quay lại Mục lục](#TopPage)
 
+ # Bát cương trong YHCT
+ Có vai trò quan trọng để biết tình trạng âm dương hàn nhiệt
+ ## Tứ chẩn
+ - Vọng
+ - Văn
+ - Vấn
+ - Thiết
+
+[⬆️ Quay lại Mục lục](#TopPage)
 
 
+# Bệnh đau lưng
+Đau lưng là bệnh ...
+## Giải phẫu
+## Sinh lý
+
+[⬆️ Quay lại Mục lục](#TopPage)
