@@ -6,10 +6,19 @@
 - [Diary](#diary)
 - [Nhật ký khám bệnh](#nhật-ký-khám-bệnh)
   - [250517 sat](#250517-sat)
-- [🏯 Tĩnh Dạ Tứ – Lý Bạch](#-tĩnh-dạ-tứ--lý-bạch)
-  - [📖 Âm Hán Việt](#-âm-hán-việt)
-  - [🈶 Phồn thể](#-phồn-thể)
-  - [🇻🇳 Dịch thơ tiếng Việt](#-dịch-thơ-tiếng-việt)
+- [Tho Đường](#tho-đường)
+  - [🏯 Tĩnh Dạ Tứ – Lý Bạch](#-tĩnh-dạ-tứ--lý-bạch)
+    - [📖 Âm Hán Việt](#-âm-hán-việt)
+    - [🈶 Phồn thể](#-phồn-thể)
+    - [🇻🇳 Dịch thơ tiếng Việt](#-dịch-thơ-tiếng-việt)
+  - [🕊️ Bạch Lộ – Bạch Cư Dị (白居易)](#️-bạch-lộ--bạch-cư-dị-白居易)
+    - [📖 Âm Hán Việt](#-âm-hán-việt-1)
+    - [🈶 Phồn thể](#-phồn-thể-1)
+    - [🇻🇳 Dịch thơ tiếng Việt (tham khảo)](#-dịch-thơ-tiếng-việt-tham-khảo)
+  - [🏯 Hoàng Hạc Lầu – Thôi Hiệu (崔顥)](#-hoàng-hạc-lầu--thôi-hiệu-崔顥)
+    - [📖 Âm Hán Việt](#-âm-hán-việt-2)
+    - [🈶 Phồn thể](#-phồn-thể-2)
+    - [🇻🇳 Dịch thơ tiếng Việt (Bản dịch của Tản Đà)](#-dịch-thơ-tiếng-việt-bản-dịch-của-tản-đà)
 - [Sửa đề tài DTT](#sửa-đề-tài-dtt)
   - [250518 sun](#250518-sun)
 - [Sửa đề tài SSTT.](#sửa-đề-tài-sstt)
@@ -90,9 +99,9 @@ My friend from Hanoi visited us , we had dinner and cafe. It is great.
 
 [⬆️ Quay lại Mục lục](#TopPage)
 
-# 🏯 Tĩnh Dạ Tứ – Lý Bạch
-
-## 📖 Âm Hán Việt
+# Tho Đường
+## 🏯 Tĩnh Dạ Tứ – Lý Bạch
+### 📖 Âm Hán Việt
 
 **Sàng tiền minh nguyệt quang,**  
 **Nghi thị địa thượng sương.**  
@@ -101,7 +110,7 @@ My friend from Hanoi visited us , we had dinner and cafe. It is great.
 
 ---
 
-## 🈶 Phồn thể
+### 🈶 Phồn thể
 
 **床前明月光，**  
 **疑是地上霜。**  
@@ -110,7 +119,7 @@ My friend from Hanoi visited us , we had dinner and cafe. It is great.
 
 ---
 
-## 🇻🇳 Dịch thơ tiếng Việt
+### 🇻🇳 Dịch thơ tiếng Việt
 
 Ánh trăng rọi trước giường,  
 Ngỡ là sương trên đất.  
@@ -118,6 +127,80 @@ Ngẩng đầu nhìn trăng sáng,
 Cúi đầu nhớ cố hương.
 
 [⬆️ Quay lại Mục lục](#TopPage)
+
+## 🕊️ Bạch Lộ – Bạch Cư Dị (白居易)
+
+### 📖 Âm Hán Việt
+
+**Bạch lộ đảo thanh thiên,**  
+**Độc phi vạn lý duyên.**  
+**Thị tòng hà xứ lai,**  
+**Khứ hựu hà xứ miên?**
+
+---
+
+### 🈶 Phồn thể
+
+**白鷺倒青天，**  
+**獨飛萬里緣。**  
+**是從何處來，**  
+**去又何處眠？**
+
+---
+
+### 🇻🇳 Dịch thơ tiếng Việt (tham khảo)
+
+Cò trắng lướt trời xanh,  
+Một mình bay ngàn dặm.  
+Từ đâu mà đến thế?  
+Biết đâu là chốn nghỉ?
+
+[⬆️ Quay lại Mục lục](#TopPage)
+
+## 🏯 Hoàng Hạc Lầu – Thôi Hiệu (崔顥)
+
+### 📖 Âm Hán Việt
+
+Tích nhân dĩ thừa hoàng hạc khứ,  
+Thử địa không dư Hoàng Hạc lâu.  
+Hoàng hạc nhất khứ bất phục phản,  
+Bạch vân thiên tải không du du.  
+
+Tình xuyên lịch lịch Hán Dương thụ,  
+Phương thảo thê thê Anh Vũ châu.  
+Nhật mộ hương quan hà xứ thị?  
+Yên ba giang thượng sử nhân sầu.
+
+---
+
+### 🈶 Phồn thể
+
+昔人已乘黃鶴去，  
+此地空餘黃鶴樓。  
+黃鶴一去不復返，  
+白雲千載空悠悠。  
+
+晴川歷歷漢陽樹，  
+芳草萋萋鸚鵡洲。  
+日暮鄉關何處是？  
+煙波江上使人愁。
+
+---
+
+### 🇻🇳 Dịch thơ tiếng Việt (Bản dịch của Tản Đà)
+
+Người xưa đã cưỡi hạc vàng bay,  
+Chốn ấy giờ đây chỉ lầu này.  
+Hạc bay chẳng trở về theo nữa,  
+Mây trắng nghìn thu vẫn lãng lay.  
+
+Nắng rọi Hán Dương cây rợp mắt,  
+Cỏ thơm Anh Vũ bãi xanh đầy.  
+Chiều buông, đâu chốn quê hương cũ?  
+Sông khói mong manh luống ngậm ngùi.
+
+[⬆️ Quay lại Mục lục](#TopPage)
+
 
 # Sửa đề tài DTT
 ## 250518 sun
@@ -128,4 +211,6 @@ Cúi đầu nhớ cố hương.
  Thêm tài liệu tham khảo
 
  [⬆️ Quay lại Mục lục](#TopPage)
+
+
 
