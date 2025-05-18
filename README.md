@@ -1,5 +1,9 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [🚀 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash (Windows)](#-cheat-sheet-tạo-alias-vĩnh-viễn-trong-git-bash-windows)
+  - [✅ Toàn bộ khối lệnh](#-toàn-bộ-khối-lệnh)
+  - [🚀 Cách sử dụng alias](#-cách-sử-dụng-alias)
+  - [📌 Lưu ý](#-lưu-ý)
 - [Git batch command](#git-batch-command)
   - [Nap thư mục mặc định cho gitbatch](#nap-thư-mục-mặc-định-cho-gitbatch)
 - [🐙 Git Cheat Sheet hôm 1805](#-git-cheat-sheet-hôm-1805)
@@ -45,6 +49,50 @@
 - [Bệnh đau lưng](#bệnh-đau-lưng)
   - [Giải phẫu](#giải-phẫu)
   - [Sinh lý](#sinh-lý)
+
+
+
+# 🚀 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash (Windows)
+
+Chạy **một khối lệnh duy nhất bên dưới** trong Git Bash để:
+
+- Tạo alias mở nhanh các dự án `.Rproj` và nhật ký Markdown
+- Ghi alias vào `~/.bashrc`
+- Nạp lại cấu hình ngay
+
+## ✅ Toàn bộ khối lệnh
+
+```bash
+# Tạo alias cho các dự án và nhật ký
+echo "alias dt1='code \"/d/GitHub/dtcs25_sstt/dtcs25_sstt.Rproj\"'" >> ~/.bashrc && \
+echo "alias dt2='code \"/d/GitHub/duan_khac/duan_khac.Rproj\"'" >> ~/.bashrc && \
+echo "alias nj='code \"/d/GitHub/notes/\$(date +%F).md\"'" >> ~/.bashrc && \
+echo "alias njy='code \"/d/GitHub/notes/\$(date -d \\\"yesterday\\\" +%F).md\"'" >> ~/.bashrc && \
+source ~/.bashrc
+```
+
+> 🛠 Gợi ý: thay đổi đường dẫn theo dự án của bạn nếu khác với ví dụ.
+
+---
+
+## 🚀 Cách sử dụng alias
+
+| Lệnh     | Mục đích                                         |
+|----------|--------------------------------------------------|
+| `dt1`    | Mở dự án `dtcs25_sstt.Rproj` trong VS Code       |
+| `dt2`    | Mở dự án `duan_khac.Rproj` trong VS Code         |
+| `nj`     | Mở file nhật ký hôm nay `YYYY-MM-DD.md`          |
+| `njy`    | Mở file nhật ký hôm qua `YYYY-MM-DD.md`          |
+
+---
+
+## 📌 Lưu ý
+
+- Alias này sẽ luôn hoạt động trong mọi phiên Git Bash sau khi bạn thiết lập.
+- Để chỉnh sửa lại, dùng: `nano ~/.bashrc`
+- Sau khi chỉnh xong, nhớ chạy lại: `source ~/.bashrc`
+
+
 
 # Git batch command
 ## Nap thư mục mặc định cho gitbatch 
