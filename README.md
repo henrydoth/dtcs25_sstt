@@ -1,5 +1,7 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [Git batch command](#git-batch-command)
+  - [Nap thu mục mặc đinh cho gitbatch](#nap-thu-mục-mặc-đinh-cho-gitbatch)
 - [🧠 Git Cheat Sheet](#-git-cheat-sheet)
 - [Lệnh Git cơ bản](#lệnh-git-cơ-bản)
   - [terminal windows](#terminal-windows)
@@ -23,6 +25,11 @@
   - [250518 sun](#250518-sun)
 - [Sửa đề tài SSTT.](#sửa-đề-tài-sstt)
 
+# Git batch command
+## Nap thu mục mặc đinh cho gitbatch 
+nano ~/.bashrc
+cd /d/GitHub/dtcs25_sstt
+source ~/.bashrc
 
 
 # 🧠 Git Cheat Sheet
