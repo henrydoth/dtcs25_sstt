@@ -483,7 +483,7 @@ inline_delta_ban_luan <- glue::glue(
 ::: {custom-style="CAN GIUA DAM 14 ONE"}
 ĐẶT VẤN ĐỀ
 :::
-
+github kiểm tra
 Giấc ngủ không chỉ là khoảng thời gian nghỉ ngơi mà còn là quá trình quan trọng trong việc phục hồi và tái tạo sức khoẻ, cân bằng nội tiết, tăng cường hệ miễn dịch, cải thiện tinh thần. Ngày nay, do sự thay đổi trong lối sống và môi trường hiện đại, áp lực công việc, học tập và những căng thẳng tinh thần kéo dài đã làm cho tỉ lệ mất ngủ trên toàn cầu, đặc biệt là các đô thị lớn, ngày càng gia tăng.
 
 Năm 2023, theo Tổ chức Y tế Thế giới (World Health Organization), có hơn 30% dân số gặp phải các triệu chứng mất ngủ và khoảng 10–15% mắc chứng mất ngủ mãn tính. 
