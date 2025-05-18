@@ -2,6 +2,21 @@
 
 - [Git batch command](#git-batch-command)
   - [Nap thư mục mặc định cho gitbatch](#nap-thư-mục-mặc-định-cho-gitbatch)
+- [🐙 Git Cheat Sheet hôm 1805](#-git-cheat-sheet-hôm-1805)
+  - [🔍 Trạng thái hiện tại](#-trạng-thái-hiện-tại)
+  - [📥 Kéo dữ liệu mới từ GitHub](#-kéo-dữ-liệu-mới-từ-github)
+  - [📤 Đẩy thay đổi lên GitHub](#-đẩy-thay-đổi-lên-github)
+  - [📄 Xem chi tiết commit gần nhất](#-xem-chi-tiết-commit-gần-nhất)
+  - [🕓 Xem lịch sử commit ngắn gọn](#-xem-lịch-sử-commit-ngắn-gọn)
+  - [🔍 So sánh thay đổi giữa 2 commit](#-so-sánh-thay-đổi-giữa-2-commit)
+  - [💡 Tắt chế độ phân trang (less)](#-tắt-chế-độ-phân-trang-less)
+  - [✏️ Xem ai sửa dòng nào](#️-xem-ai-sửa-dòng-nào)
+  - [📦 Clone repo về máy](#-clone-repo-về-máy)
+  - [🏷️ Tạo nhánh mới \& chuyển sang](#️-tạo-nhánh-mới--chuyển-sang)
+  - [🔄 Chuyển về nhánh chính](#-chuyển-về-nhánh-chính)
+  - [🗑️ Xóa file khỏi Git](#️-xóa-file-khỏi-git)
+  - [🧹 Hủy thay đổi chưa commit](#-hủy-thay-đổi-chưa-commit)
+  - [🚪 Thoát khỏi chế độ `less`](#-thoát-khỏi-chế-độ-less)
   - [✅ Các bước đẩy thay đổi lên GitHub từ Git Bash.](#-các-bước-đẩy-thay-đổi-lên-github-từ-git-bash)
 - [🧠 Git Cheat Sheet](#-git-cheat-sheet)
 - [Lệnh Git cơ bản](#lệnh-git-cơ-bản)
@@ -37,6 +52,105 @@ nano ~/.bashrc
 cd /d/GitHub/dtcs25_sstt
 source ~/.bashrc
 
+# 🐙 Git Cheat Sheet hôm 1805
+
+## 🔍 Trạng thái hiện tại
+```bash
+git status
+```
+📂 Hiển thị trạng thái thư mục làm việc: file mới, file bị sửa đổi, chưa commit...
+
+## 📥 Kéo dữ liệu mới từ GitHub
+```bash
+git pull
+```
+⬇️ Lấy bản cập nhật mới nhất từ nhánh `origin/main`.
+
+## 📤 Đẩy thay đổi lên GitHub
+```bash
+git add .
+git commit -m "Tin nhắn commit"
+git push
+```
+⬆️ Thêm file, commit và push lên GitHub.
+
+## 📄 Xem chi tiết commit gần nhất
+```bash
+git show HEAD
+```
+🧾 Xem nội dung thay đổi trong commit cuối cùng.
+
+## 🕓 Xem lịch sử commit ngắn gọn
+```bash
+git log --oneline
+git log -n 5 --oneline
+```
+🕵️ Hiển thị lịch sử commit ngắn và dễ đọc.
+
+## 🔍 So sánh thay đổi giữa 2 commit
+```bash
+git diff abc123 def456 -- README.md
+git diff abc123...def456 -- README.md
+```
+📊 So sánh nội dung khác nhau của file `README.md` giữa hai commit.
+
+## 💡 Tắt chế độ phân trang (less)
+```bash
+git --no-pager show
+```
+💨 Không cần nhấn `q` để thoát khi xem log/show.
+
+```bash
+git config --global pager.show false
+```
+⚙️ Tắt vĩnh viễn trình phân trang của `git show`.
+
+## ✏️ Xem ai sửa dòng nào
+```bash
+git blame README.md
+```
+🕵️‍♂️ Hiển thị tên người commit từng dòng trong file.
+
+## 📦 Clone repo về máy
+```bash
+git clone https://github.com/user/repo.git
+```
+📥 Tải toàn bộ project từ GitHub.
+
+## 🏷️ Tạo nhánh mới & chuyển sang
+```bash
+git checkout -b ten-nhanh-moi
+```
+🌿 Tạo nhanh một nhánh mới và chuyển ngay sang đó.
+
+## 🔄 Chuyển về nhánh chính
+```bash
+git checkout main
+```
+↩️ Trở về nhánh `main`.
+
+## 🗑️ Xóa file khỏi Git
+```bash
+git rm ten_file.txt
+git commit -m "Xóa file"
+```
+❌ Xóa file ra khỏi Git và commit thay đổi.
+
+## 🧹 Hủy thay đổi chưa commit
+```bash
+git checkout -- ten_file.txt
+```
+♻️ Khôi phục file về trạng thái commit gần nhất.
+
+## 🚪 Thoát khỏi chế độ `less`
+Khi đang xem `git log`, `git show` mà bị "kẹt":  
+👉 **Nhấn phím `q` để thoát.**
+
+---
+
+📌 *Mẹo:* Có thể dùng `code .` trong VS Code để mở thư mục Git hiện tại nhanh chóng!
+
+[⬆️ Quay lại Mục lục](#TopPage)
 
 ## ✅ Các bước đẩy thay đổi lên GitHub từ Git Bash.
 🔹 1. Di chuyển vào thư mục dự án:
