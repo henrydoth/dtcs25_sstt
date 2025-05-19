@@ -1,6 +1,8 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
 - [Alias](#alias)
+- [Quy trình git file readme đầy đủ](#quy-trình-git-file-readme-đầy-đủ)
+- [Lệnh bash cần thiết](#lệnh-bash-cần-thiết)
 - [Dùng 1 lệnh duy nhất để push (làm chủ được sự thay đổi)](#dùng-1-lệnh-duy-nhất-để-push-làm-chủ-được-sự-thay-đổi)
 - [Cài đặt thư mục mặc định mac terminal là dtcs25\_sstt](#cài-đặt-thư-mục-mặc-định-mac-terminal-là-dtcs25_sstt)
 - [📄 CHEAT SHEET: Thiết lập Git Bash + Alias tiện dụng cho RStudio](#-cheat-sheet-thiết-lập-git-bash--alias-tiện-dụng-cho-rstudio)
@@ -67,6 +69,33 @@
 # Alias
 alias nj="~/nj.sh"
 alias dt='quarto render sstt25_dtcs_quato_words_output.qmd && open sstt25_dtcs_quato_words_output.docx'
+
+# Quy trình git file readme đầy đủ
+git status
+git add README.md
+git commit -m "Cập nhật"
+git push origin main
+
+# Lệnh bash cần thiết
+
+ls -t | head -n 5
+head -n 50 README.md
+tail -n 50 README.md
+grep "Người xưa" README.md
+
+grep -C 20 "Người xưa" README.md
+
+grep "黃鶴" README.md
+grep -C 20 "黃鶴" README.md
+
+
+
+ls -t *.qmd *.md *.bib *.R 2>/dev/null | head -n 10
+
+
+
+ls -t *.qmd | head -n 5
+
 
 
 # Dùng 1 lệnh duy nhất để push (làm chủ được sự thay đổi)
