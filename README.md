@@ -1,5 +1,6 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [Alias terminal mở file words mac](#alias-terminal-mở-file-words-mac)
 - [Alias](#alias)
 - [Quy trình git file readme đầy đủ](#quy-trình-git-file-readme-đầy-đủ)
 - [Lệnh bash cần thiết để tìm kiếm nội dung](#lệnh-bash-cần-thiết-để-tìm-kiếm-nội-dung)
@@ -64,6 +65,14 @@
   - [Giải phẫu](#giải-phẫu)
   - [Sinh lý](#sinh-lý)
 
+# Alias terminal mở file words mac
+- nano ~/.bash_profile
+- alias w1='open "/Users/mac/Documents/dtcs25_sstt/sstt25_dtcs_quato_words_output.docx"'
+- control + O enter control + x
+- source ~/.bash_profile
+- w1
+
+
 
 # Alias
 - alias nj="~/nj.sh"
@@ -83,6 +92,7 @@
 # Lệnh bash cần thiết để tìm kiếm nội dung
 
 - ls -t | head -n 5
+- cat README.md
 - head -n 50 README.md
 - tail -n 50 README.md
 - grep "Người xưa" README.md
