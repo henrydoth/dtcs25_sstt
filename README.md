@@ -3,7 +3,6 @@
 - [Alias](#alias)
 - [Quy trình git file readme đầy đủ](#quy-trình-git-file-readme-đầy-đủ)
 - [Lệnh bash cần thiết để tìm kiếm nội dung](#lệnh-bash-cần-thiết-để-tìm-kiếm-nội-dung)
-- [Dùng 1 lệnh duy nhất để push (làm chủ được sự thay đổi)](#dùng-1-lệnh-duy-nhất-để-push-làm-chủ-được-sự-thay-đổi)
 - [Cài đặt thư mục mặc định mac terminal là dtcs25\_sstt](#cài-đặt-thư-mục-mặc-định-mac-terminal-là-dtcs25_sstt)
 - [📄 CHEAT SHEET: Thiết lập Git Bash + Alias tiện dụng cho RStudio](#-cheat-sheet-thiết-lập-git-bash--alias-tiện-dụng-cho-rstudio)
 - [📁 Cheat Sheet: Tạo alias vĩnh viễn trong Git Bash để mở file Word](#-cheat-sheet-tạo-alias-vĩnh-viễn-trong-git-bash-để-mở-file-word)
@@ -75,6 +74,9 @@
 - git add README.md
 - git commit -m "Cập nhật"
 - git push origin main
+  
+**Dùng 1 lệnh duy nhất để push ( nếu làm chủ được sự thay đổi)**
+- git commit -am "Cập nhật nội dung mới" && git push
 
 # Lệnh bash cần thiết để tìm kiếm nội dung
 
@@ -90,9 +92,7 @@
 
 
 
-# Dùng 1 lệnh duy nhất để push (làm chủ được sự thay đổi)
 
-git commit -am "Cập nhật nội dung mới" && git push
 
 
 # Cài đặt thư mục mặc định mac terminal là dtcs25_sstt
