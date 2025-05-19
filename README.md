@@ -78,6 +78,8 @@
 **Dùng 1 lệnh duy nhất để push ( nếu làm chủ được sự thay đổi)**
 - git commit -am "Cập nhật nội dung mới" && git push
 
+[⬆️ Quay lại Mục lục](#TopPage)
+
 # Lệnh bash cần thiết để tìm kiếm nội dung
 
 - ls -t | head -n 5
@@ -89,7 +91,8 @@
 - grep -C 20 "黃鶴" README.md
 - ls -t *.qmd *.md *.bib *.R 2>/dev/null | head -n 10
 - ls -t *.qmd | head -n 5
-
+  
+[⬆️ Quay lại Mục lục](#TopPage)
 
 
 
