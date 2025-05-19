@@ -1,5 +1,6 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [Alias](#alias)
 - [Dùng 1 lệnh duy nhất để push (làm chủ được sự thay đổi)](#dùng-1-lệnh-duy-nhất-để-push-làm-chủ-được-sự-thay-đổi)
 - [Cài đặt thư mục mặc định mac terminal là dtcs25\_sstt](#cài-đặt-thư-mục-mặc-định-mac-terminal-là-dtcs25_sstt)
 - [📄 CHEAT SHEET: Thiết lập Git Bash + Alias tiện dụng cho RStudio](#-cheat-sheet-thiết-lập-git-bash--alias-tiện-dụng-cho-rstudio)
@@ -61,6 +62,12 @@
 - [Bệnh đau lưng](#bệnh-đau-lưng)
   - [Giải phẫu](#giải-phẫu)
   - [Sinh lý](#sinh-lý)
+
+
+# Alias
+alias nj="~/nj.sh"
+alias dt='quarto render sstt25_dtcs_quato_words_output.qmd && open sstt25_dtcs_quato_words_output.docx'
+
 
 # Dùng 1 lệnh duy nhất để push (làm chủ được sự thay đổi)
 

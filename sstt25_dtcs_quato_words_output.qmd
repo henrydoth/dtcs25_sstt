@@ -846,8 +846,78 @@ Chúng tôi đề xuất sử dụng bộ test VnCA như một quy trình chuẩ
 
 Tóm lại, nghiên cứu củng cố vai trò của MMSE trong chẩn đoán SSTT và nêu bật giới hạn của nó trong phát hiện MCI. Việc sử dụng bộ trắc nghiệm chuyên biệt VnCA là cần thiết để đánh giá chính xác hơn tình trạng nhận thức ở bệnh nhân người Việt. Bộ công cụ này không chỉ giúp tăng độ nhạy sàng lọc mà còn có giá trị trong việc phân tầng bệnh và theo dõi tiến triển. Đây là cơ sở vững chắc để đề xuất đưa VnCA vào áp dụng không chỉ ở khoa khám thần kinh, khoa lão mà còn áp dụng rộng rãi trong các phòng khám đa khoa tại các Bệnh viện.
 
-### mối liên quan phân loại mmse và tiêu chuẩn vàng 
-### 🔍 Bàn luận: Mối tương quan giữa phân độ MMSE và phân loại lâm sàng
+### Mối tương quan MMSE và các test thần kinh nhận thức khác.
+
+*Mối tương quan giữa MMSE và khả năng nhớ lại ngay*
+
+Kết quả phân tích cho thấy có mối tương quan **chặt** giữa điểm MMSE và khả năng **nhớ lại ngay** . Điều này phản ánh rõ nét vai trò của trí nhớ ngắn hạn trong đánh giá suy giảm nhận thức, đặc biệt ở các giai đoạn sớm của sa sút trí tuệ. Trí nhớ ngắn hạn là thành phần chủ yếu của thùy thái dương trong hồi hải mã – vùng não thường bị ảnh hưởng sớm trong bệnh Alzheimer – và do đó đóng vai trò thiết yếu trong sàng lọc lâm sàng [@peterson2001current].
+
+Một số nghiên cứu quốc tế cũng ghi nhận mối tương quan cao giữa khả năng ghi nhớ ngay và MMSE. Ví dụ, nghiên cứu của Arnáiz và Almkvist (2003) cho thấy hiệu suất trong bài test Immediate Recall có khả năng phân biệt tốt giữa nhóm suy giảm nhẹ nhận thức (MCI) và nhóm bình thường [@arnaiz2003neuropsychological]. Ngoài ra, Belleville và cộng sự (2017) nhấn mạnh rằng suy giảm trí nhớ sớm là dấu hiệu đặc trưng giúp phân biệt các dạng sa sút trí tuệ, đặc biệt là thể Alzheimer [@belleville2017neuropsychological].
+
+Việc ghi nhận mối tương quan chặt giữa MMSE và khả năng nhớ lại ngay trong nghiên cứu này không chỉ củng cố giá trị sàng lọc của MMSE, mà còn gợi ý nên bổ sung các công cụ đánh giá trí nhớ cụ thể trong quy trình chẩn đoán sớm. Điều này phù hợp với khuyến cáo của nhiều tổ chức quốc tế như NICE hay WHO, vốn nhấn mạnh đến việc đánh giá toàn diện các chức năng nhận thức trong lâm sàng.
+
+** Mối tương quan giữa MMSE và khả năng nhớ lại có trì hoãn**
+
+Kết quả nghiên cứu cho thấy có mối tương quan **khá mạnh** giữa điểm MMSE và khả năng **nhớ lại có trì hoãn** (*delayed recall*) ở nhóm bệnh nhân **sa sút trí tuệ**, với hệ số Spearman *r* = 0,58 và *p* < 0,001. Điều này gợi ý rằng khả năng phục hồi thông tin sau một khoảng thời gian – một chỉ số then chốt của **trí nhớ dài hạn** – có liên hệ chặt chẽ với mức độ suy giảm nhận thức toàn thể đo bằng MMSE.
+
+Khả năng nhớ lại có trì hoãn thường liên quan đến chức năng của vùng **hồi hải mã** và các cấu trúc trong hệ viền – là những vùng bị ảnh hưởng sớm trong bệnh Alzheimer. Nghiên cứu của Carlesimo và cộng sự cho thấy khả năng nhớ lại có trì hoãn là chỉ dấu mạnh trong phân biệt giữa bệnh nhân Alzheimer và người bình thường lớn tuổi [@carlesimo2011episodic].
+
+Tương tự, phân tích tổng hợp của Belleville và cộng sự xác định rằng các bài đo trí nhớ trì hoãn như Logical Memory II hay California Verbal Learning Test có **giá trị tiên đoán cao** về chuyển đổi từ MCI sang Alzheimer [@belleville2017neuropsychological]. Điều này củng cố vai trò của trí nhớ trì hoãn như một **biến dự báo lâm sàng** và phản ánh mức độ tổn thương thần kinh nền tảng.
+
+Nghiên cứu của Koppara và cộng sự cũng cho thấy điểm nhớ lại có trì hoãn từ bộ test CERAD là yếu tố tiên đoán độc lập sự chuyển đổi sang sa sút trí tuệ ở bệnh nhân MCI [@koppara2015delayed]. Mối tương quan *r* = 0,58 trong nghiên cứu hiện tại phù hợp với nhận định rằng khả năng hồi phục trí nhớ sau trì hoãn phản ánh mức độ sa sút nhận thức toàn thể.
+
+Tóm lại, kết quả này nhấn mạnh rằng ngoài MMSE, các thành phần đánh giá **trí nhớ trì hoãn** có giá trị đáng kể trong sàng lọc, chẩn đoán sớm và theo dõi tiến triển bệnh sa sút trí tuệ.
+
+**Mối tương quan giữa MMSE và khả năng nhận biết có trì hoãn ở bệnh nhân sa sút trí tuệ**
+
+Trong nghiên cứu này, phân tích tương quan cho thấy có **mối liên hệ khá mạnh** giữa điểm MMSE và kết quả test **nhận biết có trì hoãn** (*delayed recognition*) ở nhóm bệnh nhân sa sút trí tuệ, với hệ số tương quan Spearman *r* = 0,56 và giá trị *p* < 0,001. Mức tương quan này phản ánh mối liên quan đáng kể giữa **mức độ sa sút toàn thể** và **khả năng ghi nhớ - nhận diện thông tin sau thời gian trì hoãn**, vốn là một khía cạnh thiết yếu trong đánh giá chức năng trí nhớ dài hạn.
+
+Khả năng nhận biết có trì hoãn thường được coi là một thành phần **ít bị ảnh hưởng hơn** so với hồi tưởng tự do trong giai đoạn sớm của sa sút trí tuệ. Tuy nhiên, khi tiến trình thoái hóa nhận thức trở nên rõ rệt, đặc biệt trong các thể bệnh như Alzheimer, **khả năng nhận biết cũng bị ảnh hưởng đáng kể**, phản ánh sự tổn thương lan rộng hơn đến các vùng như hồi hải mã và vỏ não liên kết. Kết quả nghiên cứu này tương đồng với nhiều tài liệu quốc tế, cho thấy **điểm nhận biết có trì hoãn giảm** tương ứng với **điểm MMSE thấp hơn**, từ đó phản ánh mức độ suy giảm nhận thức tổng quát.
+
+Trong một nghiên cứu hình ảnh học, Wolk và cộng sự đã phát hiện rằng các thông số hình thái của vùng thái dương giữa và hồi hải mã có tương quan cao với điểm nhận biết, đặc biệt trong giai đoạn sớm của bệnh Alzheimer [@wolk2013recognition]. Tác giả cho rằng **khả năng nhận biết giảm phản ánh trực tiếp mức độ tổn thương cấu trúc não**, đồng thời có thể dùng làm **chỉ dấu sớm** trong theo dõi tiến triển bệnh.
+
+Didic và cộng sự cũng chứng minh rằng điểm nhận biết trong bài kiểm tra FCSRT là một chỉ số **phân biệt mạnh mẽ** giữa các thể sa sút trí tuệ, có mối liên hệ chặt chẽ với điểm MMSE và mức độ teo hồi hải mã [@didic2013which]. Điều này nhấn mạnh vai trò của test nhận biết như một **công cụ đánh giá nhận thức có giá trị lâm sàng**, bổ sung cho các công cụ sàng lọc như MMSE.
+
+Ngoài ra, Xie và cộng sự thực hiện nghiên cứu dọc cho thấy những bệnh nhân MCI có **điểm nhận biết thấp** có nguy cơ **chuyển sang sa sút trí tuệ** cao hơn trong 18 tháng theo dõi [@xie2014cognitive]. Điều này chứng tỏ rằng khả năng nhận biết không chỉ phản ánh tình trạng hiện tại mà còn là **yếu tố tiên lượng mạnh mẽ**.
+
+Tổng hợp các bằng chứng trên cho thấy, test nhận biết có trì hoãn là **chỉ số nhạy cảm và đặc hiệu**, có thể sử dụng hiệu quả trong **sàng lọc, đánh giá và theo dõi tiến triển sa sút trí tuệ**, đặc biệt khi kết hợp với MMSE trong thực hành lâm sàng thần kinh-lão khoa tại Việt Nam.
+
+
+**Mối tương quan giữa MMSE và thời gian hoàn thành TMT-A ở bệnh nhân sa sút trí tuệ**
+
+Trong nghiên cứu này, thời gian hoàn thành bài kiểm tra **Trail Making Test A (TMT-A)** – hay còn gọi là **bài nối số** – cho thấy có **tương quan nghịch mức độ vừa** với điểm MMSE ở nhóm bệnh nhân sa sút trí tuệ (*r* = –0,37, *p* < 0,001). Điều này có nghĩa là những bệnh nhân có điểm MMSE thấp hơn – biểu hiện mức độ sa sút nhận thức nặng hơn – thường mất nhiều thời gian hơn để hoàn thành bài TMT-A. Đây là kết quả phù hợp với lý thuyết và các nghiên cứu trước đó về mối liên hệ giữa **suy giảm chức năng điều hành** và hiệu suất thực hiện các nhiệm vụ có cấu trúc thời gian.
+
+TMT-A là một công cụ đánh giá phổ biến nhằm đo **khả năng chú ý duy trì**, **vận tốc xử lý thông tin**, và **chức năng điều hành đơn giản**. Tuy nhiên, trong thực hành tại Việt Nam, đặc biệt ở nhóm người cao tuổi có trình độ học vấn thấp, bài TMT-A vẫn tiềm ẩn nhiều thách thức. Cụ thể, mặc dù yêu cầu chỉ đơn giản là nối các con số từ 1 đến 25, nhưng nhiều người không có khả năng hoàn thành trong 180 giây.
+
+Một số trường hợp trong nghiên cứu đã ghi nhận **nhân viên trắc nghiệm phải hỗ trợ**, ví dụ như nhắc lại quy tắc, sửa sai trong lúc bệnh nhân làm, điều này có thể ảnh hưởng đến thời gian hoàn thành. Vì vậy, giá trị của TMT-A có thể bị nhiễu bởi **văn hóa – giáo dục**.
+
+So với nghiên cứu của Ashendorf và cộng sự, điểm tương quan giữa TMT-A và MMSE ở bệnh nhân Alzheimer nhẹ là –0,41, gần tương đương với kết quả hiện tại [@ashendorf2008trail]. Tác giả cho rằng TMT-A là chỉ số tốt để đánh giá **vận tốc xử lý thông tin và chú ý thị giác** – hai yếu tố thường suy giảm ở giai đoạn sớm của sa sút trí tuệ.
+
+Richardson và cộng sự cũng báo cáo rằng TMT-A có thể phân biệt đáng tin cậy giữa nhóm MCI và Alzheimer với độ chính xác cao hơn 75%, và hệ số tương quan với MMSE là –0,39 [@richardson2013use]. Nghiên cứu này ủng hộ việc sử dụng TMT-A như một chỉ báo độc lập trong sàng lọc nhận thức.
+
+Ngoài ra, một nghiên cứu ở châu Á của Lin et al. trên người cao tuổi Đài Loan cũng ghi nhận mối tương quan tương đương (*r* ≈ –0,35), tuy nhiên tác giả nhấn mạnh rằng **thời gian hoàn thành phụ thuộc rõ rệt vào trình độ học vấn và mức độ quen thuộc với dạng đề bài** [@lin2015normative]. Điều này phù hợp với những khó khăn thực địa tại Việt Nam.
+
+Tổng kết, TMT-A có mối liên hệ nghịch mức vừa với MMSE ở bệnh nhân sa sút trí tuệ trong nghiên cứu này. Tuy nhiên, kết quả cần được diễn giải cẩn trọng khi áp dụng ở dân số có nền học vấn không đồng đều và ít tiếp xúc với chữ cái tiếng Anh.
+
+
+**Mối tương quan giữa MMSE và Nối số - chữ (TMT-B)**
+
+Trong nghiên cứu này, hệ số tương quan Spearman giữa điểm MMSE và thời gian hoàn thành bài TMT-B (Nối số - chữ) ở nhóm bệnh nhân sa sút trí tuệ là **r = –0,34**, với **p = 0,22**, không đạt ý nghĩa thống kê. Kết quả này cho thấy rằng mức độ liên quan giữa khả năng nhận thức tổng quát (đo bằng MMSE) và chức năng điều hành (đo bằng TMT-B) trong mẫu nghiên cứu này là **yếu và không chắc chắn**, nếu xét trên cả khía cạnh thống kê và lâm sàng.
+
+Một yếu tố cần đặc biệt lưu ý là TMT-B yêu cầu người thực hiện phải nối luân phiên giữa số và chữ cái tiếng Anh theo thứ tự (1-A-2-B-3-C...), trong đó bảng chữ cái tiếng Anh không phổ biến trong đời sống hàng ngày của người Việt lớn tuổi. Nhiều bệnh nhân, đặc biệt là những người có trình độ học vấn thấp hoặc không học tiếng Anh, không thể nhớ hoặc phân biệt rõ các chữ cái như E-F, I-J , hoặc không biết thứ tự chữ cái để nối đúng. Trong quá trình thu thập dữ liệu, ghi nhận nhiều trường hợp bệnh nhân  không hiểu hướng dẫn ,  nhầm lẫn giữa số và chữ, hoặc thậm chí  từ bỏ giữa chừng  dù đã có sự hỗ trợ từ nhân viên y tế. Điều này khiến độ tin cậy và tính khả thi của TMT-B trong nhóm bệnh nhân sa sút trí tuệ ở Việt Nam trở nên hạn chế.
+
+Các nghiên cứu quốc tế như của Ashendorf và cộng sự ghi nhận TMT-B có liên quan đáng kể đến MMSE với **r = –0,43**, và có giá trị trong phân biệt sa sút trí tuệ với MCI hoặc người bình thường [@ashendorf2008trail]. Tương tự, Richardson et al. cho rằng TMT-B nhạy trong đánh giá chức năng điều hành ở người già có rối loạn nhận thức, với tương quan từ trung bình đến khá với MMSE [@richardson2013use]. Tuy nhiên, các nghiên cứu này đều được thực hiện trong bối cảnh **sử dụng tiếng Anh là ngôn ngữ chính**, nơi người tham gia đã quen thuộc với bảng chữ cái.
+
+Trong nghiên cứu của Lin và cộng sự tại Đài Loan – nơi có nền văn hóa Á Đông tương đồng với Việt Nam – nhóm tác giả cũng cảnh báo ảnh hưởng đáng kể của trình độ học vấn và yếu tố văn hóa đến hiệu quả đánh giá TMT-B, và khuyến nghị cần cân nhắc khi sử dụng TMT-B trong dân số lớn tuổi không học tiếng Anh [@lin2015normative].
+
+Từ các kết quả và phân tích trên, có thể thấy rằng **giá trị chẩn đoán của TMT-B ở bệnh nhân sa sút trí tuệ tại Việt Nam bị giới hạn do rào cản ngôn ngữ và học vấn**. Do đó, việc **sử dụng các trắc nghiệm thay thế không phụ thuộc vào chữ cái tiếng Anh**, như TMT-A hoặc các bài đo chức năng điều hành trung tính về ngôn ngữ, nên được cân nhắc kỹ lưỡng trong thực hành lâm sàng cũng như nghiên cứu tại các quốc gia không nói tiếng Anh.
+
+
+
+
+
+
+### Bàn luận về mức độ hoàn thành
 
 Kết quả phân tích cho thấy tồn tại một **mối tương quan thứ bậc có ý nghĩa thống kê** giữa phân độ MMSE và phân loại lâm sàng của bệnh nhân sa sút trí tuệ tại bệnh viện. Hệ số tương quan Spearman ρ = `r rho`, Kendall τ = `r tau`, với *p* = `r pval_s_fmt`, phản ánh rõ xu hướng đồng biến: khi phân độ MMSE chuyển từ mức nhẹ sang nặng (điểm số giảm), thì mức độ bệnh được đánh giá trên lâm sàng cũng tăng dần về mức độ nghiêm trọng. Điều này khẳng định sự tương đồng giữa đánh giá khách quan bằng công cụ MMSE và nhận định tổng hợp từ lâm sàng (bao gồm khám thần kinh, quan sát hành vi và thông tin từ người chăm sóc).
 
