@@ -931,7 +931,7 @@ Một điểm quan trọng khác cần nhấn mạnh là trong dữ liệu nghi�
 
 Tổng hợp các bằng chứng cho thấy MMSE – dù đơn giản – vẫn có **giá trị ứng dụng cao trong sàng lọc và định hướng đánh giá mức độ sa sút trí tuệ**, đặc biệt trong bối cảnh thực hành tại các cơ sở y tế tuyến đầu, nơi mà các công cụ chuyên sâu hơn như MoCA, CDR hay test thần kinh nhận thức chi tiết chưa luôn sẵn có.
 
-
+**Kết luận cho bàn luận**
 
 ::: {custom-style="CAN GIUA DAM 14 ONE"}
 TÀI LIỆU THAM KHẢO
