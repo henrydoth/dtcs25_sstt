@@ -1,5 +1,6 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [Kiểm tra terminal mặc định của Mac](#kiểm-tra-terminal-mặc-định-của-mac)
 - [Alias terminal mở file words mac](#alias-terminal-mở-file-words-mac)
 - [Alias](#alias)
 - [Quy trình git file readme đầy đủ](#quy-trình-git-file-readme-đầy-đủ)
@@ -66,6 +67,20 @@
   - [Sinh lý](#sinh-lý)
 
 cập nhật 20/5/2025
+# Kiểm tra terminal mặc định của Mac
+- echo $0  <!-- kiểm tra shell -->
+
+- echo $SHELL
+  - /bin/bash
+- chsh -s /bin/bash <!-- chuyển mặc định thành zsh, nhập password và reset terminal -->
+  - nhập Password cho mac: xong khởi động terminal
+- echo $SHELL
+  - /bin/zsh
+- chsh -s /bin/bash <!-- chuyển mặc định thành bash, nhập password và reset terminal -->
+- echo $SHELL <!-- kiểm tra lại -->
+  
+
+
 # Alias terminal mở file words mac
 - nano ~/.bash_profile
 - alias w1='open "/Users/mac/Documents/dtcs25_sstt/sstt25_dtcs_quato_words_output.docx"'
