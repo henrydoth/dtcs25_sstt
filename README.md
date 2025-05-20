@@ -65,6 +65,7 @@
   - [Giải phẫu](#giải-phẫu)
   - [Sinh lý](#sinh-lý)
 
+cập nhật 20/5/2025
 # Alias terminal mở file words mac
 - nano ~/.bash_profile
 - alias w1='open "/Users/mac/Documents/dtcs25_sstt/sstt25_dtcs_quato_words_output.docx"'
@@ -86,6 +87,8 @@
   
 **Dùng 1 lệnh duy nhất để push ( nếu làm chủ được sự thay đổi)**
 - git commit -am "Cập nhật nội dung mới" && git push
+** Nếu muốn đè lên**
+git push --force
 
 [⬆️ Quay lại Mục lục](#TopPage)
 
