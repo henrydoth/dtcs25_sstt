@@ -1,7 +1,9 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [Popular command in mac terminal](#popular-command-in-mac-terminal)
+- [cài Homebrew trên macOS](#cài-homebrew-trên-macos)
 - [Kiểm tra terminal mặc định của Mac](#kiểm-tra-terminal-mặc-định-của-mac)
-- [Alias terminal mở file words mac](#alias-terminal-mở-file-words-mac)
+- [Tạo cá Alias terminal mở file words, set đường dẫn mặc định mac](#tạo-cá-alias-terminal-mở-file-words-set-đường-dẫn-mặc-định-mac)
 - [Alias](#alias)
 - [Quy trình git file readme đầy đủ](#quy-trình-git-file-readme-đầy-đủ)
 - [Lệnh bash cần thiết để tìm kiếm nội dung](#lệnh-bash-cần-thiết-để-tìm-kiếm-nội-dung)
@@ -67,6 +69,21 @@
   - [Sinh lý](#sinh-lý)
 
 cập nhật 20/5/2025
+# Popular command in mac terminal
+- cal
+- date
+- date "+%H:%M:%S" <!-- kiểm tra giờ -->
+- yes "I like this" <!-- vòng lặp vô tận tới khi cotrl + c -->
+- fortune
+- cowsay 'Hello from macOS!'
+- figlet Hello
+- tetris
+
+
+# cài Homebrew trên macOS
+- hướng dẫn web
+- fortune, cowsay, figlet
+
 # Kiểm tra terminal mặc định của Mac
 - echo $0  <!-- kiểm tra shell -->
 
@@ -81,9 +98,16 @@ cập nhật 20/5/2025
   
 
 
-# Alias terminal mở file words mac
+# Tạo cá Alias terminal mở file words, set đường dẫn mặc định mac
 - nano ~/.bash_profile
-- alias w1='open "/Users/mac/Documents/dtcs25_sstt/sstt25_dtcs_quato_words_output.docx"'
+
+cd ~/Documents/dtcs25_sstt
+alias nj="~/nj.sh"
+alias dt='quarto render sstt25_dtcs_quato_words_output.qmd && open sstt25_dtcs_quato_words_output.docx'
+alias w1='open "/Users/mac/Documents/dtcs25_sstt/sstt25_dtcs_quato_words_output.docx"'
+
+
+
 - control + O enter control + x
 - source ~/.bash_profile
 - w1
