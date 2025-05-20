@@ -67,6 +67,7 @@
 - [Bệnh đau lưng](#bệnh-đau-lưng)
   - [Giải phẫu](#giải-phẫu)
   - [Sinh lý](#sinh-lý)
+  - [Bệnh học YHCT](#bệnh-học-yhct)
 
 cập nhật 20/5/2025
 # Popular command in mac terminal
@@ -591,5 +592,7 @@ Sông khói mong manh luống ngậm ngùi.
 Đau lưng là bệnh ...
 ## Giải phẫu
 ## Sinh lý
+## Bệnh học YHCT
+Thuộc chứng yêu thống
 
 [⬆️ Quay lại Mục lục](#TopPage)
