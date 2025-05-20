@@ -593,6 +593,7 @@ Sông khói mong manh luống ngậm ngùi.
 ## Giải phẫu
 ## Sinh lý
 ## Bệnh học YHCT
-Thuộc chứng yêu thống
+Thuộc chứng yêu thống, toạ cốt phong.
+Thể bệnh thường gặp can thận âm hư phối hợp phong hàn thấp tý
 
 [⬆️ Quay lại Mục lục](#TopPage)
