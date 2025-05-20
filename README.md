@@ -76,9 +76,12 @@ cập nhật 20/5/2025
 - date "+%H:%M:%S" <!-- kiểm tra giờ -->
 - yes "I like this" <!-- vòng lặp vô tận tới khi cotrl + c -->
 - fortune
-- cowsay 'Hello from macOS!'
+cowsay 'Hello from macOS!'
 - figlet Hello
 - tetris
+  sl
+- fortune | cowsay -f tux
+- fortune | cowsay | lolcat
 
 
 # cài Homebrew trên macOS
