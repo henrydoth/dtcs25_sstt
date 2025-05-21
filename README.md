@@ -1,6 +1,7 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
 - [Một lệnh push gộp ngắn gọn nhất.](#một-lệnh-push-gộp-ngắn-gọn-nhất)
+- [lệnh cần nhớ khi làm việc branch liem\_feature](#lệnh-cần-nhớ-khi-làm-việc-branch-liem_feature)
 - [BẮT ĐẦU: Làm việc trên liem\_feature](#bắt-đầu-làm-việc-trên-liem_feature)
 - [✅ KẾT THÚC: Merge vào main](#-kết-thúc-merge-vào-main)
 - [Làm việch trên branch](#làm-việch-trên-branch)
@@ -74,9 +75,25 @@
   - [Sinh lý](#sinh-lý)
   - [Bệnh học YHCT](#bệnh-học-yhct)
 
-cập nhật 20/5/2025
 # Một lệnh push gộp ngắn gọn nhất.
 git commit -am "update readme" && git push
+
+# lệnh cần nhớ khi làm việc branch liem_feature
+- Làm nhánh mới
+git checkout main
+git pull origin main
+git checkout -b liem_feature
+
+- Làm việc → commit → push
+git commit -am "..." && git push origin liem_feature
+
+- Merge khi xong (trên GitHub Pull Request)
+
+- Sau khi merge
+git checkout main
+git pull origin main
+
+[⬆️ Quay lại Mục lục](#TopPage)
 
 
 
@@ -95,12 +112,13 @@ git pull origin liem_feature
 - B4: Chỉnh sửa file (Rmd, qmd, script...)
 
 - B5: Commit thay đổi
-- 
+  
 git add .
 
 git commit -m "Cập nhật nội dung báo cáo ngày DD-MM"
 
 - B6: Đẩy lên GitHub
+- 
 git push origin liem_feature
 
 [⬆️ Quay lại Mục lục](#TopPage)
@@ -128,6 +146,7 @@ git push origin main
 # Làm việch trên branch
 - git branch <!-- kết quả - * cho biết bạn đang ở nhánh liem_feature -->
 - git status <!-- kết quả - On branch liem_feature -->
+- git diff  <!-- xem nội dung đã chỉnh sửa trong file (trước khi commit) -->
 - git commit -am "BS Liêm cập nhật nội dung Quarto"  <!--  gộp git add và git commit thành một lệnh duy nhấ argument là am -->
 - git push origin liem_feature
 
