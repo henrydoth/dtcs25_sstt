@@ -1,5 +1,6 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [Một lệnh push gộp ngắn gọn nhất.](#một-lệnh-push-gộp-ngắn-gọn-nhất)
 - [BẮT ĐẦU: Làm việc trên liem\_feature](#bắt-đầu-làm-việc-trên-liem_feature)
 - [✅ KẾT THÚC: Merge vào main](#-kết-thúc-merge-vào-main)
 - [Làm việch trên branch](#làm-việch-trên-branch)
@@ -74,21 +75,29 @@
   - [Bệnh học YHCT](#bệnh-học-yhct)
 
 cập nhật 20/5/2025
+# Một lệnh push gộp ngắn gọn nhất.
+git commit -am "update readme" && git push
+
+
 
 # BẮT ĐẦU: Làm việc trên liem_feature
 
 - B1: Mở dự án RStudio (.Rproj)
 
 - B2: Chuyển sang nhánh làm việc
+  
 git checkout liem_feature
 
 - B3: Kéo nhánh mới nhất (nếu cần)
+  
 git pull origin liem_feature
 
 - B4: Chỉnh sửa file (Rmd, qmd, script...)
 
 - B5: Commit thay đổi
+- 
 git add .
+
 git commit -m "Cập nhật nội dung báo cáo ngày DD-MM"
 
 - B6: Đẩy lên GitHub
