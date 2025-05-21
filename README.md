@@ -1,5 +1,9 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [BẮT ĐẦU: Làm việc trên liem\_feature](#bắt-đầu-làm-việc-trên-liem_feature)
+- [✅ KẾT THÚC: Merge vào main](#-kết-thúc-merge-vào-main)
+- [Làm việch trên branch](#làm-việch-trên-branch)
+- [Clone 1 repository có sẵn trên github về máy](#clone-1-repository-có-sẵn-trên-github-về-máy)
 - [Popular command in mac terminal](#popular-command-in-mac-terminal)
 - [cài Homebrew trên macOS](#cài-homebrew-trên-macos)
 - [Kiểm tra terminal mặc định của Mac](#kiểm-tra-terminal-mặc-định-của-mac)
@@ -70,6 +74,66 @@
   - [Bệnh học YHCT](#bệnh-học-yhct)
 
 cập nhật 20/5/2025
+
+# BẮT ĐẦU: Làm việc trên liem_feature
+
+- B1: Mở dự án RStudio (.Rproj)
+
+- B2: Chuyển sang nhánh làm việc
+git checkout liem_feature
+
+- B3: Kéo nhánh mới nhất (nếu cần)
+git pull origin liem_feature
+
+- B4: Chỉnh sửa file (Rmd, qmd, script...)
+
+- B5: Commit thay đổi
+git add .
+git commit -m "Cập nhật nội dung báo cáo ngày DD-MM"
+
+- B6: Đẩy lên GitHub
+git push origin liem_feature
+
+[⬆️ Quay lại Mục lục](#TopPage)
+
+
+# ✅ KẾT THÚC: Merge vào main
+- B1: Chuyển sang nhánh main
+git checkout main
+
+- B2: Kéo bản mới nhất từ GitHub
+git pull origin main
+
+- B3: Merge từ nhánh liem_feature vào main
+git merge liem_feature
+
+- B4: Đẩy main lên GitHub
+git push origin main
+[⬆️ Quay lại Mục lục](#TopPage)
+
+
+
+
+
+
+# Làm việch trên branch
+- git branch <!-- kết quả - * cho biết bạn đang ở nhánh liem_feature -->
+- git status <!-- kết quả - On branch liem_feature -->
+- git commit -am "BS Liêm cập nhật nội dung Quarto"  <!--  gộp git add và git commit thành một lệnh duy nhấ argument là am -->
+- git push origin liem_feature
+
+
+
+
+# Clone 1 repository có sẵn trên github về máy
+- cd ~/Documents
+- git clone https://github.com/henrydoth/bs_Loan.git
+- cd bs_Loan
+- ls- 
+- open .  <!-- Mở dự án bằng Finder -->
+- code .   <!-- mở bằng VS Code -->
+
+
 # Popular command in mac terminal
 - cal
 - date
