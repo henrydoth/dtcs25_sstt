@@ -3,7 +3,7 @@
 - [Nhật ký làm việc](#nhật-ký-làm-việc)
 - [Quan trọng](#quan-trọng)
 - [Cấu hình .gitignore](#cấu-hình-gitignore)
-- [Một lệnh push gộp ngắn gọn nhất.](#một-lệnh-push-gộp-ngắn-gọn-nhất)
+- [Dùng 1 lệnh](#dùng-1-lệnh)
 - [lệnh cần nhớ khi làm việc branch liem\_feature](#lệnh-cần-nhớ-khi-làm-việc-branch-liem_feature)
 - [BẮT ĐẦU: Làm việc trên liem\_feature](#bắt-đầu-làm-việc-trên-liem_feature)
 - [✅ KẾT THÚC: Merge vào main](#-kết-thúc-merge-vào-main)
@@ -84,6 +84,14 @@
   - khoa cao cấp
     - 1 lệnh quan trong
   git log --oneline --graph --decorate --all
+  đủ thời gian
+  - có thêm thời gian
+  git log --graph --all --decorate \
+  --pretty=format:"%C(yellow)%h%Creset %Cgreen%cd%Creset %Cblue[%an]%Creset %C(auto)%d %s" \
+  --date=format-local:'%a, %d/%m %H:%M'
+- tạo alias logg
+  git config --global alias.logg "log --graph --all --decorate --pretty=format:'%C(yellow)%h%Creset %Cgreen%cd%Creset %Cblue[%an]%Creset %C(auto)%d %s' --date=format-local:'%a, %d/%m %H:%M'"
+
     - xoá file khỏi git
   git rm --cached bs_loan_quarto_output.docx
   - Thêm vào .gitignore nếu chưa có
@@ -126,9 +134,14 @@ git push origin main
 
 *# Không theo dõi các file tạm thời bắt đầu bằng ~$ (Windows)
 ~$*
-
-# Một lệnh push gộp ngắn gọn nhất.
+# Dùng 1 lệnh 
+- Một lệnh push gộp ngắn gọn nhất.
+  
 git commit -am "update readme" && git push
+
+- muốn đẩy toàn bộ nội dung hiện tại của liem_feature lên ghi đè main, thì:
+  
+  git push origin liem_feature:main --force
 
 
 # lệnh cần nhớ khi làm việc branch liem_feature
