@@ -1,5 +1,6 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [Nhật ký làm việc](#nhật-ký-làm-việc)
 - [Một lệnh push gộp ngắn gọn nhất.](#một-lệnh-push-gộp-ngắn-gọn-nhất)
 - [lệnh cần nhớ khi làm việc branch liem\_feature](#lệnh-cần-nhớ-khi-làm-việc-branch-liem_feature)
 - [BẮT ĐẦU: Làm việc trên liem\_feature](#bắt-đầu-làm-việc-trên-liem_feature)
@@ -75,14 +76,18 @@
   - [Sinh lý](#sinh-lý)
   - [Bệnh học YHCT](#bệnh-học-yhct)
 
+# Nhật ký làm việc
+- Sáng 22-05-2025 Khoa YHCT mac
+  - kiểm tra git
 # Một lệnh push gộp ngắn gọn nhất.
 git commit -am "update readme" && git push
 
+
 # lệnh cần nhớ khi làm việc branch liem_feature
 - Làm nhánh mới
-git checkout main
-git pull origin main
-git checkout -b liem_feature
+  git checkout main
+  git pull origin main
+  git checkout -b liem_feature
 
 - Làm việc → commit → push
 git commit -am "..." && git push origin liem_feature
