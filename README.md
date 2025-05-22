@@ -1,6 +1,8 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
 - [Nhật ký làm việc](#nhật-ký-làm-việc)
+- [Quan trọng](#quan-trọng)
+- [Cấu hình .gitignore](#cấu-hình-gitignore)
 - [Một lệnh push gộp ngắn gọn nhất.](#một-lệnh-push-gộp-ngắn-gọn-nhất)
 - [lệnh cần nhớ khi làm việc branch liem\_feature](#lệnh-cần-nhớ-khi-làm-việc-branch-liem_feature)
 - [BẮT ĐẦU: Làm việc trên liem\_feature](#bắt-đầu-làm-việc-trên-liem_feature)
@@ -79,6 +81,52 @@
 # Nhật ký làm việc
 - Sáng 22-05-2025 Khoa YHCT mac
   - kiểm tra git
+  - khoa cao cấp
+    - 1 lệnh quan trong
+  git log --oneline --graph --decorate --all
+    - xoá file khỏi git
+  git rm --cached bs_loan_quarto_output.docx
+  - Thêm vào .gitignore nếu chưa có
+  bs_loan_quarto_output.docx
+  *.docx
+
+# Quan trọng
+*# Bắt đầu lại từ main
+git checkout liem_feature
+git fetch origin
+git reset --hard origin/main
+
+*# Làm việc chính thức...
+git add .
+git commit -m "Cập nhật chính thức"
+
+*# Đẩy lên GitHub
+git push origin liem_feature --force
+
+*# Khi đã ổn, gộp vào main
+git checkout main
+git pull origin main
+git merge liem_feature
+git push origin main
+
+[⬆️ Quay lại Mục lục](#TopPage)
+
+# Cấu hình .gitignore
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.docx
+*# Ignore all .docx by default
+
+
+*# Ngoại lệ: theo dõi file gốc, đề cương
+!source/sstt_dtcs_quato_words_input.docx
+!Loan de cuong.docx
+
+*# Không theo dõi các file tạm thời bắt đầu bằng ~$ (Windows)
+~$*
+
 # Một lệnh push gộp ngắn gọn nhất.
 git commit -am "update readme" && git push
 
