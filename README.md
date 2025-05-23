@@ -1,5 +1,7 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
+- [CHiều 23/5 14:45](#chiều-235-1445)
+  - [Không gian làm việc](#không-gian-làm-việc)
 - [Diary 23/5 7: 17](#diary-235-7-17)
   - [git branch feature1](#git-branch-feature1)
 - [git log xem lịch sử với ngày tháng](#git-log-xem-lịch-sử-với-ngày-tháng)
@@ -79,6 +81,20 @@
   - [Giải phẫu](#giải-phẫu)
   - [Sinh lý](#sinh-lý)
   - [Bệnh học YHCT](#bệnh-học-yhct)
+# CHiều 23/5 14:45
+## Không gian làm việc
+- Làm quản lý để đánh bóng bản thân:
+- git add -u
+Thêm các tệp có nội dung được chỉnh sửa (KHÔNG PHẢI TỆP MỚI) vào vùng chỉ mục. Lệnh này tương tự với các việc mà lệnh git commit -a thực hiện để chuẩn bị cho việc thực hiện một commit.
+- git checkout file(s)... or dir
+Updates the file or directory in the workspace. Does NOT switch branches.
+
+- git reset --hard
+Matches the workspace and index to the local tree. WARNING: Any changes to tracked files in the working tree since commit are lost. Use this if merging has resulted in conflicts and you'd like to start over. Pass ORIG_HEAD to undo the most recent successful merge and any changes after.
+
+- git reset --hard remote/branch
+Reset local repo and working tree to match a remote-tracking branch. Use reset ‑‑hard origin/main to throw away all commits to the local main branch. Use this to start over on a failed merge.
+
 
 # Diary 23/5 7: 17
 - Tạo branch và merge
