@@ -1,6 +1,21 @@
 ## 📚 MỤC LỤC <a name="TopPage"></a>
 
-- [Nhật ký làm việc](#nhật-ký-làm-việc)
+- [Diary 23/5 7: 17](#diary-235-7-17)
+- [Tạo branch và merge](#tạo-branch-và-merge)
+  - [🧠 Git Branch \& Merge Cheat Sheet (dựa theo dự án `dtcs25_sstt`)](#-git-branch--merge-cheat-sheet-dựa-theo-dự-án-dtcs25_sstt)
+    - [📍 1. Kiểm tra trạng thái repo](#-1-kiểm-tra-trạng-thái-repo)
+    - [📦 2. Thêm và commit file](#-2-thêm-và-commit-file)
+    - [🌱 3. Tạo nhánh mới](#-3-tạo-nhánh-mới)
+    - [🔀 4. Chuyển sang nhánh mới](#-4-chuyển-sang-nhánh-mới)
+    - [🧾 5. Xem log toàn bộ commit các nhánh](#-5-xem-log-toàn-bộ-commit-các-nhánh)
+    - [🛠️ 6. Commit thay đổi trong nhánh feature](#️-6-commit-thay-đổi-trong-nhánh-feature)
+    - [🔁 7. Quay lại nhánh `main`](#-7-quay-lại-nhánh-main)
+    - [🔧 8. (Tuỳ chọn) Commit thêm trong `main`](#-8-tuỳ-chọn-commit-thêm-trong-main)
+    - [🔗 9. Merge nhánh `feature1` vào `main`](#-9-merge-nhánh-feature1-vào-main)
+    - [🧹 10. (Tuỳ chọn) Xoá nhánh feature đã merge](#-10-tuỳ-chọn-xoá-nhánh-feature-đã-merge)
+    - [🚀 11. Push tất cả lên GitHub](#-11-push-tất-cả-lên-github)
+    - [🧩 Bonus: Tạo alias `logg` đẹp gọn](#-bonus-tạo-alias-logg-đẹp-gọn)
+- [Nhật ký làm việc 25-5](#nhật-ký-làm-việc-25-5)
 - [Quan trọng](#quan-trọng)
 - [Cấu hình .gitignore](#cấu-hình-gitignore)
 - [Dùng 1 lệnh](#dùng-1-lệnh)
@@ -78,10 +93,93 @@
   - [Sinh lý](#sinh-lý)
   - [Bệnh học YHCT](#bệnh-học-yhct)
 
-# Nhật ký làm việc
-- Sáng 22-05-2025 Khoa YHCT mac
-  - kiểm tra git
-  - khoa cao cấp
+# Diary 23/5 7: 17
+# Tạo branch và merge
+## 🧠 Git Branch & Merge Cheat Sheet (dựa theo dự án `dtcs25_sstt`)
+
+### 📍 1. Kiểm tra trạng thái repo
+
+git status
+
+---
+
+### 📦 2. Thêm và commit file
+
+git add .  
+git commit -m "nội dung commit"
+
+Ví dụ:  
+git commit -m "version 1"
+
+---
+
+### 🌱 3. Tạo nhánh mới
+
+git branch feature1
+
+---
+
+### 🔀 4. Chuyển sang nhánh mới
+
+git checkout feature1
+
+---
+
+### 🧾 5. Xem log toàn bộ commit các nhánh
+
+git log --all --graph
+
+Hoặc nếu đã tạo alias:  
+git logg --all --graph
+
+---
+
+### 🛠️ 6. Commit thay đổi trong nhánh feature
+
+git add .  
+git commit -m "feature commit 1"  
+git commit -m "feature commit 2"
+
+---
+
+### 🔁 7. Quay lại nhánh `main`
+
+git checkout main
+
+---
+
+### 🔧 8. (Tuỳ chọn) Commit thêm trong `main`
+
+git add .  
+git commit -m "bug fix"
+
+---
+
+### 🔗 9. Merge nhánh `feature1` vào `main`
+
+git merge feature1 -m "merge feature1"
+
+---
+
+### 🧹 10. (Tuỳ chọn) Xoá nhánh feature đã merge
+
+git branch -d feature1
+
+---
+
+### 🚀 11. Push tất cả lên GitHub
+
+git push origin main
+
+---
+
+### 🧩 Bonus: Tạo alias `logg` đẹp gọn
+
+git config --global alias.logg "log --oneline --all --graph --decorate"
+
+
+# Nhật ký làm việc 25-5
+  
     - 1 lệnh quan trong
   git log --oneline --graph --decorate --all
   đủ thời gian
